@@ -322,9 +322,11 @@
   <project path="external/tremor" name="platform/external/tremor" />
 
   <project path="external/webkit" name="platform/external/webkit">
-    <remote name="wko" fetch="git://git.webkit.org/WebKit.git">
-      <require commit="350652b509b092508f6c465c1596e43bbdec7466" />
-    </remote>
+    <import>
+      <remap strip="WebKit-%version%/" />
+      <mirror url="http://builds.nightly.webkit.org/files/trunk/src/WebKit-%version%.tar.bz2" />
+      <snapshot version="r30707" check="d8543bb6618c17b12da906afa77d216f58cf4058" />
+    </import>
   </project>
 
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant">
