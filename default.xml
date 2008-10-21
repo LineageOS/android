@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest branch="master">
+  <remote  name="korg"
+           fetch="git://android.kernel.org/"
+           review="review.source.android.com" />
+  <default revision="master"
+           remote="korg" />
+
+  <project path="build" name="platform/build">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="kernel"
+           name="kernel/common"
+           revision="refs/heads/android-2.6.25" />
+
+  <project path="bionic" name="platform/bionic" />
+  <project path="bootloader/legacy" name="platform/bootloader/legacy" />
+  <project path="dalvik" name="platform/dalvik" />
+  <project path="development" name="platform/development" />
+  <project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
+  <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
+  <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
+  <project path="hardware/ril" name="platform/hardware/ril" />
+  <project path="prebuilt" name="platform/prebuilt" />
+  <project path="recovery" name="platform/recovery" />
+  <project path="system/bluetooth" name="platform/system/bluetooth" />
+  <project path="system/core" name="platform/system/core" />
+  <project path="system/extras" name="platform/system/extras" />
+  <project path="system/wlan/ti" name="platform/system/wlan/ti" />
+
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
+  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
+  <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
+  <project path="packages/providers/GoogleSubscribedFeedsProvider" name="platform/packages/providers/GoogleSubscribedFeedsProvider" />
+  <project path="packages/providers/ImProvider" name="platform/packages/providers/ImProvider" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
+
+  <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" />
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
+  <project path="packages/apps/GoogleSearch" name="platform/packages/apps/GoogleSearch" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
+  <project path="packages/apps/IM" name="platform/packages/apps/IM" />
+  <project path="packages/apps/Launcher" name="platform/packages/apps/Launcher" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
+  <project path="packages/apps/Sync" name="platform/packages/apps/Sync" />
+  <project path="packages/apps/Updater" name="platform/packages/apps/Updater" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+
+  <project path="external/aes" name="platform/external/aes" />
+
+  <project path="external/apache-http" name="platform/external/apache-http" />
+
+  <project path="external/bluez" name="platform/external/bluez">
+    <import>
+      <remap strip="bluez-%version%/" insert="hcidump/" />
+      <mirror url="http://bluez.sourceforge.net/download/bluez-%version%.tar.gz" />
+      <snapshot version="hcidump-1.41" check="0bb62cf23a80ba45c904a309568a9f28ce0a3fae" />
+    </import>
+    <import>
+      <remap strip="bluez-%version%/" insert="libs/" />
+      <mirror url="http://bluez.sourceforge.net/download/bluez-%version%.tar.gz" />
+      <snapshot version="libs-3.35" check="26e3b6e34b5a30f7b6ba1fac24297c6a48e9f09c" />
+    </import>
+    <import>
+      <remap strip="bluez-%version%/" insert="utils/" />
+      <mirror url="http://bluez.sourceforge.net/download/bluez-%version%.tar.gz" />
+      <snapshot version="utils-3.35" check="809ce20070e58fb9fea39b56b693e422d32cbe5e" />
+    </import>
+  </project>
+
+  <project path="external/clearsilver" name="platform/external/clearsilver">
+    <import>
+      <remap strip="clearsilver-%version%/" />
+      <mirror url="http://www.clearsilver.net/downloads/clearsilver-%version%.tar.gz" />
+      <snapshot version="0.10.5" check="ec5fff5d7367ddd29a619cf81ae264687fde94c8" />
+    </import>
+  </project>
+
+  <project path="external/dbus" name="platform/external/dbus">
+    <import>
+      <remap strip="dbus-%version%/" />
+      <mirror url="http://dbus.freedesktop.org/releases/dbus/dbus-1.0.2.tar.gz" />
+      <mirror url="ftp://ftp.linux.ee/pub/gentoo/distfiles/distfiles/dbus-1.0.2.tar.gz" />
+      <snapshot version="1.0.2" check="9993b61d2f46d048c725411d6862b64b5cb96672" />
+    </import>
+  </project>
+
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" />
+
+  <project path="external/dropbear" name="platform/external/dropbear">
+    <import>
+      <remap strip="dropbear-%version%/" />
+      <mirror url="http://matt.ucc.asn.au/dropbear/releases/dropbear-%version%.tar.gz" />
+      <mirror url="http://matt.ucc.asn.au/dropbear/releases/dropbear-%version%.tar.bz2" />
+      <snapshot version="0.49" check="29698e296e3fd1474a362fbd229bca888175bb66" />
+    </import>
+  </project>
+
+  <project path="external/elfcopy" name="platform/external/elfcopy" />
+
+  <project path="external/elfutils" name="platform/external/elfutils" />
+
+  <project path="external/emma" name="platform/external/emma">
+    <import>
+      <remap strip="emma-%version%/" />
+      <mirror url="http://downloads.sourceforge.net/emma/emma-%version%-src.zip" />
+      <snapshot version="2.0.5312" check="a921fd048da6858dc24d4370e3bba15fc9cc69ca" />
+    </import>
+  </project>
+
+  <project path="external/esd" name="platform/external/esd" />
+
+  <project path="external/expat" name="platform/external/expat">
+    <import>
+      <remap strip="expat-%version%/" />
+      <mirror url="http://downloads.sourceforge.net/expat/expat-%version%.tar.gz" />
+      <snapshot version="2.0.0" check="5c19771335cf67c9955a5a58ea52dae9870a8035" />
+    </import>
+  </project>
+
+  <project path="external/fdlibm" name="platform/external/fdlibm" />
+
+  <project path="external/freetype" name="platform/external/freetype">
+    <import>
+      <remap strip="freetype-%version%/" />
+      <mirror url="http://download.savannah.gnu.org/releases/freetype/freetype-%version%.tar.bz2" />
+      <snapshot version="2.3.5" check="f463818dd9146e11105c0572fb119e757eb47768" />
+    </import>
+  </project>
+
+  <project path="external/gdata" name="platform/external/gdata" />
+
+  <project path="external/giflib" name="platform/external/giflib">
+    <import>
+      <remap strip="giflib-%version%/lib/" />
+      <mirror url="http://downloads.sourceforge.net/giflib/giflib-%version%.tar.gz" />
+      <mirror url="http://downloads.sourceforge.net/giflib/giflib-%version%.tar.bz2" />
+      <snapshot version="4.1.6" check="1bc4596b116b3c829824c8b929ce48f864ca4a3c" />
+    </import>
+  </project>
+
+  <project path="external/googleclient" name="platform/external/googleclient" />
+
+  <project path="external/icu4c" name="platform/external/icu4c">
+    <import>
+      <remap strip="icu/source/" />
+      <mirror url="http://download.icu-project.org/files/icu4c/3.8/icu4c-%version%-src.tgz" />
+      <snapshot version="3_8" check="b45e1997d8af2b1f1f2862d01834776631657614" />
+    </import>
+  </project>
+
+  <project path="external/iptables" name="platform/external/iptables">
+    <import>
+      <remap strip="iptables-%version%/./" />
+      <mirror url="ftp://ftp.netfilter.org/pub/iptables/iptables-%version%.tar.bz2" />
+      <snapshot version="1.3.7" check="7226fd9f7f7ebada706f9d040b39245ee8123faa" />
+    </import>
+  </project>
+
+  <project path="external/jdiff" name="platform/external/jdiff" />
+
+  <project path="external/jhead" name="platform/external/jhead" />
+
+  <project path="external/jpeg" name="platform/external/jpeg">
+    <import>
+      <remap strip="jpeg-%version%/" />
+      <mirror url="http://www.ijg.org/files/jpegsrc.v%version%.tar.gz" />
+      <snapshot version="6b" check="c6a7fc661d57f86ac08cd637abc881cbe687b11a" />
+    </import>
+  </project>
+
+  <project path="external/libffi" name="platform/external/libffi" />
+
+  <project path="external/libpcap" name="platform/external/libpcap">
+    <import>
+      <remap strip="libpcap-%version%/./" />
+      <mirror url="http://www.tcpdump.org/release/libpcap-%version%.tar.gz" />
+      <snapshot version="0.9.8" check="29b0e71b7913664617f142fdbf22e3a5a0434f4b" />
+    </import>
+  </project>
+
+  <project path="external/libpng" name="platform/external/libpng">
+    <import>
+      <remap strip="libpng-%version%/" />
+      <mirror url="http://downloads.sourceforge.net/libpng/libpng-%version%.tar.gz" />
+      <mirror url="http://downloads.sourceforge.net/libpng/libpng-%version%.tar.bz2" />
+      <snapshot version="1.2.29" check="0640679f04398a7d06319d5c47b0f71bf82854a0" />
+    </import>
+  </project>
+
+  <project path="external/libxml2" name="platform/external/libxml2">
+    <import>
+      <remap strip="libxml2-%version%/" />
+      <mirror url="ftp://xmlsoft.org/libxml2/libxml2-sources-%version%.tar.gz" />
+      <snapshot version="2.6.31" check="1b7783879f7122564e209c7124301e886079f393" />
+    </import>
+  </project>
+
+  <project path="external/netcat" name="platform/external/netcat">
+    <import>
+      <remap   />
+      <mirror url="http://freshmeat.net/redir/netcat/7041/url_tgz/nc%version%.tgz" />
+      <snapshot version="110" check="d102598c3989239d749b86b0f49fa54554f54402" />
+    </import>
+  </project>
+
+  <project path="external/netperf" name="platform/external/netperf">
+    <import>
+      <remap strip="netperf-%version%/src/" />
+      <mirror url="ftp://ftp.netperf.org/netperf/netperf-%version%.tar.gz" />
+      <mirror url="ftp://ftp.netperf.org/netperf/netperf-%version%.tar.bz2" />
+      <snapshot version="2.4.4" check="8fbc7e6b026f40333767b2383bbaf0c5da473135" />
+    </import>
+  </project>
+
+  <project path="external/neven" name="platform/external/neven" />
+
+  <project path="external/opencore" name="platform/external/opencore" />
+
+  <project path="external/openssl" name="platform/external/openssl">
+    <import>
+      <remap strip="openssl-%version%/" />
+      <mirror url="http://openssl.org/source/openssl-%version%.tar.gz" />
+      <snapshot version="0.9.8h" check="bdfb8ad83da0647e9b9a32792598e8ce7ba3ef4d" />
+    </import>
+  </project>
+
+  <project path="external/oprofile" name="platform/external/oprofile">
+    <import>
+      <remap strip="oprofile-%version%/" />
+      <mirror url="http://prdownloads.sourceforge.net/oprofile/oprofile-%version%.tar.gz" />
+      <snapshot version="0.9.1" check="cc2ee177dbb3befca43e36cfc56778b006c3d050" />
+    </import>
+  </project>
+
+  <project path="external/ping" name="platform/external/ping" />
+
+  <project path="external/ppp" name="platform/external/ppp">
+    <import>
+      <remap strip="ppp-%version%/pppd/" />
+      <mirror url="ftp://ftp.samba.org/pub/ppp/ppp-%version%.tar.gz" />
+      <snapshot version="2.4.3" check="82c907af479178801a7a8701341b22c9d20fdb7e" />
+    </import>
+  </project>
+
+  <project path="external/protobuf" name="platform/external/protobuf" />
+
+  <project path="external/qemu" name="platform/external/qemu">
+    <import>
+      <remap strip="qemu-%version%/" />
+      <mirror url="http://bellard.org/qemu/qemu-%version%.tar.gz" />
+      <snapshot version="0.8.2" check="413f05aaf54fa08c0ae7e997327a4f4a473c0a8d" />
+    </import>
+  </project>
+
+  <project path="external/safe-iop" name="platform/external/safe-iop">
+    <import>
+      <remap strip="safe-iop-%version%/" />
+      <mirror url="http://safe-iop.googlecode.com/files/safe-iop-%version%.tgz" />
+      <snapshot version="0.3.1" check="4fd37285a5ca04b18307255139e71603f55fd2fd" />
+    </import>
+  </project>
+
+  <project path="external/skia" name="platform/external/skia" />
+
+  <project path="external/sonivox" name="platform/external/sonivox" />
+
+  <project path="external/sqlite" name="platform/external/sqlite">
+    <import>
+      <remap strip="sqlite-%version%/" insert="dist/" />
+      <mirror url="http://www.sqlite.org/sqlite-amalgamation-%version%.tar.gz" />
+      <snapshot version="3.6.3" check="6ca1d4f32da73eda41ba4925e98de4411cbe75d3" />
+    </import>
+  </project>
+
+  <project path="external/srec" name="platform/external/srec" />
+
+  <project path="external/strace" name="platform/external/strace">
+    <import>
+      <remap strip="strace-%version%/" />
+      <mirror url="http://downloads.sourceforge.net/strace/strace-%version%.tar.bz2" />
+      <snapshot version="4.5.12" check="fa2c235113f9f310562b09097af5fa466a3158e0" />
+    </import>
+  </project>
+
+  <project path="external/tagsoup" name="platform/external/tagsoup">
+    <import>
+      <remap strip="tagsoup-%version%/" />
+      <mirror url="http://android.kernel.org/pub/tagsoup-%version%-src.zip" />
+      <!-- http://home.ccil.org/~cowan/XML/tagsoup/tagsoup-%version%-src.zip -->
+      <snapshot version="1.2" check="70e83658cac1d0d766e93853e3698921af269a37" />
+    </import>
+  </project>
+
+  <project path="external/tcpdump" name="platform/external/tcpdump">
+    <import>
+      <remap strip="tcpdump-%version%/./" />
+      <mirror url="http://www.tcpdump.org/release/tcpdump-%version%.tar.gz" />
+      <snapshot version="3.9.8" check="8e75e115f22403f5780a14917a874e99b8f7e51b" />
+    </import>
+  </project>
+
+  <project path="external/tinyxml" name="platform/external/tinyxml">
+    <import>
+      <remap strip="tinyxml/" />
+      <mirror url="http://downloads.sourceforge.net/tinyxml/tinyxml_%version%.tar.gz" />
+      <snapshot version="2_4_0" check="bc0ee9afa1072f1943b18f74560cb71840470597" />
+    </import>
+  </project>
+
+  <project path="external/tremor" name="platform/external/tremor" />
+
+  <project path="external/webkit" name="platform/external/webkit">
+    <remote name="wko" fetch="git://git.webkit.org/WebKit.git">
+      <require commit="350652b509b092508f6c465c1596e43bbdec7466" />
+    </remote>
+  </project>
+
+  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant">
+    <import>
+      <remap strip="wpa_supplicant-%version%/" />
+      <mirror url="http://hostap.epitest.fi/releases/wpa_supplicant-%version%.tar.gz" />
+      <snapshot version="0.5.10" check="10356433b643a2a5266f84a11ed4ac32d8c5c845" />
+    </import>
+  </project>
+
+  <project path="external/yaffs2" name="platform/external/yaffs2" />
+
+  <project path="external/zlib" name="platform/external/zlib">
+    <import>
+      <remap strip="zlib-%version%/" />
+      <mirror url="http://www.zlib.net/zlib-%version%.tar.bz2" />
+      <mirror url="http://voxel.dl.sourceforge.net/sourceforge/libpng/zlib-%version%.tar.gz" />
+      <snapshot version="1.2.3" check="b4ed8af31039b2aa9fab95ed19894498649a4f09" />
+    </import>
+  </project>
+</manifest>
