@@ -187,9 +187,9 @@
 
   <project path="external/libpcap" name="platform/external/libpcap">
     <import>
-      <remap strip="libpcap-%version%/./" />
+      <remap strip="libpcap-%version%/" />
       <mirror url="http://android.kernel.org/pub/libpcap-%version%.tar.gz" />
-      <snapshot version="0.9.8" check="29b0e71b7913664617f142fdbf22e3a5a0434f4b" />
+      <snapshot version="0.9.8" check="7d4227ea78579803a5562f03e4b63790292caac3" />
     </import>
   </project>
 
@@ -305,9 +305,9 @@
 
   <project path="external/tcpdump" name="platform/external/tcpdump">
     <import>
-      <remap strip="tcpdump-%version%/./" />
+      <remap strip="tcpdump-%version%/" />
       <mirror url="http://android.kernel.org/pub/tcpdump-%version%.tar.gz" />
-      <snapshot version="3.9.8" check="8e75e115f22403f5780a14917a874e99b8f7e51b" />
+      <snapshot version="3.9.8" check="e66460324c0c1d5b6f767afeb6f3d201094156d3" />
     </import>
   </project>
 
