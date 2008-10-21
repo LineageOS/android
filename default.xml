@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest branch="master">
+<manifest branch="release-1.0">
   <remote  name="korg"
            fetch="git://android.kernel.org/"
            review="review.source.android.com" />
-  <default revision="master"
+  <default revision="release-1.0"
            remote="korg" />
 
   <project path="build" name="platform/build">
