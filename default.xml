@@ -165,9 +165,9 @@
 
   <project path="external/iptables" name="platform/external/iptables">
     <import>
-      <remap strip="iptables-%version%/./" />
+      <remap strip="iptables-%version%/" />
       <mirror url="http://android.kernel.org/pub/iptables-%version%.tar.bz2" />
-      <snapshot version="1.3.7" check="7226fd9f7f7ebada706f9d040b39245ee8123faa" />
+      <snapshot version="1.3.7" check="058f8ee7bfe5eedf9104a12c0b2b109b872ebcb4" />
     </import>
   </project>
 
