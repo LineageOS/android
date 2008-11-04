@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest branch="master">
+<manifest>
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
