@@ -12,10 +12,14 @@
 
   <project path="kernel"
            name="kernel/common"
-           revision="refs/heads/android-2.6.25" />
+           revision="refs/heads/android-2.6.27" />
 
   <project path="bionic" name="platform/bionic" />
-  <project path="bootloader/legacy" name="platform/bootloader/legacy" />
+
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" />
+
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="frameworks/base" name="platform/frameworks/base" />
@@ -25,7 +29,7 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="prebuilt" name="platform/prebuilt" />
-  <project path="recovery" name="platform/recovery" />
+
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
@@ -65,21 +69,29 @@
 
   <project path="external/aes" name="platform/external/aes" />
   <project path="external/apache-http" name="platform/external/apache-http" />
+  <project path="external/bison" name="platform/external/bison" />
   <project path="external/bluez" name="platform/external/bluez" />
+  <project path="external/bsdiff" name="platform/external/bsdiff" />
+  <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/clearsilver" name="platform/external/clearsilver" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dropbear" name="platform/external/dropbear" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/elfcopy" name="platform/external/elfcopy" />
   <project path="external/elfutils" name="platform/external/elfutils" />
+  <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/freetype" name="platform/external/freetype" />
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/gdata" name="platform/external/gdata" />
   <project path="external/giflib" name="platform/external/giflib" />
+  <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/googleclient" name="platform/external/googleclient" />
+  <project path="external/grub" name="platform/external/grub" />
   <project path="external/icu4c" name="platform/external/icu4c" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jdiff" name="platform/external/jdiff" />
@@ -111,6 +123,7 @@
   <project path="external/tremor" name="platform/external/tremor" />
   <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
+  <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
 </manifest>
