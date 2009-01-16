@@ -27,6 +27,7 @@
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="prebuilt" name="platform/prebuilt" />
 
@@ -84,9 +85,9 @@
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
+  <project path="external/dosfstools" name="platform/external/dosfstools" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/freetype" name="platform/external/freetype" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/gdata" name="platform/external/gdata" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
