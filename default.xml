@@ -3,7 +3,7 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
-  <default revision="master"
+  <default revision="donut"
            remote="korg" />
 
   <project path="build" name="platform/build">
