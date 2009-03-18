@@ -25,6 +25,7 @@
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
@@ -45,6 +46,7 @@
   <project path="packages/providers/ImProvider" name="platform/packages/providers/ImProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
+  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
 
   <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
@@ -67,6 +69,8 @@
   <project path="packages/apps/Sync" name="platform/packages/apps/Sync" />
   <project path="packages/apps/Updater" name="platform/packages/apps/Updater" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
 
   <project path="external/aes" name="platform/external/aes" />
   <project path="external/apache-http" name="platform/external/apache-http" />
