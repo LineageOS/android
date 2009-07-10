@@ -10,10 +10,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="kernel"
-           name="kernel/common"
-           revision="refs/heads/android-2.6.27" />
-
   <project path="bionic" name="platform/bionic" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
