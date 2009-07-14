@@ -67,6 +67,7 @@
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
 
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
 
   <project path="external/aes" name="platform/external/aes" />
   <project path="external/apache-http" name="platform/external/apache-http" />
