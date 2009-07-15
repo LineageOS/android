@@ -26,6 +26,7 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/ril" name="platform/hardware/ril" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="prebuilt" name="platform/prebuilt" />
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
@@ -135,4 +136,6 @@
   <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
+
+  <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" />
 </manifest>
