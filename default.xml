@@ -69,6 +69,7 @@
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
 
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
 
   <project path="external/aes" name="platform/external/aes" />
@@ -105,6 +106,7 @@
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
   <project path="external/jpeg" name="platform/external/jpeg" />
+  <project path="external/junit" name="platform/external/junit" />
   <project path="external/lcc" name="platform/external/lcc" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libpcap" name="platform/external/libpcap" />
