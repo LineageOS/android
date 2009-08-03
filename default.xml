@@ -45,6 +45,7 @@
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
+  <project path="packages/providers/WebSearchProvider" name="platform/packages/providers/WebSearchProvider" />
 
   <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
@@ -53,6 +54,7 @@
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
+  <project path="packages/apps/GlobalSearch" name="platform/packages/apps/GlobalSearch" />
   <project path="packages/apps/GoogleSearch" name="platform/packages/apps/GoogleSearch" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/IM" name="platform/packages/apps/IM" />
@@ -76,6 +78,7 @@
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
+  <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluez" name="platform/external/bluez" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
@@ -102,6 +105,7 @@
   <project path="external/gtest" name="platform/external/gtest" />
   <project path="external/hcidump" name="platform/external/hcidump" />
   <project path="external/icu4c" name="platform/external/icu4c" />
+  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
@@ -126,9 +130,11 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
+  <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/strace" name="platform/external/strace" />
+  <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
@@ -140,4 +146,6 @@
   <project path="external/zlib" name="platform/external/zlib" />
 
   <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" />
+ 
+  <project path="vendor/sample" name="platform/vendor/sample" />
 </manifest>
