@@ -63,6 +63,7 @@
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
@@ -148,5 +149,6 @@
 
   <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" />
 
+  <project path="vendor/aosp" name="platform/vendor/aosp" />
   <project path="vendor/sample" name="platform/vendor/sample" />
 </manifest>
