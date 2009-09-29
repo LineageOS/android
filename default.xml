@@ -62,7 +62,7 @@
   <project path="packages/apps/Music" name="platform/packages/apps/Music"/>
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller"/>
   <project path="packages/apps/Phone" name="cyanogen/android_packages_apps_Phone" revision="cm-donut-4.1" remote="github" />
-  <project path="packages/apps/Provision" name="platform/packages/apps/Provision"/>
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="master" />
   <project path="packages/apps/Settings" name="cyanogen/android_packages_apps_Settings" revision="cm-donut-4.1" remote="github" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder"/>
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk"/>
@@ -149,8 +149,8 @@
   <project path="external/yaffs2" name="platform/external/yaffs2"/>
   <project path="external/zlib" name="platform/external/zlib"/>
 
-  <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open"/>
+  <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" revision="master" />
 
-  <project path="vendor/aosp" name="platform/vendor/aosp"/>
+  <project path="vendor/aosp" name="platform/vendor/aosp" revision="master" />
   <project path="vendor/sample" name="platform/vendor/sample"/>
 </manifest>
