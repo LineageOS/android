@@ -98,6 +98,7 @@
   <project path="external/dosfstools" name="platform/external/dosfstools" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/freetype" name="platform/external/freetype" />
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/gdata" name="platform/external/gdata" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
