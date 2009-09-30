@@ -154,6 +154,8 @@
   <project path="vendor/qcom/android-open" name="platform/vendor/qcom/android-open" />
   <project path="vendor/qcom/proprietary-open" name="platform/vendor/qcom/proprietary-open" />
 
+  <project path="vendor/pv-open" name="platform/vendor/pv-open" />
+
   <project path="vendor/aosp" name="platform/vendor/aosp" />
   <project path="vendor/sample" name="platform/vendor/sample" />
 </manifest>
