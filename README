@@ -1,1 +1,33 @@
-Check the downloads for local_manifests.
+To initialize get started with Android/CyanogenMod, you'll need to get
+familiar with Git and Repo. 
+
+http://source.android.com/download/using-repo
+
+To initialize your local repository using the CyanogenMod trees, 
+use a command like this:
+
+repo init -u git://github.com/cyanogen/android.git -b cm-donut-4.1
+
+Then to sync up:
+
+repo sync
+
+
+After checking out the repositories, you'll need to create a
+buildspec.mk file with contents like this:
+
+TARGET_PRODUCT:=aosp_dream
+TARGET_BUILD_VARIANT:=eng
+TARGET_BUILD_TYPE:=release
+
+
+To get all the proprietary binaries from your ADP1 device, run the
+"extract-files.sh" script in the vendor/htc/dream-open directory.
+This requires that you have the adb tool in your path and a
+compatible system image on your ADP1 device (Android 1.6).
+
+
+Once you have your environment setup, just run make!
+
+
+
