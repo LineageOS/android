@@ -117,7 +117,7 @@
   <project path="external/libpcap" name="platform/external/libpcap"/>
   <project path="external/libpng" name="platform/external/libpng"/>
   <project path="external/libxml2" name="platform/external/libxml2"/>
-  <project path="external/liblzo" name="fries/android-external-liblzo" revision="master" remote="github" />
+  <project path="external/lzo" name="fries/android-external-liblzo" revision="master" remote="github" />
   <project path="external/mtpd" name="platform/external/mtpd"/>
   <project path="external/netcat" name="platform/external/netcat"/>
   <project path="external/netperf" name="platform/external/netperf"/>
