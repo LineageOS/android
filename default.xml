@@ -63,6 +63,7 @@
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
@@ -97,6 +98,7 @@
   <project path="external/dosfstools" name="platform/external/dosfstools" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/freetype" name="platform/external/freetype" />
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/gdata" name="platform/external/gdata" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -145,7 +147,15 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
 
+  <project path="vendor/htc/common-open" name="platform/vendor/htc/common-open" />
   <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" />
+  <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" />
 
+  <project path="vendor/qcom/android-open" name="platform/vendor/qcom/android-open" />
+  <project path="vendor/qcom/proprietary-open" name="platform/vendor/qcom/proprietary-open" />
+
+  <project path="vendor/pv-open" name="platform/vendor/pv-open" />
+
+  <project path="vendor/aosp" name="platform/vendor/aosp" />
   <project path="vendor/sample" name="platform/vendor/sample" />
 </manifest>
