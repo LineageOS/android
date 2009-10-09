@@ -152,6 +152,7 @@
   <project path="vendor/htc/common-open" name="platform/vendor/htc/common-open" />
   <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" />
   <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" />
+  <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" />
 
   <project path="vendor/qcom/android-open" name="platform/vendor/qcom/android-open" />
   <project path="vendor/qcom/proprietary-open" name="platform/vendor/qcom/proprietary-open" />
