@@ -98,6 +98,7 @@
   <project path="external/fdlibm" name="platform/external/fdlibm"/>
   <project path="external/flac" name="kruton/android_external_flac" revision="master" remote="github" />
   <project path="external/freetype" name="platform/external/freetype"/>
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/gdata" name="platform/external/gdata"/>
   <project path="external/giflib" name="platform/external/giflib"/>
   <project path="external/genext2fs" name="platform/external/genext2fs"/>
@@ -152,6 +153,7 @@
   <project path="vendor/htc/common-open" name="platform/vendor/htc/common-open" revision="master" />
   <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" revision="master" />
   <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" revision="master" />
+  <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" revision="master" />
 
   <project path="vendor/qcom/android-open" name="platform/vendor/qcom/android-open" revision="master" />
   <project path="vendor/qcom/proprietary-open" name="platform/vendor/qcom/proprietary-open" revision="master" />
