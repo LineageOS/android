@@ -6,7 +6,7 @@ http://source.android.com/download/using-repo
 To initialize your local repository using the CyanogenMod trees, 
 use a command like this:
 
-repo init -u git://github.com/cyanogen/android.git -b cm-donut-4.1
+repo init -u git://github.com/cyanogen/android.git -b donut
 
 Then to sync up:
 
@@ -16,7 +16,7 @@ repo sync
 After checking out the repositories, you'll need to create a
 buildspec.mk file with contents like this:
 
-TARGET_PRODUCT:=aosp_dream
+TARGET_PRODUCT:=aosp_dream_us
 TARGET_BUILD_VARIANT:=eng
 TARGET_BUILD_TYPE:=release
 
