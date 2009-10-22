@@ -5,23 +5,23 @@
 
   <default revision="donut" remote="korg"/>
 
-  <project path="build" name="cyanogen/android_build" revision="cm-donut-4.1" remote="github">
+  <project path="build" name="cyanogen/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
-  <project path="bionic" name="cyanogen/android_bionic" revision="cm-donut-4.1" remote="github"/>
+  <project path="bionic" name="cyanogen/android_bionic" remote="github"/>
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy"/>
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller"/>
-  <project path="bootable/recovery" name="cyanogen/android_bootable_recovery" revision="cm-donut-4.1" remote="github" />
+  <project path="bootable/recovery" name="cyanogen/android_bootable_recovery" remote="github" />
 
-  <project path="dalvik" name="cyanogen/android_dalvik" revision="cm-donut-4.1" remote="github" />
-  <project path="development" name="cyanogen/android_development" revision="cm-donut-4.1" remote="github" />
-  <project path="frameworks/base" name="cyanogen/android_frameworks_base" revision="cm-donut-4.1" remote="github" />
-  <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android"/>
-  <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin"/>
+  <project path="dalvik" name="cyanogen/android_dalvik" remote="github" />
+  <project path="development" name="cyanogen/android_development" remote="github" />
+  <project path="frameworks/base" name="cyanogen/android_frameworks_base" remote="github" />
+  <project path="frameworks/opt/com.google.android" revision="donut-release" name="platform/frameworks/opt/com.google.android"/>
+  <project path="frameworks/opt/com.google.android.googlelogin" revision="donut-release" name="platform/frameworks/opt/com.google.android.googlelogin"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
-  <project path="frameworks/policies/base" name="cyanogen/android_frameworks_policies_base" revision="cm-donut-4.1" remote="github" />
+  <project path="frameworks/policies/base" name="cyanogen/android_frameworks_policies_base" remote="github" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware"/>
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy"/>
   <project path="hardware/ril" name="platform/hardware/ril"/>
@@ -46,24 +46,24 @@
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider"/>
   <project path="packages/providers/WebSearchProvider" name="platform/packages/providers/WebSearchProvider"/>
 
-  <project path="packages/apps/AlarmClock" name="cyanogen/android_packages_apps_AlarmClock" revision="cm-donut-4.1" remote="github" />
-  <project path="packages/apps/Browser" name="cyanogen/android_packages_apps_Browser" revision="cm-donut-4.1" remote="github" />
+  <project path="packages/apps/AlarmClock" name="cyanogen/android_packages_apps_AlarmClock" remote="github" />
+  <project path="packages/apps/Browser" name="cyanogen/android_packages_apps_Browser" remote="github" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator"/>
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar"/>
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera"/>
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts"/>
   <project path="packages/apps/Email" name="platform/packages/apps/Email"/>
-  <project path="packages/apps/GlobalSearch" name="cyanogen/android_packages_apps_GlobalSearch" revision="cm-donut-4.1" remote="github" />
-  <project path="packages/apps/GoogleSearch" name="cyanogen/android_packages_apps_GoogleSearch" revision="cm-donut-4.1" remote="github" />
+  <project path="packages/apps/GlobalSearch" name="platform/packages/apps/GlobalSearch"/>
+  <project path="packages/apps/GoogleSearch" name="platform/packages/apps/GoogleSearch" revision="donut-release" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer"/>
   <project path="packages/apps/IM" name="platform/packages/apps/IM"/>
-  <project path="packages/apps/Launcher" name="cyanogen/android_packages_apps_Launcher" revision="cm-donut-4.1" remote="github" />
-  <project path="packages/apps/Mms" name="cyanogen/android_packages_apps_Mms" revision="cm-donut-4.1" remote="github" />
+  <project path="packages/apps/Launcher" name="cyanogen/android_packages_apps_Launcher" remote="github" />
+  <project path="packages/apps/Mms" name="cyanogen/android_packages_apps_Mms" remote="github" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music"/>
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller"/>
-  <project path="packages/apps/Phone" name="cyanogen/android_packages_apps_Phone" revision="cm-donut-4.1" remote="github" />
+  <project path="packages/apps/Phone" name="cyanogen/android_packages_apps_Phone" remote="github" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="master" />
-  <project path="packages/apps/Settings" name="cyanogen/android_packages_apps_Settings" revision="cm-donut-4.1" remote="github" />
+  <project path="packages/apps/Settings" name="cyanogen/android_packages_apps_Settings" remote="github" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder"/>
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk"/>
   <project path="packages/apps/Sync" name="platform/packages/apps/Sync"/>
@@ -122,7 +122,7 @@
   <project path="external/netcat" name="platform/external/netcat"/>
   <project path="external/netperf" name="platform/external/netperf"/>
   <project path="external/neven" name="platform/external/neven"/>
-  <project path="external/opencore" name="cyanogen/android_external_opencore" revision="cm-donut-4.1" remote="github" />
+  <project path="external/opencore" name="cyanogen/android_external_opencore" remote="github" />
   <project path="external/openssl" name="fries/android-external-openssl" revision="master" remote="github" />
   <project path="external/openvpn" name="fries/android-external-openvpn" revision="master" remote="github" />
   <project path="external/oprofile" name="platform/external/oprofile"/>
