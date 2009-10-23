@@ -21,13 +21,9 @@ TARGET_BUILD_VARIANT:=eng
 TARGET_BUILD_TYPE:=release
 
 
-To get all the proprietary binaries from your ADP1 device, run the
-"extract-files.sh" script in the vendor/htc/dream-open directory.
-This requires that you have the adb tool in your path and a
-compatible system image on your ADP1 device (Android 1.6).
+For additional instructions on getting the necessary proprietary
+files into your build, and to get things going from here:
 
-
-Once you have your environment setup, just run make!
-
+http://source.android.com/documentation/building-for-dream
 
 

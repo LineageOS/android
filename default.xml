@@ -135,7 +135,7 @@
   <project path="external/skia" name="platform/external/skia"/>
   <project path="external/sonivox" name="platform/external/sonivox"/>
   <project path="external/speex" name="platform/external/speex"/>
-  <project path="external/sqlite" name="platform/external/sqlite"/>
+  <project path="external/sqlite" name="platform/external/sqlite" remote="github" />
   <project path="external/srec" name="platform/external/srec"/>
   <project path="external/strace" name="platform/external/strace"/>
   <project path="external/svox" name="platform/external/svox"/>
