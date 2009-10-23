@@ -59,7 +59,7 @@
   <project path="packages/apps/IM" name="platform/packages/apps/IM"/>
   <project path="packages/apps/Launcher" name="cyanogen/android_packages_apps_Launcher" remote="github" />
   <project path="packages/apps/Mms" name="cyanogen/android_packages_apps_Mms" remote="github" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music"/>
+  <project path="packages/apps/Music" name="cyanogen/android_packages_apps_Music" remote="github" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller"/>
   <project path="packages/apps/Phone" name="cyanogen/android_packages_apps_Phone" remote="github" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="master" />
@@ -135,7 +135,7 @@
   <project path="external/skia" name="platform/external/skia"/>
   <project path="external/sonivox" name="platform/external/sonivox"/>
   <project path="external/speex" name="platform/external/speex"/>
-  <project path="external/sqlite" name="platform/external/sqlite" remote="github" />
+  <project path="external/sqlite" name="cyanogen/android_external_sqlite" remote="github" />
   <project path="external/srec" name="platform/external/srec"/>
   <project path="external/strace" name="platform/external/strace"/>
   <project path="external/svox" name="platform/external/svox"/>
