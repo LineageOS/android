@@ -2,6 +2,7 @@
 <manifest>
   <remote name="korg" fetch="git://android.git.kernel.org/" review="review.source.android.com"/>
   <remote name="github" fetch="git://github.com/" />
+  <remote name="gitorious" fetch="git://gitorious.org" />
 
   <default revision="donut" remote="korg"/>
 
@@ -28,7 +29,7 @@
   <project path="hardware/msm7k" name="platform/hardware/msm7k"/>
   <project path="prebuilt" name="platform/prebuilt"/>
 
-  <project path="system/bluetooth" name="platform/system/bluetooth"/>
+  <project path="system/bluetooth" name="cyanogen/android_system_bluetooth" remote="github"/>
   <project path="system/core" name="cyanogen/android_system_core" revision="master" remote="github" />
   <project path="system/extras" name="platform/system/extras"/>
   <project path="system/wlan/ti" name="platform/system/wlan/ti"/>
@@ -47,6 +48,7 @@
   <project path="packages/providers/WebSearchProvider" name="platform/packages/providers/WebSearchProvider"/>
 
   <project path="packages/apps/AlarmClock" name="cyanogen/android_packages_apps_AlarmClock" remote="github" />
+  <project path="packages/apps/Bluetooth" name="cyanogen/android_packages_apps_Bluetooth" remote="github" />
   <project path="packages/apps/Browser" name="cyanogen/android_packages_apps_Browser" remote="github" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator"/>
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar"/>
@@ -79,7 +81,7 @@
   <project path="external/astl" name="platform/external/astl"/>
   <project path="external/bison" name="platform/external/bison"/>
   <project path="external/blktrace" name="platform/external/blktrace"/>
-  <project path="external/bluez" name="platform/external/bluez" revision="master" />
+  <project path="external/bluez" name="platform/external/bluez" repository="github" />
   <project path="external/bsdiff" name="platform/external/bsdiff"/>
   <project path="external/bzip2" name="platform/external/bzip2"/>
   <project path="external/clearsilver" name="platform/external/clearsilver"/>
@@ -102,6 +104,7 @@
   <project path="external/gdata" name="platform/external/gdata"/>
   <project path="external/giflib" name="platform/external/giflib"/>
   <project path="external/genext2fs" name="platform/external/genext2fs"/>
+  <project path="external/glib" name="android-obex/glib" revision="master" remote="gitorious" />
   <project path="external/googleclient" name="platform/external/googleclient"/>
   <project path="external/grub" name="platform/external/grub"/>
   <project path="external/gtest" name="platform/external/gtest"/>
@@ -123,7 +126,9 @@
   <project path="external/netcat" name="platform/external/netcat"/>
   <project path="external/netperf" name="platform/external/netperf"/>
   <project path="external/neven" name="platform/external/neven"/>
+  <project path="external/obexd" name="android-obex/obexd" revision="master" remote="gitorious" />
   <project path="external/opencore" name="cyanogen/android_external_opencore" remote="github" />
+  <project path="external/openobex" name="android-obex/openobex" revision="master" remote="gitorious" />
   <project path="external/openssl" name="fries/android-external-openssl" revision="master" remote="github" />
   <project path="external/openvpn" name="fries/android-external-openvpn" revision="master" remote="github" />
   <project path="external/oprofile" name="platform/external/oprofile"/>
