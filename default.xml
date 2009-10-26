@@ -53,7 +53,7 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator"/>
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar"/>
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera"/>
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts"/>
+  <project path="packages/apps/Contacts" name="cyanogen/android_packages_apps_Contacts" remote="github" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email"/>
   <project path="packages/apps/GlobalSearch" name="platform/packages/apps/GlobalSearch"/>
   <project path="packages/apps/GoogleSearch" name="platform/packages/apps/GoogleSearch" revision="donut-release" />
