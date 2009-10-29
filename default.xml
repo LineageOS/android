@@ -88,6 +88,7 @@
   <project path="external/clearsilver" name="platform/external/clearsilver"/>
   <project path="external/dbus" name="platform/external/dbus"/>
   <project path="external/dhcpcd" name="platform/external/dhcpcd"/>
+  <project path="external/dnsmasq" name="cyanogen/android_external_dnsmasq" remote="github" />
   <project path="external/dropbear" name="platform/external/dropbear"/>
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs"/>
   <project path="external/elfcopy" name="platform/external/elfcopy"/>
