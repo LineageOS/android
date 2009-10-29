@@ -168,5 +168,6 @@
   <project path="vendor/pv-open" name="platform/vendor/pv-open" revision="master" />
 
   <project path="vendor/aosp" name="platform/vendor/aosp" revision="master" />
+  <project path="vendor/cyanogen" name="cyanogen/android_vendor_cyanogen" revision="master" remote="github" />
   <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
 </manifest>
