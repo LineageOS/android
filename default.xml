@@ -68,6 +68,7 @@
   <project path="packages/apps/Settings" name="cyanogen/android_packages_apps_Settings" remote="github" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder"/>
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk"/>
+  <project path="packages/apps/Superuser" name="cyanogen/android_packages_apps_Superuser" remote="github" />
   <project path="packages/apps/Sync" name="platform/packages/apps/Sync"/>
   <project path="packages/apps/Updater" name="platform/packages/apps/Updater"/>
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer"/>
