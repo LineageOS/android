@@ -118,6 +118,7 @@
   <project path="external/jhead" name="platform/external/jhead"/>
   <project path="external/jpeg" name="platform/external/jpeg"/>
   <project path="external/junit" name="platform/external/junit"/>
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/lcc" name="platform/external/lcc"/>
   <project path="external/libffi" name="platform/external/libffi"/>
   <project path="external/libpcap" name="platform/external/libpcap"/>
@@ -154,6 +155,7 @@
   <project path="external/webkit" name="platform/external/webkit"/>
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant"/>
   <project path="external/xdelta3" name="platform/external/xdelta3"/>
+  <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2"/>
   <project path="external/zlib" name="platform/external/zlib"/>
 
