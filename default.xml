@@ -118,6 +118,7 @@
   <project path="external/jhead" name="platform/external/jhead"/>
   <project path="external/jpeg" name="platform/external/jpeg"/>
   <project path="external/junit" name="platform/external/junit"/>
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/lcc" name="platform/external/lcc"/>
   <project path="external/libffi" name="platform/external/libffi"/>
   <project path="external/libpcap" name="platform/external/libpcap"/>
@@ -154,20 +155,21 @@
   <project path="external/webkit" name="platform/external/webkit"/>
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant"/>
   <project path="external/xdelta3" name="platform/external/xdelta3"/>
+  <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2"/>
   <project path="external/zlib" name="platform/external/zlib"/>
 
-  <project path="vendor/htc/common-open" name="platform/vendor/htc/common-open" revision="master" />
-  <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" revision="master" />
-  <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" revision="master" />
-  <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" revision="master" />
+  <project path="vendor/htc/common-open" name="platform/vendor/htc/common-open" revision="donut-plus-aosp" />
+  <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" revision="donut-plus-aosp" />
+  <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" revision="donut-plus-aosp" />
+  <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" revision="donut-plus-aosp" />
 
-  <project path="vendor/qcom/android-open" name="platform/vendor/qcom/android-open" revision="master" />
-  <project path="vendor/qcom/proprietary-open" name="platform/vendor/qcom/proprietary-open" revision="master" />
+  <project path="vendor/qcom/android-open" name="platform/vendor/qcom/android-open" revision="donut-plus-aosp" />
+  <project path="vendor/qcom/proprietary-open" name="platform/vendor/qcom/proprietary-open" revision="donut-plus-aosp" />
 
-  <project path="vendor/pv-open" name="platform/vendor/pv-open" revision="master" />
+  <project path="vendor/pv-open" name="platform/vendor/pv-open" revision="donut-plus-aosp" />
 
-  <project path="vendor/aosp" name="platform/vendor/aosp" revision="master" />
+  <project path="vendor/aosp" name="platform/vendor/aosp" revision="donut-plus-aosp" />
   <project path="vendor/cyanogen" name="cyanogen/android_vendor_cyanogen" revision="master" remote="github" />
-  <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
+  <project path="vendor/sample" name="platform/vendor/sample" revision="donut-plus-aosp" />
 </manifest>
