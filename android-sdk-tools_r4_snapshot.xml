@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="korg"
+           fetch="git://android.git.kernel.org/"
+           review="review.source.android.com" />
+  <default revision="android-sdk-tools_r4_snapshot"
+           remote="korg" />
+
+  <project path="sdk" name="platform/sdk" />
+  <project path="external/qemu" name="platform/external/qemu" />
+</manifest>
