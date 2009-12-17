@@ -140,7 +140,7 @@
   <project path="external/protobuf" name="platform/external/protobuf"/>
   <project path="external/qemu" name="platform/external/qemu"/>
   <project path="external/safe-iop" name="platform/external/safe-iop"/>
-  <project path="external/skia" name="platform/external/skia"/>
+  <project path="external/skia" name="cyanogen/android_external_skia" remote="github" />
   <project path="external/sonivox" name="platform/external/sonivox"/>
   <project path="external/speex" name="platform/external/speex"/>
   <project path="external/sqlite" name="cyanogen/android_external_sqlite" remote="github" />
@@ -152,7 +152,7 @@
   <project path="external/tesseract" name="platform/external/tesseract" revision="master" />
   <project path="external/tinyxml" name="platform/external/tinyxml"/>
   <project path="external/tremor" name="platform/external/tremor"/>
-  <project path="external/webkit" name="platform/external/webkit"/>
+  <project path="external/webkit" name="cyanogen/android_external_webkit" remote="github" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant"/>
   <project path="external/xdelta3" name="platform/external/xdelta3"/>
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
