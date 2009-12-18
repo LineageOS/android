@@ -35,7 +35,7 @@
   <project path="system/wlan/ti" name="platform/system/wlan/ti"/>
 
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider"/>
-  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider"/>
+  <project path="packages/providers/CalendarProvider" name="cyanogen/android_packages_providers_CalendarProvider" remote="github" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider"/>
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider"/>
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider"/>
