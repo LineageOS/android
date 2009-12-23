@@ -42,7 +42,7 @@
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider"/>
   <project path="packages/providers/GoogleSubscribedFeedsProvider" name="platform/packages/providers/GoogleSubscribedFeedsProvider"/>
   <project path="packages/providers/ImProvider" name="platform/packages/providers/ImProvider"/>
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider"/>
+  <project path="packages/providers/MediaProvider" name="cyanogen/android_packages_providers_MediaProvider" remote="github" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider"/>
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider"/>
   <project path="packages/providers/WebSearchProvider" name="platform/packages/providers/WebSearchProvider"/>
