@@ -52,7 +52,7 @@
   <project path="packages/apps/Browser" name="cyanogen/android_packages_apps_Browser" remote="github" revision="eclair-backport" />
   <project path="packages/apps/Calculator" name="cyanogen/android_packages_apps_Calculator" remote="github" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar"/>
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
+  <project path="packages/apps/Camera" name="cyanogen/android_packages_apps_Camera" remote="github" />
   <project path="packages/apps/Contacts" name="cyanogen/android_packages_apps_Contacts" remote="github" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email"/>
   <project path="packages/apps/GlobalSearch" name="platform/packages/apps/GlobalSearch"/>
