@@ -99,7 +99,6 @@
   <project path="external/emma" name="platform/external/emma"/>
   <project path="external/esd" name="platform/external/esd"/>
   <project path="external/expat" name="platform/external/expat"/>
-  <project path="external/dosfstools" name="platform/external/dosfstools"/>
   <project path="external/fdlibm" name="platform/external/fdlibm"/>
   <project path="external/flac" name="kruton/android_external_flac" revision="master" remote="github" />
   <project path="external/freetype" name="platform/external/freetype"/>
