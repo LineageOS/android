@@ -94,7 +94,6 @@
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs"/>
   <project path="external/elfcopy" name="platform/external/elfcopy"/>
   <project path="external/elfutils" name="platform/external/elfutils"/>
-  <project path="external/eglib" name="platform/external/eglib"/>
   <project path="external/embunit" name="platform/external/embunit"/>
   <project path="external/emma" name="platform/external/emma"/>
   <project path="external/esd" name="platform/external/esd"/>
@@ -107,7 +106,6 @@
   <project path="external/gdata" name="platform/external/gdata"/>
   <project path="external/giflib" name="platform/external/giflib"/>
   <project path="external/genext2fs" name="platform/external/genext2fs"/>
-  <project path="external/glib" name="android-obex/glib" revision="master" remote="gitorious" />
   <project path="external/googleclient" name="platform/external/googleclient"/>
   <project path="external/grub" name="platform/external/grub"/>
   <project path="external/gtest" name="platform/external/gtest"/>
@@ -147,7 +145,6 @@
   <project path="external/svox" name="platform/external/svox"/>
   <project path="external/tagsoup" name="platform/external/tagsoup"/>
   <project path="external/tcpdump" name="platform/external/tcpdump"/>
-  <project path="external/tesseract" name="platform/external/tesseract" revision="master" />
   <project path="external/tinyxml" name="platform/external/tinyxml"/>
   <project path="external/tremor" name="platform/external/tremor"/>
   <project path="external/webkit" name="platform/external/webkit" revision="master"/>
