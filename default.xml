@@ -72,7 +72,7 @@
   <project path="packages/apps/Updater" name="platform/packages/apps/Updater"/>
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer"/>
 
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/imputmethods/LatinIME"/>
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME"/>
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn"/>
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME"/>
 
