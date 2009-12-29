@@ -126,7 +126,7 @@
   <project path="external/netcat" name="platform/external/netcat"/>
   <project path="external/netperf" name="platform/external/netperf"/>
   <project path="external/neven" name="platform/external/neven"/>
-  <project path="external/opencore" name="platform/external/opencore" />
+  <project path="external/opencore" name="cyanogen/android_external_opencore" remote="github" />
   <project path="external/openssl" name="fries/android-external-openssl" revision="master" remote="github" />
   <project path="external/openvpn" name="fries/android-external-openvpn" revision="master" remote="github" />
   <project path="external/oprofile" name="platform/external/oprofile"/>
