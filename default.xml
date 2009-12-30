@@ -10,7 +10,7 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
-  <project path="bionic" name="platform/bionic"/>
+  <project path="bionic" name="cyanogen/android_bionic" remote="github" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy"/>
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller"/>
@@ -47,8 +47,8 @@
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider"/>
   <project path="packages/providers/WebSearchProvider" name="platform/packages/providers/WebSearchProvider"/>
 
-  <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
+  <project path="packages/apps/AlarmClock" name="cyanogen/android_packages_apps_AlarmClock" remote="github" />
+  <project path="packages/apps/Browser" name="cyanogen/android_packages_apps_Browser" remote="github" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar"/>
   <project path="packages/apps/Camera" name="cyanogen/android_packages_apps_Camera" remote="github" />
@@ -58,7 +58,7 @@
   <project path="packages/apps/GoogleSearch" name="platform/packages/apps/GoogleSearch" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer"/>
   <project path="packages/apps/IM" name="platform/packages/apps/IM"/>
-  <project path="packages/apps/Launcher" name="platform/packages/apps/Launcher" />
+  <project path="packages/apps/Launcher" name="cyanogen/android_packages_apps_Launcher" remote="github" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="cyanogen/android_packages_apps_Music" remote="github" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller"/>
