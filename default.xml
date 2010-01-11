@@ -23,11 +23,16 @@
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/htc/dream" name="platform/hardware/htc/dream" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/ril" name="platform/hardware/ril" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
+  <project path="sdk" name="platform/sdk" />
+
   <project path="prebuilt" name="platform/prebuilt" />
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
@@ -43,23 +48,31 @@
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
   <project path="packages/providers/GoogleSubscribedFeedsProvider" name="platform/packages/providers/GoogleSubscribedFeedsProvider" />
+  <project path="packages/providers/ImProvider" name="platform/packages/providers/ImProvider" />
+  <project path="packages/providers/ManagementProvider" name="platform/packages/providers/ManagementProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/providers/WebSearchProvider" name="platform/packages/providers/WebSearchProvider" />
 
   <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
+  <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
   <project path="packages/apps/GlobalSearch" name="platform/packages/apps/GlobalSearch" />
   <project path="packages/apps/GoogleSearch" name="platform/packages/apps/GoogleSearch" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/IM" name="platform/packages/apps/IM" />
   <project path="packages/apps/Launcher" name="platform/packages/apps/Launcher" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
@@ -76,6 +89,14 @@
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
 
+  <project path="packages/services/EasService" name="platform/packages/services/EasService" />
+  <project path="packages/services/LockAndWipe" name="platform/packages/services/LockAndWipe" />
+  
+  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
+  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
+  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
+
   <project path="external/aes" name="platform/external/aes" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
@@ -89,6 +110,7 @@
   <project path="external/clearsilver" name="platform/external/clearsilver" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
+  <project path="external/dosfstools" name="platform/external/dosfstools" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/elfcopy" name="platform/external/elfcopy" />
@@ -125,9 +147,11 @@
   <project path="external/neven" name="platform/external/neven" />
   <project path="external/opencore" name="platform/external/opencore" />
   <project path="external/openssl" name="platform/external/openssl" />
+  <project path="external/openvpn" name="platform/external/openvpn" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ppp" name="platform/external/ppp" />
+  <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
@@ -162,4 +186,6 @@
 
   <project path="vendor/aosp" name="platform/vendor/aosp" />
   <project path="vendor/sample" name="platform/vendor/sample" />
+
+  <project path="cts" name="platform/cts" />
 </manifest>
