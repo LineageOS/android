@@ -62,7 +62,7 @@
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="cyanogen/android_packages_apps_Music" remote="github" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller"/>
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Phone" name="cyanogen/android_packages_apps_Phone" remote="github" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="master" />
   <project path="packages/apps/Settings" name="cyanogen/android_packages_apps_Settings" remote="github" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
