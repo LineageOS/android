@@ -31,7 +31,7 @@
 
   <project path="system/bluetooth" name="cyanogen/android_system_bluetooth" remote="github"/>
   <project path="system/core" name="cyanogen/android_system_core" revision="master" remote="github" />
-  <project path="system/extras" name="platform/system/extras"/>
+  <project path="system/extras" name="cyanogen/android_system_extras" remote="github" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti"/>
 
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider"/>
