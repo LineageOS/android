@@ -192,5 +192,4 @@
   <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
 
   <project path="cts" name="platform/cts" />
- </manifest>
 </manifest>
