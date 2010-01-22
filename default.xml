@@ -16,7 +16,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller"/>
   <project path="bootable/recovery" name="platform/bootable/recovery" />
 
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="cyanogen/android_dalvik" remote="github" />
   <project path="development" name="cyanogen/android_development" remote="github" />
   <project path="frameworks/base" name="cyanogen/android_frameworks_base" remote="github" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android"/>
