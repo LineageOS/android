@@ -70,7 +70,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer"/>
   <project path="packages/apps/IM" name="platform/packages/apps/IM"/>
   <project path="packages/apps/Launcher" name="cyanogen/android_packages_apps_Launcher" remote="github" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
+  <project path="packages/apps/Launcher2" name="cyanogen/android_packages_apps_Launcher2" remote="github" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="cyanogen/android_packages_apps_Music" remote="github" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller"/>
