@@ -104,7 +104,7 @@
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib"/>
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump"/>
-  <project path="external/busybox" name="dylex/android_external_busybox" remote="github" revision="master" />
+  <project path="external/busybox" name="cyanogen/android_external_busybox" remote="github" revision="master" />
   <project path="external/bsdiff" name="platform/external/bsdiff"/>
   <project path="external/bzip2" name="platform/external/bzip2"/>
   <project path="external/clearsilver" name="platform/external/clearsilver"/>
