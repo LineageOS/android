@@ -84,7 +84,7 @@
   <project path="external/blktrace" name="platform/external/blktrace"/>
   <project path="external/bluez" name="cyanogen/android_external_bluez" remote="github" />
   <project path="external/bsdiff" name="platform/external/bsdiff"/>
-  <project path="external/busybox" name="dylex/android_external_busybox" remote="github" revision="master" />
+  <project path="external/busybox" name="cyanogen/android_external_busybox" remote="github" revision="master" />
   <project path="external/bzip2" name="platform/external/bzip2"/>
   <project path="external/clearsilver" name="platform/external/clearsilver"/>
   <project path="external/dbus" name="platform/external/dbus"/>
@@ -134,7 +134,7 @@
   <project path="external/opencore" name="cyanogen/android_external_opencore" remote="github" />
   <project path="external/openobex" name="android-obex/openobex" revision="master" remote="gitorious" />
   <project path="external/openssl" name="fries/android-external-openssl" revision="master" remote="github" />
-  <project path="external/openvpn" name="fries/android-external-openvpn" revision="master" remote="github" />
+  <project path="external/openvpn" name="cyanogen/android-external-openvpn" revision="master" remote="github" />
   <project path="external/oprofile" name="platform/external/oprofile"/>
   <project path="external/ping" name="platform/external/ping"/>
   <project path="external/ppp" name="platform/external/ppp"/>
