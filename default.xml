@@ -47,13 +47,13 @@
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider"/>
   <project path="packages/providers/WebSearchProvider" name="platform/packages/providers/WebSearchProvider"/>
 
-  <project path="packages/apps/AlarmClock" name="cyanogen/android_packages_apps_AlarmClock" remote="github" />
   <project path="packages/apps/Bluetooth" name="cyanogen/android_packages_apps_Bluetooth" remote="github" />
   <project path="packages/apps/Browser" name="cyanogen/android_packages_apps_Browser" remote="github" revision="eclair-backport" />
   <project path="packages/apps/Calculator" name="cyanogen/android_packages_apps_Calculator" remote="github" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar"/>
   <project path="packages/apps/Camera" name="cyanogen/android_packages_apps_Camera" remote="github" />
   <project path="packages/apps/Contacts" name="cyanogen/android_packages_apps_Contacts" remote="github" />
+  <project path="packages/apps/DeskClock" name="cyanogen/android_packages_apps_DeskClock" remote="github" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email"/>
   <project path="packages/apps/GlobalSearch" name="platform/packages/apps/GlobalSearch"/>
   <project path="packages/apps/GoogleSearch" name="platform/packages/apps/GoogleSearch" revision="donut-release" />
@@ -61,7 +61,7 @@
   <project path="packages/apps/IM" name="platform/packages/apps/IM"/>
   <project path="packages/apps/Launcher" name="cyanogen/android_packages_apps_Launcher" remote="github" />
   <project path="packages/apps/Mms" name="cyanogen/android_packages_apps_Mms" remote="github" />
-  <project path="packages/apps/Music" name="cyanogen/android_packages_apps_Music" remote="github" />
+  <project path="packages/apps/Music" name="cyanogen/android_packages_apps_Music" remote="github" revision="eclair-backport" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller"/>
   <project path="packages/apps/Phone" name="cyanogen/android_packages_apps_Phone" remote="github" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="master" />
