@@ -18,7 +18,7 @@
 
   <project path="dalvik" name="cyanogen/android_dalvik" remote="github" revision="eclair" />
   <project path="development" name="cyanogen/android_development" remote="github" revision="eclair" />
-  <project path="frameworks/base" name="cyanogen/android_frameworks_base" remote="github" />
+  <project path="frameworks/base" name="cyanogen/android_frameworks_base" remote="github" revision="eclair" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android"/>
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
