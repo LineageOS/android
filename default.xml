@@ -184,6 +184,7 @@
   <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" revision="master" />
 
   <project path="vendor/google/passion" name="cyanogen/android_vendor_google_passion" remote="github" revision="eclair" />
+  <project path="vendor/motorola/sholes-open" name="koush/android_vendor_motorola_sholes-open" remote="github" revision="master" />
 
   <project path="vendor/qcom/android-open" name="platform/vendor/qcom/android-open" revision="master" />
   <project path="vendor/qcom/proprietary-open" name="platform/vendor/qcom/proprietary-open" revision="master" />
