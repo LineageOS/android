@@ -30,7 +30,7 @@
   <project path="prebuilt" name="platform/prebuilt"/>
 
   <project path="system/bluetooth" name="cyanogen/android_system_bluetooth" remote="github"/>
-  <project path="system/core" name="cyanogen/android_system_core" revision="master" remote="github" />
+  <project path="system/core" name="cyanogen/android_system_core" remote="github" />
   <project path="system/extras" name="cyanogen/android_system_extras" remote="github" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti"/>
 
@@ -126,7 +126,7 @@
   <project path="external/libpng" name="platform/external/libpng"/>
   <project path="external/libxml2" name="platform/external/libxml2"/>
   <project path="external/lzo" name="fries/android-external-liblzo" revision="master" remote="github" />
-  <project path="external/mtpd" name="platform/external/mtpd"/>
+  <project path="external/mtpd" name="cyanogen/android_external_mtpd" remote="github" />
   <project path="external/netcat" name="platform/external/netcat"/>
   <project path="external/netperf" name="platform/external/netperf"/>
   <project path="external/neven" name="platform/external/neven"/>
