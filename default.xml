@@ -73,7 +73,7 @@
   <project path="packages/apps/IM" name="platform/packages/apps/IM"/>
   <project path="packages/apps/Launcher" name="cyanogen/android_packages_apps_Launcher" remote="github" revision="eclair" />
   <project path="packages/apps/Launcher2" name="cyanogen/android_packages_apps_Launcher2" remote="github" revision="eclair" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Mms" name="cyanogen/android_packages_apps_Mms" remote="github" revision="eclair" />
   <project path="packages/apps/Music" name="cyanogen/android_packages_apps_Music" remote="github" revision="eclair" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller"/>
   <project path="packages/apps/Phone" name="cyanogen/android_packages_apps_Phone" remote="github" revision="eclair" />
