@@ -25,7 +25,7 @@
   <project path="frameworks/policies/base" name="cyanogen/android_frameworks_policies_base" remote="github" revision="eclair" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/htc/dream" name="platform/hardware/htc/dream" revision="master"/>
-  <project path="hardware/htc/mahimahi" name="ChainsDD/android_hardware_mahimahi" remote="github" revision="eclair" />
+  <project path="hardware/htc/mahimahi" name="ChainsDD/android_hardware_mahimahi" remote="github" revision="master" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware"/>
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy"/>
   <project path="hardware/ril" name="platform/hardware/ril"/>
