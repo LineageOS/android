@@ -4,45 +4,45 @@
   <remote name="github" fetch="git://github.com/" />
   <remote name="gitorious" fetch="git://gitorious.org" />
 
-  <default revision="eclair-release" remote="korg"/>
+  <default revision="eclair" remote="korg"/>
 
-  <project path="build" name="cyanogen/android_build" remote="github" revision="eclair">
+  <project path="build" name="cyanogen/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
-  <project path="bionic" name="cyanogen/android_bionic" remote="github" revision="eclair" />
+  <project path="bionic" name="cyanogen/android_bionic" remote="github" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy"/>
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller"/>
   <project path="bootable/recovery" name="platform/bootable/recovery" />
 
-  <project path="dalvik" name="cyanogen/android_dalvik" remote="github" revision="eclair" />
-  <project path="development" name="cyanogen/android_development" remote="github" revision="eclair" />
-  <project path="frameworks/base" name="cyanogen/android_frameworks_base" remote="github" revision="eclair" />
+  <project path="dalvik" name="cyanogen/android_dalvik" remote="github" />
+  <project path="development" name="cyanogen/android_development" remote="github" />
+  <project path="frameworks/base" name="cyanogen/android_frameworks_base" remote="github" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android"/>
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
-  <project path="frameworks/policies/base" name="cyanogen/android_frameworks_policies_base" remote="github" revision="eclair" />
+  <project path="frameworks/policies/base" name="cyanogen/android_frameworks_policies_base" remote="github" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/htc/dream" name="platform/hardware/htc/dream" revision="master"/>
   <project path="hardware/htc/mahimahi" name="ChainsDD/android_hardware_mahimahi" remote="github" revision="master" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware"/>
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy"/>
   <project path="hardware/ril" name="platform/hardware/ril"/>
-  <project path="hardware/msm7k" name="cyanogen/android_hardware_msm7k" remote="github" revision="eclair" />
+  <project path="hardware/msm7k" name="cyanogen/android_hardware_msm7k" remote="github" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="master" />
   <project path="prebuilt" name="platform/prebuilt"/>
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="cyanogen/android_system_core" remote="github" revision="eclair" />
-  <project path="system/extras" name="cyanogen/android_system_extras" remote="github" revision="eclair" />
+  <project path="system/core" name="cyanogen/android_system_core" remote="github" />
+  <project path="system/extras" name="cyanogen/android_system_extras" remote="github" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti"/>
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="sdk" name="platform/sdk" />
 
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider"/>
-  <project path="packages/providers/CalendarProvider" name="cyanogen/android_packages_providers_CalendarProvider" remote="github" revision="eclair" />
+  <project path="packages/providers/CalendarProvider" name="cyanogen/android_packages_providers_CalendarProvider" remote="github" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider"/>
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider"/>
@@ -55,33 +55,33 @@
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider"/>
   <project path="packages/providers/WebSearchProvider" name="platform/packages/providers/WebSearchProvider"/>
 
-  <project path="packages/apps/AlarmClock" name="cyanogen/android_packages_apps_AlarmClock" remote="github" revision="eclair" />
+  <project path="packages/apps/AlarmClock" name="cyanogen/android_packages_apps_AlarmClock" remote="github" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="cyanogen/android_packages_apps_Browser" remote="github" revision="eclair" />
+  <project path="packages/apps/Browser" name="cyanogen/android_packages_apps_Browser" remote="github" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar"/>
-  <project path="packages/apps/Camera" name="cyanogen/android_packages_apps_Camera" remote="github" revision="eclair" />
+  <project path="packages/apps/Camera" name="cyanogen/android_packages_apps_Camera" remote="github" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="cyanogen/android_packages_apps_Contacts" remote="github" revision="eclair" />
-  <project path="packages/apps/DeskClock" name="cyanogen/android_packages_apps_DeskClock" remote="github" revision="eclair" />
+  <project path="packages/apps/Contacts" name="cyanogen/android_packages_apps_Contacts" remote="github" />
+  <project path="packages/apps/DeskClock" name="cyanogen/android_packages_apps_DeskClock" remote="github" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email"/>
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery3D" name="cyanogen/android_packages_apps_Gallery3D" remote="github" revision="eclair" />
+  <project path="packages/apps/Gallery3D" name="cyanogen/android_packages_apps_Gallery3D" remote="github" />
   <project path="packages/apps/GlobalSearch" name="platform/packages/apps/GlobalSearch"/>
   <project path="packages/apps/GoogleSearch" name="platform/packages/apps/GoogleSearch" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer"/>
   <project path="packages/apps/IM" name="platform/packages/apps/IM"/>
-  <project path="packages/apps/Launcher" name="cyanogen/android_packages_apps_Launcher" remote="github" revision="eclair" />
-  <project path="packages/apps/Launcher2" name="cyanogen/android_packages_apps_Launcher2" remote="github" revision="eclair" />
+  <project path="packages/apps/Launcher" name="cyanogen/android_packages_apps_Launcher" remote="github" />
+  <project path="packages/apps/Launcher2" name="cyanogen/android_packages_apps_Launcher2" remote="github" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
-  <project path="packages/apps/Music" name="cyanogen/android_packages_apps_Music" remote="github" revision="eclair" />
+  <project path="packages/apps/Music" name="cyanogen/android_packages_apps_Music" remote="github" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller"/>
-  <project path="packages/apps/Phone" name="cyanogen/android_packages_apps_Phone" remote="github" revision="eclair" />
+  <project path="packages/apps/Phone" name="cyanogen/android_packages_apps_Phone" remote="github" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="master" />
-  <project path="packages/apps/Settings" name="cyanogen/android_packages_apps_Settings" remote="github" revision="eclair" />
+  <project path="packages/apps/Settings" name="cyanogen/android_packages_apps_Settings" remote="github" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk"/>
-  <project path="packages/apps/Superuser" name="cyanogen/android_packages_apps_Superuser" remote="github" revision="eclair" />
+  <project path="packages/apps/Superuser" name="cyanogen/android_packages_apps_Superuser" remote="github" />
   <project path="packages/apps/Sync" name="platform/packages/apps/Sync"/>
   <project path="packages/apps/Updater" name="platform/packages/apps/Updater"/>
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer"/>
@@ -113,8 +113,8 @@
   <project path="external/dbus" name="platform/external/dbus"/>
   <project path="external/dhcpcd" name="platform/external/dhcpcd"/>
   <project path="external/dosfstools" name="platform/external/dosfstools" />
-  <project path="external/dnsmasq" name="cyanogen/android_external_dnsmasq" remote="github" revision="eclair" />
-  <project path="external/dropbear" name="cyanogen/android_external_dropbear" remote="github" revision="eclair" />
+  <project path="external/dnsmasq" name="cyanogen/android_external_dnsmasq" remote="github" />
+  <project path="external/dropbear" name="cyanogen/android_external_dropbear" remote="github" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs"/>
   <project path="external/elfcopy" name="platform/external/elfcopy"/>
   <project path="external/elfutils" name="platform/external/elfutils"/>
@@ -139,7 +139,7 @@
   <project path="external/jhead" name="platform/external/jhead"/>
   <project path="external/jpeg" name="platform/external/jpeg"/>
   <project path="external/junit" name="platform/external/junit"/>
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="eclair" />
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/lcc" name="platform/external/lcc"/>
   <project path="external/libffi" name="platform/external/libffi"/>
   <project path="external/libpcap" name="platform/external/libpcap"/>
@@ -150,9 +150,9 @@
   <project path="external/netcat" name="platform/external/netcat"/>
   <project path="external/netperf" name="platform/external/netperf"/>
   <project path="external/neven" name="platform/external/neven"/>
-  <project path="external/opencore" name="cyanogen/android_external_opencore" remote="github" revision="eclair" />
+  <project path="external/opencore" name="cyanogen/android_external_opencore" remote="github" />
   <project path="external/openssl" name="fries/android-external-openssl" revision="master" remote="github" />
-  <project path="external/openvpn" name="cyanogen/android-external-openvpn" revision="master" remote="github" />
+  <project path="external/openvpn" name="cyanogen/android-external-openvpn" remote="github" />
   <project path="external/oprofile" name="platform/external/oprofile"/>
   <project path="external/ping" name="platform/external/ping"/>
   <project path="external/ppp" name="platform/external/ppp"/>
@@ -160,7 +160,7 @@
   <project path="external/protobuf" name="platform/external/protobuf"/>
   <project path="external/qemu" name="platform/external/qemu"/>
   <project path="external/safe-iop" name="platform/external/safe-iop"/>
-  <project path="external/skia" name="cyanogen/android_external_skia" remote="github" revision="eclair" />
+  <project path="external/skia" name="cyanogen/android_external_skia" remote="github" />
   <project path="external/sonivox" name="platform/external/sonivox"/>
   <project path="external/speex" name="platform/external/speex"/>
   <project path="external/sqlite" name="platform/external/sqlite" />
@@ -172,7 +172,7 @@
   <project path="external/tesseract" name="platform/external/tesseract" />
   <project path="external/tinyxml" name="platform/external/tinyxml"/>
   <project path="external/tremor" name="platform/external/tremor"/>
-  <project path="external/webkit" name="cyanogen/android_external_webkit" remote="github" revision="eclair" />
+  <project path="external/webkit" name="cyanogen/android_external_webkit" remote="github" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant"/>
   <project path="external/xdelta3" name="platform/external/xdelta3"/>
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
@@ -184,7 +184,7 @@
   <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" revision="master" />
   <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" revision="master" />
 
-  <project path="vendor/google/passion" name="cyanogen/android_vendor_google_passion" remote="github" revision="eclair" />
+  <project path="vendor/google/passion" name="cyanogen/android_vendor_google_passion" remote="github" />
   <project path="vendor/motorola/sholes-open" name="koush/android_vendor_motorola_sholes-open" remote="github" revision="master" />
 
   <project path="vendor/qcom/android-open" name="platform/vendor/qcom/android-open" revision="master" />
@@ -193,7 +193,7 @@
   <project path="vendor/pv-open" name="platform/vendor/pv-open" revision="master" />
 
   <project path="vendor/aosp" name="platform/vendor/aosp" revision="master" />
-  <project path="vendor/cyanogen" name="cyanogen/android_vendor_cyanogen" remote="github" revision="eclair" />
+  <project path="vendor/cyanogen" name="cyanogen/android_vendor_cyanogen" remote="github" />
   <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
 
   <project path="cts" name="platform/cts" />
