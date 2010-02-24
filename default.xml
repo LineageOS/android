@@ -4,7 +4,7 @@
   <remote name="github" fetch="git://github.com/" />
   <remote name="gitorious" fetch="git://gitorious.org" />
 
-  <default remote="korg"/>
+  <default revision="eclair" remote="korg"/>
 
   <project path="build" name="cyanogen/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile"/>
