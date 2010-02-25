@@ -14,7 +14,7 @@
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy"/>
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller"/>
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="cyanogen/android_platform_bootable_recovery" remote="github" />
 
   <project path="dalvik" name="cyanogen/android_dalvik" remote="github" />
   <project path="development" name="cyanogen/android_development" remote="github" />
@@ -151,7 +151,7 @@
   <project path="external/netperf" name="platform/external/netperf"/>
   <project path="external/neven" name="platform/external/neven"/>
   <project path="external/opencore" name="cyanogen/android_external_opencore" remote="github" />
-  <project path="external/openssl" name="fries/android-external-openssl" revision="master" remote="github" />
+  <project path="external/openssl" name="cyanogen/android_external_openssl" revision="master" remote="github" />
   <project path="external/openvpn" name="cyanogen/android-external-openvpn" remote="github" />
   <project path="external/oprofile" name="platform/external/oprofile"/>
   <project path="external/ping" name="platform/external/ping"/>
@@ -176,7 +176,7 @@
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant"/>
   <project path="external/xdelta3" name="platform/external/xdelta3"/>
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="platform/external/yaffs2"/>
+  <project path="external/yaffs2" name="koush/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="platform/external/zlib"/>
 
   <project path="vendor/htc/common-open" name="platform/vendor/htc/common-open" revision="master" />
