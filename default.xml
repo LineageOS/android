@@ -93,7 +93,7 @@
   <project path="packages/services/EasService" name="platform/packages/services/EasService" />
   <project path="packages/services/LockAndWipe" name="platform/packages/services/LockAndWipe" />
 
-  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
+  <project path="packages/wallpapers/Basic" name="cyanogen/android_packages_wallpapers_Basic" remote="github" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
