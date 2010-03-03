@@ -55,7 +55,6 @@
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider"/>
   <project path="packages/providers/WebSearchProvider" name="platform/packages/providers/WebSearchProvider"/>
 
-  <project path="packages/apps/AlarmClock" name="cyanogen/android_packages_apps_AlarmClock" remote="github" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="cyanogen/android_packages_apps_Browser" remote="github" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
@@ -113,8 +112,8 @@
   <project path="external/dbus" name="platform/external/dbus"/>
   <project path="external/dhcpcd" name="platform/external/dhcpcd"/>
   <project path="external/dosfstools" name="platform/external/dosfstools" />
-  <project path="external/dnsmasq" name="cyanogen/android_external_dnsmasq" remote="github" />
-  <project path="external/dropbear" name="cyanogen/android_external_dropbear" remote="github" />
+  <project path="external/dnsmasq" name="cyanogen/android_external_dnsmasq" remote="github" revision="master" />
+  <project path="external/dropbear" name="cyanogen/android_external_dropbear" remote="github" revision="master" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs"/>
   <project path="external/elfcopy" name="platform/external/elfcopy"/>
   <project path="external/elfutils" name="platform/external/elfutils"/>
@@ -151,7 +150,7 @@
   <project path="external/netperf" name="platform/external/netperf"/>
   <project path="external/neven" name="platform/external/neven"/>
   <project path="external/opencore" name="cyanogen/android_external_opencore" remote="github" />
-  <project path="external/openssl" name="cyanogen/android_external_openssl" remote="github" />
+  <project path="external/openssl" name="cyanogen/android_external_openssl" remote="github" revision="master" />
   <project path="external/openvpn" name="cyanogen/android-external-openvpn" remote="github" />
   <project path="external/oprofile" name="platform/external/oprofile"/>
   <project path="external/ping" name="platform/external/ping"/>
