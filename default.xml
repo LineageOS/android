@@ -134,7 +134,7 @@
   <project path="external/obexd" name="android-obex/obexd" revision="master" remote="gitorious" />
   <project path="external/opencore" name="cyanogen/android_external_opencore" remote="github" />
   <project path="external/openobex" name="android-obex/openobex" revision="master" remote="gitorious" />
-  <project path="external/openssl" name="cyanogen/android_external_-openssl" revision="master" remote="github" />
+  <project path="external/openssl" name="cyanogen/android_external_openssl" revision="master" remote="github" />
   <project path="external/openvpn" name="cyanogen/android-external-openvpn" revision="master" remote="github" />
   <project path="external/oprofile" name="platform/external/oprofile"/>
   <project path="external/ping" name="platform/external/ping"/>
