@@ -113,7 +113,7 @@
   <project path="external/dosfstools" name="platform/external/dosfstools" />
   <project path="external/dnsmasq" name="cyanogen/android_external_dnsmasq" remote="github" revision="master" />
   <project path="external/dropbear" name="cyanogen/android_external_dropbear" remote="github" revision="master" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs"/>
+  <project path="external/e2fsprogs" name="cyanogen/android_external_e2fsprogs" remote="github" revision="master" />
   <project path="external/elfcopy" name="platform/external/elfcopy"/>
   <project path="external/elfutils" name="platform/external/elfutils"/>
   <project path="external/embunit" name="platform/external/embunit"/>
