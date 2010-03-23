@@ -10,6 +10,8 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
+  <project path="kernel" name="cyanogen/cm-kernel" remote="github" revision="android-msm-2.6.33" />
+
   <project path="bionic" name="cyanogen/android_bionic" remote="github" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy"/>
