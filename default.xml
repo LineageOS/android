@@ -175,6 +175,7 @@
   <project path="external/tinyxml" name="platform/external/tinyxml"/>
   <project path="external/tremor" name="platform/external/tremor"/>
   <project path="external/webkit" name="cyanogen/android_external_webkit" remote="github" />
+  <project path="external/wireless-tools" name="cyanogen/android_external_wireless-tools" remote="github" revision="master" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant"/>
   <project path="external/xdelta3" name="platform/external/xdelta3"/>
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
