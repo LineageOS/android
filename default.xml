@@ -16,83 +16,13 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
 
+  <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
 
   <project path="device/htc/common" name="device/htc/common" />
   <project path="device/htc/passion" name="device/htc/passion" />
   <project path="device/htc/passion-common" name="device/htc/passion-common" />
-
-  <project path="frameworks/base" name="platform/frameworks/base" />
-  <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
-  <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/htc/dream" name="platform/hardware/htc/dream" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
-  <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="sdk" name="platform/sdk" />
-
-  <project path="prebuilt" name="platform/prebuilt" />
-
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
-  <project path="system/extras" name="platform/system/extras" />
-  <project path="system/vold" name="platform/system/vold" />
-  <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-
-  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
-  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
-  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
-  <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
-  <project path="packages/providers/GoogleSubscribedFeedsProvider" name="platform/packages/providers/GoogleSubscribedFeedsProvider" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
-  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
-
-  <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
-  <project path="packages/apps/GlobalSearch" name="platform/packages/apps/GlobalSearch" />
-  <project path="packages/apps/GoogleSearch" name="platform/packages/apps/GoogleSearch" />
-  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/IM" name="platform/packages/apps/IM" />
-  <project path="packages/apps/Launcher" name="platform/packages/apps/Launcher" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
-  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
-
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
-
-  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
-  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
-  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
 
   <project path="external/aes" name="platform/external/aes" />
   <project path="external/apache-http" name="platform/external/apache-http" />
@@ -148,7 +78,7 @@
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
-  <project path="external/qemu" name="platform/external/qemu" />
+  <project path="external/qemu" name="platform/external/qemu"  revision="master"/>
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
@@ -168,18 +98,81 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
 
+  <project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
+  <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
+  <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
+
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/htc/dream" name="platform/hardware/htc/dream" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
+  <project path="hardware/ril" name="platform/hardware/ril" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
+
+  <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
+  <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
+  <project path="packages/apps/GlobalSearch" name="platform/packages/apps/GlobalSearch" />
+  <project path="packages/apps/GoogleSearch" name="platform/packages/apps/GoogleSearch" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
+  <project path="packages/apps/IM" name="platform/packages/apps/IM" />
+  <project path="packages/apps/Launcher" name="platform/packages/apps/Launcher" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
+  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
+  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
+  <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
+  <project path="packages/providers/GoogleSubscribedFeedsProvider" name="platform/packages/providers/GoogleSubscribedFeedsProvider" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
+  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
+  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
+  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
+  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
+
+  <project path="prebuilt" name="platform/prebuilt" />
+  <project path="sdk" name="platform/sdk"  revision="master"/>
+  <project path="system/bluetooth" name="platform/system/bluetooth" />
+  <project path="system/core" name="platform/system/core" />
+  <project path="system/extras" name="platform/system/extras" />
+  <project path="system/vold" name="platform/system/vold" />
+  <project path="system/wlan/ti" name="platform/system/wlan/ti" />
+
+  <project path="vendor/aosp" name="platform/vendor/aosp" />
   <project path="vendor/htc/common-open" name="platform/vendor/htc/common-open" />
   <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" />
   <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" />
   <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" />
-
+  <project path="vendor/pv-open" name="platform/vendor/pv-open" />
   <project path="vendor/qcom/android-open" name="platform/vendor/qcom/android-open" />
   <project path="vendor/qcom/proprietary-open" name="platform/vendor/qcom/proprietary-open" />
-
-  <project path="vendor/pv-open" name="platform/vendor/pv-open" />
-
-  <project path="vendor/aosp" name="platform/vendor/aosp" />
   <project path="vendor/sample" name="platform/vendor/sample" />
-
-  <project path="cts" name="platform/cts" />
 </manifest>
