@@ -20,10 +20,8 @@
   <project path="development" name="platform/development" />
 
   <project path="device/htc/common" name="device/htc/common" />
-  <project path="device/htc/dream" name="device/htc/dream" />
   <project path="device/htc/passion" name="device/htc/passion" />
   <project path="device/htc/passion-common" name="device/htc/passion-common" />
-  <project path="device/htc/sapphire" name="device/htc/sapphire" />
 
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
@@ -38,7 +36,6 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="sdk" name="platform/sdk" />
 
   <project path="prebuilt" name="platform/prebuilt" />
@@ -56,11 +53,9 @@
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
   <project path="packages/providers/GoogleSubscribedFeedsProvider" name="platform/packages/providers/GoogleSubscribedFeedsProvider" />
-  <project path="packages/providers/ManagementProvider" name="platform/packages/providers/ManagementProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
-  <project path="packages/providers/WebSearchProvider" name="platform/packages/providers/WebSearchProvider" />
 
   <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
@@ -88,16 +83,11 @@
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <project path="packages/apps/Sync" name="platform/packages/apps/Sync" />
-  <project path="packages/apps/Updater" name="platform/packages/apps/Updater" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
 
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
-
-  <project path="packages/services/EasService" name="platform/packages/services/EasService" />
-  <project path="packages/services/LockAndWipe" name="platform/packages/services/LockAndWipe" />
 
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
@@ -143,7 +133,6 @@
   <project path="external/jpeg" name="platform/external/jpeg" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/lcc" name="platform/external/lcc" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libpng" name="platform/external/libpng" />
@@ -154,7 +143,6 @@
   <project path="external/neven" name="platform/external/neven" />
   <project path="external/opencore" name="platform/external/opencore" />
   <project path="external/openssl" name="platform/external/openssl" />
-  <project path="external/openvpn" name="platform/external/openvpn" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ppp" name="platform/external/ppp" />
@@ -176,7 +164,6 @@
   <project path="external/tremor" name="platform/external/tremor" />
   <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-  <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
