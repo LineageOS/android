@@ -8,7 +8,7 @@
   
   <project name="cyanogen/android-external-openvpn" path="external/openvpn" remote="github" revision="0e4dce455574400c6dfe98282f41bb7725d22498"/>
   <project name="cyanogen/android_bionic" path="bionic" remote="github" revision="8ef3c766efdae681ac7f989fe4dcde868a2063ab"/>
-  <project name="cyanogen/android_build" path="build" remote="github" revision="551447720ccc1813e1faae468ed1d6c605002c9b">
+  <project name="cyanogen/android_build" path="build" remote="github" revision="f96baa28fd313bc5c0d72867aa3996c150757286">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="cyanogen/android_dalvik" path="dalvik" remote="github" revision="dd3802f756bf30bf61bb653a1c9960b2fd1169d3"/>
@@ -21,7 +21,7 @@
   <project name="cyanogen/android_external_opencore" path="external/opencore" remote="github" revision="737c25f7e275fc8b4f0270838aa00c84691af00f"/>
   <project name="cyanogen/android_external_openssl" path="external/openssl" remote="github" revision="0f976b8e330c20f8a07c301b1a2b31198ea71c28"/>
   <project name="cyanogen/android_external_skia" path="external/skia" remote="github" revision="5cee0b0a69f578ba4c1fe23cd80e3857f13cccd4"/>
-  <project name="cyanogen/android_external_webkit" path="external/webkit" remote="github" revision="444f75f8e3568082f331b1ff170e440fce3ee3fc"/>
+  <project name="cyanogen/android_external_webkit" path="external/webkit" remote="github" revision="a2d52f1d4adf2b64e4258d7c86531b2ecc30696a"/>
   <project name="cyanogen/android_external_wireless-tools" path="external/wireless-tools" remote="github" revision="505bdfd606555ff4d7a847dd0c486dfd118054f0"/>
   <project name="cyanogen/android_frameworks_base" path="frameworks/base" remote="github" revision="6882974ad7b3c57b65b77038914977235cda6607"/>
   <project name="cyanogen/android_frameworks_policies_base" path="frameworks/policies/base" remote="github" revision="c623be185a2b6e6beb68327228450fc8510fdd00"/>
@@ -44,13 +44,13 @@
   <project name="cyanogen/android_packages_wallpapers_Basic" path="packages/wallpapers/Basic" remote="github" revision="0b5c5c4c81d48f499922d0366009c0096adb8104"/>
   <project name="cyanogen/android_system_core" path="system/core" remote="github" revision="c010375220445ed383d97b50720b3b01ee04854f"/>
   <project name="cyanogen/android_system_extras" path="system/extras" remote="github" revision="97629741c09fa38e9c55661c1f951d5bb73d720d"/>
-  <project name="cyanogen/android_vendor_cyanogen" path="vendor/cyanogen" remote="github" revision="f2ea2acc78798c2bb3165724147ce6001e3af8fb"/>
+  <project name="cyanogen/android_vendor_cyanogen" path="vendor/cyanogen" remote="github" revision="2991fe7a7cac39c1a42edecaca81d8e4019d32d1"/>
   <project name="cyanogen/android_vendor_google_passion" path="vendor/google/passion" remote="github" revision="ccca8eb2e60a19568f824e34b340186f2d357f96"/>
   <project name="cyanogen/cm-kernel" path="kernel" remote="github" revision="e3c3208124b43f7cae8d0d29327bea18cc1b2827"/>
   <project name="dylex/android_external_rsync" path="external/rsync" remote="github" revision="fb16ead15a80af0c0e21b5cca53b851dfc23b528"/>
   <project name="fries/android-external-liblzo" path="external/lzo" remote="github" revision="ca8a92853203ace0563b9b2701323920d01aceff"/>
-  <project name="koush/android_bootable_recovery" path="bootable/recovery" remote="github" revision="d6380d2cb4267d9696a2f991f0a2d7a23b1c4202"/>
-  <project name="koush/android_external_yaffs2" path="external/yaffs2" remote="github" revision="f1178b056efca47cbad5a7528c594c18be7ea9b5"/>
+  <project name="koush/android_bootable_recovery" path="bootable/recovery" remote="github" revision="1d53c4ea63113879619478b629fff628ebb650b8"/>
+  <project name="koush/android_external_yaffs2" path="external/yaffs2" remote="github" revision="fd7d65808a836aaa29288addb588f738209fecbc"/>
   <project name="koush/android_vendor_motorola_sholes-open" path="vendor/motorola/sholes-open" remote="github" revision="9d56e4fecea3a940b2bda9559d8eb2948222b0f3"/>
   <project name="kruton/android_external_flac" path="external/flac" remote="github" revision="3c276f4d58833251300b772c184b13c8c6f6a82c"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="2836cc573a12cbe12e7d2fce7468c1a83374e510"/>
