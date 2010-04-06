@@ -44,7 +44,7 @@
   <project name="cyanogen/android_packages_wallpapers_Basic" path="packages/wallpapers/Basic" remote="github" revision="9c63b81c1a3908c9d5469eefdf0399ee1c91d9b2"/>
   <project name="cyanogen/android_system_core" path="system/core" remote="github" revision="363c9d451405068d0bd0502211479a24a6f89bc7"/>
   <project name="cyanogen/android_system_extras" path="system/extras" remote="github" revision="97629741c09fa38e9c55661c1f951d5bb73d720d"/>
-  <project name="cyanogen/android_vendor_cyanogen" path="vendor/cyanogen" remote="github" revision="520ab6b97dd694f2c3e39f710b27ebd19d4632bd"/>
+  <project name="cyanogen/android_vendor_cyanogen" path="vendor/cyanogen" remote="github" revision="831f0ff85d6d31ffbfee680ffac02883f38c47c8"/>
   <project name="cyanogen/android_vendor_google_passion" path="vendor/google/passion" remote="github" revision="ccca8eb2e60a19568f824e34b340186f2d357f96"/>
   <project name="cyanogen/cm-kernel" path="kernel" remote="github" revision="ed0e74653e39350bffc2538431386d4262a3bec3"/>
   <project name="dylex/android_external_rsync" path="external/rsync" remote="github" revision="fb16ead15a80af0c0e21b5cca53b851dfc23b528"/>
