@@ -23,7 +23,7 @@
   <project name="cyanogen/android_external_skia" path="external/skia" remote="github" revision="bcbd70c3951bbc0e1b09132fe21c1cf04982909e"/>
   <project name="cyanogen/android_external_webkit" path="external/webkit" remote="github" revision="a2d52f1d4adf2b64e4258d7c86531b2ecc30696a"/>
   <project name="cyanogen/android_external_wireless-tools" path="external/wireless-tools" remote="github" revision="505bdfd606555ff4d7a847dd0c486dfd118054f0"/>
-  <project name="cyanogen/android_frameworks_base" path="frameworks/base" remote="github" revision="fdd1fea9dd67405dcabb7a9ab0d8216361cd7ad6"/>
+  <project name="cyanogen/android_frameworks_base" path="frameworks/base" remote="github" revision="7bb25767b1c7ca51bf96f0f5791a1ea3f0abe955"/>
   <project name="cyanogen/android_frameworks_policies_base" path="frameworks/policies/base" remote="github" revision="c623be185a2b6e6beb68327228450fc8510fdd00"/>
   <project name="cyanogen/android_hardware_msm7k" path="hardware/msm7k" remote="github" revision="a0a24318658db1486e862b9d7cb557966b4a1207"/>
   <project name="cyanogen/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="91f134ca52a0c3b1d2013075dff1c6e5dcd4a32c"/>
@@ -33,7 +33,7 @@
   <project name="cyanogen/android_packages_apps_Email" path="packages/apps/Email" remote="github" revision="939d28f0d7587a0b1f96758213e38472ba5eb177"/>
   <project name="cyanogen/android_packages_apps_Gallery3D" path="packages/apps/Gallery3D" remote="github" revision="ce815fe7094f95f62592eacee512dc986fd37728"/>
   <project name="cyanogen/android_packages_apps_Launcher" path="packages/apps/Launcher" remote="github" revision="549843feb697bff6c2b4b1b1b18e89234f1dc583"/>
-  <project name="cyanogen/android_packages_apps_Launcher2" path="packages/apps/Launcher2" remote="github" revision="896cd8b00dcaaebf9b156e7886643b930b1053d6"/>
+  <project name="cyanogen/android_packages_apps_Launcher2" path="packages/apps/Launcher2" remote="github" revision="685442226e70acc9d7c276bfa642b3c2ed02eb7f"/>
   <project name="cyanogen/android_packages_apps_Mms" path="packages/apps/Mms" remote="github" revision="52a5d218df1cea8b13903b828ce8b87e9165ded6"/>
   <project name="cyanogen/android_packages_apps_Music" path="packages/apps/Music" remote="github" revision="8f796d528f07954e3be5eada09999f49e625ca16"/>
   <project name="cyanogen/android_packages_apps_Phone" path="packages/apps/Phone" remote="github" revision="b0f2d5fb3d78347ad5c8001731f055e7dc1fcaf7"/>
