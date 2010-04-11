@@ -92,7 +92,7 @@
   <project path="external/dhcpcd" name="platform/external/dhcpcd"/>
   <project path="external/dnsmasq" name="cyanogen/android_external_dnsmasq" remote="github" revision="master" />
   <project path="external/dropbear" name="cyanogen/android_external_dropbear" remote="github" revision="master" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs"/>
+  <project path="external/e2fsprogs" name="cyanogen/android_external_e2fsprogs" remote="github" revision="master" />
   <project path="external/elfcopy" name="platform/external/elfcopy"/>
   <project path="external/elfutils" name="platform/external/elfutils"/>
   <project path="external/eglib" name="platform/external/eglib"/>
@@ -115,7 +115,7 @@
   <project path="external/hcidump" name="platform/external/hcidump"/>
   <project path="external/icu4c" name="platform/external/icu4c"/>
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools"/>
-  <project path="external/iptables" name="platform/external/iptables"/>
+  <project path="external/iptables" name="cyanogen/android_external_iptables" remote="github" revision="master" />
   <project path="external/jdiff" name="platform/external/jdiff"/>
   <project path="external/jhead" name="platform/external/jhead"/>
   <project path="external/jpeg" name="platform/external/jpeg"/>
