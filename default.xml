@@ -172,6 +172,6 @@
   <project path="vendor/pv-open" name="platform/vendor/pv-open" revision="donut-plus-aosp" />
 
   <project path="vendor/aosp" name="platform/vendor/aosp" revision="donut-plus-aosp" />
-  <project path="vendor/cyanogen" name="cyanogen/android_vendor_cyanogen" revision="master" remote="github" />
+  <project path="vendor/cyanogen" name="cyanogen/android_vendor_cyanogen" remote="github" />
   <project path="vendor/sample" name="platform/vendor/sample" revision="donut-plus-aosp" />
 </manifest>
