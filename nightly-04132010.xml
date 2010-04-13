@@ -46,7 +46,7 @@
   <project name="cyanogen/android_system_extras" path="system/extras" remote="github" revision="97629741c09fa38e9c55661c1f951d5bb73d720d"/>
   <project name="cyanogen/android_vendor_cyanogen" path="vendor/cyanogen" remote="github" revision="acdddc645f6355e620b81b0f0e90c709f45b29bc"/>
   <project name="cyanogen/android_vendor_google_passion" path="vendor/google/passion" remote="github" revision="090ee09460a8ae830b8e919e6e0fa97f8a807586"/>
-  <project name="cyanogen/cm-kernel" path="kernel" remote="github" revision="62d0447f1ac7318a9d7acc9c1bb9a3b16207c65a"/>
+  <project name="cyanogen/cm-kernel" path="kernel" remote="github" revision="7a2340f1bb27dc92ef6e4c64942bbfacdb3ac707"/>
   <project name="dylex/android_external_rsync" path="external/rsync" remote="github" revision="dd26ab2d1c97466005c7846a81d7d73537f05494"/>
   <project name="fries/android-external-liblzo" path="external/lzo" remote="github" revision="ca8a92853203ace0563b9b2701323920d01aceff"/>
   <project name="koush/android_bootable_recovery" path="bootable/recovery" remote="github" revision="7fe4d7bbcbe1950839c963d4ba07f71a6db362b6"/>
