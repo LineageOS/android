@@ -44,14 +44,14 @@
   <project name="cyanogen/android_packages_wallpapers_Basic" path="packages/wallpapers/Basic" remote="github" revision="34c69874e9157f9e613e83866dc6bde3d6811d49"/>
   <project name="cyanogen/android_system_core" path="system/core" remote="github" revision="e9c6725ac32cd27aceb79db978348120b12b0143"/>
   <project name="cyanogen/android_system_extras" path="system/extras" remote="github" revision="97629741c09fa38e9c55661c1f951d5bb73d720d"/>
-  <project name="cyanogen/android_vendor_cyanogen" path="vendor/cyanogen" remote="github" revision="0b15876bc1b77b620cbdc2b730578fdcc4807b3d"/>
+  <project name="cyanogen/android_vendor_cyanogen" path="vendor/cyanogen" remote="github" revision="ae154a99f5d74f40732dfc995ed4c3c45a0a955a"/>
   <project name="cyanogen/android_vendor_google_passion" path="vendor/google/passion" remote="github" revision="090ee09460a8ae830b8e919e6e0fa97f8a807586"/>
   <project name="cyanogen/cm-kernel" path="kernel" remote="github" revision="7a2340f1bb27dc92ef6e4c64942bbfacdb3ac707"/>
   <project name="dylex/android_external_rsync" path="external/rsync" remote="github" revision="dd26ab2d1c97466005c7846a81d7d73537f05494"/>
   <project name="fries/android-external-liblzo" path="external/lzo" remote="github" revision="ca8a92853203ace0563b9b2701323920d01aceff"/>
   <project name="koush/android_bootable_recovery" path="bootable/recovery" remote="github" revision="7fe4d7bbcbe1950839c963d4ba07f71a6db362b6"/>
   <project name="koush/android_external_yaffs2" path="external/yaffs2" remote="github" revision="d8bbc5410322494606818a4fa13542cdaf6bdb46"/>
-  <project name="koush/android_vendor_motorola_sholes-open" path="vendor/motorola/sholes-open" remote="github" revision="c2ea19eed8b55f69021656df47d73b47a4b3f2e2"/>
+  <project name="koush/android_vendor_motorola_sholes-open" path="vendor/motorola/sholes-open" remote="github" revision="480ccd94c64a53b480c013eae97c5ec9488f695f"/>
   <project name="kruton/android_external_flac" path="external/flac" remote="github" revision="3c276f4d58833251300b772c184b13c8c6f6a82c"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="2836cc573a12cbe12e7d2fce7468c1a83374e510"/>
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="3131c1827e4f2485e7e9ede681adad920bf18b24"/>
