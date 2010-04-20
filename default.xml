@@ -37,7 +37,7 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="cyanogen/android_system_core" remote="github" />
   <project path="system/extras" name="cyanogen/android_system_extras" remote="github" />
-  <project path="system/wlan/ti" name="platform/system/wlan/ti"/>
+  <project path="system/wlan/ti" name="cyanogen/android_system_wlan_ti" remote="github" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="sdk" name="platform/sdk" />
