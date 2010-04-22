@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <manifest>
+
   <remote name="korg" fetch="git://android.git.kernel.org/" review="review.source.android.com"/>
   <remote name="github" fetch="git://github.com/" />
   <remote name="gitorious" fetch="git://gitorious.org" />
@@ -17,8 +18,6 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy"/>
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller"/>
   <project path="bootable/recovery" name="koush/android_bootable_recovery" remote="github" />
-
-  <project path="build" name="cyanogen/android_build" remote="github">
 
   <project path="cts" name="platform/cts" />
 
@@ -186,4 +185,5 @@
   <project path="vendor/htc/dream_sapphire" name="cyanogen/android_vendor_htc_dream_sapphire" remote="github" />
   <project path="vendor/motorola/sholes-open" name="koush/android_vendor_motorola_sholes-open" remote="github" revision="master" />
   <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
+
 </manifest>
