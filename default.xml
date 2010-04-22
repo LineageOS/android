@@ -18,85 +18,13 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller"/>
   <project path="bootable/recovery" name="koush/android_bootable_recovery" remote="github" />
 
+  <project path="build" name="cyanogen/android_build" remote="github">
+
+  <project path="cts" name="platform/cts" />
+
   <project path="dalvik" name="cyanogen/android_dalvik" remote="github" />
+
   <project path="development" name="cyanogen/android_development" remote="github" />
-  <project path="frameworks/base" name="cyanogen/android_frameworks_base" remote="github" />
-  <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android"/>
-  <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin"/>
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
-  <project path="frameworks/policies/base" name="cyanogen/android_frameworks_policies_base" remote="github" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/htc/dream" name="platform/hardware/htc/dream" revision="master"/>
-  <project path="hardware/libhardware" name="platform/hardware/libhardware"/>
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="master" />
-  <project path="hardware/ril" name="platform/hardware/ril"/>
-  <project path="hardware/msm7k" name="cyanogen/android_hardware_msm7k" remote="github" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="master" />
-  <project path="prebuilt" name="platform/prebuilt"/>
-
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="cyanogen/android_system_core" remote="github" />
-  <project path="system/extras" name="cyanogen/android_system_extras" remote="github" />
-  <project path="system/wlan/ti" name="cyanogen/android_system_wlan_ti" remote="github" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="sdk" name="platform/sdk" />
-
-  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider"/>
-  <project path="packages/providers/CalendarProvider" name="cyanogen/android_packages_providers_CalendarProvider" remote="github" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider"/>
-  <project path="packages/providers/DownloadProvider" name="cyanogen/android_packages_providers_DownloadProvider" remote="github" />
-  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider"/>
-  <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider"/>
-  <project path="packages/providers/GoogleSubscribedFeedsProvider" name="platform/packages/providers/GoogleSubscribedFeedsProvider"/>
-  <project path="packages/providers/ImProvider" name="platform/packages/providers/ImProvider" />
-  <project path="packages/providers/ManagementProvider" name="platform/packages/providers/ManagementProvider" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider"/>
-  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider"/>
-  <project path="packages/providers/WebSearchProvider" name="platform/packages/providers/WebSearchProvider"/>
-
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="cyanogen/android_packages_apps_Browser" remote="github" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar"/>
-  <project path="packages/apps/Camera" name="cyanogen/android_packages_apps_Camera" remote="github" />
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="cyanogen/android_packages_apps_Contacts" remote="github" />
-  <project path="packages/apps/DeskClock" name="cyanogen/android_packages_apps_DeskClock" remote="github" />
-  <project path="packages/apps/Email" name="cyanogen/android_packages_apps_Email" remote="github" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery3D" name="cyanogen/android_packages_apps_Gallery3D" remote="github" />
-  <project path="packages/apps/GlobalSearch" name="platform/packages/apps/GlobalSearch"/>
-  <project path="packages/apps/GoogleSearch" name="platform/packages/apps/GoogleSearch" />
-  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer"/>
-  <project path="packages/apps/IM" name="platform/packages/apps/IM"/>
-  <project path="packages/apps/Launcher" name="cyanogen/android_packages_apps_Launcher" remote="github" />
-  <project path="packages/apps/Launcher2" name="cyanogen/android_packages_apps_Launcher2" remote="github" />
-  <project path="packages/apps/Mms" name="cyanogen/android_packages_apps_Mms" remote="github" />
-  <project path="packages/apps/Music" name="cyanogen/android_packages_apps_Music" remote="github" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller"/>
-  <project path="packages/apps/Phone" name="cyanogen/android_packages_apps_Phone" remote="github" />
-  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="master" />
-  <project path="packages/apps/Settings" name="cyanogen/android_packages_apps_Settings" remote="github" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk"/>
-  <project path="packages/apps/Superuser" name="cyanogen/android_packages_apps_Superuser" remote="github" />
-  <project path="packages/apps/Sync" name="platform/packages/apps/Sync"/>
-  <project path="packages/apps/Updater" name="platform/packages/apps/Updater"/>
-  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer"/>
-
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME"/>
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn"/>
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME"/>
-
-  <project path="packages/services/EasService" name="platform/packages/services/EasService" />
-  <project path="packages/services/LockAndWipe" name="platform/packages/services/LockAndWipe" />
-
-  <project path="packages/wallpapers/Basic" name="cyanogen/android_packages_wallpapers_Basic" remote="github" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
-  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
-  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
 
   <project path="external/aes" name="platform/external/aes"/>
   <project path="external/apache-http" name="platform/external/apache-http"/>
@@ -106,14 +34,14 @@
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib"/>
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump"/>
-  <project path="external/busybox" name="cyanogen/android_external_busybox" remote="github" revision="master" />
   <project path="external/bsdiff" name="platform/external/bsdiff"/>
+  <project path="external/busybox" name="cyanogen/android_external_busybox" remote="github" revision="master" />
   <project path="external/bzip2" name="platform/external/bzip2"/>
   <project path="external/clearsilver" name="platform/external/clearsilver"/>
   <project path="external/dbus" name="platform/external/dbus"/>
   <project path="external/dhcpcd" name="platform/external/dhcpcd"/>
-  <project path="external/dosfstools" name="platform/external/dosfstools" />
   <project path="external/dnsmasq" name="cyanogen/android_external_dnsmasq" remote="github" revision="master" />
+  <project path="external/dosfstools" name="platform/external/dosfstools" />
   <project path="external/dropbear" name="cyanogen/android_external_dropbear" remote="github" revision="master" />
   <project path="external/e2fsprogs" name="cyanogen/android_external_e2fsprogs" remote="github" revision="master" />
   <project path="external/elfcopy" name="platform/external/elfcopy"/>
@@ -127,8 +55,8 @@
   <project path="external/freetype" name="platform/external/freetype"/>
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/gdata" name="platform/external/gdata"/>
-  <project path="external/giflib" name="platform/external/giflib"/>
   <project path="external/genext2fs" name="platform/external/genext2fs"/>
+  <project path="external/giflib" name="platform/external/giflib"/>
   <project path="external/googleclient" name="platform/external/googleclient"/>
   <project path="external/grub" name="platform/external/grub"/>
   <project path="external/gtest" name="platform/external/gtest"/>
@@ -181,18 +109,81 @@
   <project path="external/yaffs2" name="koush/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="platform/external/zlib"/>
 
-  <project path="vendor/htc/common-open" name="platform/vendor/htc/common-open" revision="master" />
-  <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" revision="master" />
-  <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" revision="master" />
-  <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" revision="master" />
+  <project path="frameworks/base" name="cyanogen/android_frameworks_base" remote="github" />
+  <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin"/>
+  <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android"/>
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
+  <project path="frameworks/policies/base" name="cyanogen/android_frameworks_policies_base" remote="github" />
 
-  <project path="vendor/google/passion" name="cyanogen/android_vendor_google_passion" remote="github" />
-  <project path="vendor/motorola/sholes-open" name="koush/android_vendor_motorola_sholes-open" remote="github" revision="master" />
-  <project path="vendor/htc/dream_sapphire" name="cyanogen/android_vendor_htc_dream_sapphire" remote="github" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/htc/dream" name="platform/hardware/htc/dream" revision="master"/>
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="master" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware"/>
+  <project path="hardware/msm7k" name="cyanogen/android_hardware_msm7k" remote="github" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="master" />
+  <project path="hardware/ril" name="platform/hardware/ril"/>
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
+
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
+  <project path="packages/apps/Browser" name="cyanogen/android_packages_apps_Browser" remote="github" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar"/>
+  <project path="packages/apps/Camera" name="cyanogen/android_packages_apps_Camera" remote="github" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
+  <project path="packages/apps/Contacts" name="cyanogen/android_packages_apps_Contacts" remote="github" />
+  <project path="packages/apps/DeskClock" name="cyanogen/android_packages_apps_DeskClock" remote="github" />
+  <project path="packages/apps/Email" name="cyanogen/android_packages_apps_Email" remote="github" />
+  <project path="packages/apps/Gallery3D" name="cyanogen/android_packages_apps_Gallery3D" remote="github" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
+  <project path="packages/apps/GlobalSearch" name="platform/packages/apps/GlobalSearch"/>
+  <project path="packages/apps/GoogleSearch" name="platform/packages/apps/GoogleSearch" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer"/>
+  <project path="packages/apps/IM" name="platform/packages/apps/IM"/>
+  <project path="packages/apps/Launcher2" name="cyanogen/android_packages_apps_Launcher2" remote="github" />
+  <project path="packages/apps/Launcher" name="cyanogen/android_packages_apps_Launcher" remote="github" />
+  <project path="packages/apps/Mms" name="cyanogen/android_packages_apps_Mms" remote="github" />
+  <project path="packages/apps/Music" name="cyanogen/android_packages_apps_Music" remote="github" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller"/>
+  <project path="packages/apps/Phone" name="cyanogen/android_packages_apps_Phone" remote="github" />
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="master" />
+  <project path="packages/apps/Settings" name="cyanogen/android_packages_apps_Settings" remote="github" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk"/>
+  <project path="packages/apps/Superuser" name="cyanogen/android_packages_apps_Superuser" remote="github" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer"/>
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME"/>
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn"/>
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME"/>
+  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider"/>
+  <project path="packages/providers/CalendarProvider" name="cyanogen/android_packages_providers_CalendarProvider" remote="github" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider"/>
+  <project path="packages/providers/DownloadProvider" name="cyanogen/android_packages_providers_DownloadProvider" remote="github" />
+  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider"/>
+  <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider"/>
+  <project path="packages/providers/GoogleSubscribedFeedsProvider" name="platform/packages/providers/GoogleSubscribedFeedsProvider"/>
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider"/>
+  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider"/>
+  <project path="packages/wallpapers/Basic" name="cyanogen/android_packages_wallpapers_Basic" remote="github" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
+  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
+  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
+
+  <project path="prebuilt" name="platform/prebuilt"/>
+
+  <project path="sdk" name="platform/sdk" />
+
+  <project path="system/bluetooth" name="platform/system/bluetooth" />
+  <project path="system/core" name="cyanogen/android_system_core" remote="github" />
+  <project path="system/extras" name="cyanogen/android_system_extras" remote="github" />
+  <project path="system/wlan/broadcom" name="platform/system/wlan/broadcom" revision="master" /> 
+  <project path="system/wlan/ti" name="cyanogen/android_system_wlan_ti" remote="github" />
 
   <project path="vendor/aosp" name="platform/vendor/aosp" revision="master" />
   <project path="vendor/cyanogen" name="cyanogen/android_vendor_cyanogen" remote="github" />
+  <project path="vendor/google/passion" name="cyanogen/android_vendor_google_passion" remote="github" />
+  <project path="vendor/htc/dream_sapphire" name="cyanogen/android_vendor_htc_dream_sapphire" remote="github" />
+  <project path="vendor/motorola/sholes-open" name="koush/android_vendor_motorola_sholes-open" remote="github" revision="master" />
   <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
-
-  <project path="cts" name="platform/cts" />
 </manifest>
