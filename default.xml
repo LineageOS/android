@@ -176,7 +176,9 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="cyanogen/android_system_core" remote="github" />
   <project path="system/extras" name="cyanogen/android_system_extras" remote="github" />
+  <!-- Removing until it coexists with other projects 
   <project path="system/wlan/broadcom" name="platform/system/wlan/broadcom" revision="master" /> 
+  -->
   <project path="system/wlan/ti" name="cyanogen/android_system_wlan_ti" remote="github" />
 
   <project path="vendor/cyanogen" name="cyanogen/android_vendor_cyanogen" remote="github" />
