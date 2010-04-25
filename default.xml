@@ -186,6 +186,7 @@
   <project path="vendor/htc/dream_sapphire" name="cyanogen/android_vendor_htc_dream_sapphire" remote="github" />
   <project path="vendor/motorola/sholes-open" name="koush/android_vendor_motorola_sholes-open" remote="github" revision="master" />
   <project path="vendor/qcom/android-open" name="cyanogen/android_vendor_qcom_android-open" remote="github" />
+  <project path="vendor/qcom/mm-core" name="cyanogen/android_vendor_qcom_mm-core" remote="github" />
   <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
 
 </manifest>
