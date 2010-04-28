@@ -11,7 +11,7 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
-  <project path="kernel-msm" name="cyanogen/cm-kernel" remote="github" revision="android-msm-2.6.33" />
+  <project path="kernel-msm" name="cyanogen/cm-kernel" remote="github" revision="android-msm-2.6.33-ds" />
 
   <project path="bionic" name="cyanogen/android_bionic" remote="github" />
 
@@ -78,7 +78,7 @@
   <project path="external/netcat" name="platform/external/netcat"/>
   <project path="external/netperf" name="platform/external/netperf"/>
   <project path="external/neven" name="platform/external/neven"/>
-  <project path="external/opencore" name="cyanogen/android_external_opencore" remote="github" />
+  <project path="external/opencore" name="cyanogen/android_external_opencore" remote="github" revision="eclair-ds" />
   <project path="external/openssl" name="cyanogen/android_external_openssl" remote="github" revision="master" />
   <project path="external/openvpn" name="cyanogen/android-external-openvpn" remote="github" />
   <project path="external/oprofile" name="platform/external/oprofile"/>
