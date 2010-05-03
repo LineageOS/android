@@ -113,6 +113,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
 
+  <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
 
   <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" />
