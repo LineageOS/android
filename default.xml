@@ -65,7 +65,7 @@
   <project path="external/iptables" name="cyanogen/android_external_iptables" revision="master" remote="github" />
   <project path="external/jdiff" name="platform/external/jdiff"/>
   <project path="external/jhead" name="platform/external/jhead"/>
-  <project path="external/jpeg" name="platform/external/jpeg"/>
+  <project path="external/jpeg" name="cyanogen/android_external_jpeg" remote="github" />
   <project path="external/junit" name="platform/external/junit"/>
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/lcc" name="platform/external/lcc"/>
