@@ -78,7 +78,7 @@
   <project path="external/netcat" name="platform/external/netcat"/>
   <project path="external/netperf" name="platform/external/netperf"/>
   <project path="external/neven" name="platform/external/neven"/>
-  <project path="external/opencore" name="cyanogen/android_external_opencore" remote="github" revision="eclair-ds" />
+  <project path="external/opencore" name="cyanogen/android_external_opencore" remote="github" revision="eclair" />
   <project path="external/openssl" name="cyanogen/android_external_openssl" remote="github" revision="master" />
   <project path="external/openvpn" name="cyanogen/android-external-openvpn" remote="github" />
   <project path="external/oprofile" name="platform/external/oprofile"/>
