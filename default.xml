@@ -11,7 +11,7 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
-  <project path="kernel-msm" name="cyanogen/cm-kernel" remote="github" revision="android-msm-2.6.34-test2" />
+  <project path="kernel-msm" name="cyanogen/cm-kernel" remote="github" revision="android-msm-2.6.34" />
 
   <project path="bionic" name="cyanogen/android_bionic" remote="github" />
 
