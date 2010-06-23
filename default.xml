@@ -18,7 +18,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
 
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="cyanogen/android_dalvik" remote="github" />
   <project path="development" name="platform/development" />
 
   <project path="device/common" name="device/common" />
