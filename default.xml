@@ -27,6 +27,7 @@
   <project path="device/htc/passion" name="device/htc/passion" />
   <project path="device/htc/passion-common" name="device/htc/passion-common" />
   <project path="device/htc/sapphire" name="device/htc/sapphire" />
+  <project path="device/motorola/sholes" name="koush/android_device_motorola_sholes" remote="github" />
   <project path="device/sample" name="device/sample" />
 
   <project path="external/apache-http" name="platform/external/apache-http" />
