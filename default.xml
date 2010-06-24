@@ -22,6 +22,7 @@
   <project path="development" name="platform/development" />
 
   <project path="device/common" name="device/common" />
+  <project path="device/generic" name="koush/android_device_generic" remote="github" />
   <project path="device/htc/common" name="device/htc/common" />
   <project path="device/htc/dream" name="device/htc/dream" />
   <project path="device/htc/dream-sapphire" name="device/htc/dream-sapphire" />
