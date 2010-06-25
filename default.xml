@@ -25,7 +25,7 @@
   <project path="device/htc/common" name="device/htc/common" />
   <project path="device/htc/dream" name="device/htc/dream" />
   <project path="device/htc/dream-sapphire" name="device/htc/dream-sapphire" />
-  <project path="device/htc/heroc" name="darchstar/android_device_htc_heroc.git" remote="github" />
+  <project path="device/htc/heroc" name="darchstar/android_device_htc_heroc" remote="github" revision="master" />
   <project path="device/htc/inc" name="koush/android_device_htc_inc" remote="github" />
   <project path="device/htc/passion" name="device/htc/passion" />
   <project path="device/htc/passion-common" name="device/htc/passion-common" />
