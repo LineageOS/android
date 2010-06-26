@@ -22,6 +22,7 @@
   <project path="development" name="platform/development" />
 
   <project path="device/common" name="device/common" />
+  <project path="device/generic" name="koush/android_device_generic" remote="github" />
   <project path="device/htc/common" name="device/htc/common" />
   <project path="device/htc/dream" name="device/htc/dream" />
   <project path="device/htc/dream-sapphire" name="device/htc/dream-sapphire" />
@@ -176,7 +177,7 @@
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
 
-  <project path="prebuilt" name="platform/prebuilt" />
+  <project path="prebuilt" name="android/platform_prebuilt" remote="github" />
   <project path="sdk" name="platform/sdk"  revision="tools_r6"/>
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="cyanogen/android_system_core" remote="github" />
