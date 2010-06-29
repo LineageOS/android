@@ -1,4 +1,4 @@
-To initialize get started with Android/CyanogenMod, you'll need to get
+To get started with Android/CyanogenMod, you'll need to get
 familiar with Git and Repo. 
 
 http://source.android.com/download/using-repo
@@ -13,4 +13,7 @@ Then to sync up:
 repo sync
 
 Please see the CyanogenMod wiki for building instructions.
+
+
+Patches welcome! Send pull requests with your changes!
 
