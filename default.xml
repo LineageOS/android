@@ -24,13 +24,13 @@
   <project path="device/common" name="device/common" />
   <project path="device/generic" name="koush/android_device_generic" remote="github" />
   <project path="device/htc/common" name="device/htc/common" />
-  <project path="device/htc/dream" name="device/htc/dream" />
-  <project path="device/htc/dream-sapphire" name="device/htc/dream-sapphire" />
+  <project path="device/htc/dream" name="cyanogen/android_device_htc_dream" remote="github" />
+  <project path="device/htc/dream-sapphire" name="cyanogen/android_device_htc_dream-sapphire" remote="github" />
   <project path="device/htc/heroc" name="darchstar/android_device_htc_heroc" remote="github" revision="master" />
   <project path="device/htc/inc" name="koush/android_device_htc_inc" remote="github" />
   <project path="device/htc/passion" name="cyanogen/android_device_htc_passion" remote="github" />
   <project path="device/htc/passion-common" name="cyanogen/android_device_htc_passion-common" remote="github" />
-  <project path="device/htc/sapphire" name="device/htc/sapphire" />
+  <project path="device/htc/sapphire" name="cyanogen/android_device_htc_sapphire" remote="github" />
   <project path="device/motorola/sholes" name="koush/android_device_motorola_sholes" remote="github" />
   <project path="device/sample" name="device/sample" />
 
