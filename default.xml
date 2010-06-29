@@ -26,6 +26,7 @@
   <project path="device/htc/common" name="device/htc/common" />
   <project path="device/htc/dream" name="cyanogen/android_device_htc_dream" remote="github" />
   <project path="device/htc/dream-sapphire" name="cyanogen/android_device_htc_dream-sapphire" remote="github" />
+  <project path="device/htc/espresso" name="wesgarner/android_device_htc_espresso" remote="github" />
   <project path="device/htc/heroc" name="darchstar/android_device_htc_heroc" remote="github" revision="master" />
   <project path="device/htc/inc" name="koush/android_device_htc_inc" remote="github" />
   <project path="device/htc/passion" name="cyanogen/android_device_htc_passion" remote="github" />
