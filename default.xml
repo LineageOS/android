@@ -24,6 +24,7 @@
   <project path="device/common" name="device/common" />
   <project path="device/htc/bravo" name="behnaam/android_device_htc_bravo" remote="github" />
   <project path="device/htc/bravo-common" name="behnaam/android_device_htc_bravo-common" remote="github" />
+  <project path="device/generic" name="koush/android_device_generic" remote="github" />
   <project path="device/htc/common" name="device/htc/common" />
   <project path="device/htc/dream" name="cyanogen/android_device_htc_dream" remote="github" />
   <project path="device/htc/dream-sapphire" name="cyanogen/android_device_htc_dream-sapphire" remote="github" />
