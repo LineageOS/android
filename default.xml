@@ -15,14 +15,13 @@
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="koush/android_bootable_recovery" remote="github" />
 
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="cyanogen/android_dalvik" remote="github" />
   <project path="development" name="cyanogen/android_development" remote="github" />
 
   <project path="device/common" name="device/common" />
-  <project path="device/generic" name="koush/android_device_generic" remote="github" />
   <project path="device/htc/bravo" name="behnaam/android_device_htc_bravo" remote="github" />
   <project path="device/htc/bravo-common" name="behnaam/android_device_htc_bravo-common" remote="github" />
   <project path="device/htc/common" name="device/htc/common" />
@@ -113,7 +112,7 @@
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="platform/external/yaffs2" />
+  <project path="external/yaffs2" name="koush/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="platform/external/zlib" />
 
   <project path="frameworks/base" name="cyanogen/android_frameworks_base" remote="github" />
