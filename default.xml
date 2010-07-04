@@ -143,7 +143,7 @@
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/CMParts" name="ctso/android_packages_apps_CMParts" remote="github" revision="master" />
+  <project path="packages/apps/CMParts" name="CyanogenMod/android_packages_apps_CMParts" remote="github" revision="master" />
   <project path="packages/apps/Contacts" name="cyanogen/android_packages_apps_Contacts" remote="github" />
   <project path="packages/apps/DeskClock" name="cyanogen/android_packages_apps_DeskClock" remote="github" />
   <project path="packages/apps/Email" name="cyanogen/android_packages_apps_Email" remote="github" />
