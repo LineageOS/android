@@ -143,27 +143,27 @@
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMParts" name="CyanogenMod/android_packages_apps_CMParts" remote="github" revision="master" />
-  <project path="packages/apps/Contacts" name="cyanogen/android_packages_apps_Contacts" remote="github" />
+  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="github" />
-  <project path="packages/apps/Email" name="cyanogen/android_packages_apps_Email" remote="github" />
+  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/IM" name="platform/packages/apps/IM" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/ADWLauncher" name="cyanogen/android_packages_apps_ADWLauncher" remote="github" />
-  <project path="packages/apps/Mms" name="cyanogen/android_packages_apps_Mms" remote="github" />
-  <project path="packages/apps/Music" name="cyanogen/android_packages_apps_Music" remote="github" />
+  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="github" />
+  <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
-  <project path="packages/apps/Protips" name="kmobs/android_packages_apps_Protips" remote="github" />
+  <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" remote="github" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="cyanogen/android_packages_apps_Settings" remote="github" />
+  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" remote="github" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <project path="packages/apps/Superuser" name="cyanogen/android_packages_apps_Superuser" remote="github" />
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
@@ -172,7 +172,7 @@
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="cyanogen/android_packages_providers_DownloadProvider" remote="github" />
+  <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" remote="github" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
