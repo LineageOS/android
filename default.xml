@@ -7,31 +7,31 @@
   <default revision="froyo"
            remote="korg" />
 
-  <project path="build" name="cyanogen/android_build" remote="github">
+  <project path="build" name="CyanogenMod/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="bionic" name="cyanogen/android_bionic" remote="github" />
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="koush/android_bootable_recovery" remote="github" />
 
-  <project path="dalvik" name="cyanogen/android_dalvik" remote="github" />
-  <project path="development" name="cyanogen/android_development" remote="github" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" remote="github" />
+  <project path="development" name="CyanogenMod/android_development" remote="github" />
 
   <project path="device/common" name="device/common" />
   <project path="device/htc/bravo" name="CyanogenMod/android_device_htc_bravo" remote="github" />
   <project path="device/htc/bravo-common" name="CyanogenMod/android_device_htc_bravo-common" remote="github" />
   <project path="device/generic" name="CyanogenMod/android_device_generic" remote="github" />
   <project path="device/htc/common" name="device/htc/common" />
-  <project path="device/htc/dream_sapphire" name="cyanogen/android_device_htc_dream_sapphire" remote="github" />
+  <project path="device/htc/dream_sapphire" name="CyanogenMod/android_device_htc_dream_sapphire" remote="github" />
   <project path="device/htc/dream-sapphire" name="device/htc/dream-sapphire" />
   <project path="device/htc/espresso" name="CyanogenMod/android_device_htc_espresso" remote="github" />
   <project path="device/htc/hero" name="CyanogenMod/android_device_htc_hero" remote="github" />
   <project path="device/htc/inc" name="CyanogenMod/android_device_htc_inc" remote="github" />
-  <project path="device/htc/passion" name="cyanogen/android_device_htc_passion" remote="github" />
-  <project path="device/htc/passion-common" name="cyanogen/android_device_htc_passion-common" remote="github" />
+  <project path="device/htc/passion" name="CyanogenMod/android_device_htc_passion" remote="github" />
+  <project path="device/htc/passion-common" name="CyanogenMod/android_device_htc_passion-common" remote="github" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
   <project path="device/sample" name="device/sample" />
 
@@ -116,7 +116,7 @@
   <project path="external/yaffs2" name="koush/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="platform/external/zlib" />
 
-  <project path="frameworks/base" name="cyanogen/android_frameworks_base" remote="github" />
+  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" remote="github" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/policies/base" name="CyanogenMod/android_frameworks_policies_base" remote="github" />
@@ -124,13 +124,13 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
-  <project path="hardware/msm7k" name="cyanogen/android_hardware_msm7k" remote="github" />
+  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="github" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
 
-  <project path="kernel-msm" name="cyanogen/cm-kernel" remote="github" revision="android-msm-2.6.34" />
+  <project path="kernel-msm" name="CyanogenMod/cm-kernel" remote="github" revision="android-msm-2.6.34" />
 
   <project path="ndk" name="platform/ndk" />
 
@@ -151,7 +151,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/IM" name="platform/packages/apps/IM" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/ADWLauncher" name="cyanogen/android_packages_apps_ADWLauncher" remote="github" />
+  <project path="packages/apps/ADWLauncher" name="CyanogenMod/android_packages_apps_ADWLauncher" remote="github" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="github" />
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
@@ -186,12 +186,12 @@
   <project path="prebuilt" name="android/platform_prebuilt" remote="github" />
   <project path="sdk" name="platform/sdk"  revision="tools_r6"/>
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="cyanogen/android_system_core" remote="github" />
+  <project path="system/core" name="CyanogenMod/android_system_core" remote="github" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
-  <project path="vendor/cyanogen" name="cyanogen/android_vendor_cyanogen" remote="github" />
+  <project path="vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" remote="github" />
 
 </manifest>
