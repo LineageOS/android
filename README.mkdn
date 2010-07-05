@@ -6,7 +6,7 @@ Submitting Patches
 Patches are always welcome!  Please send pull requests with your patches!  If at all possible please rebase your
 repository before sending a pull request.  You can do this by using the following command:
 
-   git pull --rebase git://github.com/CyanogenMod/path_to_project.git froyo
+    git pull --rebase git://github.com/CyanogenMod/path_to_project.git froyo
 
 This makes accepting patches MUCH easier for our comitters.
 
