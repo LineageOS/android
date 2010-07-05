@@ -14,7 +14,7 @@ Getting Started
 ---------------
 
 To get started with Android/CyanogenMod, you'll need to get
-familiar with [http://source.android.com/download/using-repo](Git and Repo).
+familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
