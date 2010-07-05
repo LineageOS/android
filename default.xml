@@ -119,7 +119,7 @@
   <project path="frameworks/base" name="cyanogen/android_frameworks_base" remote="github" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/policies/base" name="cyanogen/android_frameworks_policies_base" remote="github" />
+  <project path="frameworks/policies/base" name="CyanogenMod/android_frameworks_policies_base" remote="github" />
 
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
