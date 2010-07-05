@@ -1,16 +1,22 @@
 CyanogenMod
 ===========
 
+Submitting Patches
+------------------
+Patches are always welcome!  Please send pull requests with your patches!  If at all possible please rebase your
+repository before sending a pull request.  You can do this by using the following command:
+
+   git pull --rebase git://github.com/CyanogenMod/path_to_project.git froyo
+
+This makes accepting patches MUCH easier for our comitters.
+
 Getting Started
 ---------------
 
 To get started with Android/CyanogenMod, you'll need to get
-familiar with Git and Repo. 
+familiar with [http://source.android.com/download/using-repo](Git and Repo).
 
-[http://source.android.com/download/using-repo](http://source.android.com/download/using-repo)
-
-To initialize your local repository using the CyanogenMod trees, 
-use a command like this:
+To initialize your local repository using the CyanogenMod trees, use a command like this:
 
     repo init -u git://github.com/CyanogenMod/android.git -b froyo
 
@@ -20,5 +26,5 @@ Then to sync up:
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.com/) for building instructions.
 
-
-Patches welcome! Send pull requests with your changes!
+For more information on this Github Organization and how it is structured, 
+please [read the wiki article](http://wiki.cyanogenmod.com/index.php/Github_Organization)
