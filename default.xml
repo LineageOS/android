@@ -181,7 +181,7 @@
   -->
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
-  <project path="vendor/CyanogenMod" name="CyanogenMod/android_vendor_CyanogenMod" remote="github" />
+  <project path="vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" remote="github" />
   <project path="vendor/google/passion" name="CyanogenMod/android_vendor_google_passion" remote="github" />
   <project path="vendor/htc/dream_sapphire" name="CyanogenMod/android_vendor_htc_dream_sapphire" remote="github" />
   <project path="vendor/htc/inc" name="koush/android_vendor_htc_inc" remote="github" revision="master" />
