@@ -179,7 +179,7 @@
   <!-- Removing until it coexists with other projects
   <project path="system/wlan/broadcom" name="platform/system/wlan/broadcom" revision="master" />
   -->
-  <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" remote="github" />
+  <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
   <project path="vendor/CyanogenMod" name="CyanogenMod/android_vendor_CyanogenMod" remote="github" />
   <project path="vendor/google/passion" name="CyanogenMod/android_vendor_google_passion" remote="github" />
