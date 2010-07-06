@@ -80,7 +80,7 @@
   <project path="external/neven" name="platform/external/neven"/>
   <project path="external/opencore" name="CyanogenMod/android_external_opencore" remote="github" revision="eclair" />
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="github" revision="master" />
-  <project path="external/openvpn" name="CyanogenMod/android-external-openvpn" remote="github" />
+  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="github" />
   <project path="external/oprofile" name="platform/external/oprofile"/>
   <project path="external/ping" name="platform/external/ping"/>
   <project path="external/ppp" name="platform/external/ppp"/>
