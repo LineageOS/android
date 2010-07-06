@@ -142,7 +142,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer"/>
   <project path="packages/apps/IM" name="platform/packages/apps/IM"/>
   <project path="packages/apps/Launcher2" name="CyanogenMod/android_packages_apps_Launcher2" remote="github" />
-  <project path="packages/apps/Launcher" name="CyanogenMod/android_packages_apps_Launcher" remote="github" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="github" />
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller"/>
