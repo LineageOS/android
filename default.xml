@@ -126,7 +126,7 @@
   <project path="frameworks/policies/base" name="CyanogenMod/android_frameworks_policies_base" remote="github" />
 
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="github" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
