@@ -188,7 +188,7 @@
   <project path="vendor/motorola/sholes" name="koush/android_vendor_motorola_sholes" remote="github" revision="master" />
   <project path="vendor/htc/bravo" name="behnaam/android_vendor_htc_bravo" remote="github" />
   <project path="vendor/qcom/android-open" name="CyanogenMod/android_vendor_qcom_android-open" remote="github" />
-  <project path="vendor/qcom/mm-core" name="CyanogenMod/android_vendor_qcom_mm-core" remote="github" />
+  <project path="vendor/qcom/mm-core" name="CyanogenMod/android_hardware_qcom_mm-core" remote="github" />
   <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
 
 </manifest>
