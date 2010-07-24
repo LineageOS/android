@@ -99,6 +99,7 @@
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/qemu" name="platform/external/qemu"  revision="tools_r6"/>
   <project path="external/quake" name="platform/external/quake" />
+  <project path="external/rsync" name="dylex/android_external_rsync" remote="github" revision="master" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" />
   <project path="external/sonivox" name="platform/external/sonivox" />
