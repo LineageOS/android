@@ -21,8 +21,9 @@
   <project path="development" name="CyanogenMod/android_development" remote="github" />
 
   <project path="device/common" name="device/common" />
-  <project path="device/htc/bravo" name="CyanogenMod/android_device_htc_bravo" remote="github" />
   <project path="device/generic" name="CyanogenMod/android_device_generic" remote="github" />
+  <project path="device/sample" name="device/sample" />
+  <project path="device/htc/bravo" name="CyanogenMod/android_device_htc_bravo" remote="github" />
   <project path="device/htc/common" name="device/htc/common" />
   <project path="device/htc/dream_sapphire" name="CyanogenMod/android_device_htc_dream_sapphire" remote="github" />
   <project path="device/htc/espresso" name="CyanogenMod/android_device_htc_espresso" remote="github" />
@@ -35,7 +36,7 @@
   <project path="device/motorola/sholes" name="koush/android_device_motorola_sholes" remote="github" />
   <project path="device/samsung/vibrant" name="wesgarner/android_device_samsung_vibrant" remote="github" />
   <project path="device/yuhua/x2" name="CyanogenMod/android_device_yuhua_x2" remote="github" />
-  <project path="device/sample" name="device/sample" />
+
 
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
