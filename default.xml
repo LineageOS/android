@@ -142,15 +142,15 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
 
-  <project path="kernel-bravo" name="Kali-/kernel_msm.git" remote="github" revision="android-msm-2.6.32-bravo" />
-  <project path="kernel-hero" name="loxK/kernel-hero.git" remote="github" revision="master" />
-  <project path="kernel-heroc" name="darchstar/htc-kernel-heroc.git" remote="github" revision="heroc" />
-  <project path="kernel-inc" name="CyanogenMod/htc-kernel-incrediblelec.git" remote="github" revision="master" />
-  <project path="kernel-latteliberty" name="CyanogenMod/htc-kernel-espresso.git" remote="github" revision="master" />
+  <project path="kernel-bravo" name="Kali-/kernel_msm" remote="github" revision="android-msm-2.6.32-bravo" />
+  <project path="kernel-hero" name="loxK/kernel-hero" remote="github" revision="master" />
+  <project path="kernel-heroc" name="darchstar/htc-kernel-heroc" remote="github" revision="heroc" />
+  <project path="kernel-inc" name="CyanogenMod/htc-kernel-incrediblelec" remote="github" revision="master" />
+  <project path="kernel-latteliberty" name="CyanogenMod/htc-kernel-espresso" remote="github" revision="master" />
   <project path="kernel-msm" name="CyanogenMod/cm-kernel" remote="github" revision="android-msm-2.6.34" />
-  <project path="kernel-sholes" name="CyanogenMod/kernel-omap.git" remote="github" revision="master" />
-  <project path="kernel-supersonic" name="CyanogenMod/htc-kernel-supersonic.git" remote="github" revision="master" />
-  <project path="kernel-vibrant" name="scepterr/GalaxyS_kernel.git" remote="github" revision="vibrant" />
+  <project path="kernel-sholes" name="CyanogenMod/kernel-omap" remote="github" revision="master" />
+  <project path="kernel-supersonic" name="CyanogenMod/htc-kernel-supersonic" remote="github" revision="master" />
+  <project path="kernel-vibrant" name="scepterr/GalaxyS_kernel" remote="github" revision="vibrant" />
 
   <project path="ndk" name="platform/ndk" />
 
