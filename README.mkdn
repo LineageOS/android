@@ -1,6 +1,12 @@
 CyanogenMod
 ===========
 
+Kernel Branch
+-------------
+This branch will build kernels for available devices with public kernel sources on GitHub during build
+Syncing this branch can take much longer than the default branches as it downloads the kernel source for each device
+Note: This branch may not be 100% maintained against the main CM branchs and could take up to 2-3 days to be updated
+
 Submitting Patches
 ------------------
 Patches are always welcome!  Please send pull requests with your patches!  If at all possible please rebase your
