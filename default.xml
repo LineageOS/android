@@ -86,7 +86,7 @@
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="libncurses-5.7-froyo" />
   <project path="external/libpcap" name="platform/external/libpcap" />
-  <project path="external/libpng" name="platform/external/libpng" />
+  <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="github" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/lzo" name="fries/android-external-liblzo" revision="master" remote="github" />
   <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" remote="github" />
