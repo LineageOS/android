@@ -205,7 +205,7 @@
   <project path="system/core" name="CyanogenMod/android_system_core" remote="github" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" />
-  <project path="system/vold" name="platform/system/vold" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
   <project path="vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" remote="github" />
