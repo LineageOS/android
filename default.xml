@@ -15,7 +15,7 @@
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="koush/android_bootable_recovery" remote="github" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" />
 
   <project path="dalvik" name="CyanogenMod/android_dalvik" remote="github" />
   <project path="development" name="CyanogenMod/android_development" remote="github" />
@@ -29,12 +29,12 @@
   <project path="device/htc/espresso" name="CyanogenMod/android_device_htc_espresso" remote="github" />
   <project path="device/htc/hero" name="CyanogenMod/android_device_htc_hero" remote="github" />
   <project path="device/htc/heroc" name="darchstar/android_device_htc_heroc" remote="github" />
-  <project path="device/htc/inc" name="koush/android_device_htc_inc" remote="github" />
+  <project path="device/htc/inc" name="CyanogenMod/android_device_htc_inc" remote="github" />
   <project path="device/htc/liberty" name="CyanogenMod/android_device_htc_liberty" remote="github" />
   <project path="device/htc/passion" name="CyanogenMod/android_device_htc_passion" remote="github" />
   <project path="device/htc/passion-common" name="CyanogenMod/android_device_htc_passion-common" remote="github" />
   <project path="device/htc/supersonic" name="CyanogenMod/android_device_htc_supersonic" remote="github" />
-  <project path="device/motorola/sholes" name="koush/android_device_motorola_sholes" remote="github" />
+  <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
   <project path="device/samsung/vibrant" name="CyanogenMod/android_device_samsung_vibrant" remote="github" />
   <project path="device/yuhua/x2" name="CyanogenMod/android_device_yuhua_x2" remote="github" />
 
@@ -123,7 +123,7 @@
   <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" remote="github" />
   <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" remote="github" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="koush/android_external_yaffs2" remote="github" />
+  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="platform/external/zlib" />
 
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" remote="github" />
