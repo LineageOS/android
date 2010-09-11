@@ -38,7 +38,8 @@
   <project path="device/samsung/vibrant" name="CyanogenMod/android_device_samsung_vibrant" remote="github" />
   <project path="device/yuhua/x2" name="CyanogenMod/android_device_yuhua_x2" remote="github" />
 
-
+  <project path="external/alsa-lib" name="platform/external/alsa-lib" />
+  <project path="external/alsa-utils" name="platform/external/alsa-utils" />
   <project path="external/apache-http" name="platform/external/apache-http" revision="master" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="bash-4.1-froyo" />
