@@ -36,7 +36,7 @@
   <project path="device/htc/supersonic" name="CyanogenMod/android_device_htc_supersonic" remote="github" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
   <project path="device/samsung/vibrant" name="CyanogenMod/android_device_samsung_vibrant" remote="github" />
-  <project path="device/samsung/samsungupdater" name="CyanogenMod/android_device_samsung_samsungupdater" remote="github" />
+  <project path="device/samsung/bmlutils" name="CyanogenMod/android_device_samsung_bmlutils" remote="github" />
   <project path="device/yuhua/x2" name="CyanogenMod/android_device_yuhua_x2" remote="github" />
 
   <project path="external/alsa-lib" name="platform/external/alsa-lib" revision="master" />
