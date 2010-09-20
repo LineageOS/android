@@ -203,7 +203,7 @@
 
   <project path="prebuilt" name="platform/prebuilt" revision="master" />
   <project path="sdk" name="platform/sdk"  revision="tools_r6"/>
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
+  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="github" />
   <project path="system/core" name="CyanogenMod/android_system_core" remote="github" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" />
