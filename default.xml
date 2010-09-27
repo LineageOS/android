@@ -167,6 +167,7 @@
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="github" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" />
+  <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="github" revision="master" />
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="CyanogenMod/android_packages_apps_Gallery3D" remote="github" />
