@@ -7,50 +7,50 @@
   <default revision="froyo"
            remote="korg" />
 
-  <project path="build" name="CyanogenMod/android_build" remote="github">
+  <project path="build" name="CyanogenMod/android_build" remote="github" revision="froyo-stable">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="froyo-stable" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="froyo-stable" />
 
-  <project path="dalvik" name="CyanogenMod/android_dalvik" remote="github" />
-  <project path="development" name="CyanogenMod/android_development" remote="github" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" remote="github" revision="froyo-stable" />
+  <project path="development" name="CyanogenMod/android_development" remote="github" revision="froyo-stable" />
 
   <project path="device/common" name="device/common" />
-  <project path="device/generic" name="CyanogenMod/android_device_generic" remote="github" />
+  <project path="device/generic" name="CyanogenMod/android_device_generic" remote="github" revision="froyo-stable" />
   <project path="device/sample" name="device/sample" />
   <project path="device/advent/vega" name="CyanogenMod/android_device_advent_vega" remote="github" revision="master" />
   <project path="device/commtiva/z71" name="CyanogenMod/android_device_commtiva_z71" remote="github" revision="master" />
-  <project path="device/geeksphone/one" name="CyanogenMod/android_device_geeksphone_one" remote="github" />
-  <project path="device/htc/ace" name="CyanogenMod/android_device_htc_ace" remote="github" />
-  <project path="device/htc/bravo" name="CyanogenMod/android_device_htc_bravo" remote="github" />
-  <project path="device/htc/bravoc" name="CyanogenMod/android_device_htc_bravoc" remote="github" />
-  <project path="device/htc/buzz" name="CyanogenMod/android_device_htc_buzz" remote="github" />
-  <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" />
-  <project path="device/htc/dream_sapphire" name="CyanogenMod/android_device_htc_dream_sapphire" remote="github" />
-  <project path="device/htc/espresso" name="CyanogenMod/android_device_htc_espresso" remote="github" />
-  <project path="device/htc/glacier" name="CyanogenMod/android_device_htc_glacier" remote="github" />
-  <project path="device/htc/hero" name="CyanogenMod/android_device_htc_hero" remote="github" />
-  <project path="device/htc/heroc" name="darchstar/android_device_htc_heroc" remote="github" />
-  <project path="device/htc/inc" name="CyanogenMod/android_device_htc_inc" remote="github" />
-  <project path="device/htc/legend" name="CyanogenMod/android_device_htc_legend" remote="github" />
-  <project path="device/htc/liberty" name="CyanogenMod/android_device_htc_liberty" remote="github" />
-  <project path="device/htc/passion" name="CyanogenMod/android_device_htc_passion" remote="github" />
-  <project path="device/htc/passion-common" name="CyanogenMod/android_device_htc_passion-common" remote="github" />
-  <project path="device/htc/supersonic" name="CyanogenMod/android_device_htc_supersonic" remote="github" />
-  <project path="device/htc/vision" name="CyanogenMod/android_device_htc_vision" remote="github" />
+  <project path="device/geeksphone/one" name="CyanogenMod/android_device_geeksphone_one" remote="github" revision="froyo-stable" />
+  <project path="device/htc/ace" name="CyanogenMod/android_device_htc_ace" remote="github" revision="froyo-stable" />
+  <project path="device/htc/bravo" name="CyanogenMod/android_device_htc_bravo" remote="github" revision="froyo-stable" />
+  <project path="device/htc/bravoc" name="CyanogenMod/android_device_htc_bravoc" remote="github" revision="froyo-stable" />
+  <project path="device/htc/buzz" name="CyanogenMod/android_device_htc_buzz" remote="github" revision="froyo-stable" />
+  <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" revision="froyo-stable" />
+  <project path="device/htc/dream_sapphire" name="CyanogenMod/android_device_htc_dream_sapphire" remote="github" revision="froyo-stable" />
+  <project path="device/htc/espresso" name="CyanogenMod/android_device_htc_espresso" remote="github" revision="froyo-stable" />
+  <project path="device/htc/glacier" name="CyanogenMod/android_device_htc_glacier" remote="github" revision="froyo-stable" />
+  <project path="device/htc/hero" name="CyanogenMod/android_device_htc_hero" remote="github" revision="froyo-stable" />
+  <project path="device/htc/heroc" name="darchstar/android_device_htc_heroc" remote="github" revision="froyo-stable" />
+  <project path="device/htc/inc" name="CyanogenMod/android_device_htc_inc" remote="github" revision="froyo-stable" />
+  <project path="device/htc/legend" name="CyanogenMod/android_device_htc_legend" remote="github" revision="froyo-stable" />
+  <project path="device/htc/liberty" name="CyanogenMod/android_device_htc_liberty" remote="github" revision="froyo-stable" />
+  <project path="device/htc/passion" name="CyanogenMod/android_device_htc_passion" remote="github" revision="froyo-stable" />
+  <project path="device/htc/passion-common" name="CyanogenMod/android_device_htc_passion-common" remote="github" revision="froyo-stable" />
+  <project path="device/htc/supersonic" name="CyanogenMod/android_device_htc_supersonic" remote="github" revision="froyo-stable" />
+  <project path="device/htc/vision" name="CyanogenMod/android_device_htc_vision" remote="github" revision="froyo-stable" />
   <project path="device/kyocera/m6000" name="koush/android_device_kyocera_m6000" remote="github" revision="master" />
   <project path="device/motorola/backflip" name="CyanogenMod/android_device_motorola_backflip" remote="github" revision="master" />
   <project path="device/motorola/morrison" name="CyanogenMod/android_device_motorola_morrison" remote="github" revision="master" />
-  <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
-  <project path="device/nvidia/harmony" name="CyanogenMod/android_device_harmony" remote="github" />
+  <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" revision="froyo-stable" />
+  <project path="device/nvidia/harmony" name="CyanogenMod/android_device_harmony" remote="github" revision="froyo-stable" />
   <project path="device/samsung/bmlunlock" name="CyanogenMod/android_device_samsung_bmlunlock" remote="github" revision="master" />
-  <project path="device/samsung/vibrant" name="CyanogenMod/android_device_samsung_vibrant" remote="github" />
-  <project path="device/yuhua/x2" name="CyanogenMod/android_device_yuhua_x2" remote="github" />
+  <project path="device/samsung/vibrant" name="CyanogenMod/android_device_samsung_vibrant" remote="github" revision="froyo-stable" />
+  <project path="device/yuhua/x2" name="CyanogenMod/android_device_yuhua_x2" remote="github" revision="froyo-stable" />
 
   <project path="external/alsa-lib" name="platform/external/alsa-lib" revision="master" />
   <project path="external/alsa-utils" name="platform/external/alsa-utils" revision="master" />
@@ -59,11 +59,11 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="bash-4.1-froyo" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" remote="github" />
+  <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" remote="github" revision="froyo-stable" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="froyo-stable" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/clearsilver" name="platform/external/clearsilver" />
   <project path="external/compcache" name="CyanogenMod/android_external_compcache" revision="master" remote="github" />
@@ -94,23 +94,23 @@
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" revision="master" remote="github" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
-  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" remote="github" />
+  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" remote="github" revision="froyo-stable" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="libncurses-5.7-froyo" />
   <project path="external/libpcap" name="platform/external/libpcap" />
-  <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="github" />
+  <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="github" revision="froyo-stable" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/lzo" name="fries/android-external-liblzo" revision="master" remote="github" />
-  <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" remote="github" />
+  <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" remote="github" revision="froyo-stable" />
   <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" revision="nano-2.2.4-froyo" />
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
-  <project path="external/opencore" name="CyanogenMod/android_external_opencore" remote="github" />
-  <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="github" />
+  <project path="external/opencore" name="CyanogenMod/android_external_opencore" remote="github" revision="froyo-stable" />
+  <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="github" revision="froyo-stable" />
   <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="github" revision="master" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/ping" name="platform/external/ping" />
@@ -120,116 +120,116 @@
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/rsync" name="dylex/android_external_rsync" remote="github" revision="master" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" />
+  <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" revision="froyo-stable" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/stlport" name="platform/external/stlport" revision="master" />
-  <project path="external/strace" name="CyanogenMod/android_external_strace" remote="github" />
+  <project path="external/strace" name="CyanogenMod/android_external_strace" remote="github" revision="froyo-stable" />
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
-  <project path="external/tslib" name="CyanogenMod/android_external_tslib" remote="github" />
+  <project path="external/tslib" name="CyanogenMod/android_external_tslib" remote="github" revision="froyo-stable" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="CyanogenMod/android_external_v8" remote="github" />
-  <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" />
+  <project path="external/v8" name="CyanogenMod/android_external_v8" remote="github" revision="froyo-stable" />
+  <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" revision="froyo-stable" />
   <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" remote="github" revision="master" />
-  <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" remote="github" />
-  <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" remote="github" />
+  <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" remote="github" revision="froyo-stable" />
+  <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" remote="github" revision="froyo-stable" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
+  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" revision="froyo-stable" />
   <project path="external/zlib" name="platform/external/zlib" />
 
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" remote="github" />
+  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" remote="github" revision="froyo-stable" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/policies/base" name="CyanogenMod/android_frameworks_policies_base" remote="github" />
+  <project path="frameworks/policies/base" name="CyanogenMod/android_frameworks_policies_base" remote="github" revision="froyo-stable" />
 
   <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" revision="master" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" />
-  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="github" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="froyo-stable" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="froyo-stable" />
+  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="github" revision="froyo-stable" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
-  <project path="hardware/qcom/mm-core" name="CyanogenMod/android_hardware_qcom_mm-core" remote="github" />
-  <project path="hardware/qcom/mm-video" name="CyanogenMod/android_hardware_qcom_mm-video" remote="github" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" />
+  <project path="hardware/qcom/mm-core" name="CyanogenMod/android_hardware_qcom_mm-core" remote="github" revision="froyo-stable" />
+  <project path="hardware/qcom/mm-video" name="CyanogenMod/android_hardware_qcom_mm-video" remote="github" revision="froyo-stable" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" revision="froyo-stable" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
 
-  <project path="kernel-msm" name="CyanogenMod/cm-kernel" remote="github" revision="android-msm-2.6.35-unified" />
+  <project path="kernel-msm" name="CyanogenMod/cm-kernel" remote="github" revision="android-msm-2.6.35-froyo-stable" />
 
   <project path="ndk" name="platform/ndk" revision="master" />
 
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
   <project path="packages/apps/AndroidTerm" name="CyanogenMod/android_packages_apps_AndroidTerm" remote="github" revision="master" />
-  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="github" />
-  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" />
+  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="github" revision="froyo-stable" />
+  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" revision="froyo-stable" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" />
+  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" revision="froyo-stable" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMParts" name="CyanogenMod/android_packages_apps_CMParts" remote="github" revision="master" />
-  <project path="packages/apps/CMPartsHelper" name="CyanogenMod/android_packages_apps_CMPartsHelper" remote="github" />
-  <project path="packages/apps/CMStats" name="CyanogenMod/android_packages_apps_CMStats" remote="github" />
-  <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="github" />
-  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" />
-  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="github" />
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" />
-  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" />
+  <project path="packages/apps/CMPartsHelper" name="CyanogenMod/android_packages_apps_CMPartsHelper" remote="github" revision="froyo-stable" />
+  <project path="packages/apps/CMStats" name="CyanogenMod/android_packages_apps_CMStats" remote="github" revision="froyo-stable" />
+  <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="github" revision="froyo-stable" />
+  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" revision="froyo-stable" />
+  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="github" revision="froyo-stable" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="froyo-stable" />
+  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" revision="froyo-stable" />
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="github" revision="master" />
-  <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" />
+  <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" revision="froyo-stable" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery3D" name="CyanogenMod/android_packages_apps_Gallery3D" remote="github" />
+  <project path="packages/apps/Gallery3D" name="CyanogenMod/android_packages_apps_Gallery3D" remote="github" revision="froyo-stable" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/IM" name="platform/packages/apps/IM" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/ADWLauncher" name="CyanogenMod/android_packages_apps_ADWLauncher" remote="github" />
-  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="github" />
-  <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" />
+  <project path="packages/apps/ADWLauncher" name="CyanogenMod/android_packages_apps_ADWLauncher" remote="github" revision="froyo-stable" />
+  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="github" revision="froyo-stable" />
+  <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" revision="froyo-stable" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" remote="github" />
-  <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" remote="github" />
+  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" remote="github" revision="froyo-stable" />
+  <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" remote="github" revision="froyo-stable" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" remote="github" />
-  <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="github" />
+  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" remote="github" revision="froyo-stable" />
+  <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="github" revision="froyo-stable" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="master" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="master" />
-  <project path="packages/apps/TSCalibration" name="CyanogenMod/android_packages_apps_TSCalibration" remote="github" />
-  <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" remote="github" />
+  <project path="packages/apps/TSCalibration" name="CyanogenMod/android_packages_apps_TSCalibration" remote="github" revision="froyo-stable" />
+  <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" remote="github" revision="froyo-stable" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="github" />
+  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="github" revision="froyo-stable" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" remote="github" />
+  <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" remote="github" revision="froyo-stable" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
-  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" />
+  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="froyo-stable" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
-  <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" remote="github" />
+  <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" remote="github" revision="froyo-stable" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
-  <project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" remote="github" />
+  <project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" remote="github" revision="froyo-stable" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
 
   <project path="prebuilt" name="platform/prebuilt" revision="master" />
   <project path="sdk" name="platform/sdk"  revision="tools_r6"/>
-  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="github" />
-  <project path="system/core" name="CyanogenMod/android_system_core" remote="github" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
+  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="github" revision="froyo-stable" />
+  <project path="system/core" name="CyanogenMod/android_system_core" remote="github" revision="froyo-stable" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="froyo-stable" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="froyo-stable" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="froyo-stable" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
-  <project path="vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" remote="github" />
+  <project path="vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" remote="github" revision="froyo-stable" />
 
-  <project path="android" name="CyanogenMod/android" remote="github" />
+  <project path="android" name="CyanogenMod/android" remote="github" revision="froyo-stable" />
 
 </manifest>
