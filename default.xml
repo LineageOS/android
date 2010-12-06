@@ -35,7 +35,7 @@
   <project path="device/htc/espresso" name="CyanogenMod/android_device_htc_espresso" remote="github" />
   <project path="device/htc/glacier" name="CyanogenMod/android_device_htc_glacier" remote="github" />
   <project path="device/htc/hero" name="CyanogenMod/android_device_htc_hero" remote="github" />
-  <project path="device/htc/heroc" name="darchstar/android_device_htc_heroc" remote="github" />
+  <project path="device/htc/heroc" name="CyanogenMod/android_device_htc_heroc" remote="github" />
   <project path="device/htc/inc" name="CyanogenMod/android_device_htc_inc" remote="github" />
   <project path="device/htc/legend" name="CyanogenMod/android_device_htc_legend" remote="github" />
   <project path="device/htc/liberty" name="CyanogenMod/android_device_htc_liberty" remote="github" />
