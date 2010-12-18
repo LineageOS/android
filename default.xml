@@ -67,7 +67,7 @@
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
-  <project path="external/jpeg" name="platform/external/jpeg" />
+  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" remote="github" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
@@ -75,7 +75,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libpcap" name="platform/external/libpcap" />
-  <project path="external/libpng" name="platform/external/libpng" />
+  <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="github" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/mtpd" name="platform/external/mtpd" />
@@ -93,7 +93,7 @@
   <project path="external/qemu" name="platform/external/qemu" revision="tools_r7" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/skia" name="platform/external/skia" />
+  <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
