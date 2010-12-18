@@ -24,8 +24,8 @@
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
   <project path="device/htc/inc" name="CyanogenMod/android_device_htc_inc" remote="github" revision="froyo" />
-  <project path="device/htc/passion" name="device/htc/passion" />
-  <project path="device/htc/passion-common" name="device/htc/passion-common" />
+  <project path="device/htc/passion" name="CyanogenMod/android_device_htc_passion" remote="github" />
+  <project path="device/htc/passion-common" name="CyanogenMod/android_device_htc_passion-common" remote="github" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/crespo" name="device/samsung/crespo" />
   <project path="external/apache-http" name="platform/external/apache-http" />
