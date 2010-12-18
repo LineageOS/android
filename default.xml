@@ -14,7 +14,7 @@
   <project path="build" name="CyanogenMod/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="platform/bionic" />
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
