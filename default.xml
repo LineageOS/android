@@ -11,7 +11,7 @@
   <default revision="gingerbread"
            remote="korg" />
 
-  <project path="build" name="platform/build">
+  <project path="build" name="CyanogenMod/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="platform/bionic" />
@@ -178,5 +178,7 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
+
+  <project path="android" name="CyanogenMod/android" remote="github" />
 
 </manifest>
