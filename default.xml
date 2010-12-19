@@ -23,6 +23,9 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" revision="gingerbread" />
+  <project path="device/htc/ace" name="CyanogenMod/android_device_htc_ace" remote="github" />
+  <project path="device/htc/bravo" name="CyanogenMod/android_device_htc_bravo" remote="github" />
+  <project path="device/htc/bravoc" name="CyanogenMod/android_device_htc_bravoc" remote="github" />
   <project path="device/htc/inc" name="CyanogenMod/android_device_htc_inc" remote="github" revision="gingerbread" />
   <project path="device/htc/passion" name="CyanogenMod/android_device_htc_passion" remote="github" />
   <project path="device/htc/passion-common" name="CyanogenMod/android_device_htc_passion-common" remote="github" />
