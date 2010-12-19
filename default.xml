@@ -150,7 +150,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" remote="github" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" />
@@ -183,6 +183,8 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
+
+  <project path="vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" remote="github" />
 
   <project path="android" name="CyanogenMod/android" remote="github" />
 
