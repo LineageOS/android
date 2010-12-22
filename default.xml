@@ -197,7 +197,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
-  <project path="system/wlan/ti" name="platform/system/wlan/ti" />
+  <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" remote="github" />
 
   <project path="vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" remote="github" />
 
