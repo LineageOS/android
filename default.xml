@@ -84,6 +84,7 @@
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="github" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
+  <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" />
   <project path="external/mtpd" name="platform/external/mtpd" />
   <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" />
   <project path="external/netcat" name="platform/external/netcat" />
