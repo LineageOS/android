@@ -160,7 +160,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
 
-  <project path="kernel-msm" name="CyanogenMod/cm-kernel" remote="github" revision="android-msm-2.6.35-unified" />
+  <project path="kernel-msm" name="CyanogenMod/cm-kernel" remote="github" revision="android-msm-2.6.35-froyo-stable" />
 
   <project path="ndk" name="platform/ndk" revision="master" />
 
