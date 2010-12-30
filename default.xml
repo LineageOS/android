@@ -134,6 +134,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/gpsshim" name="CyanogenMod/android_hardware_gpsshim" remote="github" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="github" />
@@ -153,6 +154,8 @@
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
+  <project path="packages/apps/CMStats" name="CyanogenMod/android_packages_apps_CMStats" remote="github" />
+  <project path="packages/apps/CMUpdateNotify" name="CyanogenMod/android_packages_apps_CMUpdateNotify" remote="github" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="github" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
