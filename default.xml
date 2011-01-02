@@ -21,6 +21,7 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" remote="github" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
+  <project path="device/bn/nookcolor" name="CyanogenMod/android_device_bn_nookcolor" remote="github" />
   <project path="device/commtiva/z71" name="CyanogenMod/android_device_commtiva_z71" remote="github" />
   <project path="device/geeksphone/one" name="CyanogenMod/android_device_geeksphone_one" remote="github" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" />
