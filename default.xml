@@ -28,6 +28,7 @@
   <project path="device/htc/ace" name="CyanogenMod/android_device_htc_ace" remote="github" />
   <project path="device/htc/bravo" name="CyanogenMod/android_device_htc_bravo" remote="github" />
   <project path="device/htc/bravoc" name="CyanogenMod/android_device_htc_bravoc" remote="github" />
+  <project path="device/htc/buzz" name="CyanogenMod/android_device_htc_buzz" remote="github" />
   <project path="device/htc/inc" name="CyanogenMod/android_device_htc_inc" remote="github" />
   <project path="device/htc/glacier" name="CyanogenMod/android_device_htc_glacier" remote="github" />
   <project path="device/htc/legend" name="CyanogenMod/android_device_htc_legend" remote="github" />
