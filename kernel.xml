@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  	<project path="kernel/htc/dream_sapphire" name="CyanogenMod/cm-kernel" remote="github" revision="android-msm-2.6.35-unified" />
+</manifest>
