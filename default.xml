@@ -33,6 +33,7 @@
   <project path="device/htc/bravo" name="CyanogenMod/android_device_htc_bravo" remote="github" />
   <project path="device/htc/bravoc" name="CyanogenMod/android_device_htc_bravoc" remote="github" />
   <project path="device/htc/buzz" name="CyanogenMod/android_device_htc_buzz" remote="github" />
+  <project path="device/htc/click" name="CyanogenMod/android_device_htc_click" remote="github" />
   <project path="device/htc/espresso" name="CyanogenMod/android_device_htc_espresso" remote="github" />
   <project path="device/htc/inc" name="CyanogenMod/android_device_htc_inc" remote="github" />
   <project path="device/htc/glacier" name="CyanogenMod/android_device_htc_glacier" remote="github" />
