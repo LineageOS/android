@@ -30,6 +30,7 @@
   <project path="device/dell/streak7" name="CyanogenMod/android_device_dell_streak7" remote="github" />
   <project path="device/elocity/a7" name="CyanogenMod/android_device_elocity_a7" remote="github" />
   <project path="device/geeksphone/one" name="CyanogenMod/android_device_geeksphone_one" remote="github" />
+  <project path="device/geeksphone/zero" name="CyanogenMod/android_device_geeksphone_zero" remote="github" />
   <project path="device/huawei/ascend" name="CyanogenMod/android_device_huawei_ascend" remote="github" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" />
   <project path="device/htc/ace" name="CyanogenMod/android_device_htc_ace" remote="github" />
