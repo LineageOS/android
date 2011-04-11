@@ -1,259 +1,247 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="korg"
-           fetch="git://android.git.kernel.org/"
-           review="review.source.android.com" />
-
-  <remote  name="github"
-           fetch="git://github.com/"
-           review="review.cyanogenmod.com" />
-
-  <remote  name="themes"
-           fetch="git://github.com/tmobile" />
-
-  <default revision="gingerbread"
-           remote="korg" />
-
-  <project path="build" name="CyanogenMod/android_build" remote="github">
-    <copyfile src="core/root.mk" dest="Makefile" />
+  <remote fetch="git://github.com/" name="github" review="review.cyanogenmod.com"/>
+  <remote fetch="git://android.git.kernel.org/" name="korg" review="review.source.android.com"/>
+  <remote fetch="git://github.com/tmobile" name="themes"/>
+  
+  <default remote="korg" revision="gingerbread"/>
+  
+  <project name="CyanogenMod/android" path="android" remote="github" revision="a0ba55257260066c1bbaaaa2c2eaeb09db704be2"/>
+  <project name="CyanogenMod/android_bionic" path="bionic" remote="github" revision="f3396235a03eb0b9e2df2ded7ef20c371c4b4c5b"/>
+  <project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" remote="github" revision="bab66b40f734194de26fbf37cace4da8f98c4a87"/>
+  <project name="CyanogenMod/android_build" path="build" remote="github" revision="d795fe379517724108b4e3c01b8668c361c3fe04">
+    <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" />
-  <project path="dalvik" name="CyanogenMod/android_dalvik" remote="github" />
-  <project path="development" name="CyanogenMod/android_development" remote="github" />
-  <project path="device/advent/vega" name="CyanogenMod/android_device_advent_vega" remote="github" />
-  <project path="device/common" name="device/common" />
-  <project path="device/bn/encore" name="CyanogenMod/android_device_bn_encore" remote="github" />
-  <project path="device/commtiva/z71" name="CyanogenMod/android_device_commtiva_z71" remote="github" />
-  <project path="device/dell/streak7" name="CyanogenMod/android_device_dell_streak7" remote="github" />
-  <project path="device/elocity/a7" name="CyanogenMod/android_device_elocity_a7" remote="github" />
-  <project path="device/geeksphone/one" name="CyanogenMod/android_device_geeksphone_one" remote="github" />
-  <project path="device/geeksphone/zero" name="CyanogenMod/android_device_geeksphone_zero" remote="github" />
-  <project path="device/huawei/ascend" name="CyanogenMod/android_device_huawei_ascend" remote="github" />
-  <project path="device/huawei/ideos" name="CyanogenMod/android_device_huawei_ideos" remote="github" />
-  <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" />
-  <project path="device/htc/ace" name="CyanogenMod/android_device_htc_ace" remote="github" />
-  <project path="device/htc/bravo" name="CyanogenMod/android_device_htc_bravo" remote="github" />
-  <project path="device/htc/bravoc" name="CyanogenMod/android_device_htc_bravoc" remote="github" />
-  <project path="device/htc/buzz" name="CyanogenMod/android_device_htc_buzz" remote="github" />
-  <project path="device/htc/click" name="CyanogenMod/android_device_htc_click" remote="github" />
-  <project path="device/htc/desirec" name="CyanogenMod/android_device_htc_desirec" remote="github" />
-  <project path="device/htc/dream_sapphire" name="CyanogenMod/android_device_htc_dream_sapphire" remote="github" />
-  <project path="device/htc/espresso" name="CyanogenMod/android_device_htc_espresso" remote="github" />
-  <project path="device/htc/inc" name="CyanogenMod/android_device_htc_inc" remote="github" />
-  <project path="device/htc/glacier" name="CyanogenMod/android_device_htc_glacier" remote="github" />
-  <project path="device/htc/hero" name="CyanogenMod/android_device_htc_hero" remote="github" />
-  <project path="device/htc/heroc" name="CyanogenMod/android_device_htc_heroc" remote="github" />
-  <project path="device/htc/legend" name="CyanogenMod/android_device_htc_legend" remote="github" />
-  <project path="device/htc/leo" name="CyanogenMod/android_device_htc_leo" remote="github" />
-  <project path="device/htc/liberty" name="CyanogenMod/android_device_htc_liberty" remote="github" />
-  <project path="device/htc/mecha" name="CyanogenMod/android_device_htc_mecha" remote="github" />
-  <project path="device/htc/passion" name="CyanogenMod/android_device_htc_passion" remote="github" />
-  <project path="device/htc/passion-common" name="CyanogenMod/android_device_htc_passion-common" remote="github" />
-  <project path="device/htc/speedy" name="CyanogenMod/android_device_htc_speedy" remote="github" />
-  <project path="device/htc/supersonic" name="CyanogenMod/android_device_htc_supersonic" remote="github" />
-  <project path="device/htc/vision" name="CyanogenMod/android_device_htc_vision" remote="github" />
-  <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
-  <project path="device/motorola/stingray" name="CyanogenMod/android_device_motorola_stingray" remote="github" />
-  <project path="device/motorola/zeppelin" name="CyanogenMod/android_device_motorola_zeppelin" remote="github" />
-  <project path="device/nvidia/harmony" name="CyanogenMod/android_device_harmony" remote="github" />
-  <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="CyanogenMod/android_device_samsung_crespo" remote="github" />
-  <project path="device/samsung/epic4g" name="CyanogenMod/android_device_samsung_epic4g" remote="github" />
-  <project path="device/samsung/fascinate" name="CyanogenMod/android_device_samsung_fascinate" remote="github" />
-  <project path="device/samsung/vzwtab" name="CyanogenMod/android_device_samsung_vzwtab" remote="github" />
-  <project path="device/zte/blade" name="CyanogenMod/android_device_zte_blade" remote="github" />
-  <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" remote="github" />
-  <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" remote="github" />
-  <project path="external/apache-http" name="platform/external/apache-http" />
-  <project path="external/astl" name="platform/external/astl" />
-  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" />
-  <project path="external/bison" name="platform/external/bison" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" />
-  <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" remote="github" />
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
-  <project path="external/bouncycastle" name="platform/external/bouncycastle" />
-  <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/bzip2" name="platform/external/bzip2" />
-  <project path="external/chromium" name="platform/external/chromium" />
-  <project path="external/clearsilver" name="CyanogenMod/android_external_clearsilver" remote="github" />
-  <project path="external/compcache" name="CyanogenMod/android_external_compcache" revision="master" remote="github" />
-  <project path="external/dbus" name="platform/external/dbus" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" />
-  <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" revision="master" remote="github" />
-  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" />
-  <project path="external/easymock" name="platform/external/easymock" />
-  <project path="external/elfcopy" name="platform/external/elfcopy" />
-  <project path="external/elfutils" name="platform/external/elfutils" />
-  <project path="external/embunit" name="platform/external/embunit" />
-  <project path="external/emma" name="platform/external/emma" />
-  <project path="external/esd" name="platform/external/esd" />
-  <project path="external/expat" name="platform/external/expat" />
-  <project path="external/fdlibm" name="platform/external/fdlibm" />
-  <project path="external/flac" name="CyanogenMod/android_external_flac" remote="github" />
-  <project path="external/freetype" name="platform/external/freetype" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
-  <project path="external/genext2fs" name="platform/external/genext2fs" />
-  <project path="external/giflib" name="platform/external/giflib" />
-  <project path="external/grub" name="platform/external/grub" />
-  <project path="external/gtest" name="platform/external/gtest" />
-  <project path="external/guava" name="platform/external/guava" />
-  <project path="external/hostapd" name="CyanogenMod/android_external_hostapd" remote="github" />
-  <project path="external/icu4c" name="platform/external/icu4c" />
-  <project path="external/iproute2" name="platform/external/iproute2" />
-  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
-  <project path="external/iptables" name="platform/external/iptables" />
-  <project path="external/jdiff" name="platform/external/jdiff" />
-  <project path="external/jhead" name="platform/external/jhead" />
-  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" remote="github" />
-  <project path="external/jsr305" name="platform/external/jsr305" />
-  <project path="external/junit" name="platform/external/junit" />
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/libffi" name="platform/external/libffi" />
-  <project path="external/libgsm" name="platform/external/libgsm" />
-  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
-  <project path="external/libpcap" name="platform/external/libpcap" />
-  <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="github" />
-  <project path="external/libvpx" name="platform/external/libvpx" />
-  <project path="external/libxml2" name="platform/external/libxml2" />
-  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" />
-  <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" />
-  <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" remote="github" />
-  <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" />
-  <project path="external/netcat" name="platform/external/netcat" />
-  <project path="external/netperf" name="platform/external/netperf" />
-  <project path="external/neven" name="platform/external/neven" />
-  <project path="external/nist-sip" name="platform/external/nist-sip" />
-  <project path="external/oauth" name="platform/external/oauth" />
-  <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="github" />
-  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="github" />
-  <project path="external/oprofile" name="platform/external/oprofile" />
-  <project path="external/ping" name="platform/external/ping" />
-  <project path="external/ppp" name="platform/external/ppp" />
-  <project path="external/proguard" name="platform/external/proguard" />
-  <project path="external/protobuf" name="platform/external/protobuf" />
-  <project path="external/qemu" name="platform/external/qemu" revision="tools_r7" />
-  <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="github" revision="master" />
-  <project path="external/quake" name="platform/external/quake" />
-  <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" />
-  <project path="external/sonivox" name="platform/external/sonivox" />
-  <project path="external/speex" name="platform/external/speex" />
-  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" remote="github" />
-  <project path="external/srec" name="platform/external/srec" />
-  <project path="external/stlport" name="platform/external/stlport" />
-  <project path="external/strace" name="CyanogenMod/android_external_strace" remote="github" />
-  <project path="external/svox" name="platform/external/svox" />
-  <project path="external/tagsoup" name="platform/external/tagsoup" />
-  <project path="external/tcpdump" name="platform/external/tcpdump" />
-  <project path="external/tinyxml" name="platform/external/tinyxml" />
-  <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="CyanogenMod/android_external_v8" remote="github" />
-  <project path="external/vim" name="CyanogenMod/android_external_vim" remote="github" revision="master" />
-  <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" />
-  <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" remote="github" />
-  <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" remote="github" />
-  <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" remote="github" />
-  <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
-  <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" remote="github" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" />
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/gpsshim" name="CyanogenMod/android_hardware_gpsshim" remote="github" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" />
-  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="github" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" />
-  <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" remote="github" />
-  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="github" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" />
-  <project path="libcore" name="platform/libcore" />
-  <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/AccountsAndSyncSettings" name="CyanogenMod/android_packages_apps_AccountsAndSyncSettings" remote="github" />
-  <project path="packages/apps/AicBootFix" name="CyanogenMod/android_packages_apps_AicBootFix" remote="github" revision="master"/>
-  <project path="packages/apps/ADWLauncher" name="CyanogenMod/android_packages_apps_ADWLauncher" remote="github" />
-  <project path="packages/apps/AndroidTerm" name="CyanogenMod/android_packages_apps_AndroidTerm" remote="github" />
-  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="github" />
-  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" remote="github" />
-  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" />
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/CMParts" name="CyanogenMod/android_packages_apps_CMParts" remote="github" />
-  <project path="packages/apps/CMStats" name="CyanogenMod/android_packages_apps_CMStats" remote="github" />
-  <project path="packages/apps/CMUpdateNotify" name="CyanogenMod/android_packages_apps_CMUpdateNotify" remote="github" />
-  <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="github" />
-  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" />
-  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="github" />
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" />
-  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" />
-  <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="github" />
-  <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery3D" name="CyanogenMod/android_packages_apps_Gallery3D" remote="github" />
-  <project path="packages/apps/GanOptimizer" name="CyanogenMod/android_packages_apps_GanOptimizer" remote="github" />
-  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="github" />
-  <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Pacman" name="CyanogenMod/android_packages_apps_Pacman" remote="github" />
-  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" remote="github" />
-  <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" remote="github" />
-  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" remote="github" />
-  <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="github" />
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" />
-  <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" remote="github" />
-  <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="github" />
-  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
-  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" remote="github" />
-  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
-  <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
-  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
-  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
-  <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" remote="github" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
-  <project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" remote="github" />
-  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
-  <project path="prebuilt" name="platform/prebuilt" />
-  <project path="sdk" name="platform/sdk" revision="tools_r7" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="CyanogenMod/android_system_core" remote="github" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" />
-  <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
-  <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" remote="github" />
-
-  <project path="vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" remote="github" />
-
-  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="refs/heads/master" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="themes" revision="refs/heads/master" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="themes" revision="refs/heads/master" />
-  <project path="vendor/tmobile/themes/Androidian" name="themes-platform-vendor-tmobile-themes-Androidian" remote="themes" revision="refs/heads/master" />
-  <project path="vendor/tmobile/themes/Cyanbread" name="themes-platform-vendor-tmobile-themes-Cyanbread" remote="themes" revision="refs/heads/master" />
-  <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="refs/heads/master" />
-
-  <project path="android" name="CyanogenMod/android" remote="github" />
-
+  <project name="CyanogenMod/android_dalvik" path="dalvik" remote="github" revision="2fd1331f450192d8e6d5911f99859790d6c1fe9d"/>
+  <project name="CyanogenMod/android_development" path="development" remote="github" revision="df2e75cd4db71ba5b6aaca94fad9e17c123b85ff"/>
+  <project name="CyanogenMod/android_device_advent_vega" path="device/advent/vega" remote="github" revision="47f82093cd0172fb5007bac194946599fa962cd0"/>
+  <project name="CyanogenMod/android_device_bn_encore" path="device/bn/encore" remote="github" revision="85ad9a4f614469073829cbba896d28b9ade3c021"/>
+  <project name="CyanogenMod/android_device_commtiva_z71" path="device/commtiva/z71" remote="github" revision="8bd1850fa2997d20fe6346945e987978c8c6b0b0"/>
+  <project name="CyanogenMod/android_device_dell_streak7" path="device/dell/streak7" remote="github" revision="79c4e3030aa378c37afd28231780e4857181bdf8"/>
+  <project name="CyanogenMod/android_device_elocity_a7" path="device/elocity/a7" remote="github" revision="a924d58ea2e5f635357fcfeb5150b6ad489c93c0"/>
+  <project name="CyanogenMod/android_device_geeksphone_one" path="device/geeksphone/one" remote="github" revision="a3f7fef7ee98a04f763af6602e1b1c7fef8fed94"/>
+  <project name="CyanogenMod/android_device_geeksphone_zero" path="device/geeksphone/zero" remote="github" revision="44d47314692e11053b78a35f99c70726306623de"/>
+  <project name="CyanogenMod/android_device_harmony" path="device/nvidia/harmony" remote="github" revision="7ec539244fed12edb89018605791af94c03e3796"/>
+  <project name="CyanogenMod/android_device_htc_ace" path="device/htc/ace" remote="github" revision="65760966883bf81605be6785bb6e59455dde1b36"/>
+  <project name="CyanogenMod/android_device_htc_bravo" path="device/htc/bravo" remote="github" revision="76b922fbe85fc5cf80410d86d5d013eb1abc9081"/>
+  <project name="CyanogenMod/android_device_htc_bravoc" path="device/htc/bravoc" remote="github" revision="114b7d78bc8d842aff712b07d77940a99318a3a3"/>
+  <project name="CyanogenMod/android_device_htc_buzz" path="device/htc/buzz" remote="github" revision="411a813275afd8c6e4ded14ca65c9fc14c64091a"/>
+  <project name="CyanogenMod/android_device_htc_click" path="device/htc/click" remote="github" revision="539d82b023833063d0e280aa981dcab29ea0f5bc"/>
+  <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" remote="github" revision="1e9c91933bd0c2c9bb007cceaf640568a4b9432e"/>
+  <project name="CyanogenMod/android_device_htc_desirec" path="device/htc/desirec" remote="github" revision="bc6ed05061c34e1bc6bc0123747f8bef24aaa279"/>
+  <project name="CyanogenMod/android_device_htc_dream_sapphire" path="device/htc/dream_sapphire" remote="github" revision="35c962bf9270dca326da16e92e6cef8ae128a986"/>
+  <project name="CyanogenMod/android_device_htc_espresso" path="device/htc/espresso" remote="github" revision="c57941b3ec24e916563d1cea249607508b9dd062"/>
+  <project name="CyanogenMod/android_device_htc_glacier" path="device/htc/glacier" remote="github" revision="cdd987a69ad9f263044dc8520693897967d9610a"/>
+  <project name="CyanogenMod/android_device_htc_hero" path="device/htc/hero" remote="github" revision="f81f4fde788af5e71dfdbb20035c1d724670fead"/>
+  <project name="CyanogenMod/android_device_htc_heroc" path="device/htc/heroc" remote="github" revision="f6e4f03e6021e2b85f769358960ec8513d8051ae"/>
+  <project name="CyanogenMod/android_device_htc_inc" path="device/htc/inc" remote="github" revision="dac7bf804553588b740731ac9ae3d478e322720f"/>
+  <project name="CyanogenMod/android_device_htc_legend" path="device/htc/legend" remote="github" revision="0df05b2c1c330876c2456eee11a03a1066d50583"/>
+  <project name="CyanogenMod/android_device_htc_leo" path="device/htc/leo" remote="github" revision="28f859c8edfc44c14ae2b2dfb328b693a163ddf3"/>
+  <project name="CyanogenMod/android_device_htc_liberty" path="device/htc/liberty" remote="github" revision="01e901d45dfbb9d65e9e7dd506271c0cc17313b2"/>
+  <project name="CyanogenMod/android_device_htc_mecha" path="device/htc/mecha" remote="github" revision="aafe8bc175e6b2810df1a7a51a5142d7617fefda"/>
+  <project name="CyanogenMod/android_device_htc_passion" path="device/htc/passion" remote="github" revision="8ca27c2f4f1c15bb94de6697ab4c407b3a3c487f"/>
+  <project name="CyanogenMod/android_device_htc_passion-common" path="device/htc/passion-common" remote="github" revision="1cf248905c8fc61828087b10e1df4fefb7ee339e"/>
+  <project name="CyanogenMod/android_device_htc_speedy" path="device/htc/speedy" remote="github" revision="b2950af10d40f174700abf22217a8e90719d808f"/>
+  <project name="CyanogenMod/android_device_htc_supersonic" path="device/htc/supersonic" remote="github" revision="f177aab0f9839b91869b62c71eb233a5fa29c2ed"/>
+  <project name="CyanogenMod/android_device_htc_vision" path="device/htc/vision" remote="github" revision="7f499f920b1687b5d2fed296c86a7d035fb1526f"/>
+  <project name="CyanogenMod/android_device_huawei_ascend" path="device/huawei/ascend" remote="github" revision="c89763ba40dcea71691efd960bb4521b3b4f284c"/>
+  <project name="CyanogenMod/android_device_huawei_ideos" path="device/huawei/ideos" remote="github" revision="e58dce7bb9bd9a400b515d9a3c37aaba99893fab"/>
+  <project name="CyanogenMod/android_device_motorola_sholes" path="device/motorola/sholes" remote="github" revision="17d547c087bd8b296bd7d4bb82482e70ee0e86ee"/>
+  <project name="CyanogenMod/android_device_motorola_stingray" path="device/motorola/stingray" remote="github" revision="995fe5dfe786a5607c87f0f9dff1bd6ef4ff58da"/>
+  <project name="CyanogenMod/android_device_motorola_zeppelin" path="device/motorola/zeppelin" remote="github" revision="4f3b4e84ded59784466ac1c1d5b5843ca6d44ffc"/>
+  <project name="CyanogenMod/android_device_samsung_crespo" path="device/samsung/crespo" remote="github" revision="75d304b61f2c413b70937bdae5974498a727f3fc"/>
+  <project name="CyanogenMod/android_device_samsung_epic4g" path="device/samsung/epic4g" remote="github" revision="d690307b82634032fa13de6936aa8e6f3192e563"/>
+  <project name="CyanogenMod/android_device_samsung_fascinate" path="device/samsung/fascinate" remote="github" revision="c5abaeca4985e6f8cdbb573b37166ee4ecf9f6d7"/>
+  <project name="CyanogenMod/android_device_samsung_vzwtab" path="device/samsung/vzwtab" remote="github" revision="1ec1fa4bfccb37b658b525763bf94d38c1319a81"/>
+  <project name="CyanogenMod/android_device_zte_blade" path="device/zte/blade" remote="github" revision="681f7db9de1388825aef4cd831a297bc09097b57"/>
+  <project name="CyanogenMod/android_external_alsa-lib" path="external/alsa-lib" remote="github" revision="a10f7f066bc40432ed2b682439ec2c0df8d7a4da"/>
+  <project name="CyanogenMod/android_external_alsa-utils" path="external/alsa-utils" remote="github" revision="b55aebde11e8b9ea95a61859a8a7d2f7c7681a52"/>
+  <project name="CyanogenMod/android_external_bash" path="external/bash" remote="github" revision="744878f09637fad57e28c5eb5e277cdb50b26485"/>
+  <project name="CyanogenMod/android_external_bluetooth_bluez" path="external/bluetooth/bluez" remote="github" revision="74fda8ee9322820f0cc17a2818e673b26304b420"/>
+  <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="411c727c1b9072b0a79e91d68fa142170bfd0e7a"/>
+  <project name="CyanogenMod/android_external_clearsilver" path="external/clearsilver" remote="github" revision="7ae7d3b50bfdb03e2d1406578e4ed802757ad6b1"/>
+  <project name="CyanogenMod/android_external_compcache" path="external/compcache" remote="github" revision="5fdea2182e615432f615971d9353734fabf5ade0"/>
+  <project name="CyanogenMod/android_external_dropbear" path="external/dropbear" remote="github" revision="006603dc413f45ea55c55ce8be5ce5c0c748975e"/>
+  <project name="CyanogenMod/android_external_e2fsprogs" path="external/e2fsprogs" remote="github" revision="26c7f71ba042a41ebe3e6d4118fc7350311ca45d"/>
+  <project name="CyanogenMod/android_external_flac" path="external/flac" remote="github" revision="84110cd94e840d42b7c43789e67f18da67d551b0"/>
+  <project name="CyanogenMod/android_external_hostapd" path="external/hostapd" remote="github" revision="3ad9316ae7540573f2597dfbd0d4f6d8b82f2e53"/>
+  <project name="CyanogenMod/android_external_jpeg" path="external/jpeg" remote="github" revision="946e240a8ac33694b868f260ecefb8078ead65af"/>
+  <project name="CyanogenMod/android_external_libncurses" path="external/libncurses" remote="github" revision="13c1a56b19c844f24bb6508123f63e5f02479037"/>
+  <project name="CyanogenMod/android_external_libpng" path="external/libpng" remote="github" revision="177f4133aeefe3800eb301daef17d8e38f567605"/>
+  <project name="CyanogenMod/android_external_lsof" path="external/lsof" remote="github" revision="285fbd053b61062fb780cc53873802f1137ec7c2"/>
+  <project name="CyanogenMod/android_external_lzo" path="external/lzo" remote="github" revision="409e081d386c767ea872709efcc0adec20457f6d"/>
+  <project name="CyanogenMod/android_external_mtpd" path="external/mtpd" remote="github" revision="afcbce901fceeef051dfe1e86d3bea58817e59e4"/>
+  <project name="CyanogenMod/android_external_nano" path="external/nano" remote="github" revision="a8287cc0a6d1b4cb59214203712f1fef6882a63b"/>
+  <project name="CyanogenMod/android_external_openssl" path="external/openssl" remote="github" revision="a399feb4449474088206f74976146b5c6eadfdf9"/>
+  <project name="CyanogenMod/android_external_openvpn" path="external/openvpn" remote="github" revision="24a48703abd2fe44929e202bb1b59ed2e8b535f5"/>
+  <project name="CyanogenMod/android_external_rsync" path="external/rsync" remote="github" revision="0c1c581e7a91fe7da2a93f8845fc0241dba0a4bd"/>
+  <project name="CyanogenMod/android_external_skia" path="external/skia" remote="github" revision="bf476ae45e61a6882dff55f67fbec6051b4c9ef6"/>
+  <project name="CyanogenMod/android_external_sqlite" path="external/sqlite" remote="github" revision="4260bd38f168bfa5551930d56d9e6a629a684372"/>
+  <project name="CyanogenMod/android_external_strace" path="external/strace" remote="github" revision="98692753a1cd03752d4e9e0a69b1d997f65e21db"/>
+  <project name="CyanogenMod/android_external_v8" path="external/v8" remote="github" revision="532f57435e2effb4fd1e226e6dc0b88ad551c6e5"/>
+  <project name="CyanogenMod/android_external_vim" path="external/vim" remote="github" revision="d6aaec4005d95713c23ba49695ea97d220caf09e"/>
+  <project name="CyanogenMod/android_external_webkit" path="external/webkit" remote="github" revision="569877056644382a41b722a03cad4c17b402a138"/>
+  <project name="CyanogenMod/android_external_wireless-tools" path="external/wireless-tools" remote="github" revision="059149abe4b266023be629f678eeb188af589abd"/>
+  <project name="CyanogenMod/android_external_wpa_supplicant" path="external/wpa_supplicant" remote="github" revision="f5889d8bb6d7e36bc7f9ac2dd82bb7e31f3cda0a"/>
+  <project name="CyanogenMod/android_external_wpa_supplicant_6" path="external/wpa_supplicant_6" remote="github" revision="97f3725f8db938bf40dd2fbcc70d0105aee97029"/>
+  <project name="CyanogenMod/android_external_yaffs2" path="external/yaffs2" remote="github" revision="62a1cf4d3ded963f6db6f24d5c5f087d3a4cb4a0"/>
+  <project name="CyanogenMod/android_external_zlib" path="external/zlib" remote="github" revision="a19ef6d3826b017cf82f5e8d4291c73851f87321"/>
+  <project name="CyanogenMod/android_frameworks_base" path="frameworks/base" remote="github" revision="338dd9dd361fc41bcfba509124903fab0ada9579"/>
+  <project name="CyanogenMod/android_hardware_alsa_sound" path="hardware/alsa_sound" remote="github" revision="3e9bb3f38226979a5d0c9af5e5700ee5638fa430"/>
+  <project name="CyanogenMod/android_hardware_gpsshim" path="hardware/gpsshim" remote="github" revision="907c197226cd47fa11cc1f9a50d56f3fdf0dfa40"/>
+  <project name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="263df4a734983e90b015cd80b9ef844e0aeb92b6"/>
+  <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="a14981a46b48b59a2397ab3f1f221eb93d491e02"/>
+  <project name="CyanogenMod/android_hardware_msm7k" path="hardware/msm7k" remote="github" revision="db638a51969668bc189eef4913a550a54e4df640"/>
+  <project name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="a91c47a3f7f46e4511469a6ecb8229c6dbcf78f5"/>
+  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="5eae2e9c5f498e58c5684f09936b6b1eec0409a2"/>
+  <project name="CyanogenMod/android_hardware_ril" path="hardware/ril" remote="github" revision="a5f51f08b01f2fe8b2307299cddc2c54dc6c89f1"/>
+  <project name="CyanogenMod/android_hardware_ti_omap3" path="hardware/ti/omap3" remote="github" revision="c0da2876da6a9f07ab7268128af3c912130321ab"/>
+  <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="395f7053e1c0518dc4d8c232d0df6b7ef10ecc91"/>
+  <project name="CyanogenMod/android_packages_apps_ADWLauncher" path="packages/apps/ADWLauncher" remote="github" revision="5b468e0de04713355bd7d462c269d1411d0bd000"/>
+  <project name="CyanogenMod/android_packages_apps_AccountsAndSyncSettings" path="packages/apps/AccountsAndSyncSettings" remote="github" revision="45773e74c106c605819fad5aa9d4e6d8998ac0ab"/>
+  <project name="CyanogenMod/android_packages_apps_AicBootFix" path="packages/apps/AicBootFix" remote="github" revision="6cbbe9d406d4e99ef4d39765cd0f1fe977e382da"/>
+  <project name="CyanogenMod/android_packages_apps_AndroidTerm" path="packages/apps/AndroidTerm" remote="github" revision="e08a0add0be2f0827d7cd4b0c158bd6ab7c61adb"/>
+  <project name="CyanogenMod/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="30e2e5e2e65186cc12967dad39dd344c729cb976"/>
+  <project name="CyanogenMod/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="1abba637f47ce61176d2fea84e788a8fa4dee6c7"/>
+  <project name="CyanogenMod/android_packages_apps_CMParts" path="packages/apps/CMParts" remote="github" revision="f07712cc9b82dc1d7089fc7baf6e5ecf3e2e26a1"/>
+  <project name="CyanogenMod/android_packages_apps_CMStats" path="packages/apps/CMStats" remote="github" revision="724bcd637c27952a1bd348a1227c40f7cb070d18"/>
+  <project name="CyanogenMod/android_packages_apps_CMUpdateNotify" path="packages/apps/CMUpdateNotify" remote="github" revision="1dfba43f6b01d2006fc44ccaee92f696c2b24eaa"/>
+  <project name="CyanogenMod/android_packages_apps_CMWallpapers" path="packages/apps/CMWallpapers" remote="github" revision="c66d73e30946a920bed239ff0affdeaeb15a993a"/>
+  <project name="CyanogenMod/android_packages_apps_Calendar" path="packages/apps/Calendar" remote="github" revision="7dcd180dbfa2eba653e85239f0448e8cbed548a7"/>
+  <project name="CyanogenMod/android_packages_apps_Camera" path="packages/apps/Camera" remote="github" revision="ce240e26fc3e3304fec2258e8a1bbb9fda9b2e05"/>
+  <project name="CyanogenMod/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" revision="c8dd76e15c6942bb956bb15b91d41a58cd2b964e"/>
+  <project name="CyanogenMod/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="1d7aeb2caf95947ace393dd34165f89d574d2406"/>
+  <project name="CyanogenMod/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="github" revision="51a4429f04c28ab06feb5b49f8b57c297b3f6c7f"/>
+  <project name="CyanogenMod/android_packages_apps_Email" path="packages/apps/Email" remote="github" revision="a812bfc098dd2af1ceba38cb325c863f937ecb38"/>
+  <project name="CyanogenMod/android_packages_apps_FM" path="packages/apps/FM" remote="github" revision="04796068f16926165579212b2ef35563665beb47"/>
+  <project name="CyanogenMod/android_packages_apps_FileManager" path="packages/apps/FileManager" remote="github" revision="fa081f1b9169c2e91bd5806b0d624cfddaab3544"/>
+  <project name="CyanogenMod/android_packages_apps_Gallery3D" path="packages/apps/Gallery3D" remote="github" revision="3bc75d995ab2958379d1059255ed0c6f0d9f4a24"/>
+  <project name="CyanogenMod/android_packages_apps_GanOptimizer" path="packages/apps/GanOptimizer" remote="github" revision="4ac9a936e2f08d838d6fa879212cb1f74465e7f2"/>
+  <project name="CyanogenMod/android_packages_apps_Mms" path="packages/apps/Mms" remote="github" revision="20f345c1857d25af519114d1f5dbffce24f9b3db"/>
+  <project name="CyanogenMod/android_packages_apps_Music" path="packages/apps/Music" remote="github" revision="d995eb7cc645db32ed463279368d741dc307403a"/>
+  <project name="CyanogenMod/android_packages_apps_Pacman" path="packages/apps/Pacman" remote="github" revision="faac65f7e61713ea9afa3aa3240e4f2563cbfdf2"/>
+  <project name="CyanogenMod/android_packages_apps_Phone" path="packages/apps/Phone" remote="github" revision="7e2bcba415c9495263204f638632fc7d3da2ba62"/>
+  <project name="CyanogenMod/android_packages_apps_Protips" path="packages/apps/Protips" remote="github" revision="b3bb7cb7639ef09fbe7874a93798f38893a58856"/>
+  <project name="CyanogenMod/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="0f238a413619bb4838e61b45dafb064daf074852"/>
+  <project name="CyanogenMod/android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" remote="github" revision="09fe528c62ad07de020f89eacb36310527c3cb23"/>
+  <project name="CyanogenMod/android_packages_apps_Superuser" path="packages/apps/Superuser" remote="github" revision="be1efd803400f4dea930c3e86aa5ce17f8c0a3dd"/>
+  <project name="CyanogenMod/android_packages_apps_Torch" path="packages/apps/Torch" remote="github" revision="343edcdbbb0c964275c18351eb5a7c7ca5e5b718"/>
+  <project name="CyanogenMod/android_packages_apps_VoiceDialer" path="packages/apps/VoiceDialer" remote="github" revision="bed30806bf45a8d1abdbf5a3c8e829a151936988"/>
+  <project name="CyanogenMod/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="f84d3d2ea99252504d3ac6c365e8134665cf77c3"/>
+  <project name="CyanogenMod/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="github" revision="773537c4aff0bddfbf0afd2f55a5a94492df03bd"/>
+  <project name="CyanogenMod/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="github" revision="1b08e634cec80b124e3077d8e61165d30fac23e4"/>
+  <project name="CyanogenMod/android_packages_wallpapers_Basic" path="packages/wallpapers/Basic" remote="github" revision="c6bcaaee6a1b336d7cebf9cb71fa409fa02c615f"/>
+  <project name="CyanogenMod/android_packages_wallpapers_MagicSmoke" path="packages/wallpapers/MagicSmoke" remote="github" revision="d63c7a77ec40a95c9b2c07e13ee30e497c9adb38"/>
+  <project name="CyanogenMod/android_system_core" path="system/core" remote="github" revision="9c9353b9d2ade37d9dbaa10bbf00a2e6de82a952"/>
+  <project name="CyanogenMod/android_system_extras" path="system/extras" remote="github" revision="e9c386c4f8a8741dd40fa486747c35634cce9055"/>
+  <project name="CyanogenMod/android_system_netd" path="system/netd" remote="github" revision="4768c2f1af1ede64d69e477788711c23e1b54e53"/>
+  <project name="CyanogenMod/android_system_vold" path="system/vold" remote="github" revision="3f7120aaebde30375c7115aac0c0f34665697135"/>
+  <project name="CyanogenMod/android_system_wlan_ti" path="system/wlan/ti" remote="github" revision="d0b87d2f6bfc7a8e8765ba89bf4bda641e9ff019"/>
+  <project name="CyanogenMod/android_vendor_cyanogen" path="vendor/cyanogen" remote="github" revision="ad2250af08b2afc9de97fb0840ba69770e0eab9b"/>
+  <project name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" remote="github" revision="5d2e6765e46c4e33dee47b73a14ef7204a4e018f"/>
+  <project name="device/common" revision="e80457e2c7e742065b879d27141f2027a85c1fe7"/>
+  <project name="device/sample" revision="e16854cd143b0c5623ab507461b028422a14d526"/>
+  <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="d3271024770ddcc2fb87dd22f8280764545ab05a"/>
+  <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="53bd9111b5ae1fc1180ec13755d9830f7cadacf5"/>
+  <project name="platform/external/apache-http" path="external/apache-http" revision="b91c5e936342afbdd58c88ac604d5dd505d0fe0c"/>
+  <project name="platform/external/astl" path="external/astl" revision="c3c760978c34d5eeea1205c0bf7f27444e192a98"/>
+  <project name="platform/external/bison" path="external/bison" revision="889df9c1efa7ca5de113407ab7793b57a6db677d"/>
+  <project name="platform/external/blktrace" path="external/blktrace" revision="ac4461c3b3e7bcbafe5336b9478657d0fa3e08aa"/>
+  <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib" revision="0c01eb3a7313a580fe34044bcdc3337d067c8a15"/>
+  <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump" revision="ce36a6c7c5f8043c038415d8e270d55d9834008d"/>
+  <project name="platform/external/bouncycastle" path="external/bouncycastle" revision="3ab12958718f17e48e2816a84d403f6305cc2800"/>
+  <project name="platform/external/bsdiff" path="external/bsdiff" revision="df980d633fd0bdc0b89af26630f543d91bb87e68"/>
+  <project name="platform/external/bzip2" path="external/bzip2" revision="879585bbef51b4cabaac6340a95d807dca379cdc"/>
+  <project name="platform/external/chromium" path="external/chromium" revision="5e43ad9465e402d595a3c960784b1effe2e9bd88"/>
+  <project name="platform/external/dbus" path="external/dbus" revision="4bda01d38f1ef164d76bb8e266caaabfd549ef9c"/>
+  <project name="platform/external/dhcpcd" path="external/dhcpcd" revision="07e6bad27beabac5f4ed795fbbc7c8b564b14495"/>
+  <project name="platform/external/dnsmasq" path="external/dnsmasq" revision="1b25960ebe33754410ba3c663c1c45662c779381"/>
+  <project name="platform/external/easymock" path="external/easymock" revision="17d5eb4006c438775d8eaa7600e947e4ac090a18"/>
+  <project name="platform/external/elfcopy" path="external/elfcopy" revision="62c1bed1c4505369cac2e72fbe30452a598fb690"/>
+  <project name="platform/external/elfutils" path="external/elfutils" revision="84cf4183ba6f577ee01abe7f1f5a6d4b23df35a8"/>
+  <project name="platform/external/embunit" path="external/embunit" revision="f5eb8b0c9abf1e9911b5c84a555bc495651595e5"/>
+  <project name="platform/external/emma" path="external/emma" revision="4d37e21b7c2fa378dbf7cfe2ea57d7f5991fe6cd"/>
+  <project name="platform/external/esd" path="external/esd" revision="224a67f2683a7ee997179fc5dd16115e39987b0f"/>
+  <project name="platform/external/expat" path="external/expat" revision="204e2ef0e1a2c2da0087cccb0c9b618d52f1d584"/>
+  <project name="platform/external/fdlibm" path="external/fdlibm" revision="26ea4299bba7c618fdf97624b39e33444410896d"/>
+  <project name="platform/external/freetype" path="external/freetype" revision="aacb8e1368a883fcbc9fe64fd0e460cef9c9b20c"/>
+  <project name="platform/external/fsck_msdos" path="external/fsck_msdos" revision="b6ee08aadb580341a4d80943741b80de16a88b5d"/>
+  <project name="platform/external/genext2fs" path="external/genext2fs" revision="28f10892a39db10b1c65125723d9737de865ef56"/>
+  <project name="platform/external/giflib" path="external/giflib" revision="b2597268aef084202a8c349d1cc072c03c6e22eb"/>
+  <project name="platform/external/grub" path="external/grub" revision="a0be411871f2e71834a2cd75dea882d732557530"/>
+  <project name="platform/external/gtest" path="external/gtest" revision="75f109c3120bf78ee89124f1f21b50ea24225236"/>
+  <project name="platform/external/guava" path="external/guava" revision="5fa17bce47c47d5538beaaef0e38f0576446709c"/>
+  <project name="platform/external/icu4c" path="external/icu4c" revision="fa7b84a26dd6c44cb0d219ef7b2f7e258219b616"/>
+  <project name="platform/external/iproute2" path="external/iproute2" revision="14740a4557728ba63348e0574507a71fa40a8bd4"/>
+  <project name="platform/external/ipsec-tools" path="external/ipsec-tools" revision="f5d0d0919f6c0b82611c1f8ad0cb6023a78b6ce0"/>
+  <project name="platform/external/iptables" path="external/iptables" revision="4a820b4c41de49482adce1a4e7424ca124b6b233"/>
+  <project name="platform/external/jdiff" path="external/jdiff" revision="590cef7c1b48c9c3f4556ae65fbc0065d65da54a"/>
+  <project name="platform/external/jhead" path="external/jhead" revision="fd983181d9043cdf45497ace19c60fd9e4e1799c"/>
+  <project name="platform/external/jsr305" path="external/jsr305" revision="8e937939899d5fe3a6864c7ecb9bb8632678a7c7"/>
+  <project name="platform/external/junit" path="external/junit" revision="e9b8080d6d80d17729e0b7f8b1d2b573b3456cc4"/>
+  <project name="platform/external/kernel-headers" path="external/kernel-headers" revision="4879d6a8f2cd33b6b725666bc8f5b48f007db2a6"/>
+  <project name="platform/external/libffi" path="external/libffi" revision="5dea54fd57265ce037ac94055b9f94a45558b39e"/>
+  <project name="platform/external/libgsm" path="external/libgsm" revision="5e4516958690b9a1b2c98f88eeecba3edd2dbda4"/>
+  <project name="platform/external/libnfc-nxp" path="external/libnfc-nxp" revision="442bead483a0a6fd9254fc83a5ea76474c6dbbe7"/>
+  <project name="platform/external/libpcap" path="external/libpcap" revision="3a7bce5dda6a8db92c9248846d0255e68c3a5b2a"/>
+  <project name="platform/external/libvpx" path="external/libvpx" revision="76e0247ec867fcc232fc79f21e9bf85d3c3a5a3f"/>
+  <project name="platform/external/libxml2" path="external/libxml2" revision="f16b5fdc2102953f6b915472200061e17e76702b"/>
+  <project name="platform/external/netcat" path="external/netcat" revision="fc2dc55c510657073ef4235658167a878e82cefa"/>
+  <project name="platform/external/netperf" path="external/netperf" revision="58ecd3b7c76263900e38921360e334a416aec362"/>
+  <project name="platform/external/neven" path="external/neven" revision="7164d6ac08ab9fc1247aa29f1dafd0ef7808f0f2"/>
+  <project name="platform/external/nist-sip" path="external/nist-sip" revision="618ef6b2f5a2d3c29e4a76faa5abc5ebd5fa6fe3"/>
+  <project name="platform/external/oauth" path="external/oauth" revision="c76276a1d6165cfb502b06f65b1735fef0754d26"/>
+  <project name="platform/external/oprofile" path="external/oprofile" revision="041ee6ccda354960ebc1e1ccfff78685ec5326e1"/>
+  <project name="platform/external/ping" path="external/ping" revision="f35ea57ab6d01badde92491274ff2d74cbe3cf01"/>
+  <project name="platform/external/ppp" path="external/ppp" revision="d88bff8f5384285f76576eb7707c6d9d5b98edb6"/>
+  <project name="platform/external/proguard" path="external/proguard" revision="6660cb6cb4231a03a3c02127fa5c4e7828422caa"/>
+  <project name="platform/external/protobuf" path="external/protobuf" revision="3574de1ca8301e1e13d1c89f2e2a902499d6bae9"/>
+  <project name="platform/external/qemu" path="external/qemu" revision="2fa5173bd1ce7341c50adac676a317945f0969c7"/>
+  <project name="platform/external/quake" path="external/quake" revision="9b0abf864353d47404417c1cbd8384e15be547b0"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb"/>
+  <project name="platform/external/sonivox" path="external/sonivox" revision="d029b2378170cfd7bb34d894482065a762a54578"/>
+  <project name="platform/external/speex" path="external/speex" revision="32e4d0aa78c5879565cbcd06415fa2e344036ab5"/>
+  <project name="platform/external/srec" path="external/srec" revision="7390035ea61b32477243d60c452664150b61f023"/>
+  <project name="platform/external/stlport" path="external/stlport" revision="23d26c04304e90e94e9f7ff4dbddde644010660b"/>
+  <project name="platform/external/svox" path="external/svox" revision="1c643c7e8c13bb758249766b04a7b605179f06fa"/>
+  <project name="platform/external/tagsoup" path="external/tagsoup" revision="68c2ec9e0acdb3214b7fb91dbab8c9fab8736817"/>
+  <project name="platform/external/tcpdump" path="external/tcpdump" revision="532b8f38c144da9a298260a5d8978ab9e8e3856c"/>
+  <project name="platform/external/tinyxml" path="external/tinyxml" revision="d589f7e4a51e75bd5c98a3defd8ee84d7059e86e"/>
+  <project name="platform/external/tremolo" path="external/tremolo" revision="9a688754461ebfc91769b5d3c8ba5aba9fe1f376"/>
+  <project name="platform/external/xmlwriter" path="external/xmlwriter" revision="e95d92246ee35273dde2bee8b00485cc14c12be5"/>
+  <project name="platform/frameworks/ex" path="frameworks/ex" revision="e0d5045a56146f0e7d8ea9e400f6eb209edceec5"/>
+  <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="49f8fa5f480ae382f9087fde333b50072b214ad2"/>
+  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="e471b83f1c2d3982fae0307f37c1ca30ca7e6837"/>
+  <project name="platform/libcore" path="libcore" revision="aa2be6b82cdf3bb292076d2a614a5f5b40e63123"/>
+  <project name="platform/ndk" path="ndk" revision="7a619be40e8594a961066a33b7cc9ef52f566988"/>
+  <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator" revision="a86dd5f232c39830741f7d699e42e400d6024ac1"/>
+  <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="ed62f82e5efc05ff87133fad7f4051a7e0fb9788"/>
+  <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="58f759f4f230527e15c25da067ca24fdba9d75b9"/>
+  <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="79753f3bee4b17087936543e899dc2af9a3d04b9"/>
+  <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="f7be630c94a9a5bfd8992d5b538f81a8e894b552"/>
+  <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="bd555ee64250126b60b24814120a2049943920ca"/>
+  <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" revision="29b9f0bbdc35366450f14124588e1688cc5c8f7e"/>
+  <project name="platform/packages/apps/Provision" path="packages/apps/Provision" revision="f31b933a8aebf07e3feb512ac650c5691c8c5e0f"/>
+  <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="71db3d37c1aa4a764fd919e52559ceae9be65c00"/>
+  <project name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="d2f267c7ed48dc77878299e12925bc3c39db5d37"/>
+  <project name="platform/packages/apps/Tag" path="packages/apps/Tag" revision="862b975969e386fc7fa611c58e0e657c6977c83e"/>
+  <project name="platform/packages/experimental" path="packages/experimental" revision="504fe3ddddf722e4315b382319970b0e435af27b"/>
+  <project name="platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider" revision="5123bf283e3a1147cff34d0cd493316c630a5e32"/>
+  <project name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider" revision="7ef0077f9f6a3a4c50244e963b2215aebb0fe3ca"/>
+  <project name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" revision="c9d8e21bd1e6dbde3208b9475a2697081f8ced79"/>
+  <project name="platform/packages/providers/DrmProvider" path="packages/providers/DrmProvider" revision="57761b3140858cef6499602653608f4e977d1011"/>
+  <project name="platform/packages/providers/GoogleContactsProvider" path="packages/providers/GoogleContactsProvider" revision="4886c7a0cfba5df74b213b1fc8286c6e3f2ddaa2"/>
+  <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="8f61a120f7a71da4c12f399aca33d1f5fffba0c5"/>
+  <project name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" revision="d7eb9d4b59640175877a6f53f32b6e3e3d7154e9"/>
+  <project name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="8903aebecc4717f2b19ad7583b16684f25177a0b"/>
+  <project name="platform/packages/wallpapers/MusicVisualization" path="packages/wallpapers/MusicVisualization" revision="5990d2459017ab3a404e774115ebcc2c414e3136"/>
+  <project name="platform/prebuilt" path="prebuilt" revision="0164413492bb15231feacd9be08c32e27979aeab"/>
+  <project name="platform/sdk" path="sdk" revision="20a2d5c22df9da1909c01140253300f0f553252e"/>
+  <project name="platform/system/bluetooth" path="system/bluetooth" revision="7dc550597f490a67c8d020c727bfbf2d9d212d42"/>
+  <project name="platform/system/media" path="system/media" revision="4c2bc0fd150b0164f9f387214c29143346a92e14"/>
+  <project name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" path="vendor/tmobile/libs/com.tmobile.themes" remote="themes" revision="4c0f151c11b3de7b70f5ef1d67a69501147bf263"/>
+  <project name="themes-platform-vendor-tmobile-products-themes" path="vendor/tmobile/products/themes" remote="themes" revision="671cd64ee2d932c5836942c9cde9bcc70d9d9f25"/>
+  <project name="themes-platform-vendor-tmobile-providers-ThemeManager" path="vendor/tmobile/providers/ThemeManager" remote="themes" revision="4508d872a0be3c2cdf0c86ac327c69f74b0cd218"/>
+  <project name="themes-platform-vendor-tmobile-themes-Androidian" path="vendor/tmobile/themes/Androidian" remote="themes" revision="7f5e2bb53b4524c29cdee9086e99db739728086e"/>
+  <project name="themes-platform-vendor-tmobile-themes-Cyanbread" path="vendor/tmobile/themes/Cyanbread" remote="themes" revision="7ab2e8f5bfb2ab3d0090b33e4e8e166a0e16b3e9"/>
 </manifest>
