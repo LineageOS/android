@@ -10,21 +10,21 @@
   
   <project name="CyanogenMod/android" path="android" remote="github" revision="5c8d64c05dca08170e054a573e0051a8ce84c8e3"/>
   <project name="CyanogenMod/android_bionic" path="bionic" remote="github" revision="f3396235a03eb0b9e2df2ded7ef20c371c4b4c5b"/>
-  <project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" remote="github" revision="7364e82a5fc092ec246c4f1a2b70a2d58544f378"/>
+  <project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" remote="github" revision="9c4c8e2c6675861e9983a1e40adb7f082de691fb"/>
   <project name="CyanogenMod/android_build" path="build" remote="github" revision="4c52c585b562f18a3d0ee6f07f44e16b6682ef46">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="CyanogenMod/android_dalvik" path="dalvik" remote="github" revision="2fd1331f450192d8e6d5911f99859790d6c1fe9d"/>
   <project name="CyanogenMod/android_development" path="development" remote="github" revision="df2e75cd4db71ba5b6aaca94fad9e17c123b85ff"/>
-  <project name="CyanogenMod/android_device_advent_vega" path="device/advent/vega" remote="github" revision="1ea996508c0f4ab8d5491306bec8681947592bdc"/>
-  <project name="CyanogenMod/android_device_bn_encore" path="device/bn/encore" remote="github" revision="f342f2e53a07e6c792c2ad978549ec33695826e7"/>
+  <project name="CyanogenMod/android_device_advent_vega" path="device/advent/vega" remote="github" revision="90d2519e18cc43f9b1d13082db33eea81cafbb41"/>
+  <project name="CyanogenMod/android_device_bn_encore" path="device/bn/encore" remote="github" revision="983e2bda7e040aeaeb21c5783b2c60b13941e77b"/>
   <project name="CyanogenMod/android_device_commtiva_z71" path="device/commtiva/z71" remote="github" revision="8bd1850fa2997d20fe6346945e987978c8c6b0b0"/>
   <project name="CyanogenMod/android_device_dell_streak7" path="device/dell/streak7" remote="github" revision="79c4e3030aa378c37afd28231780e4857181bdf8"/>
   <project name="CyanogenMod/android_device_elocity_a7" path="device/elocity/a7" remote="github" revision="a924d58ea2e5f635357fcfeb5150b6ad489c93c0"/>
   <project name="CyanogenMod/android_device_geeksphone_one" path="device/geeksphone/one" remote="github" revision="a3f7fef7ee98a04f763af6602e1b1c7fef8fed94"/>
   <project name="CyanogenMod/android_device_geeksphone_zero" path="device/geeksphone/zero" remote="github" revision="44d47314692e11053b78a35f99c70726306623de"/>
-  <project name="CyanogenMod/android_device_harmony" path="device/nvidia/harmony" remote="github" revision="57294a1ea138588b2e7d234a338b384fc3ccf794"/>
-  <project name="CyanogenMod/android_device_htc_ace" path="device/htc/ace" remote="github" revision="5f3e5c31d9d49a10857f5c7fefba2bb5b54ec00a"/>
+  <project name="CyanogenMod/android_device_harmony" path="device/nvidia/harmony" remote="github" revision="f754ca1088afcad421aaea1080adea1ac4b474a8"/>
+  <project name="CyanogenMod/android_device_htc_ace" path="device/htc/ace" remote="github" revision="b1b463eddfed56a8559a4ad2bb741d700a94a54b"/>
   <project name="CyanogenMod/android_device_htc_bravo" path="device/htc/bravo" remote="github" revision="3c8e2483859c249b3df7e219799f550f0ad503f4"/>
   <project name="CyanogenMod/android_device_htc_bravoc" path="device/htc/bravoc" remote="github" revision="02dcacd31fbe577ac816701d2e8793d8434388f4"/>
   <project name="CyanogenMod/android_device_htc_buzz" path="device/htc/buzz" remote="github" revision="5df34f1278974aa1b18110ca74911300a0be595a"/>
@@ -41,12 +41,12 @@
   <project name="CyanogenMod/android_device_htc_legend" path="device/htc/legend" remote="github" revision="0df05b2c1c330876c2456eee11a03a1066d50583"/>
   <project name="CyanogenMod/android_device_htc_leo" path="device/htc/leo" remote="github" revision="8453b50bd124a4fccc8bf50bad09c099207b51c6"/>
   <project name="CyanogenMod/android_device_htc_liberty" path="device/htc/liberty" remote="github" revision="9a331aa191b17feffc916a5aafbcfe3e9a3aaebe"/>
-  <project name="CyanogenMod/android_device_htc_mecha" path="device/htc/mecha" remote="github" revision="ccd190ea8cced28eccbe6fd580c2ecc2d9e3a0a6"/>
+  <project name="CyanogenMod/android_device_htc_mecha" path="device/htc/mecha" remote="github" revision="65078f0a102feaafafa7908bc031ca796eb48b03"/>
   <project name="CyanogenMod/android_device_htc_passion" path="device/htc/passion" remote="github" revision="8ca27c2f4f1c15bb94de6697ab4c407b3a3c487f"/>
   <project name="CyanogenMod/android_device_htc_passion-common" path="device/htc/passion-common" remote="github" revision="34b54e772597f5c0c37143e42853353dc987e89b"/>
   <project name="CyanogenMod/android_device_htc_saga" path="device/htc/saga" remote="github" revision="e9eabccc22db25bc6bd6f9ccc5fa356469060503"/>
-  <project name="CyanogenMod/android_device_htc_speedy" path="device/htc/speedy" remote="github" revision="b63dae171cd758bde27398cec052faec7d2b5c28"/>
-  <project name="CyanogenMod/android_device_htc_supersonic" path="device/htc/supersonic" remote="github" revision="5debe0cc14e0bb0fcd877c580b803eb1124664e9"/>
+  <project name="CyanogenMod/android_device_htc_speedy" path="device/htc/speedy" remote="github" revision="7d67d2a1e24bf34807aaa8c10e460e2ae14233de"/>
+  <project name="CyanogenMod/android_device_htc_supersonic" path="device/htc/supersonic" remote="github" revision="b71910a8cc4d1cfdd445e4d42d0aca68352f0daf"/>
   <project name="CyanogenMod/android_device_htc_vision" path="device/htc/vision" remote="github" revision="f3458cfb02a999844a000605953a7cbbd7e854dc"/>
   <project name="CyanogenMod/android_device_huawei_ascend" path="device/huawei/ascend" remote="github" revision="c89763ba40dcea71691efd960bb4521b3b4f284c"/>
   <project name="CyanogenMod/android_device_huawei_ideos" path="device/huawei/ideos" remote="github" revision="e58dce7bb9bd9a400b515d9a3c37aaba99893fab"/>
@@ -90,13 +90,13 @@
   <project name="CyanogenMod/android_external_wpa_supplicant_6" path="external/wpa_supplicant_6" remote="github" revision="97f3725f8db938bf40dd2fbcc70d0105aee97029"/>
   <project name="CyanogenMod/android_external_yaffs2" path="external/yaffs2" remote="github" revision="62a1cf4d3ded963f6db6f24d5c5f087d3a4cb4a0"/>
   <project name="CyanogenMod/android_external_zlib" path="external/zlib" remote="github" revision="a19ef6d3826b017cf82f5e8d4291c73851f87321"/>
-  <project name="CyanogenMod/android_frameworks_base" path="frameworks/base" remote="github" revision="297468b0a9aec9caa54f7773679a0d588d799488"/>
+  <project name="CyanogenMod/android_frameworks_base" path="frameworks/base" remote="github" revision="5d4bc4e080cb7869cc8de70961187a20437ce2e0"/>
   <project name="CyanogenMod/android_hardware_alsa_sound" path="hardware/alsa_sound" remote="github" revision="668e5f23843ba779f08c656d03f76b2a571e1979"/>
   <project name="CyanogenMod/android_hardware_gpsshim" path="hardware/gpsshim" remote="github" revision="907c197226cd47fa11cc1f9a50d56f3fdf0dfa40"/>
   <project name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="263df4a734983e90b015cd80b9ef844e0aeb92b6"/>
   <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="8315a3dc93cc2b4e50e23d3150e603ef865ee1f4"/>
   <project name="CyanogenMod/android_hardware_msm7k" path="hardware/msm7k" remote="github" revision="db638a51969668bc189eef4913a550a54e4df640"/>
-  <project name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="5887fb6380b685c7fa0a72e1fcb1a860e7b57e71"/>
+  <project name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="b1b77efb5c5e20b13a076489e7bb3f9258402b8e"/>
   <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="2c5f86601528e79e4b3e997e68230aa6119f5ad4"/>
   <project name="CyanogenMod/android_hardware_ril" path="hardware/ril" remote="github" revision="a5f51f08b01f2fe8b2307299cddc2c54dc6c89f1"/>
   <project name="CyanogenMod/android_hardware_ti_omap3" path="hardware/ti/omap3" remote="github" revision="c0da2876da6a9f07ab7268128af3c912130321ab"/>
@@ -144,13 +144,13 @@
   <project name="CyanogenMod/android_system_netd" path="system/netd" remote="github" revision="32ab933950ccd369d1d690d7d5b6a365b140791f"/>
   <project name="CyanogenMod/android_system_vold" path="system/vold" remote="github" revision="ca12a705e1d57f98e9aa232788c704895abac4ab"/>
   <project name="CyanogenMod/android_system_wlan_ti" path="system/wlan/ti" remote="github" revision="d0b87d2f6bfc7a8e8765ba89bf4bda641e9ff019"/>
-  <project name="CyanogenMod/android_vendor_cyanogen" path="vendor/cyanogen" remote="github" revision="43c03523054aaded74ebbf45b1117d67a5897426"/>
+  <project name="CyanogenMod/android_vendor_cyanogen" path="vendor/cyanogen" remote="github" revision="5a3d28c547b8ed71d1a1aff18a657d91eec3aa4c"/>
   <project name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" remote="github" revision="5d2e6765e46c4e33dee47b73a14ef7204a4e018f"/>
   <project name="HCDRJacob/proprietary_vendor_zte" path="vendor/zte" remote="github2" revision="a8dc39ac6b209801d3b515d6da05529129f802fe"/>
-  <project name="Sven-Dawitz/proprietary_vendor_advent" path="vendor/advent" remote="github2" revision="4a886691d5f4efc438e3a5892d1d954223eaa580"/>
+  <project name="Sven-Dawitz/proprietary_vendor_advent" path="vendor/advent" remote="github2" revision="8dbd29c00de4284de9c0b2981a698ac67cb79408"/>
   <project name="device/common" revision="e80457e2c7e742065b879d27141f2027a85c1fe7"/>
   <project name="device/sample" revision="e16854cd143b0c5623ab507461b028422a14d526"/>
-  <project name="koush/proprietary_vendor_htc" path="vendor/htc" remote="github2" revision="2d4eedcdc4252721d2b3f09ad0c027b08b5f56c7"/>
+  <project name="koush/proprietary_vendor_htc" path="vendor/htc" remote="github2" revision="3212b24c2a4bd1b1201fc3c2b66661433a4e3eed"/>
   <project name="koush/proprietary_vendor_motorola" path="vendor/motorola" remote="github2" revision="65114e022d01a2825ac5f06e4875f42712639150"/>
   <project name="koush/proprietary_vendor_nvidia" path="vendor/nvidia" remote="github2" revision="054a83d6f916b9d7b40e2037b81373fbb1e8979a"/>
   <project name="koush/proprietary_vendor_samsung" path="vendor/samsung" remote="github2" revision="78267ef519d127aa92b448b53972dc441e508758"/>
