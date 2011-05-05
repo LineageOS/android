@@ -17,8 +17,6 @@
   <project name="CyanogenMod/android_device_advent_vega" path="device/advent/vega" remote="github" />
   <project name="CyanogenMod/android_device_bn_encore" path="device/bn/encore" remote="github" />
   <project name="CyanogenMod/android_device_commtiva_z71" path="device/commtiva/z71" remote="github" />
-  <project name="CyanogenMod/android_device_dell_streak7" path="device/dell/streak7" remote="github" />
-  <project name="CyanogenMod/android_device_elocity_a7" path="device/elocity/a7" remote="github" />
   <project name="CyanogenMod/android_device_geeksphone_one" path="device/geeksphone/one" remote="github" />
   <project name="CyanogenMod/android_device_geeksphone_zero" path="device/geeksphone/zero" remote="github" />
   <project name="CyanogenMod/android_device_harmony" path="device/nvidia/harmony" remote="github" />
@@ -35,26 +33,17 @@
   <project name="CyanogenMod/android_device_htc_hero" path="device/htc/hero" remote="github" />
   <project name="CyanogenMod/android_device_htc_heroc" path="device/htc/heroc" remote="github" />
   <project name="CyanogenMod/android_device_htc_inc" path="device/htc/inc" remote="github" />
-  <project name="CyanogenMod/android_device_htc_incs" path="device/htc/incs" remote="github" />
   <project name="CyanogenMod/android_device_htc_legend" path="device/htc/legend" remote="github" />
   <project name="CyanogenMod/android_device_htc_leo" path="device/htc/leo" remote="github" />
   <project name="CyanogenMod/android_device_htc_liberty" path="device/htc/liberty" remote="github" />
-  <project name="CyanogenMod/android_device_htc_mecha" path="device/htc/mecha" remote="github" />
   <project name="CyanogenMod/android_device_htc_passion" path="device/htc/passion" remote="github" />
   <project name="CyanogenMod/android_device_htc_passion-common" path="device/htc/passion-common" remote="github" />
-  <project name="CyanogenMod/android_device_htc_saga" path="device/htc/saga" remote="github" />
   <project name="CyanogenMod/android_device_htc_speedy" path="device/htc/speedy" remote="github" />
   <project name="CyanogenMod/android_device_htc_supersonic" path="device/htc/supersonic" remote="github" />
   <project name="CyanogenMod/android_device_htc_vision" path="device/htc/vision" remote="github" />
-  <project name="CyanogenMod/android_device_huawei_ascend" path="device/huawei/ascend" remote="github" />
-  <project name="CyanogenMod/android_device_huawei_ideos" path="device/huawei/ideos" remote="github" />
   <project name="CyanogenMod/android_device_motorola_sholes" path="device/motorola/sholes" remote="github" />
-  <project name="CyanogenMod/android_device_motorola_stingray" path="device/motorola/stingray" remote="github" />
   <project name="CyanogenMod/android_device_motorola_zeppelin" path="device/motorola/zeppelin" remote="github" />
   <project name="CyanogenMod/android_device_samsung_crespo" path="device/samsung/crespo" remote="github" />
-  <project name="CyanogenMod/android_device_samsung_epic4g" path="device/samsung/epic4g" remote="github" />
-  <project name="CyanogenMod/android_device_samsung_fascinate" path="device/samsung/fascinate" remote="github" />
-  <project name="CyanogenMod/android_device_samsung_vzwtab" path="device/samsung/vzwtab" remote="github" />
   <project name="CyanogenMod/android_device_zte_blade" path="device/zte/blade" remote="github" />
   <project name="CyanogenMod/android_external_alsa-lib" path="external/alsa-lib" remote="github" />
   <project name="CyanogenMod/android_external_alsa-utils" path="external/alsa-utils" remote="github" />
@@ -143,7 +132,7 @@
   <project name="CyanogenMod/android_system_vold" path="system/vold" remote="github" />
   <project name="CyanogenMod/android_system_wlan_ti" path="system/wlan/ti" remote="github" />
   <project name="CyanogenMod/android_vendor_cyanogen" path="vendor/cyanogen" remote="github" />
-  <project name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" remote="github" />
+  <project name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" remote="github" revision="master" />
   <project name="device/common" revision="e80457e2c7e742065b879d27141f2027a85c1fe7"/>
   <project name="device/sample" revision="e16854cd143b0c5623ab507461b028422a14d526"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="d3271024770ddcc2fb87dd22f8280764545ab05a"/>
