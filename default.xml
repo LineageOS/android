@@ -4,7 +4,7 @@
   <remote fetch="http://android.git.kernel.org/" name="korg" review="review.source.android.com"/>
   <remote fetch="http://github.com/tmobile" name="themes"/>
   
-  <default remote="korg" revision="gingerbread-release"/>
+  <default remote="korg" revision="refs/tags/7.0.3"/>
   
   <project name="CyanogenMod/android" path="android" remote="github" />
   <project name="CyanogenMod/android_bionic" path="bionic" remote="github" />
