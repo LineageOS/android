@@ -51,6 +51,7 @@
   <project path="device/htc/leo" name="CyanogenMod/android_device_htc_leo" remote="github" />
   <project path="device/htc/liberty" name="CyanogenMod/android_device_htc_liberty" remote="github" />
   <project path="device/htc/mecha" name="CyanogenMod/android_device_htc_mecha" remote="github" />
+  <project path="device/htc/msm7x30-common" name="CyanogenMod/android_device_htc_msm7x30-common" remote="github" />
   <project path="device/htc/passion" name="CyanogenMod/android_device_htc_passion" remote="github" />
   <project path="device/htc/passion-common" name="CyanogenMod/android_device_htc_passion-common" remote="github" />
   <project path="device/htc/saga" name="CyanogenMod/android_device_htc_saga" remote="github" />
