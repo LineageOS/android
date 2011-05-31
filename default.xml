@@ -66,6 +66,7 @@
   <project path="device/malata/smb-common" name="CyanogenMod/android_device_malata_smb-common" remote="github" />
   <project path="device/malata/smb_a1002" name="CyanogenMod/android_device_malata_smb_a1002" remote="github" />
   <project path="device/malata/smb_b9701" name="CyanogenMod/android_device_malata_smb_b9701" remote="github" />
+  <project path="device/motorola/morrison" name="CyanogenMod/android_device_motorola_morrison" remote="github" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
   <project path="device/motorola/stingray" name="CyanogenMod/android_device_motorola_stingray" remote="github" />
   <project path="device/motorola/zeppelin" name="CyanogenMod/android_device_motorola_zeppelin" remote="github" />
