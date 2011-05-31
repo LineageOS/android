@@ -19,7 +19,6 @@
   <project name="CyanogenMod/android_device_commtiva_z71" path="device/commtiva/z71" remote="github" />
   <project name="CyanogenMod/android_device_geeksphone_one" path="device/geeksphone/one" remote="github" />
   <project name="CyanogenMod/android_device_geeksphone_zero" path="device/geeksphone/zero" remote="github" />
-  <project name="CyanogenMod/android_device_harmony" path="device/nvidia/harmony" remote="github" />
   <project name="CyanogenMod/android_device_htc_ace" path="device/htc/ace" remote="github" />
   <project name="CyanogenMod/android_device_htc_bravo" path="device/htc/bravo" remote="github" />
   <project name="CyanogenMod/android_device_htc_bravoc" path="device/htc/bravoc" remote="github" />
@@ -41,6 +40,8 @@
   <project name="CyanogenMod/android_device_htc_speedy" path="device/htc/speedy" remote="github" />
   <project name="CyanogenMod/android_device_htc_supersonic" path="device/htc/supersonic" remote="github" />
   <project name="CyanogenMod/android_device_htc_vision" path="device/htc/vision" remote="github" />
+  <project name="CyanogenMod/android_device_malata_smb_a1002" path="device/malata/smb_a1002" remote="github" />
+  <project name="CyanogenMod/android_device_malata_smb-common" path="device/malata/smb-common" remote="github" />
   <project name="CyanogenMod/android_device_motorola_sholes" path="device/motorola/sholes" remote="github" />
   <project name="CyanogenMod/android_device_motorola_zeppelin" path="device/motorola/zeppelin" remote="github" />
   <project name="CyanogenMod/android_device_samsung_crespo" path="device/samsung/crespo" remote="github" />
