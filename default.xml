@@ -65,6 +65,8 @@
   <project path="device/lge/thunderg" name="CyanogenMod/android_device_lge_thunderg" remote="github" />
   <project path="device/malata/smb-common" name="CyanogenMod/android_device_malata_smb-common" remote="github" />
   <project path="device/malata/smb_a1002" name="CyanogenMod/android_device_malata_smb_a1002" remote="github" />
+  <project path="device/malata/smb_a1004" name="CyanogenMod/android_device_malata_smb_a1004" remote="github" />
+  <project path="device/malata/smb_a1011" name="CyanogenMod/android_device_malata_smb_a1011" remote="github" />
   <project path="device/malata/smb_b9701" name="CyanogenMod/android_device_malata_smb_b9701" remote="github" />
   <project path="device/motorola/morrison" name="CyanogenMod/android_device_motorola_morrison" remote="github" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
