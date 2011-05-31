@@ -63,10 +63,11 @@
   <project path="device/lge/p999" name="CyanogenMod/android_device_lge_p999" remote="github" />
   <project path="device/lge/star-common" name="CyanogenMod/android_device_lge_star-common" remote="github" />
   <project path="device/lge/thunderg" name="CyanogenMod/android_device_lge_thunderg" remote="github" />
+  <project path="device/malata/smb_a1002" name="CyanogenMod/android_device_malata_smb_a1002" remote="github" />
+  <project path="device/malata/smb-common" name="CyanogenMod/android_device_malata_smb-common" remote="github" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
   <project path="device/motorola/stingray" name="CyanogenMod/android_device_motorola_stingray" remote="github" />
   <project path="device/motorola/zeppelin" name="CyanogenMod/android_device_motorola_zeppelin" remote="github" />
-  <project path="device/nvidia/harmony" name="CyanogenMod/android_device_harmony" remote="github" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/aries-common" name="CyanogenMod/android_device_samsung_aries-common" remote="github" />
   <project path="device/samsung/captivatemtd" name="CyanogenMod/android_device_samsung_captivatemtd" remote="github" />
