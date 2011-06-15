@@ -84,6 +84,7 @@
   <project path="device/samsung/fascinate" name="CyanogenMod/android_device_samsung_fascinate" remote="github" />
   <project path="device/samsung/galaxysmtd" name="CyanogenMod/android_device_samsung_galaxysmtd" remote="github" />
   <project path="device/samsung/galaxys4g" name="CyanogenMod/android_device_samsung_galaxys4g" remote="github" />
+  <project path="device/samsung/p7100" name="CyanogenMod/android_device_samsung_p7100" remote="github" />
   <project path="device/samsung/sidekick4g" name="CyanogenMod/android_device_samsung_sidekick4g" remote="github" />
   <project path="device/samsung/vibrantmtd" name="CyanogenMod/android_device_samsung_vibrantmtd" remote="github" />
   <project path="device/samsung/vzwtab" name="CyanogenMod/android_device_samsung_vzwtab" remote="github" />
