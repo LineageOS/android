@@ -183,6 +183,7 @@
   <project path="external/v8" name="CyanogenMod/android_external_v8" remote="github" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" remote="github" revision="master" />
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" />
+  <project path="external/webp" name="CyanogenMod/android_external_webp" remote="github" revision="master" />
   <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" remote="github" />
   <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" remote="github" />
   <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" remote="github" />
