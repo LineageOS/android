@@ -59,6 +59,7 @@
   <project path="device/htc/supersonic" name="CyanogenMod/android_device_htc_supersonic" remote="github" />
   <project path="device/htc/vision" name="CyanogenMod/android_device_htc_vision" remote="github" />
   <project path="device/htc/vivo" name="CyanogenMod/android_device_htc_vivo" remote="github" />
+  <project path="device/htc/vivow" name="CyanogenMod/android_device_htc_vivow" remote="github" />
   <project path="device/lge/p990" name="CyanogenMod/android_device_lge_p990" remote="github" />
   <project path="device/lge/p999" name="CyanogenMod/android_device_lge_p999" remote="github" />
   <project path="device/lge/star-common" name="CyanogenMod/android_device_lge_star-common" remote="github" />
