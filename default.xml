@@ -85,6 +85,7 @@
   <project path="device/samsung/crespo4g" name="CyanogenMod/android_device_samsung_crespo4g" remote="github" />
   <project path="device/samsung/epic4g" name="CyanogenMod/android_device_samsung_epic4g" remote="github" />
   <project path="device/samsung/fascinate" name="CyanogenMod/android_device_samsung_fascinate" remote="github" />
+  <project path="device/samsung/fascinatemtd" name="CyanogenMod/android_device_samsung_fascinatemtd" remote="github" />
   <project path="device/samsung/galaxyace" name="CyanogenMod/android_device_samsung_galaxyace" remote="github" />
   <project path="device/samsung/galaxysmtd" name="CyanogenMod/android_device_samsung_galaxysmtd" remote="github" />
   <project path="device/samsung/galaxys4g" name="CyanogenMod/android_device_samsung_galaxys4g" remote="github" />
