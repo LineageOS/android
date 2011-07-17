@@ -79,6 +79,7 @@
   <project path="device/motorola/zeppelin" name="CyanogenMod/android_device_motorola_zeppelin" remote="github" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/aries-common" name="CyanogenMod/android_device_samsung_aries-common" remote="github" />
+  <project path="device/samsung/c1-common" name="CyanogenMod/android_device_samsung_c1-common" remote="github" />
   <project path="device/samsung/captivatemtd" name="CyanogenMod/android_device_samsung_captivatemtd" remote="github" />
   <project path="device/samsung/charge" name="CyanogenMod/android_device_samsung_charge" remote="github" />
   <project path="device/samsung/crespo" name="CyanogenMod/android_device_samsung_crespo" remote="github" />
@@ -87,6 +88,7 @@
   <project path="device/samsung/fascinate" name="CyanogenMod/android_device_samsung_fascinate" remote="github" />
   <project path="device/samsung/fascinatemtd" name="CyanogenMod/android_device_samsung_fascinatemtd" remote="github" />
   <project path="device/samsung/galaxyace" name="CyanogenMod/android_device_samsung_galaxyace" remote="github" />
+  <project path="device/samsung/galaxys2" name="CyanogenMod/android_device_samsung_galaxys2" remote="github" />
   <project path="device/samsung/galaxysmtd" name="CyanogenMod/android_device_samsung_galaxysmtd" remote="github" />
   <project path="device/samsung/galaxys4g" name="CyanogenMod/android_device_samsung_galaxys4g" remote="github" />
   <project path="device/samsung/p7100" name="CyanogenMod/android_device_samsung_p7100" remote="github" />
