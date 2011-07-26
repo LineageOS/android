@@ -46,7 +46,7 @@
   <project path="device/motorola/backflip" name="CyanogenMod/android_device_motorola_backflip" remote="github" revision="master" />
   <project path="device/motorola/morrison" name="CyanogenMod/android_device_motorola_morrison" remote="github" revision="master" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
-  <project path="device/nvidia/harmony" name="CyanogenMod/android_device_harmony" remote="github" />
+  <project path="device/nvidia/harmony" name="CyanogenMod/android_device_malata_smb_a1002" remote="github" revision="froyo" />
   <project path="device/samsung/bmlunlock" name="CyanogenMod/android_device_samsung_bmlunlock" remote="github" revision="master" />
   <project path="device/samsung/herring" name="CyanogenMod/android_device_samsung_herring" remote="github" />
   <project path="device/samsung/vibrant" name="CyanogenMod/android_device_samsung_vibrant" remote="github" />
