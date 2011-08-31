@@ -72,6 +72,7 @@
   <project path="device/motorola/droid2we" name="CyanogenMod/android_device_motorola_droid2we" remote="github" />
   <project path="device/motorola/jordan" name="CyanogenMod/android_device_motorola_jordan" remote="github" />
   <project path="device/motorola/morrison" name="CyanogenMod/android_device_motorola_morrison" remote="github" />
+  <project path="device/motorola/motus" name="CyanogenMod/android_device_motorola_motus" remote="github" />
   <project path="device/motorola/shadow" name="CyanogenMod/android_device_motorola_shadow" remote="github" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
   <project path="device/motorola/stingray" name="CyanogenMod/android_device_motorola_stingray" remote="github" />
