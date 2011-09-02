@@ -153,6 +153,7 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="external/libexif" name="CyanogenMod/android_external_libexif" remote="github" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" />
