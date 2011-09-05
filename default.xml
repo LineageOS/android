@@ -123,7 +123,7 @@
   <project path="external/compcache" name="CyanogenMod/android_external_compcache" revision="master" remote="github" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" />
+  <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="github" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" revision="master" remote="github" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" />
   <project path="external/easymock" name="platform/external/easymock" />
