@@ -112,8 +112,8 @@
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
   <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" />
-  <project path="external/bluetooth/glib" name="CyanogenMod/android_external_bluetooth/glib" />
-  <project path="external/bluetooth/hcidump" name="CyanogenMod/android_external_bluetooth/hcidump" />
+  <project path="external/bluetooth/glib" name="CyanogenMod/android_external_bluetooth_glib" />
+  <project path="external/bluetooth/hcidump" name="CyanogenMod/android_external_bluetooth_hcidump" />
   <project path="external/bootmenu" name="CyanogenMod/android_external_bootmenu" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
