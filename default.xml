@@ -4,7 +4,8 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <default revision="gingerbread"
-           remote="aosp" />
+           remote="aosp"
+           sync-j="4" />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
