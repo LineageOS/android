@@ -99,6 +99,7 @@
   <project path="device/samsung/vzwtab" name="CyanogenMod/android_device_samsung_vzwtab" />
   <project path="device/semc/anzu" name="CyanogenMod/android_device_semc_anzu" />
   <project path="device/semc/hallon" name="CyanogenMod/android_device_semc_hallon" />
+  <project path="device/semc/mango" name="CyanogenMod/android_device_semc_mango" />
   <project path="device/semc/msm7x30-common" name="CyanogenMod/android_device_semc_msm7x30-common" />
   <project path="device/semc/zeus" name="CyanogenMod/android_device_semc_zeus" />
   <project path="device/zte/blade" name="CyanogenMod/android_device_zte_blade" />
