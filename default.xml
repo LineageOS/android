@@ -98,6 +98,7 @@
   <project path="device/samsung/vibrantmtd" name="CyanogenMod/android_device_samsung_vibrantmtd" />
   <project path="device/samsung/vzwtab" name="CyanogenMod/android_device_samsung_vzwtab" />
   <project path="device/semc/anzu" name="CyanogenMod/android_device_semc_anzu" />
+  <project path="device/semc/es209ra" name="CyanogenMod/android_device_semc_es209ra" />
   <project path="device/semc/hallon" name="CyanogenMod/android_device_semc_hallon" />
   <project path="device/semc/mango" name="CyanogenMod/android_device_semc_mango" />
   <project path="device/semc/mimmi" name="CyanogenMod/android_device_semc_mimmi" />
@@ -106,6 +107,7 @@
   <project path="device/semc/robyn" name="CyanogenMod/android_device_semc_robyn" />
   <project path="device/semc/shakira" name="CyanogenMod/android_device_semc_shakira" />
   <project path="device/semc/smultron" name="CyanogenMod/android_device_semc_smultron" />
+  <project path="device/semc/urushi" name="CyanogenMod/android_device_semc_urushi" />
   <project path="device/semc/zeus" name="CyanogenMod/android_device_semc_zeus" />
   <project path="device/zte/blade" name="CyanogenMod/android_device_zte_blade" />
   <project path="device/zte/v9" name="CyanogenMod/android_device_zte_v9" />
