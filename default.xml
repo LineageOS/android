@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+           fetch=".." />
   <default revision="gingerbread"
            remote="aosp"
            sync-j="4" />
