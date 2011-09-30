@@ -8,7 +8,7 @@
            fetch="git://github.com/"
            review="review.cyanogenmod.com" />
 
-  <default revision="gingerbread"
+  <default revision="gingerbread-release"
            remote="github" />
 
   <project path="build" name="CyanogenMod/android_build">
