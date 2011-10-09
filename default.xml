@@ -89,6 +89,7 @@
   <project path="device/samsung/fascinatemtd" name="CyanogenMod/android_device_samsung_fascinatemtd" />
   <project path="device/samsung/galaxyace" name="CyanogenMod/android_device_samsung_galaxyace" />
   <project path="device/samsung/galaxys2" name="CyanogenMod/android_device_samsung_galaxys2" />
+  <project path="device/samsung/galaxys2att" name="CyanogenMod/android_device_samsung_galaxys2att"/>
   <project path="device/samsung/galaxysmtd" name="CyanogenMod/android_device_samsung_galaxysmtd" />
   <project path="device/samsung/galaxys4g" name="CyanogenMod/android_device_samsung_galaxys4g" />
   <project path="device/samsung/mesmerizemtd" name="CyanogenMod/android_device_samsung_mesmerizemtd" />
@@ -225,7 +226,11 @@
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
+  <project path="hardware/ti/omx" name="CyanogenMod/android_hardware_ti_omx" />
+  <project path="hardware/ti/syslink" name="CyanogenMod/android_hardware_ti_syslink" />
+  <project path="hardware/ti/tiler" name="CyanogenMod/android_hardware_ti_tiler" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="CyanogenMod/android_packages_apps_AccountsAndSyncSettings" />
