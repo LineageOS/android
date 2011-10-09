@@ -24,12 +24,16 @@
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/bn/encore" name="CyanogenMod/android_device_bn_encore" />
   <project path="device/commtiva/z71" name="CyanogenMod/android_device_commtiva_z71" />
+  <!--
   <project path="device/dell/streak7" name="CyanogenMod/android_device_dell_streak7" />
   <project path="device/elocity/a7" name="CyanogenMod/android_device_elocity_a7" />
+  -->
   <project path="device/geeksphone/one" name="CyanogenMod/android_device_geeksphone_one" />
   <project path="device/geeksphone/zero" name="CyanogenMod/android_device_geeksphone_zero" />
+  <!--
   <project path="device/huawei/ascend" name="CyanogenMod/android_device_huawei_ascend" />
   <project path="device/huawei/ideos" name="CyanogenMod/android_device_huawei_ideos" />
+  -->
   <project path="device/huawei/u8220" name="CyanogenMod/android_device_huawei_u8220" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" />
   <project path="device/htc/ace" name="CyanogenMod/android_device_htc_ace" />
@@ -60,7 +64,9 @@
   <project path="device/lge/p990" name="CyanogenMod/android_device_lge_p990" />
   <project path="device/lge/p999" name="CyanogenMod/android_device_lge_p999" />
   <project path="device/lge/star-common" name="CyanogenMod/android_device_lge_star-common" />
+  <!--
   <project path="device/lge/thunderc" name="CyanogenMod/android_device_lge_thunderc" />
+  -->
   <project path="device/lge/thunderg" name="CyanogenMod/android_device_lge_thunderg" />
   <project path="device/malata/smb-common" name="CyanogenMod/android_device_malata_smb-common" />
   <project path="device/malata/smb_a1002" name="CyanogenMod/android_device_malata_smb_a1002" />
@@ -75,29 +81,45 @@
   <project path="device/motorola/motus" name="CyanogenMod/android_device_motorola_motus" />
   <project path="device/motorola/shadow" name="CyanogenMod/android_device_motorola_shadow" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" />
+  <!--
   <project path="device/motorola/stingray" name="CyanogenMod/android_device_motorola_stingray" />
+  -->
   <project path="device/motorola/zeppelin" name="CyanogenMod/android_device_motorola_zeppelin" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/samsung/aries-common" name="CyanogenMod/android_device_samsung_aries-common" />
   <project path="device/samsung/c1-common" name="CyanogenMod/android_device_samsung_c1-common" />
   <project path="device/samsung/captivatemtd" name="CyanogenMod/android_device_samsung_captivatemtd" />
+  <!--
   <project path="device/samsung/charge" name="CyanogenMod/android_device_samsung_charge" />
+  -->
   <project path="device/samsung/crespo" name="CyanogenMod/android_device_samsung_crespo" />
   <project path="device/samsung/crespo4g" name="CyanogenMod/android_device_samsung_crespo4g" />
+  <!--
   <project path="device/samsung/epic4g" name="CyanogenMod/android_device_samsung_epic4g" />
   <project path="device/samsung/fascinate" name="CyanogenMod/android_device_samsung_fascinate" />
+  -->
   <project path="device/samsung/fascinatemtd" name="CyanogenMod/android_device_samsung_fascinatemtd" />
+  <!--
   <project path="device/samsung/galaxyace" name="CyanogenMod/android_device_samsung_galaxyace" />
+  -->
   <project path="device/samsung/galaxys2" name="CyanogenMod/android_device_samsung_galaxys2" />
   <project path="device/samsung/galaxys2att" name="CyanogenMod/android_device_samsung_galaxys2att"/>
   <project path="device/samsung/galaxysmtd" name="CyanogenMod/android_device_samsung_galaxysmtd" />
+  <!--
   <project path="device/samsung/galaxys4g" name="CyanogenMod/android_device_samsung_galaxys4g" />
+  -->
   <project path="device/samsung/mesmerizemtd" name="CyanogenMod/android_device_samsung_mesmerizemtd" />
+  <!--
   <project path="device/samsung/p7100" name="CyanogenMod/android_device_samsung_p7100" />
+  -->
   <project path="device/samsung/showcasemtd" name="CyanogenMod/android_device_samsung_showcasemtd" />
+  <!--
   <project path="device/samsung/sidekick4g" name="CyanogenMod/android_device_samsung_sidekick4g" />
+  -->
   <project path="device/samsung/vibrantmtd" name="CyanogenMod/android_device_samsung_vibrantmtd" />
+  <!--
   <project path="device/samsung/vzwtab" name="CyanogenMod/android_device_samsung_vzwtab" />
+  -->
   <project path="device/semc/anzu" name="CyanogenMod/android_device_semc_anzu" />
   <project path="device/semc/es209ra" name="CyanogenMod/android_device_semc_es209ra" />
   <project path="device/semc/hallon" name="CyanogenMod/android_device_semc_hallon" />
