@@ -104,7 +104,6 @@
   <project path="device/semc/hallon" name="CyanogenMod/android_device_semc_hallon" />
   <project path="device/semc/mango" name="CyanogenMod/android_device_semc_mango" />
   <project path="device/semc/mimmi" name="CyanogenMod/android_device_semc_mimmi" />
-  <project path="device/semc/mogami-common" name="CyanogenMod/android_device_semc_mogami-common" />
   <project path="device/semc/msm7x27-common" name="CyanogenMod/android_device_semc_msm7x27-common" />
   <project path="device/semc/msm7x30-common" name="CyanogenMod/android_device_semc_msm7x30-common" />
   <project path="device/semc/robyn" name="CyanogenMod/android_device_semc_robyn" />
@@ -112,8 +111,6 @@
   <project path="device/semc/smultron" name="CyanogenMod/android_device_semc_smultron" />
   <project path="device/semc/urushi" name="CyanogenMod/android_device_semc_urushi" />
   <project path="device/semc/zeus" name="CyanogenMod/android_device_semc_zeus" />
-  <project path="device/semc/zeusc" name="CyanogenMod/android_device_semc_zeusc" />
-  <project path="device/semc/zeus-common" name="CyanogenMod/android_device_semc_zeus-common" />
   <project path="device/zte/blade" name="CyanogenMod/android_device_zte_blade" />
   <project path="device/zte/v9" name="CyanogenMod/android_device_zte_v9" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
