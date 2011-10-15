@@ -29,7 +29,6 @@
   <project path="device/geeksphone/one" name="CyanogenMod/android_device_geeksphone_one" />
   <project path="device/geeksphone/zero" name="CyanogenMod/android_device_geeksphone_zero" />
   <project path="device/huawei/ascend" name="CyanogenMod/android_device_huawei_ascend" />
-  <project path="device/huawei/ideos" name="CyanogenMod/android_device_huawei_ideos" />
   <project path="device/huawei/u8220" name="CyanogenMod/android_device_huawei_u8220" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" />
   <project path="device/htc/ace" name="CyanogenMod/android_device_htc_ace" />
