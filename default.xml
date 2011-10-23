@@ -101,14 +101,17 @@
   <project path="device/samsung/vibrantmtd" name="CyanogenMod/android_device_samsung_vibrantmtd" />
   <project path="device/samsung/vzwtab" name="CyanogenMod/android_device_samsung_vzwtab" />
   <project path="device/semc/anzu" name="CyanogenMod/android_device_semc_anzu" />
+  <project path="device/semc/coconut" name="CyanogenMod/android_device_semc_coconut" />
   <project path="device/semc/es209ra" name="CyanogenMod/android_device_semc_es209ra" />
   <project path="device/semc/hallon" name="CyanogenMod/android_device_semc_hallon" />
+  <project path="device/semc/iyokan" name="CyanogenMod/android_device_semc_iyokan" />
   <project path="device/semc/mango" name="CyanogenMod/android_device_semc_mango" />
   <project path="device/semc/mimmi" name="CyanogenMod/android_device_semc_mimmi" />
   <project path="device/semc/mogami-common" name="CyanogenMod/android_device_semc_mogami-common" />
   <project path="device/semc/msm7x27-common" name="CyanogenMod/android_device_semc_msm7x27-common" />
   <project path="device/semc/msm7x30-common" name="CyanogenMod/android_device_semc_msm7x30-common" />
   <project path="device/semc/robyn" name="CyanogenMod/android_device_semc_robyn" />
+  <project path="device/semc/satsuma" name="CyanogenMod/android_device_semc_satsuma" />
   <project path="device/semc/shakira" name="CyanogenMod/android_device_semc_shakira" />
   <project path="device/semc/smultron" name="CyanogenMod/android_device_semc_smultron" />
   <project path="device/semc/urushi" name="CyanogenMod/android_device_semc_urushi" />
