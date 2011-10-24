@@ -32,6 +32,7 @@
   <project path="device/huawei/u8150" name="CyanogenMod/android_device_huawei_u8150" />
   <project path="device/huawei/u8220" name="CyanogenMod/android_device_huawei_u8220" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" />
+  <project path="device/htc/7x30-recovery" name="CyanogenMod/android_device_htc_7x30-recovery" />
   <project path="device/htc/ace" name="CyanogenMod/android_device_htc_ace" />
   <project path="device/htc/bravo" name="CyanogenMod/android_device_htc_bravo" />
   <project path="device/htc/bravoc" name="CyanogenMod/android_device_htc_bravoc" />
