@@ -85,6 +85,7 @@
   <project path="device/samsung/c1-common" name="CyanogenMod/android_device_samsung_c1-common" />
   <project path="device/samsung/captivatemtd" name="CyanogenMod/android_device_samsung_captivatemtd" />
   <project path="device/samsung/charge" name="CyanogenMod/android_device_samsung_charge" />
+  <project path="device/samsung/cooper" name="CyanogenMod/android_device_samsung_cooper" />
   <project path="device/samsung/crespo" name="CyanogenMod/android_device_samsung_crespo" />
   <project path="device/samsung/crespo4g" name="CyanogenMod/android_device_samsung_crespo4g" />
   <project path="device/samsung/epic4g" name="CyanogenMod/android_device_samsung_epic4g" />
