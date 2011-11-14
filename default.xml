@@ -3,7 +3,7 @@
 
   <remote  name="aosp"
            fetch=".." />
-  <default revision="ics-mr0"
+  <default revision="refs/tags/android-4.0.1_r1"
            remote="aosp"
            sync-j="4" />
 
