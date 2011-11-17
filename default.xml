@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch="git://github.com/" />
+           fetch=".." />
 
   <default revision="refs/heads/ics"
            remote="github"
@@ -235,4 +235,6 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
   <project path="android" name="CyanogenMod/android" />
+  <project path="mirror" name="CyanogenMod/android_mirror" revision="master" />
+
 </manifest>
