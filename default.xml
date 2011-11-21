@@ -151,7 +151,7 @@
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
+  <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" />
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
