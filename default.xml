@@ -36,6 +36,7 @@
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
   <project path="external/apache-xml" name="platform/external/apache-xml" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="external/astl" name="CyanogenMod/android_external_astl" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
   <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" />
@@ -90,6 +91,7 @@
   <project path="external/libffi" name="CyanogenMod/android_external_libffi" />
   <project path="external/libgsm" name="CyanogenMod/android_external_libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" />
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="external/libpcap" name="CyanogenMod/android_external_libpcap" />
@@ -100,11 +102,13 @@
   <project path="external/libxslt" name="platform/external/libxslt" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="external/llvm" name="platform/external/llvm" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
+  <project path="external/lsof" name="CyanogenMod/android_external_lsof" />
   <project path="external/markdown" name="platform/external/markdown" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="external/mesa3d" name="platform/external/mesa3d" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="external/mksh" name="platform/external/mksh" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" />
+  <project path="external/nano" name="CyanogenMod/android_external_nano" />
   <project path="external/netcat" name="CyanogenMod/android_external_netcat" />
   <project path="external/netperf" name="CyanogenMod/android_external_netperf" />
   <project path="external/neven" name="CyanogenMod/android_external_neven" />
@@ -112,6 +116,7 @@
   <project path="external/oauth" name="CyanogenMod/android_external_oauth" />
   <project path="external/opencv" name="platform/external/opencv" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
+  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" />
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" />
   <project path="external/pcre" name="platform/external/pcre" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="external/ping" name="CyanogenMod/android_external_ping" />
@@ -122,6 +127,7 @@
   <project path="external/qemu" name="CyanogenMod/android_external_qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="external/quake" name="CyanogenMod/android_external_quake" />
+  <project path="external/rsync" name="CyanogenMod/android_external_rsync" revision="master" />
   <project path="external/safe-iop" name="CyanogenMod/android_external_safe-iop" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" />
@@ -142,10 +148,12 @@
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" />
   <project path="external/webrtc" name="platform/external/webrtc" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
+  <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" />
   <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" />
   <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="external/xmlwriter" name="CyanogenMod/android_external_xmlwriter" />
+  <project path="external/vim" name="CyanogenMod/android_external_vim" revision="master" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
