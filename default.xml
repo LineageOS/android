@@ -53,6 +53,7 @@
   <project path="device/htc/passion" name="CyanogenMod/android_device_htc_passion" />
   <project path="device/htc/passion-common" name="CyanogenMod/android_device_htc_passion-common" />
   <project path="device/htc/saga" name="CyanogenMod/android_device_htc_saga" />
+  <project path="device/htc/shooteru" name="AmeriCanAndroid/android_device_htc_shooteru" remote="github" />
   <project path="device/htc/speedy" name="CyanogenMod/android_device_htc_speedy" />
   <project path="device/htc/supersonic" name="CyanogenMod/android_device_htc_supersonic" />
   <project path="device/htc/vision" name="CyanogenMod/android_device_htc_vision" />
