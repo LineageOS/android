@@ -14,6 +14,9 @@
 
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="target/platform/qcom.mk" dest="hardware/qcom/Android.mk" />
+    <copyfile src="target/platform/qcom.mk" dest="vendor/qcom/Android.mk" />
+    <copyfile src="target/platform/omap.mk" dest="hardware/ti/Android.mk" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
