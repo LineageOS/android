@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch="git://github.com/" 
+           fetch="https://github.com/" 
            review="review.cyanogenmod.com" />
 
   <default revision="refs/heads/ics"
