@@ -62,8 +62,6 @@
   <project path="device/lge/p990" name="CyanogenMod/android_device_lge_p990" />
   <project path="device/lge/p999" name="CyanogenMod/android_device_lge_p999" />
   <project path="device/lge/star-common" name="CyanogenMod/android_device_lge_star-common" />
-  <project path="device/lge/thunderc" name="CyanogenMod/android_device_lge_thunderc" />
-  <project path="device/lge/thunderg" name="CyanogenMod/android_device_lge_thunderg" />
   <project path="device/malata/smb-common" name="CyanogenMod/android_device_malata_smb-common" />
   <project path="device/malata/smb_a1002" name="CyanogenMod/android_device_malata_smb_a1002" />
   <project path="device/malata/smb_a1004" name="CyanogenMod/android_device_malata_smb_a1004" />
