@@ -8,6 +8,10 @@
            fetch="git://github.com/"
            review="review.cyanogenmod.com" />
 
+  <remote  name="github-https"
+           fetch="https://github.com/"
+           review="review.cyanogenmod.com" />
+
   <default revision="gingerbread"
            remote="github" />
 
@@ -306,7 +310,7 @@
   <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker" />
   <project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
+  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github-https" />
   <project path="sdk" name="CyanogenMod/android_sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
