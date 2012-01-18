@@ -34,6 +34,7 @@
   <project path="device/samsung/p4-common" name="CyanogenMod/android_device_samsung_p4-common" />
   <project path="device/samsung/toro" name="CyanogenMod/android_device_samsung_toro" />
   <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" />
+  <project path="device/hp/tenderloin" name="CyanogenMod/android_device_hp_tenderloin" />
   <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
