@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAPX///d8\u003d",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-01-19T02:25:46Z",
+      "side": 1,
+      "message": "Suggest to move it to line 29 to keep the alphabetical sorting.",
+      "revId": "ddbcc600148a5d4823bf4e95da75a78f57c5b888",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
