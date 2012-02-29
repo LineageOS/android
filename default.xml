@@ -5,7 +5,7 @@
            review="review.source.android.com" />
 
   <remote  name="github"
-           fetch="http://github.com/"
+           fetch=".."
            review="review.cyanogenmod.com" />
 
   <default revision="gingerbread"
