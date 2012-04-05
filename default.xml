@@ -101,7 +101,7 @@
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/libpcap" name="CyanogenMod/android_external_libpcap" />
-  <project path="external/libphonenumber" name="platform/external/libphonenumber" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
+  <project path="external/libphonenumber" name="CyanogenMod/libphonenumber" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" />
   <project path="external/libvpx" name="CyanogenMod/android_external_libvpx" />
   <project path="external/libyuv" name="platform/external/libyuv" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
