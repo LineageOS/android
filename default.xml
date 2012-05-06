@@ -258,8 +258,6 @@
   <project name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" />
   <project name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" path="vendor/tmobile/libs/com.tmobile.themes" />
   <project name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" />
-  <project name="CyanogenMod/android_vendor_tmobile_themes_Androidian" path="vendor/tmobile/themes/Androidian" />
-  <project name="CyanogenMod/android_vendor_tmobile_themes_Cyanbread" path="vendor/tmobile/themes/Cyanbread" revision="gingerbread" />
   <project name="CyanogenMod/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
