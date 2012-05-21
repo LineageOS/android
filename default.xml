@@ -168,6 +168,7 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
+  <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
