@@ -204,6 +204,7 @@
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
+  <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
