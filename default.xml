@@ -8,7 +8,7 @@
            fetch=".."
            review="review.cyanogenmod.com" />
 
-  <default revision="refs/heads/ics"
+  <default revision="refs/heads/ics-release"
            remote="github"
            sync-j="4" />
 
