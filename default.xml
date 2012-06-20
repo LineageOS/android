@@ -8,8 +8,8 @@
            fetch=".."
            review="review.cyanogenmod.com" />
 
-   <remote  name="private"
-            fetch="git@github.com:" />
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
 
   <default revision="refs/heads/ics"
            remote="github"
