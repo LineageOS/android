@@ -53,6 +53,7 @@
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
   <project path="external/apache-xml" name="CyanogenMod/android_external_apache-xml" />
   <project path="external/astl" name="CyanogenMod/android_external_astl" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
   <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" />
@@ -60,6 +61,7 @@
   <project path="external/bluetooth/hcidump" name="CyanogenMod/android_external_bluetooth_hcidump" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" />
   <project path="external/checkpolicy" name="CyanogenMod/android_external_checkpolicy" />
   <project path="external/chromium" name="CyanogenMod/android_external_chromium" />
@@ -117,6 +119,7 @@
   <project path="external/libgsm" name="CyanogenMod/android_external_libgsm" />
   <project path="external/liblzf" name="CyanogenMod/android_external_liblzf" />
   <project path="external/libmtp" name="CyanogenMod/android_external_libmtp" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" />
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" />
   <project path="external/libnl-headers" name="CyanogenMod/android_external_libnl-headers" />
   <project path="external/libpcap" name="CyanogenMod/android_external_libpcap" />
@@ -140,6 +143,7 @@
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" />
   <project path="external/mockwebserver" name="CyanogenMod/android_external_mockwebserver" />
   <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" />
+  <project path="external/nano" name="CyanogenMod/android_external_nano" />
   <project path="external/naver-fonts" name="CyanogenMod/android_external_naver-fonts" />
   <project path="external/netcat" name="CyanogenMod/android_external_netcat" />
   <project path="external/netperf" name="CyanogenMod/android_external_netperf" />
@@ -150,6 +154,7 @@
   <project path="external/openfst" name="CyanogenMod/android_external_openfst" />
   <project path="external/openssh" name="CyanogenMod/android_external_openssh" />
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
+  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" />
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" />
   <project path="external/ping" name="CyanogenMod/android_external_ping" />
   <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
@@ -161,6 +166,7 @@
   <project path="external/quake" name="CyanogenMod/android_external_quake" />
   <project path="external/regex-re2" name="CyanogenMod/android_external_regex-re2" />
   <project path="external/replicaisland" name="CyanogenMod/android_external_replicaisland" />
+  <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
   <project path="external/safe-iop" name="CyanogenMod/android_external_safe-iop" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" />
@@ -181,6 +187,7 @@
   <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" />
   <project path="external/v8" name="CyanogenMod/android_external_v8" />
   <project path="external/valgrind" name="CyanogenMod/android_external_valgrind" />
+  <project path="external/vim" name="CyanogenMod/android_external_vim" />
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" />
   <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" />
@@ -312,5 +319,5 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/security" name="CyanogenMod/android_system_security" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
-
+  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
 </manifest>
