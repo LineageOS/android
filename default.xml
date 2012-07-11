@@ -19,6 +19,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <project path="android" name="CyanogenMod/android" />
+
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
@@ -137,6 +139,7 @@
   <project path="external/littlemock" name="CyanogenMod/android_external_littlemock" />
   <project path="external/llvm" name="CyanogenMod/android_external_llvm" />
   <project path="external/lohit-fonts" name="CyanogenMod/android_external_lohit-fonts" />
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
   <project path="external/markdown" name="CyanogenMod/android_external_markdown" />
   <project path="external/mdnsresponder" name="CyanogenMod/android_external_mdnsresponder" />
   <project path="external/mesa3d" name="CyanogenMod/android_external_mesa3d" />
