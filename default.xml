@@ -29,23 +29,13 @@
   <project path="cts" name="CyanogenMod/android_cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
-  <project path="device/asus/grouper" name="CyanogenMod/android_device_asus_grouper" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" />
   <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" />
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" />
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" />
-  <project path="device/moto/common" name="CyanogenMod/android_device_moto_common" />
-  <project path="device/moto/stingray" name="CyanogenMod/android_device_moto_stingray" />
-  <project path="device/moto/wingray" name="CyanogenMod/android_device_moto_wingray" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
-  <project path="device/samsung/crespo" name="CyanogenMod/android_device_samsung_crespo" />
-  <project path="device/samsung/crespo4g" name="CyanogenMod/android_device_samsung_crespo4g" />
-  <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" />
-  <project path="device/samsung/toro" name="CyanogenMod/android_device_samsung_toro" />
-  <project path="device/samsung/torospr" name="CyanogenMod/android_device_samsung_torospr" />
-  <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" />
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
