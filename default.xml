@@ -317,6 +317,7 @@
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/security" name="CyanogenMod/android_system_security" />
+  <project path="system/su" name="CyanogenMod/android_system/su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
 </manifest>
