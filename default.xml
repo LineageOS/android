@@ -8,6 +8,9 @@
            fetch=".."
            review="review.cyanogenmod.com" />
 
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
   <default revision="refs/heads/ics-release"
            remote="github"
            sync-j="4" />
@@ -168,6 +171,7 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" />
   <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
@@ -199,7 +203,7 @@
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/GanOptimizer" name="CyanogenMod/android_packages_apps_GanOptimizer" />
@@ -249,6 +253,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+  <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="CyanogenMod/android_vendor_qcom_opensource_kernel-tests_mm-audio" />
   <project path="vendor/qcom/opensource/omx/mm-audio" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-audio" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-core" />
   <project path="vendor/qcom/opensource/omx/mm-video" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-video" />
