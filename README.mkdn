@@ -47,4 +47,4 @@ Buildbot
 
 All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
 
-You can view the current build statuses at [buildbot.teamdouche.net](http://buildbot.teamdouche.net/)
+You can view the current build statuses at [CyanogenMod Jenkins](http://jenkins.cyanogenmod.com/)
