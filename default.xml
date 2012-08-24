@@ -15,6 +15,10 @@
            remote="github"
            sync-j="4" />
 
+  <notice>
+    Your sources have been sync'd successfully!
+  </notice>
+
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
