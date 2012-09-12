@@ -293,7 +293,7 @@
   <project path="pdk" name="CyanogenMod/android_pdk" />
   <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="jb-dev" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="jb-dev" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="CyanogenMod/android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.6" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="jb-dev" />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" remote="aosp" revision="jb-dev" />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" remote="aosp" revision="jb-dev" />
