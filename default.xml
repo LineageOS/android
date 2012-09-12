@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="korg"
-           fetch="git://android.git.kernel.org/"
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
            review="review.source.android.com" />
 
   <remote  name="github"
@@ -308,7 +308,7 @@
   <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker" />
   <project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
+  <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="gingerbread" />
   <project path="sdk" name="CyanogenMod/android_sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
