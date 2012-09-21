@@ -91,6 +91,7 @@
   <project path="external/guava" name="CyanogenMod/android_external_guava" />
   <project path="external/hamcrest" name="CyanogenMod/android_external_hamcrest" />
   <project path="external/harfbuzz" name="CyanogenMod/android_external_harfbuzz" />
+  <project path="external/htop" name="CyanogenMod/android_external_htop" />
   <project path="external/hyphenation" name="CyanogenMod/android_external_hyphenation" />
   <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" />
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" />
@@ -129,6 +130,7 @@
   <project path="external/littlemock" name="CyanogenMod/android_external_littlemock" />
   <project path="external/llvm" name="CyanogenMod/android_external_llvm" />
   <project path="external/lohit-fonts" name="CyanogenMod/android_external_lohit-fonts" />
+  <project path="external/lsof" name="CyanogenMod/android_external_lsof" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
   <project path="external/markdown" name="CyanogenMod/android_external_markdown" />
   <project path="external/mdnsresponder" name="CyanogenMod/android_external_mdnsresponder" />
@@ -151,6 +153,7 @@
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" />
   <project path="external/ping" name="CyanogenMod/android_external_ping" />
   <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
+  <project path="external/powertop" name="CyanogenMod/android_external_powertop" />
   <project path="external/ppp" name="CyanogenMod/android_external_ppp" />
   <project path="external/proguard" name="CyanogenMod/android_external_proguard" />
   <project path="external/protobuf" name="CyanogenMod/android_external_protobuf" />
