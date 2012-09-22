@@ -77,6 +77,7 @@
   <project path="device/motorola/olympus" name="CyanogenMod/android_device_motorola_olympus" />
   <project path="device/motorola/shadow" name="CyanogenMod/android_device_motorola_shadow" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" />
+  <project path="device/motorola/sunfire" name="CyanogenMod/android_device_motorola_sunfire" />
   <project path="device/motorola/zeppelin" name="CyanogenMod/android_device_motorola_zeppelin" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/samsung/aries-common" name="CyanogenMod/android_device_samsung_aries-common" />
