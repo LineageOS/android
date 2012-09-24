@@ -58,6 +58,7 @@
   <project path="device/htc/vision" name="CyanogenMod/android_device_htc_vision" />
   <project path="device/htc/vivo" name="CyanogenMod/android_device_htc_vivo" />
   <project path="device/htc/vivow" name="CyanogenMod/android_device_htc_vivow" />
+  <project path="device/lge/p350" name="CyanogenMod/android_device_lge_p350" />
   <project path="device/lge/p970" name="CyanogenMod/android_device_lge_p970" />
   <project path="device/lge/p990" name="CyanogenMod/android_device_lge_p990" />
   <project path="device/lge/p999" name="CyanogenMod/android_device_lge_p999" />
