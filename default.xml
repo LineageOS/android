@@ -20,111 +20,23 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
-  <project path="device/advent/vega" name="CyanogenMod/android_device_advent_vega" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
-  <project path="device/bn/encore" name="CyanogenMod/android_device_bn_encore" />
-  <project path="device/commtiva/z71" name="CyanogenMod/android_device_commtiva_z71" />
-  <project path="device/dell/streak7" name="CyanogenMod/android_device_dell_streak7" />
-  <project path="device/elocity/a7" name="CyanogenMod/android_device_elocity_a7" />
-  <project path="device/geeksphone/one" name="CyanogenMod/android_device_geeksphone_one" />
-  <project path="device/geeksphone/zero" name="CyanogenMod/android_device_geeksphone_zero" />
-  <project path="device/huawei/ascend" name="CyanogenMod/android_device_huawei_ascend" />
-  <project path="device/huawei/u8150" name="CyanogenMod/android_device_huawei_u8150" />
-  <project path="device/huawei/u8220" name="CyanogenMod/android_device_huawei_u8220" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" />
   <project path="device/htc/7x30-recovery" name="CyanogenMod/android_device_htc_7x30-recovery" />
-  <project path="device/htc/ace" name="CyanogenMod/android_device_htc_ace" />
-  <project path="device/htc/bravo" name="CyanogenMod/android_device_htc_bravo" />
-  <project path="device/htc/bravoc" name="CyanogenMod/android_device_htc_bravoc" />
-  <project path="device/htc/buzz" name="CyanogenMod/android_device_htc_buzz" />
-  <project path="device/htc/click" name="CyanogenMod/android_device_htc_click" />
-  <project path="device/htc/desirec" name="CyanogenMod/android_device_htc_desirec" />
-  <project path="device/htc/dream_sapphire" name="CyanogenMod/android_device_htc_dream_sapphire" />
-  <project path="device/htc/espresso" name="CyanogenMod/android_device_htc_espresso" />
-  <project path="device/htc/inc" name="CyanogenMod/android_device_htc_inc" />
-  <project path="device/htc/glacier" name="CyanogenMod/android_device_htc_glacier" />
-  <project path="device/htc/hero" name="CyanogenMod/android_device_htc_hero" />
-  <project path="device/htc/heroc" name="CyanogenMod/android_device_htc_heroc" />
-  <project path="device/htc/legend" name="CyanogenMod/android_device_htc_legend" />
-  <project path="device/htc/leo" name="CyanogenMod/android_device_htc_leo" />
-  <project path="device/htc/liberty" name="CyanogenMod/android_device_htc_liberty" />
-  <project path="device/htc/mecha" name="CyanogenMod/android_device_htc_mecha" />
   <project path="device/htc/msm7x30-common" name="CyanogenMod/android_device_htc_msm7x30-common" />
-  <project path="device/htc/passion" name="CyanogenMod/android_device_htc_passion" />
   <project path="device/htc/passion-common" name="CyanogenMod/android_device_htc_passion-common" />
-  <project path="device/htc/saga" name="CyanogenMod/android_device_htc_saga" />
-  <project path="device/htc/speedy" name="CyanogenMod/android_device_htc_speedy" />
-  <project path="device/htc/supersonic" name="CyanogenMod/android_device_htc_supersonic" />
-  <project path="device/htc/vision" name="CyanogenMod/android_device_htc_vision" />
-  <project path="device/htc/vivo" name="CyanogenMod/android_device_htc_vivo" />
-  <project path="device/htc/vivow" name="CyanogenMod/android_device_htc_vivow" />
-  <project path="device/lge/p970" name="CyanogenMod/android_device_lge_p970" />
-  <project path="device/lge/p990" name="CyanogenMod/android_device_lge_p990" />
-  <project path="device/lge/p999" name="CyanogenMod/android_device_lge_p999" />
   <project path="device/lge/star-common" name="CyanogenMod/android_device_lge_star-common" />
   <project path="device/lge/victor-common" name="CyanogenMod/android_device_lge_victor-common" />
   <project path="device/malata/smb-common" name="CyanogenMod/android_device_malata_smb-common" />
-  <project path="device/malata/smb_a1002" name="CyanogenMod/android_device_malata_smb_a1002" />
-  <project path="device/malata/smb_a1004" name="CyanogenMod/android_device_malata_smb_a1004" />
-  <project path="device/malata/smb_a1011" name="CyanogenMod/android_device_malata_smb_a1011" />
-  <project path="device/malata/smb_b9701" name="CyanogenMod/android_device_malata_smb_b9701" />
   <project path="device/motorola/common" name="CyanogenMod/android_device_motorola_common" />
-  <project path="device/motorola/droid2" name="CyanogenMod/android_device_motorola_droid2" />
-  <project path="device/motorola/droid2we" name="CyanogenMod/android_device_motorola_droid2we" />
-  <project path="device/motorola/jordan" name="CyanogenMod/android_device_motorola_jordan" />
-  <project path="device/motorola/morrison" name="CyanogenMod/android_device_motorola_morrison" />
-  <project path="device/motorola/motus" name="CyanogenMod/android_device_motorola_motus" />
-  <project path="device/motorola/olympus" name="CyanogenMod/android_device_motorola_olympus" />
-  <project path="device/motorola/shadow" name="CyanogenMod/android_device_motorola_shadow" />
-  <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" />
-  <project path="device/motorola/sunfire" name="CyanogenMod/android_device_motorola_sunfire" />
-  <project path="device/motorola/zeppelin" name="CyanogenMod/android_device_motorola_zeppelin" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/samsung/aries-common" name="CyanogenMod/android_device_samsung_aries-common" />
   <project path="device/samsung/c1-common" name="CyanogenMod/android_device_samsung_c1-common" />
-  <project path="device/samsung/captivatemtd" name="CyanogenMod/android_device_samsung_captivatemtd" />
   <project path="device/samsung/charge" name="CyanogenMod/android_device_samsung_charge" />
-  <project path="device/samsung/cooper" name="CyanogenMod/android_device_samsung_cooper" />
-  <project path="device/samsung/crespo" name="CyanogenMod/android_device_samsung_crespo" />
-  <project path="device/samsung/crespo4g" name="CyanogenMod/android_device_samsung_crespo4g" />
-  <project path="device/samsung/epic4g" name="CyanogenMod/android_device_samsung_epic4g" />
-  <project path="device/samsung/epicmtd" name="CyanogenMod/android_device_samsung_epicmtd" />
-  <project path="device/samsung/fascinate" name="CyanogenMod/android_device_samsung_fascinate" />
-  <project path="device/samsung/fascinatemtd" name="CyanogenMod/android_device_samsung_fascinatemtd" />
-  <project path="device/samsung/galaxy5" name="CyanogenMod/android_device_samsung_galaxy5" />
-  <project path="device/samsung/galaxyace" name="CyanogenMod/android_device_samsung_galaxyace" />
-  <project path="device/samsung/galaxys2" name="CyanogenMod/android_device_samsung_galaxys2" />
-  <project path="device/samsung/galaxys2att" name="CyanogenMod/android_device_samsung_galaxys2att"/>
-  <project path="device/samsung/galaxysbmtd" name="CyanogenMod/android_device_samsung_galaxysbmtd" />
-  <project path="device/samsung/galaxysmtd" name="CyanogenMod/android_device_samsung_galaxysmtd" />
-  <project path="device/samsung/galaxys4g" name="CyanogenMod/android_device_samsung_galaxys4g" />
-  <project path="device/samsung/mesmerizemtd" name="CyanogenMod/android_device_samsung_mesmerizemtd" />
-  <project path="device/samsung/p7100" name="CyanogenMod/android_device_samsung_p7100" />
-  <project path="device/samsung/showcasemtd" name="CyanogenMod/android_device_samsung_showcasemtd" />
-  <project path="device/samsung/sidekick4g" name="CyanogenMod/android_device_samsung_sidekick4g" />
-  <project path="device/samsung/tass" name="CyanogenMod/android_device_samsung_tass" />
-  <project path="device/samsung/vibrantmtd" name="CyanogenMod/android_device_samsung_vibrantmtd" />
-  <project path="device/samsung/vzwtab" name="CyanogenMod/android_device_samsung_vzwtab" />
-  <project path="device/semc/anzu" name="CyanogenMod/android_device_semc_anzu" />
-  <project path="device/semc/coconut" name="CyanogenMod/android_device_semc_coconut" />
-  <project path="device/semc/es209ra" name="CyanogenMod/android_device_semc_es209ra" />
-  <project path="device/semc/hallon" name="CyanogenMod/android_device_semc_hallon" />
-  <project path="device/semc/iyokan" name="CyanogenMod/android_device_semc_iyokan" />
-  <project path="device/semc/mango" name="CyanogenMod/android_device_semc_mango" />
-  <project path="device/semc/mimmi" name="CyanogenMod/android_device_semc_mimmi" />
   <project path="device/semc/mogami-common" name="CyanogenMod/android_device_semc_mogami-common" />
   <project path="device/semc/msm7x27-common" name="CyanogenMod/android_device_semc_msm7x27-common" />
   <project path="device/semc/msm7x30-common" name="CyanogenMod/android_device_semc_msm7x30-common" />
-  <project path="device/semc/robyn" name="CyanogenMod/android_device_semc_robyn" />
-  <project path="device/semc/satsuma" name="CyanogenMod/android_device_semc_satsuma" />
-  <project path="device/semc/shakira" name="CyanogenMod/android_device_semc_shakira" />
-  <project path="device/semc/smultron" name="CyanogenMod/android_device_semc_smultron" />
-  <project path="device/semc/urushi" name="CyanogenMod/android_device_semc_urushi" />
-  <project path="device/semc/zeus" name="CyanogenMod/android_device_semc_zeus" />
-  <project path="device/semc/zeusc" name="CyanogenMod/android_device_semc_zeusc" />
   <project path="device/semc/zeus-common" name="CyanogenMod/android_device_semc_zeus-common" />
-  <project path="device/zte/blade" name="CyanogenMod/android_device_zte_blade" />
-  <project path="device/zte/v9" name="CyanogenMod/android_device_zte_v9" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
