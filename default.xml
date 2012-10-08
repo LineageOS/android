@@ -29,6 +29,7 @@
   <project path="device/lge/victor-common" name="CyanogenMod/android_device_lge_victor-common" />
   <project path="device/malata/smb-common" name="CyanogenMod/android_device_malata_smb-common" />
   <project path="device/motorola/common" name="CyanogenMod/android_device_motorola_common" />
+  <project path="device/motorola/jordan-common" name="CyanogenMod/android_device_motorola_jordan-common" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
   <project path="device/samsung/aries-common" name="CyanogenMod/android_device_samsung_aries-common" />
   <project path="device/samsung/c1-common" name="CyanogenMod/android_device_samsung_c1-common" />
