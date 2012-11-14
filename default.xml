@@ -6,7 +6,7 @@
 
   <remote  name="github"
            fetch=".."
-           review="review.cyanogenmod.com" />
+           review="review.cyanogenmod.org" />
 
   <default revision="gingerbread"
            remote="github" />

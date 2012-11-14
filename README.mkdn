@@ -20,7 +20,7 @@ For more help on using this tool, use this command: repo help upload
 Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
 Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
 
-To view the status of your and others' patches, visit [CyanogenMod Code Review](http://review.cyanogenmod.com/)
+To view the status of your and others' patches, visit [CyanogenMod Code Review](http://review.cyanogenmod.org/)
 
 
 Getting Started
@@ -37,10 +37,10 @@ Then to sync up:
 
     repo sync
 
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.com/) for building instructions.
+Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
 
 For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.com/index.php/Github_Organization)
+please [read the wiki article](http://wiki.cyanogenmod.org/index.php/Github_Organization)
 
 Buildbot
 --------
