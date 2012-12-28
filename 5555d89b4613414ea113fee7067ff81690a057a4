@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAbn///Mk\u003d",
+        "filename": "README.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 5112
+      },
+      "writtenOn": "2012-12-28T18:45:06Z",
+      "side": 1,
+      "message": "repo start cm-10.1",
+      "revId": "5555d89b4613414ea113fee7067ff81690a057a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
