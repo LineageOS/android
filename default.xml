@@ -356,7 +356,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="jb-mr1-release" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="jb-mr1-release" />
 
-  <project path="sdk" name="platform/sdk" remote="aosp" revision="jb-mr1-release" />
+  <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
