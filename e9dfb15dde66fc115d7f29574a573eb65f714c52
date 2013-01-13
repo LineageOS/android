@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAcn//95Y\u003d",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 4266
+      },
+      "writtenOn": "2013-01-13T12:07:01Z",
+      "side": 0,
+      "message": "Those are no more on android.googlesource",
+      "parentUuid": "AAAAcn//95s\u003d",
+      "revId": "e9dfb15dde66fc115d7f29574a573eb65f714c52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAcn//95o\u003d",
         "filename": "default.xml",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2013-01-13T12:00:17Z",
       "side": 0,
       "message": "See the previous message",
+      "revId": "e9dfb15dde66fc115d7f29574a573eb65f714c52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//95c\u003d",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 4266
+      },
+      "writtenOn": "2013-01-13T12:07:01Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "AAAAcn//95o\u003d",
       "revId": "e9dfb15dde66fc115d7f29574a573eb65f714c52",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
