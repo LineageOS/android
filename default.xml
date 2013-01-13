@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="korg"
-           fetch="git://android.git.kernel.org/"
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/"
            review="review.source.android.com" />
-  <remote name="github" fetch="git://github.com/" review="review.cyanogenmod.com" />
+  <remote name="github" fetch="git://github.com/" review="review.cyanogenmod.org" />
   <default revision="froyo"
-           remote="korg" />
+           remote="aosp" />
 
   <project path="build" name="CyanogenMod/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -47,8 +47,6 @@
   <project path="device/samsung/bmlunlock" name="CyanogenMod/android_device_samsung_bmlunlock" remote="github" revision="master" />
   <project path="device/samsung/herring" name="CyanogenMod/android_device_samsung_herring" remote="github" />
 
-  <project path="external/alsa-lib" name="platform/external/alsa-lib" />
-  <project path="external/alsa-utils" name="platform/external/alsa-utils" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="bash-4.1-froyo" />
@@ -142,7 +140,6 @@
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/policies/base" name="CyanogenMod/android_frameworks_policies_base" remote="github" />
 
-  <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" />
