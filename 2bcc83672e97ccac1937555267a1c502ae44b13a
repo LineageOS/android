@@ -1,0 +1,11 @@
+Change-Id: I2bcc83672e97ccac1937555267a1c502ae44b13a
+Code-Review+2: Steve Kondik <shade@chemlab.org>
+Verified+1: Steve Kondik <shade@chemlab.org>
+Code-Review+1: Michael Bestas <mikeioannina@gmail.com>
+Code-Review+1: Anthony King <anthonydking@gmail.com>
+Code-Review+1: Gustavo Couto <g4639480@gmail.com>
+Submitted-by: Steve Kondik <shade@chemlab.org>
+Submitted-at: Sun, 20 Jan 2013 20:19:50 -0800
+Reviewed-on: http://review.cyanogenmod.org/30215
+Project: CyanogenMod/android
+Branch: refs/heads/froyo
