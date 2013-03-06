@@ -115,6 +115,11 @@
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" />
   <project path="external/junit" name="CyanogenMod/android_external_junit" />
   <project path="external/kernel-headers" name="CyanogenMod/android_external_kernel-headers" />
+
+  <!-- before the next M release, fork this. -->
+  <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
+  <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
+
   <project path="external/libcap-ng" name="CyanogenMod/android_external_libcap-ng" />
   <project path="external/libffi" name="CyanogenMod/android_external_libffi" />
   <project path="external/libgsm" name="CyanogenMod/android_external_libgsm" />
@@ -303,7 +308,6 @@
   <project path="packages/apps/SpareParts" name="CyanogenMod/android_packages_apps_SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
@@ -364,7 +368,6 @@
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/security" name="CyanogenMod/android_system_security" />
-  <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
