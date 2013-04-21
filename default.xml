@@ -8,6 +8,9 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
   <default revision="gingerbread"
            remote="github"
            sync-c="true"
