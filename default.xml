@@ -109,6 +109,8 @@
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" />
   <project path="external/junit" name="CyanogenMod/android_external_junit" />
   <project path="external/kernel-headers" name="CyanogenMod/android_external_kernel-headers" />
+  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" />
+  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" />
   <project path="external/libffi" name="CyanogenMod/android_external_libffi" />
   <project path="external/libgsm" name="CyanogenMod/android_external_libgsm" />
   <project path="external/liblzf" name="CyanogenMod/android_external_liblzf" />
@@ -270,7 +272,6 @@
   <project path="packages/apps/SpareParts" name="CyanogenMod/android_packages_apps_SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
@@ -327,7 +328,6 @@
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/security" name="CyanogenMod/android_system_security" />
-  <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
