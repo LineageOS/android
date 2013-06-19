@@ -256,6 +256,7 @@
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
+  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
