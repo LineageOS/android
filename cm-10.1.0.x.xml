@@ -12,7 +12,10 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <!-- 10.1.0.x is built against the main 10.1.0 core, with
+  <!-- This manifest builds the latest release version for 10.1.0.
+       For most devices, that'll be 10.1.0 itself, but for devices
+       that got maintenance point-releases, those will be used.
+       10.1.0.x is built against the main 10.1.0 core, with
        the updates for the point-release explicitly requesting
        a different tag at the bottom of this manifest -->
   <default revision="refs/tags/cm-10.1.0"
@@ -379,11 +382,16 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
 
-  <!-- Device repos that differ for 10.1.0.1 -->
+  <!-- Device repos that differ for 10.1.0.x -->
   <project name="CyanogenMod/android_device_amazon_otter" path="device/amazon/otter" remote="github" />
   <project name="CyanogenMod/android_device_amazon_otter2" path="device/amazon/otter2" remote="github" />
   <project name="CyanogenMod/android_device_amazon_otter-common" path="device/amazon/otter-common" remote="github" revision="refs/tags/cm-10.1.0.1" />
   <project name="CyanogenMod/android_device_amazon_omap4-common" path="device/amazon/omap4-common" remote="github" />
-  <project name="CyanogenMod/android_kernel_amazon_otter-common" path="kernel/amazon/otter-common" remote="github" revision="refs/tags/cm-10.1.0.1" />
+
+  <project name="CyanogenMod/android_device_samsung_d2vzw" path="device/samsung/d2vzw" remote="github" revision="refs/tags/cm-10.1.0.1" />
+  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="github" />
+
 
 </manifest>
