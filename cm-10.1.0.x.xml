@@ -393,5 +393,7 @@
   <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" />
   <project name="CyanogenMod/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="github" />
 
+  <project name="CyanogenMod/android_device_lge_p760" path="device/lge/p760" remote="github" revision="refs/tags/cm-10.1.0.1" />
+
 
 </manifest>
