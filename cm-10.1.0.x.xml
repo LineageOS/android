@@ -385,7 +385,7 @@
   <!-- Device repos that differ for 10.1.0.x -->
   <project name="CyanogenMod/android_device_amazon_otter" path="device/amazon/otter" remote="github" />
   <project name="CyanogenMod/android_device_amazon_otter2" path="device/amazon/otter2" remote="github" />
-  <project name="CyanogenMod/android_device_amazon_otter-common" path="device/amazon/otter-common" remote="github" revision="refs/tags/cm-10.1.0.1" />
+  <project name="CyanogenMod/android_device_amazon_otter-common" path="device/amazon/otter-common" remote="github" revision="refs/tags/cm-10.1.0.2" />
   <project name="CyanogenMod/android_device_amazon_omap4-common" path="device/amazon/omap4-common" remote="github" />
 
   <project name="CyanogenMod/android_device_samsung_d2vzw" path="device/samsung/d2vzw" remote="github" revision="refs/tags/cm-10.1.0.3" />
