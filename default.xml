@@ -97,6 +97,7 @@
   <project path="external/google" name="CyanogenMod/android_external_google" />
   <project path="external/google-diff-match-patch" name="CyanogenMod/android_external_google-diff-match-patch" />
   <project path="external/grub" name="CyanogenMod/android_external_grub" />
+  <project path="external/gson" name="CyanogenMod/android_external_gson" />
   <project path="external/gtest" name="CyanogenMod/android_external_gtest" />
   <project path="external/guava" name="CyanogenMod/android_external_guava" />
   <project path="external/hamcrest" name="CyanogenMod/android_external_hamcrest" />
