@@ -29,10 +29,10 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
-  <project path="developers/build" name="platform/developers/build" />
-  <project path="developers/demos" name="platform/developers/demos" />
-  <project path="developers/docs" name="platform/developers/docs" />
-  <project path="developers/samples/android" name="platform/developers/samples/android" />
+  <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
+  <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
+  <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
+  <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
