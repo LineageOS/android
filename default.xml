@@ -147,6 +147,7 @@
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" />
+  <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" />
   <project path="external/libusb-compat" name="CyanogenMod/android_external_libusb-compat" />
   <project path="external/libvorbis" name="CyanogenMod/android_external_libvorbis" />
   <project path="external/libvpx" name="CyanogenMod/android_external_libvpx" groups="pdk" />
