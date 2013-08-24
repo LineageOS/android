@@ -186,6 +186,7 @@
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" groups="pdk" />
   <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" />
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" />
+  <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
   <project path="external/ping" name="CyanogenMod/android_external_ping" />
   <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" />
