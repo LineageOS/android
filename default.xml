@@ -88,7 +88,6 @@
   <project path="external/eyes-free" name="CyanogenMod/android_external_eyes-free" />
   <project path="external/fdlibm" name="CyanogenMod/android_external_fdlibm" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" />
-  <project path="external/Focal" name="CyanogenMod/android_external_Focal" />
   <project path="external/freetype" name="CyanogenMod/android_external_freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" />
@@ -315,7 +314,6 @@
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
-  <project path="packages/apps/Focal" name="CyanogenMod/android_packages_apps_Focal" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
