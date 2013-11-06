@@ -442,7 +442,8 @@
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="refs/tags/android-4.4_r1" groups="pdk" />
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" remote="aosp" revision="refs/tags/android-4.4_r1" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4_r1" groups="pdk" />
+  <!-- apparently, requesting the tag is randomly returning bad results on this  one... fix whenever we update tags -->
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="b52073d9cb1b044f4701bfc32e60b927323740fb" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4_r1" groups="pdk,tools" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
