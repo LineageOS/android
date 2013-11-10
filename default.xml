@@ -27,7 +27,7 @@
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
-  <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.3.1_r1" groups="cts" />
+  <project path="cts" name="platform/cts" remote="aosp" revision="jb-mr2.0-cts-release" groups="cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
