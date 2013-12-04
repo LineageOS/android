@@ -12,7 +12,7 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/heads/cm-11.0"
+  <default revision="refs/heads/stable/cm-11.0"
            remote="github"
            sync-c="true"
            sync-j="4" />
