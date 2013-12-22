@@ -1,5 +1,5 @@
 CyanogenMod
-===========
+==============
 
 Submitting Patches
 ------------------
