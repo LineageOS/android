@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_5c876e61",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 268,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2014-01-17T09:59:48Z",
+      "side": 1,
+      "message": "Remove the \"groups\" param, please",
+      "revId": "6d2e00b773acf7089197be1de998569c82c44d27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
