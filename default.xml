@@ -22,6 +22,7 @@
   </project>
 
   <project path="android" name="CyanogenMod/android" />
+  <project path="hudson" name="CyanogenMod/hudson" revision="master" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" />
