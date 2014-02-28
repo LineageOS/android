@@ -442,7 +442,7 @@
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" remote="aosp" revision="refs/tags/android-4.4.2_r1" groups="pdk" />
+  <project path="prebuilts/misc" name="CyanogenMod/android_prebuilts_misc" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="refs/tags/android-4.4.2_r1" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
