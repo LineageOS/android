@@ -225,6 +225,7 @@
   <project path="external/ppp" name="CyanogenMod/android_external_ppp" />
   <project path="external/proguard" name="CyanogenMod/android_external_proguard" groups="pdk-java" />
   <project path="external/protobuf" name="CyanogenMod/android_external_protobuf" groups="pdk" />
+  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" />
   <project path="external/qemu" name="CyanogenMod/android_external_qemu" />
   <project path="external/qemu-pc-bios" name="CyanogenMod/android_external_qemu-pc-bios" />
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" />
