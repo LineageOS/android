@@ -136,7 +136,7 @@
   <project path="external/guava" name="CyanogenMod/android_external_guava" />
   <project path="external/hamcrest" name="CyanogenMod/android_external_hamcrest" />
   <project path="external/harfbuzz" name="CyanogenMod/android_external_harfbuzz" />
-  <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="external/harfbuzz_ng" name="CyanogenMod/android_external_harfbuzz_ng" />
   <project path="external/heimdall" name="CyanogenMod/android_external_heimdall" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" />
   <project path="external/hyphenation" name="CyanogenMod/android_external_hyphenation" />
