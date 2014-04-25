@@ -228,6 +228,7 @@
   <project path="external/openfst" name="CyanogenMod/android_external_openfst" />
   <project path="external/openssh" name="CyanogenMod/android_external_openssh" />
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" groups="pdk" />
+  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" />
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" />
   <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
