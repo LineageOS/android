@@ -480,4 +480,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
+
+  <-- Add support for jactiveltexx -->
+  <project name="spegelius/android_device_samsung_jactivelte.git" path="device/samsung/jactiveltexx" remote="github" revision="cm-11.0" />
+  <project name="spegelius/android_device_samsung_jactivelte-common.git" path="device/samsung/jf-common" remote="github" revision="cm-11.0" />
+  <project name="spegelius/android_kernel_samsung_jactivelte.git" path="kernel/samsung/jactiveltexx" remote="github" revision="cm-11.0" />
+  <project name="spegelius/device-props_jactiveltexx.git" path="vendor/samsung/jactiveltexx" remote="github" revision="cm-11.0" />
 </manifest>
