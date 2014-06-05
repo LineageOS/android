@@ -161,6 +161,7 @@
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
   <project path="external/jsilver" name="CyanogenMod/android_external_jsilver" />
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" />
+  <project path="external/jsr330" name="CyanogenMod/android_external_jsr330" />
   <project path="external/junit" name="CyanogenMod/android_external_junit" />
   <project path="external/kernel-headers" name="CyanogenMod/android_external_kernel-headers" />
   <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" />
