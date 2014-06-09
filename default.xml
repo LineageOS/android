@@ -169,7 +169,7 @@
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" />
   <project path="external/libcap-ng" name="CyanogenMod/android_external_libcap-ng" />
-  <project path="external/libexif" name="platform/external/libexif" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
+  <project path="external/libexif" name="CyanogenMod/android_external/libexif" groups="pdk"  />
   <project path="external/libffi" name="CyanogenMod/android_external_libffi" />
   <project path="external/libgsm" name="CyanogenMod/android_external_libgsm" groups="pdk" />
   <project path="external/liblzf" name="CyanogenMod/android_external_liblzf" groups="pdk" />
