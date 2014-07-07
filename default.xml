@@ -284,6 +284,11 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
+  <project path="external/jsr308" name="CyanogenMod/android_external_jsr308" />
+  <project path="external/jsr330" name="CyanogenMod/android_external_jsr330" />
+  <project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" />
+  <project path="external/square/dagger" name="CyanogenMod/android_external_square_dagger" />
+  <project path="external/JakeWharton/butterknife" name="CyanogenMod/android_external_JakeWharton_butterknife" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
