@@ -151,6 +151,7 @@
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" />
   <project path="external/iputils" name="platform/external/iputils" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="external/jack" name="CyanogenMod/android_external_jack" />
+  <project path="external/JakeWharton/butterknife" name="CyanogenMod/android_external_JakeWharton_butterknife" />
   <project path="external/javasqlite" name="CyanogenMod/android_external_javasqlite" />
   <project path="external/javassist" name="CyanogenMod/android_external_javassist" />
   <project path="external/jdiff" name="CyanogenMod/android_external_jdiff" />
@@ -160,6 +161,7 @@
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
   <project path="external/jsilver" name="CyanogenMod/android_external_jsilver" />
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" />
+  <project path="external/jsr308" name="CyanogenMod/android_external_jsr308" />
   <project path="external/jsr330" name="CyanogenMod/android_external_jsr330" />
   <project path="external/junit" name="CyanogenMod/android_external_junit" />
   <project path="external/kernel-headers" name="CyanogenMod/android_external_kernel-headers" />
@@ -256,6 +258,8 @@
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
+  <project path="external/square/dagger" name="CyanogenMod/android_external_square_dagger" />
+  <project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" />
   <project path="external/srec" name="CyanogenMod/android_external_srec" />
   <project path="external/srtp" name="CyanogenMod/android_external_srtp" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
@@ -285,11 +289,6 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
-  <project path="external/jsr308" name="CyanogenMod/android_external_jsr308" />
-  <project path="external/jsr330" name="CyanogenMod/android_external_jsr330" />
-  <project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" />
-  <project path="external/square/dagger" name="CyanogenMod/android_external_square_dagger" />
-  <project path="external/JakeWharton/butterknife" name="CyanogenMod/android_external_JakeWharton_butterknife" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
