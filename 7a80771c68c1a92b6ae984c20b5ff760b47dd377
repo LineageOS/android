@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba0121b8_e5465dbe",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2014-07-08T09:48:14Z",
+      "side": 1,
+      "message": "duped down below, breaking sync",
+      "revId": "7a80771c68c1a92b6ae984c20b5ff760b47dd377",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_054a71c5",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 289,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2014-07-08T09:48:14Z",
+      "side": 1,
+      "message": "duplicate",
+      "revId": "7a80771c68c1a92b6ae984c20b5ff760b47dd377",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
