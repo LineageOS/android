@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_19232f07",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 368,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2014-08-14T11:04:00Z",
+      "side": 1,
+      "message": "path\u003d\"packages/apps/CMBugReport\" POR FAVOR",
+      "revId": "dd25933a34433a1f718b0ae049b7518194ba49a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
