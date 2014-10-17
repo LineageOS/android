@@ -213,7 +213,7 @@
   <project path="external/mdnsresponder" name="CyanogenMod/android_external_mdnsresponder" groups="pdk" />
   <project path="external/mesa3d" name="platform/external/mesa3d" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" groups="pdk" />
-  <project path="external/mockito" name="CyanogenMod/android_external_mockito" />
+  <project path="external/mockito" name="platform/external/mockito" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/mockwebserver" name="CyanogenMod/android_external_mockwebserver" />
   <project path="external/mp4parser" name="CyanogenMod/android_external_mp4parser" />
   <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" />
