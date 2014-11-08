@@ -33,9 +33,6 @@
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="development" name="platform/development" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu" clone-depth="1" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
@@ -60,10 +57,6 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
