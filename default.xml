@@ -23,7 +23,7 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="art" name="platform/art" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="android" name="CyanogenMod/android" />
-  <project path="bionic" name="platform/bionic" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
