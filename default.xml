@@ -35,7 +35,6 @@
   <project path="development" name="platform/development" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu" clone-depth="1" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
