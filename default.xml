@@ -351,7 +351,7 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
