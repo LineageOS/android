@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a122d0e_dc808149",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 384,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-11-10T18:33:31Z",
+      "side": 1,
+      "message": "I have this branch containing symlinks to ../default/$FILE so the include path works.",
+      "revId": "a50972778b55a4d7251e70a8b15f9a53890ff65b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
