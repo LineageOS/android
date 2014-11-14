@@ -80,7 +80,7 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="external/chromium_org" name="platform/external/chromium_org" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
+  <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
