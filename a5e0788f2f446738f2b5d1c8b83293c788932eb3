@@ -16,6 +16,23 @@
       "revId": "a5e0788f2f446738f2b5d1c8b83293c788932eb3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dab17558_972a4c7d",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 509,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2014-11-20T12:35:31Z",
+      "side": 1,
+      "message": "Is there a reason that this uses the master branch?",
+      "revId": "a5e0788f2f446738f2b5d1c8b83293c788932eb3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
