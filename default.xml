@@ -160,6 +160,7 @@
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="external/gson" name="CyanogenMod/android_external_gson" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
+  <project path="external/gmock" name="CyanogenMod/android_external_gmock"/>
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
