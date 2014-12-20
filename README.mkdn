@@ -6,7 +6,7 @@ Submitting Patches
 Patches are always welcome!  Please submit your patches via CyanogenMod Gerrit!
 You can do this by using these commands:
 
-    (From root android directory)
+    (From root android directory)s
     . build/envsetup.sh
     (Go to repo you are patching, make your changes and commit)
     cmgerrit <for(new)/changes(patch set)> <branch/change-id> 
