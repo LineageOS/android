@@ -177,7 +177,7 @@
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" />
   <project path="external/stressapptest" name="CyanogenMod/android_external_stressapptest" />
-  <project path="external/svox" name="CyanogenMod/android_external_svox" />
+  <project path="external/svox" name="platform/external/svox" remote="aosp" revision="android-4.1.2_r2.1" />
   <project path="external/tagsoup" name="CyanogenMod/android_external_tagsoup" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" />
