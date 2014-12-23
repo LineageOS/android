@@ -126,7 +126,7 @@
   <project path="external/srec" name="CyanogenMod/android_external_srec" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" />
-  <project path="external/svox" name="CyanogenMod/android_external_svox" />
+  <project path="external/svox" name="platform/external/svox" remote="aosp" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/tagsoup" name="CyanogenMod/android_external_tagsoup" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" />
   <project path="external/tinyxml" name="CyanogenMod/android_external_tinyxml" />
