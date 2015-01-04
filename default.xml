@@ -194,8 +194,6 @@
   <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" />
   <project path="external/koush/ion" name="CyanogenMod/ion" />
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
-  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" />
-  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -538,6 +536,7 @@
   <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
+  <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
