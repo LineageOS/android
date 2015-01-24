@@ -158,9 +158,9 @@
   <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="external/gmock" name="CyanogenMod/android_external_gmock"/>
   <project path="external/gson" name="CyanogenMod/android_external_gson" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="external/gmock" name="CyanogenMod/android_external_gmock"/>
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -192,8 +192,8 @@
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" />
-  <project path="external/koush/ion" name="CyanogenMod/ion" />
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
+  <project path="external/koush/ion" name="CyanogenMod/ion" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -324,8 +324,8 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
+  <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
@@ -377,25 +377,25 @@
   <project path="hardware/nvidia/tegra124" name="CyanogenMod/android_hardware_nvidia_tegra124" groups="tegra124" />
   <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8084" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8226" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8226" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8974" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" />
   <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8084" />
-  <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8226" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8226" />
-  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8974" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
   <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8226" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8226" />
-  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-12.0-caf-8974" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -423,7 +423,6 @@
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
-  <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
   <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
   <!-- <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" /> -->
@@ -448,15 +447,16 @@
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
+  <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
-  <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
-  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" />
+  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
