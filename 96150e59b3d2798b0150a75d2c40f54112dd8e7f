@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fad55976_4c231d06",
+        "filename": "default.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-01-29T08:53:11Z",
+      "side": 1,
+      "message": "gmock is also from AOSP.",
+      "revId": "96150e59b3d2798b0150a75d2c40f54112dd8e7f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fad55976_0c1125ad",
+        "filename": "default.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 459,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-01-29T08:53:11Z",
+      "side": 1,
+      "message": "Isn\u0027t TvSettings from AOSP?",
+      "revId": "96150e59b3d2798b0150a75d2c40f54112dd8e7f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
