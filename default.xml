@@ -264,6 +264,7 @@
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/okhttp" name="CyanogenMod/android_external_okhttp" groups="pdk-cw-fw" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="external/openssh" name="CyanogenMod/android_external_openssh" />
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
