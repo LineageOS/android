@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "bacf61ea_f62282b8",
+        "filename": "default.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-02-24T07:02:05Z",
+      "side": 1,
+      "message": "gmock isn\u0027t in AOSP",
+      "parentUuid": "fad55976_47f5b681",
+      "revId": "96150e59b3d2798b0150a75d2c40f54112dd8e7f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fad55976_0c1125ad",
         "filename": "default.xml",
         "patchSetId": 4
@@ -66,6 +84,24 @@
       "side": 1,
       "message": "Might as well be.",
       "parentUuid": "fad55976_0c1125ad",
+      "revId": "96150e59b3d2798b0150a75d2c40f54112dd8e7f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bacf61ea_162636ce",
+        "filename": "default.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 459,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-02-24T07:02:05Z",
+      "side": 1,
+      "message": "Yes it\u0027s from AOSP, but we mistakenly added ThemeChooser, Terminal \u0026 Trebuchet after it. This commit fixes it",
+      "parentUuid": "fad55976_a7f2b298",
       "revId": "96150e59b3d2798b0150a75d2c40f54112dd8e7f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
