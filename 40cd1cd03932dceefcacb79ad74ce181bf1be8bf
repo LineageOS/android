@@ -16,6 +16,24 @@
       "revId": "40cd1cd03932dceefcacb79ad74ce181bf1be8bf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac665da_fd5ba22c",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 406,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-03-21T17:39:47Z",
+      "side": 1,
+      "message": "ignore, I\u0027m blind",
+      "parentUuid": "5ac665da_bd512a11",
+      "revId": "40cd1cd03932dceefcacb79ad74ce181bf1be8bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
