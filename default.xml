@@ -217,6 +217,7 @@
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
+test
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" remote="aosp" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" />
