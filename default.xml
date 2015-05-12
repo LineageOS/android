@@ -124,6 +124,8 @@
   <project path="external/deqp" name="platform/external/deqp" remote="aosp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs" />
+  <project path="external/dnscrypt/dnscrypt-proxy" name="CyanogenMod/android_external_dnscrypt_dnscrypt-proxy" />
+  <project path="external/dnscrypt/libsodium" name="CyanogenMod/android_external_dnscrypt_libsodium" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" />
