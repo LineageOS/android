@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a89bdaa_cdc62816",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 10621
+      },
+      "writtenOn": "2015-05-13T11:27:27Z",
+      "side": 1,
+      "message": "Do we really want these two under external/dnscrypt?\n\nIMO, libsodium should be usable as a crypto lib for other projects as well.",
+      "range": {
+        "startLine": 127,
+        "startChar": 20,
+        "endLine": 128,
+        "endChar": 20
+      },
+      "revId": "0f26a989be1785c2b3e75d6fbb2653a95bfd5961",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
