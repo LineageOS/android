@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a8ec9b2_cf81c24f",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 406,
+      "author": {
+        "id": 8961
+      },
+      "writtenOn": "2015-06-03T12:28:32Z",
+      "side": 1,
+      "message": "revision\u003d\"cm-12.1-caf-8992\" not 8994...",
+      "revId": "93d093677885fa41002fd0534cd82e5a201f87e6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_ef867e64",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 416,
+      "author": {
+        "id": 8961
+      },
+      "writtenOn": "2015-06-03T12:28:32Z",
+      "side": 1,
+      "message": "revision\u003d\"cm-12.1-caf-8992\" not 8994...",
+      "revId": "93d093677885fa41002fd0534cd82e5a201f87e6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a8ec9b2_0f7c8a71",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 427,
+      "author": {
+        "id": 8961
+      },
+      "writtenOn": "2015-06-03T12:28:32Z",
+      "side": 1,
+      "message": "revision\u003d\"cm-12.1-caf-8992\" not 8994...",
+      "revId": "93d093677885fa41002fd0534cd82e5a201f87e6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
