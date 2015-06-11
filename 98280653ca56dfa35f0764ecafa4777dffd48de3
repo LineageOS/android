@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a57fde8_0f54a552",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2015-06-11T08:00:33Z",
+      "side": 1,
+      "message": "CyanogenMod/android_external_lzma",
+      "revId": "98280653ca56dfa35f0764ecafa4777dffd48de3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
