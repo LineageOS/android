@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a25e98e_2f65e9e0",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 535,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-06-23T10:44:05Z",
+      "side": 1,
+      "message": "Should be here, the list is sorted alphabetically.",
+      "revId": "03a53a0d4626cd693016a4e579d1cf883006d12e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
