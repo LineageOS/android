@@ -145,7 +145,7 @@
   <project path="external/fio" name="platform/external/fio" remote="aosp" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" remote="aosp" />
-  <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" />
+  <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" revision="refs/tags/android-m-preview-1" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" remote="aosp" />
