@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_71030f0f",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 521,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2015-08-26T04:59:33Z",
+      "side": 1,
+      "message": "Is this really a prebuilt? Why not have this in frameworks/testing?",
+      "range": {
+        "startLine": 521,
+        "startChar": 17,
+        "endLine": 521,
+        "endChar": 47
+      },
+      "revId": "e11a889c3568b87370f74dae08195a95b70ce312",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
