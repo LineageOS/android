@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_aac6d015",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 448,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-08-29T06:58:36Z",
+      "side": 1,
+      "message": "Why not remove it instead of commenting it out?",
+      "revId": "afb6526639a0f33f0f3e66ea68b8b126b079be05",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
