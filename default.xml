@@ -499,5 +499,4 @@
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
-  <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
 </manifest>
