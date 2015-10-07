@@ -89,7 +89,6 @@
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
-  <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" groups="pdk-cw-fs" />
   <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" />
