@@ -92,7 +92,7 @@
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" groups="pdk-cw-fs" />
   <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" />
   <project path="external/libvpx" name="CyanogenMod/android_external_libvpx" groups="pdk" />
-  <project path="external/libvterm" name="CyanogenMod/android_external_libvterm" />  
+  <project path="external/libvterm" name="CyanogenMod/android_external_libvterm" />
   <project path="external/libxml2" name="CyanogenMod/android_external_libxml2" groups="pdk-cw-fs" />
   <project path="external/libxslt" name="CyanogenMod/android_external_libxslt" />
   <project path="external/linux-tools-perf" name="CyanogenMod/android_external_linux-tools-perf" groups="pdk-cw-fs" />
