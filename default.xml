@@ -50,7 +50,6 @@
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
-  <project path="external/cardslib" name="CyanogenMod/android_external_cardslib" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs" />
@@ -67,7 +66,6 @@
   <project path="external/google" name="CyanogenMod/android_external_google" />
   <project path="external/gmock" name="CyanogenMod/android_external_gmock"/>
   <project path="external/gson" name="CyanogenMod/android_external_gson" />
-  <project path="external/heimdall" name="CyanogenMod/android_external_heimdall" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" />
   <project path="external/icu" name="CyanogenMod/android_external_icu" groups="pdk" />
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" groups="pdk" />
