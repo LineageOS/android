@@ -45,7 +45,6 @@
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" />
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
-  <!-- <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" /> -->
   <project path="external/boringssl" name="CyanogenMod/android_external_boringssl" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
