@@ -89,11 +89,12 @@
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" groups="pdk-cw-fs" />
   <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" />
   <project path="external/libvpx" name="CyanogenMod/android_external_libvpx" groups="pdk" />
-  <project path="external/libvterm" name="CyanogenMod/android_external_libvterm" />  
+  <project path="external/libvterm" name="CyanogenMod/android_external_libvterm" />
   <project path="external/libxml2" name="CyanogenMod/android_external_libxml2" groups="pdk-cw-fs" />
   <project path="external/libxslt" name="CyanogenMod/android_external_libxslt" />
   <project path="external/linux-tools-perf" name="CyanogenMod/android_external_linux-tools-perf" groups="pdk-cw-fs" />
