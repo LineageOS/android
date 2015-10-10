@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f287b81_e9916ef3",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2015-10-10T00:51:43Z",
+      "side": 1,
+      "message": "We should nuke this while we are cleaning up",
+      "range": {
+        "startLine": 94,
+        "startChar": 83,
+        "endLine": 94,
+        "endChar": 85
+      },
+      "revId": "62527e394583e6c10d1528adfda1e3177513da67",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
