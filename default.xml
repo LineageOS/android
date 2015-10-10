@@ -474,6 +474,7 @@
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" remote="aosp" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="external/stlport" name="platform/external/stlport" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
