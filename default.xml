@@ -241,7 +241,7 @@
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
-  <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
+  <!-- <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" /> -->
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
