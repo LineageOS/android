@@ -295,6 +295,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
+  <project path="vendor/qcom/opensource/display-frameworks" name="CyanogenMod/android_vendor_qcom_opensource_display-frameworks" />
 <!-- END CYANOGENMOD -->
 
 <!-- BEGIN AOSP -->
