@@ -461,7 +461,7 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
-  <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
+  <project path="external/tinyxml2" name="CyanogenMod/android_external_tinyxml2" groups="pdk" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" remote="aosp" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
   <project path="external/v8" name="platform/external/v8" groups="pdk" remote="aosp" />
@@ -504,7 +504,7 @@
   <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" remote="aosp" />
