@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f2f7f8d_6eefcf87",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2015-11-03T03:23:58Z",
+      "side": 1,
+      "message": "Alphabets",
+      "range": {
+        "startLine": 216,
+        "startChar": 31,
+        "endLine": 216,
+        "endChar": 46
+      },
+      "revId": "c2305c6353d7ef3bb92e7f1a96f19079155d4f9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
