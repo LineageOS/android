@@ -105,7 +105,7 @@
   <project path="external/openssh" name="CyanogenMod/android_external_openssh" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/pcre" name="CyanogenMod/android_external_pcre" groups="pdk" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
-  <!-- <project path="external/powertop" name="CyanogenMod/android_external_powertop" /> -->
+  <project path="external/powertop" name="CyanogenMod/android_external_powertop" />
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
@@ -324,7 +324,7 @@
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
-  <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" remote="aosp" />
+  <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" remote="aosp" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" remote="aosp" />
