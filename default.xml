@@ -103,6 +103,7 @@
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" />
   <project path="external/okhttp" name="CyanogenMod/android_external_okhttp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/openssh" name="CyanogenMod/android_external_openssh" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/p7zip" name="CyanogenMod/android_external_p7zip" />
   <project path="external/pcre" name="CyanogenMod/android_external_pcre" groups="pdk" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" />
@@ -121,6 +122,7 @@
   <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" />
   <project path="external/tinyxml2" name="CyanogenMod/android_external_tinyxml2" groups="pdk" />
   <project path="external/unrar" name="CyanogenMod/android_external_unrar" />
+  <project path="external/unzip" name="CyanogenMod/android_external_unzip" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
