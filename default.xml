@@ -116,6 +116,7 @@
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" />
   <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" />
