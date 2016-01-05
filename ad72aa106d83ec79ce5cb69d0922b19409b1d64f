@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fce034c_78fe8606",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 518,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2016-01-05T03:22:25Z",
+      "side": 1,
+      "message": "derp, \"clone-depth\" has been duplicated :-p",
+      "range": {
+        "startLine": 518,
+        "startChar": 150,
+        "endLine": 518,
+        "endChar": 152
+      },
+      "revId": "ad72aa106d83ec79ce5cb69d0922b19409b1d64f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
