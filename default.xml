@@ -232,8 +232,6 @@
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" />
   <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" groups="pdk" />
-  <project path="external/whispersystems/TextSecure" name="CyanogenMod/android_external_whispersystems_TextSecure" />
-  <project path="external/whispersystems/WhisperPush" name="CyanogenMod/android_external_whispersystems_WhisperPush" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" />
   <project path="external/xmlwriter" name="CyanogenMod/android_external_xmlwriter" />
