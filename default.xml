@@ -62,6 +62,7 @@
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" />
+  <project path="external/gello-build" name="CyanogenMod/android_external_gello_build" />
   <project path="external/google" name="CyanogenMod/android_external_google" />
   <project path="external/gmock" name="CyanogenMod/android_external_gmock"/>
   <project path="external/gson" name="CyanogenMod/android_external_gson" />
@@ -243,6 +244,7 @@
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" groups="pdk-fs" />
   <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" groups="pdk-fs" />
+  <project path="packages/apps/Gello" name="CyanogenMod/android_packages_apps_Gello" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" groups="pdk-fs" />
