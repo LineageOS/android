@@ -412,7 +412,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
   <project path="external/libhevc" name="platform/external/libhevc" groups="pdk-fs" remote="aosp" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" remote="aosp" />
-  <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" remote="aosp" revision="android-6.0.1_r22" />
+  <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" remote="aosp" revision="refs/tags/android-6.0.1_r22" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" remote="aosp" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" remote="aosp" />
