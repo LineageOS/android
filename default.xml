@@ -295,6 +295,7 @@
   <project path="packages/wallpapers/NoiseField" name="CyanogenMod/android_packages_wallpapers_NoiseField" groups="pdk-fs" />
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" groups="pdk-fs" />
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
+  <project path="prebuilts/cm" name="CyanogenMod/android_prebuilts_cm" clone-depth="1" />
   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" revision="master" />
   <project path="system/bt" name="CyanogenMod/android_system_bt" groups="pdk" />
   <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
