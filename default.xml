@@ -72,6 +72,7 @@
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jarjar" name="CyanogenMod/android_external_jarjar" groups="pdk" />
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
+  <project path="external/json-c" name="CyanogenMod/android_external_json-c" />
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
   <project path="external/koush/ion" name="CyanogenMod/ion" />
