@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_56924bf8",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2016-05-05T18:34:21Z",
+      "side": 1,
+      "message": "You don\u0027t need groups",
+      "range": {
+        "startLine": 243,
+        "startChar": 119,
+        "endLine": 243,
+        "endChar": 144
+      },
+      "revId": "d2bc6801b4927595e9345f694920ae19512c5f62",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
