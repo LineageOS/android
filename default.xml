@@ -243,6 +243,7 @@
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" groups="generic_fs" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
+  <project path="packages/apps/WallpaperPicker" name="CyanogenMod/android_packages_apps_WallpaperPicker" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="CyanogenMod/android_packages_providers_BookmarkProvider" groups="pdk-fs" />
