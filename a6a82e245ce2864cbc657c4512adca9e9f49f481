@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_fd37394c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-06-08T16:47:47Z",
+      "side": 1,
+      "message": "r46",
+      "range": {
+        "startLine": 7,
+        "startChar": 53,
+        "endLine": 7,
+        "endChar": 54
+      },
+      "revId": "a6a82e245ce2864cbc657c4512adca9e9f49f481",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_bd3d412c",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-06-08T16:47:47Z",
+      "side": 1,
+      "message": "this is the default revision anyway, so it\u0027s not necessary to specify.",
+      "range": {
+        "startLine": 92,
+        "startChar": 104,
+        "endLine": 92,
+        "endChar": 142
+      },
+      "revId": "a6a82e245ce2864cbc657c4512adca9e9f49f481",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_5d468dc2",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-06-08T16:47:47Z",
+      "side": 1,
+      "message": "not the right project.",
+      "range": {
+        "startLine": 92,
+        "startChar": 40,
+        "endLine": 92,
+        "endChar": 75
+      },
+      "revId": "a6a82e245ce2864cbc657c4512adca9e9f49f481",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
