@@ -80,7 +80,6 @@
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" />
   <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
-  <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" groups="pdk-cw-fs,pdk-fs" />
@@ -418,6 +417,7 @@
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" remote="aosp" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" remote="aosp" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="external/libpng" name="platform/external/libpng" groups="pdk" remote="aosp" revision="refs/tags/android-6.0.1_r46" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
