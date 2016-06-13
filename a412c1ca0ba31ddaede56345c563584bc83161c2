@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_e249c8b6",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-06-13T22:02:46Z",
+      "side": 1,
+      "message": "This is wrong. It should be CyanogenMod/android_external_aac",
+      "range": {
+        "startLine": 58,
+        "startChar": 37,
+        "endLine": 58,
+        "endChar": 58
+      },
+      "revId": "a412c1ca0ba31ddaede56345c563584bc83161c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
