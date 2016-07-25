@@ -269,6 +269,7 @@
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/ThemeManagerService" name="CyanogenMod/android_packages_services_ThemeManagerService" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" groups="pdk-fs" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" groups="pdk-fs" />
   <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" groups="pdk-fs" />
