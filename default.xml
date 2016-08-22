@@ -7,7 +7,7 @@
            revision="refs/tags/android-6.0.1_r61" />
 
   <remote  name="github"
-           fetch=".."
+           fetch="https://github.com/"
            review="review.cyanogenmod.org" />
 
   <remote  name="private"
