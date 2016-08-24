@@ -226,7 +226,6 @@
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" groups="pdk-cw-fs" />
-  <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" remote="aosp" />
