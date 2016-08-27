@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1fa4df85_5c1efdba",
+        "filename": "default.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-08-27T15:26:17Z",
+      "side": 1,
+      "message": "Deprecated since CM12+\nLet\u0027s kill this one",
+      "parentUuid": "1fa4df85_bc34d14b",
+      "revId": "7a19a8148ced62946e9d7e4a429712e531805f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1fa4df85_5cf03d91",
         "filename": "default.xml",
         "patchSetId": 23
@@ -30,6 +48,24 @@
       "writtenOn": "2016-08-27T15:20:26Z",
       "side": 1,
       "message": "Same as AOSP. Is this still used?",
+      "revId": "7a19a8148ced62946e9d7e4a429712e531805f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_fc7809f9",
+        "filename": "default.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-08-27T15:26:17Z",
+      "side": 1,
+      "message": "I\u0027d rather keep it",
+      "parentUuid": "1fa4df85_5cf03d91",
       "revId": "7a19a8148ced62946e9d7e4a429712e531805f86",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
