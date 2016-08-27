@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_9c1eb50a",
+        "filename": "default.xml",
+        "patchSetId": 20
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-08-27T12:04:26Z",
+      "side": 1,
+      "message": "Should be after build",
+      "revId": "53fe745b122262c4cc46efda068efb9c9271c315",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
