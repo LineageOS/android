@@ -19,6 +19,7 @@
            sync-j="4" />
 
 <!-- BEGIN CYANOGENMOD -->
+  <project path="build/kati" name="CyanogenMod/build_kati" groups="pdk,tradefed" />
   <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -293,7 +294,6 @@
 
 <!-- BEGIN AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="aosp" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
