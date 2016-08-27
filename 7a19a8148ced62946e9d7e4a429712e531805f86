@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_bc34d14b",
+        "filename": "default.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-08-27T15:20:26Z",
+      "side": 1,
+      "message": "13.0 matches 12.0\nStill used?",
+      "revId": "7a19a8148ced62946e9d7e4a429712e531805f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_5cf03d91",
+        "filename": "default.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-08-27T15:20:26Z",
+      "side": 1,
+      "message": "Same as AOSP. Is this still used?",
+      "revId": "7a19a8148ced62946e9d7e4a429712e531805f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_3cf301a1",
+        "filename": "default.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-08-27T15:20:26Z",
+      "side": 1,
+      "message": "Needs to be forked",
+      "revId": "7a19a8148ced62946e9d7e4a429712e531805f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_9c24750f",
+        "filename": "default.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-08-27T15:20:26Z",
+      "side": 1,
+      "message": "Needs to be forked",
+      "revId": "7a19a8148ced62946e9d7e4a429712e531805f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_7c273914",
+        "filename": "default.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-08-27T15:20:26Z",
+      "side": 1,
+      "message": "Both need to be forked",
+      "revId": "7a19a8148ced62946e9d7e4a429712e531805f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
