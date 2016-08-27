@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_41acda8b",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-08-27T06:05:26Z",
+      "side": 1,
+      "message": "Needs to be forked",
+      "range": {
+        "startLine": 194,
+        "startChar": 59,
+        "endLine": 194,
+        "endChar": 89
+      },
+      "revId": "d238ee2a8f81eb22bda101a7a1098ea18fa6e774",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_218f5e2b",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-08-27T06:05:26Z",
+      "side": 1,
+      "message": "Needs to be forked",
+      "range": {
+        "startLine": 194,
+        "startChar": 59,
+        "endLine": 194,
+        "endChar": 89
+      },
+      "revId": "d238ee2a8f81eb22bda101a7a1098ea18fa6e774",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_018a621a",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-08-27T06:05:26Z",
+      "side": 1,
+      "message": "Needs to be forked",
+      "range": {
+        "startLine": 220,
+        "startChar": 56,
+        "endLine": 220,
+        "endChar": 83
+      },
+      "revId": "d238ee2a8f81eb22bda101a7a1098ea18fa6e774",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
