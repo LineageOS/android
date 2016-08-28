@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_e6cb971b",
+        "filename": "default.xml",
+        "patchSetId": 39
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-08-28T15:31:08Z",
+      "side": 0,
+      "message": "These are needed for emulator support",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 100
+      },
+      "revId": "ff11e19830565795decce391ff56218c641df887",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_86d0a3cb",
+        "filename": "default.xml",
+        "patchSetId": 39
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-08-28T15:31:08Z",
+      "side": 0,
+      "message": "This is temporary.",
+      "revId": "ff11e19830565795decce391ff56218c641df887",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_a6d59fbb",
+        "filename": "default.xml",
+        "patchSetId": 39
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-08-28T15:31:08Z",
+      "side": 0,
+      "message": "This should go to the cmsdk commit",
+      "revId": "ff11e19830565795decce391ff56218c641df887",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
