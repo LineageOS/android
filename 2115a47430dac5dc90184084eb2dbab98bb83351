@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_73d767c1",
+        "filename": "default.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 1690
+      },
+      "writtenOn": "2016-08-28T07:26:18Z",
+      "side": 1,
+      "message": "Still needs to be forked",
+      "range": {
+        "startLine": 194,
+        "startChar": 0,
+        "endLine": 194,
+        "endChar": 109
+      },
+      "revId": "2115a47430dac5dc90184084eb2dbab98bb83351",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
