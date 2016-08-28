@@ -207,6 +207,7 @@
   <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" groups="pdk-fs" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" groups="pdk-fs" />
+  <project path="packages/apps/EmergencyInfo" name="CyanogenMod/android_packages_apps_EmergencyInfo" />
   <project path="packages/apps/ExactCalculator" name="CyanogenMod/android_packages_apps_ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" groups="pdk-fs" />
   <project path="packages/apps/Gello" name="CyanogenMod/android_packages_apps_Gello" />
@@ -230,11 +231,14 @@
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" groups="pdk-fs" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/TV" name="CyanogenMod/android_packages_apps_TV" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" groups="generic_fs" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
   <project path="packages/apps/WallpaperPicker" name="CyanogenMod/android_packages_apps_WallpaperPicker" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
+  <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" groups="pdk-fs" />
+  <project path="packages/providers/BlockedNumberProvider" name="CyanogenMod/android_packages_providers_BlockedNumberProvider" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="CyanogenMod/android_packages_providers_BookmarkProvider" groups="pdk-fs" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" name="CyanogenMod/android_packages_providers_CallLogProvider" groups="pdk-fs" />
@@ -531,10 +535,7 @@
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp" />
-  <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" remote="aosp" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
-  <project path="packages/apps/TV" name="platform/packages/apps/TV" remote="aosp" />
-  <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" remote="aosp" />
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="adp8064,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" />
   <project path="platform_testing" name="platform/platform_testing" remote="aosp" />
