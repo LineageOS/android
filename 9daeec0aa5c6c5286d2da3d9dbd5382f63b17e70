@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1fa4df85_ad949345",
+        "filename": "default.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 473,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-08-30T17:51:58Z",
+      "side": 1,
+      "message": "You can repo init excluding mips group, could also do the same for x86 toolchains",
+      "parentUuid": "1fa4df85_2da183aa",
+      "revId": "9daeec0aa5c6c5286d2da3d9dbd5382f63b17e70",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1fa4df85_4da63fc4",
         "filename": "default.xml",
         "patchSetId": 9
@@ -47,6 +65,30 @@
       "writtenOn": "2016-08-30T17:25:31Z",
       "side": 1,
       "message": "Not needed ( qcom doesn\u0027t include this project anymore )\nIt just contains the ant permission ( unused probably )",
+      "range": {
+        "startLine": 87,
+        "startChar": 0,
+        "endLine": 87,
+        "endChar": 141
+      },
+      "revId": "9daeec0aa5c6c5286d2da3d9dbd5382f63b17e70",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_0db047f4",
+        "filename": "snippets/cm-14.0.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-08-30T17:51:58Z",
+      "side": 1,
+      "message": "If I remember correctly it\u0027s needed, apps check for that permission.",
+      "parentUuid": "1fa4df85_0dbb67e2",
       "range": {
         "startLine": 87,
         "startChar": 0,
