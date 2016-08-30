@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/keymaster" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/ril" />
+
   <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="staging/cm-14.0-8084-caf" />
   <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="staging/cm-14.0-8916-caf" />
