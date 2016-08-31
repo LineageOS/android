@@ -22,6 +22,30 @@
       "revId": "6bb97ae1d2e4c2d95d4e0745f790ff96956058a3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_53657eb4",
+        "filename": "snippets/cm-14.0.xml",
+        "patchSetId": 11
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 13956
+      },
+      "writtenOn": "2016-08-31T16:50:22Z",
+      "side": 1,
+      "message": "It is CAF addition",
+      "parentUuid": "1fa4df85_2d8f4324",
+      "range": {
+        "startLine": 96,
+        "startChar": 0,
+        "endLine": 96,
+        "endChar": 99
+      },
+      "revId": "6bb97ae1d2e4c2d95d4e0745f790ff96956058a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
