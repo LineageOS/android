@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_0e2d9d42",
+        "filename": "default.xml",
+        "patchSetId": 16
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-09-01T06:39:02Z",
+      "side": 1,
+      "message": "Break xml identation",
+      "range": {
+        "startLine": 23,
+        "startChar": 79,
+        "endLine": 23,
+        "endChar": 80
+      },
+      "revId": "ba3e5d4d5b8ab2df538ac4d617c8758d1e916d33",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
