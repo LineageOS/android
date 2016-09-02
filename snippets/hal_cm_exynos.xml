@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="hardware/samsung_slsi-cm/exynos" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" groups="exynos" revision="cm-14.0" />
+  <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" groups="exynos,exynos5" revision="cm-14.0" />
+  <project path="hardware/samsung_slsi-cm/exynos5410" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5410" groups="exynos" revision="cm-14.0" />
+  <project path="hardware/samsung_slsi-cm/exynos5420" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5420" groups="exynos" revision="cm-14.0" />
+  <project path="hardware/samsung_slsi-cm/exynos5433" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5433" groups="exynos" revision="cm-14.0" />
+  <project path="hardware/samsung_slsi-cm/exynos7420" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos7420" groups="exynos,exynos5,exynos7420" revision="cm-14.0" />
+</manifest>
