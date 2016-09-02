@@ -38,6 +38,10 @@
   <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="staging/cm-14.0-caf" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" />
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="staging/cm-14.0-caf" />
+  <project path="hardware/samsung_slsi" name="CyanogenMod/android_hardware_samsung" revision="cm-14.0" />
+  <project path="hardware/samsung_slsi-cm/exynos" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" groups="exynos" revision="cm-14.0" />
+  <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" groups="exynos,exynos5" revision="cm-14.0" />
+  <project path="hardware/samsung_slsi-cm/exynos7420" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos7420" groups="exynos,exynos5,exynos7420" revision="cm-14.0" />
   <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
