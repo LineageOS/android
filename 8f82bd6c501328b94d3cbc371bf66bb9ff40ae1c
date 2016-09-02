@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_fb131c0c",
+        "filename": "snippets/hal_cm_all.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 3962
+      },
+      "writtenOn": "2016-09-02T21:41:04Z",
+      "side": 1,
+      "message": "whitespace :P",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 2
+      },
+      "revId": "8f82bd6c501328b94d3cbc371bf66bb9ff40ae1c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
