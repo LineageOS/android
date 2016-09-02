@@ -38,6 +38,7 @@
   <project path="external/zip" name="CyanogenMod/android_external_zip" remote="github" />
   <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" remote="github" />
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="github" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" />
   <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" remote="github" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="github" />
