@@ -13,6 +13,7 @@
   <remove-project name="CyanogenMod/android_frameworks_opt_net_wifi" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <remove-project name="CyanogenMod/android_packages_apps_Bluetooth" />
+  <remove-project name="CyanogenMod/android_packages_apps_Calendar" />
   <remove-project name="CyanogenMod/android_packages_apps_CarrierConfig" />
   <remove-project name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <remove-project name="CyanogenMod/android_packages_apps_Contacts" />
@@ -48,6 +49,7 @@
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" revision="staging/cm-14.0-caf" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" revision="staging/cm-14.0-caf" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" revision="staging/cm-14.0-caf" />
+  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" groups="pdk-fs" revision="staging/cm-14.0-caf" />
   <project path="packages/apps/CarrierConfig" name="CyanogenMod/android_packages_apps_CarrierConfig" groups="pdk-fs" revision="staging/cm-14.0-caf" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" revision="staging/cm-14.0-caf" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" groups="pdk-fs" revision="staging/cm-14.0-caf" />
