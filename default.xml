@@ -135,7 +135,7 @@
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" remote="aosp" />
   <project path="external/icu" name="CyanogenMod/android_external_icu" groups="pdk" />
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" groups="pdk" />
-  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="external/ipsec-tools" name="CyanogenMod/android_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/iw" name="platform/external/iw" remote="aosp" />
