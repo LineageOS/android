@@ -85,7 +85,6 @@
   <project path="external/json-c" name="CyanogenMod/android_external_json-c" />
   <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" />
   <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" />
-  <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" />
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" />
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
