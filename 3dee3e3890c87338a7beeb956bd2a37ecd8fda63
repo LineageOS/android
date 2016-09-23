@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_0de1e2d0",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 15864
+      },
+      "writtenOn": "2016-09-23T21:39:41Z",
+      "side": 1,
+      "message": "not sure about group, but aosp use device",
+      "revId": "3dee3e3890c87338a7beeb956bd2a37ecd8fda63",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
