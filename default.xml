@@ -13,7 +13,7 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.0.0_r6" />
 
-  <default revision="refs/heads/staging/cm-14.0"
+  <default revision="refs/heads/cm-14.0"
            remote="github"
            sync-c="true"
            sync-j="4" />
