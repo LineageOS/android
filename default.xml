@@ -473,7 +473,7 @@
   <project path="system/nvram" name="platform/system/nvram" remote="aosp" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/sepolicy" name="CyanogenMod/android_system_sepolicy" groups="pdk" />
-  <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="system/tools/aidl" name="CyanogenMod/android_system_tools_aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" remote="aosp" />
   <project path="system/update_engine" name="platform/system/update_engine" remote="aosp" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
