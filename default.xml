@@ -347,7 +347,6 @@
   <project path="hardware/intel/img/psb_headers" name="CyanogenMod/android_hardware_intel_img_psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="CyanogenMod/android_hardware_intel_img_psb_video" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" remote="aosp" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" remote="aosp" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" remote="aosp" />
