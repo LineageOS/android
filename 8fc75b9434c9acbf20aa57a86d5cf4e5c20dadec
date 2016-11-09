@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_f6282187",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 5530
+      },
+      "writtenOn": "2016-11-09T19:23:43Z",
+      "side": 1,
+      "message": "Update to 74 \u003d]",
+      "revId": "8fc75b9434c9acbf20aa57a86d5cf4e5c20dadec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
