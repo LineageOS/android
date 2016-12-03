@@ -536,6 +536,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" />
+  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" groups="qcom,qcom_fm" />
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" />
   <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
