@@ -1,9 +1,9 @@
-CyanogenMod
+Lineage
 ===========
 
 Submitting Patches
 ------------------
-Patches are always welcome!  Please submit your patches via CyanogenMod Gerrit!
+Patches are always welcome!  Please submit your patches via Lineage Gerrit!
 You can do this by using these commands:
 
     (From root android directory)
@@ -20,31 +20,31 @@ For more help on using this tool, use this command: repo help upload
 Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
 Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
 
-To view the status of your and others' patches, visit [CyanogenMod Code Review](http://review.cyanogenmod.org/)
+To view the status of your and others' patches, visit [Lineage Code Review](http://review.lineageos.org/)
 
 
 Getting Started
 ---------------
 
-To get started with Android/CyanogenMod, you'll need to get
+To get started with Android/Lineage, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository using the Lineage trees, use a command like this:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-14.1
+    repo init -u git://github.com/LineageOS/android.git -b cm-14.1
 
 Then to sync up:
 
     repo sync
 
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
+Please see the [Lineage Wiki](http://wiki.lineageos.org/) for building instructions.
 
 For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
+please [read the wiki article](http://wiki.lineageos.org/w/Github_Organization)
 
 Buildbot
 --------
 
 All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
 
-You can view the current build statuses at [CyanogenMod Jenkins](http://jenkins.cyanogenmod.org/)
+You can view the current build statuses at [Lineage Jenkins](http://jenkins.lineageos.org/)
