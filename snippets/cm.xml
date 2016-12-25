@@ -1,122 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- CyanogenMod additions -->
-  <project path="android" name="CyanogenMod/android" />
-  <project path="external/ahbottomnavigation" name="CyanogenMod/android_external_ahbottomnavigation" />
-  <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" />
-  <project path="external/bash" name="CyanogenMod/android_external_bash" />
-  <project path="external/cmsdk-api-coverage" name="CyanogenMod/android_external_cmsdk-api-coverage" />
-  <project path="external/exfat" name="CyanogenMod/android_external_exfat" />
-  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" />
-  <project path="external/fuse" name="CyanogenMod/android_external_fuse" />
-  <project path="external/gello-build" name="CyanogenMod/android_external_gello_build" />
-  <project path="external/google" name="CyanogenMod/android_external_google" />
-  <project path="external/htop" name="CyanogenMod/android_external_htop" />
-  <project path="external/koush/ion" name="CyanogenMod/ion" />
-  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" />
-  <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
-  <project path="external/libtar" name="CyanogenMod/android_external_libtar" />
-  <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" />
-  <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
-  <project path="external/nano" name="CyanogenMod/android_external_nano" />
-  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" />
-  <project path="external/openssh" name="CyanogenMod/android_external_openssh" />
-  <project path="external/p7zip" name="CyanogenMod/android_external_p7zip" />
-  <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
-  <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
-  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
-  <project path="external/uicommon" name="CyanogenMod/android_external_cyanogen_UICommon" />
-  <project path="external/unrar" name="CyanogenMod/android_external_unrar" />
-  <project path="external/unzip" name="CyanogenMod/android_external_unzip" />
-  <project path="external/vim" name="CyanogenMod/android_external_vim" />
-  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
-  <project path="external/zip" name="CyanogenMod/android_external_zip" />
-  <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" />
-  <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" />
-  <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
-  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
-  <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
-  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
-  <project path="packages/apps/CMParts" name="CyanogenMod/android_packages_apps_CMParts" />
-  <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
-  <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
-  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
-  <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
-  <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" />
-  <project path="packages/apps/Gello" name="CyanogenMod/android_packages_apps_Gello" />
-  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
-  <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
-  <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" />
-  <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
-  <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" />
-  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
-  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
-  <project path="packages/providers/DataUsageProvider" name="CyanogenMod/android_packages_providers_DataUsageProvider" />
-  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
-  <project path="packages/providers/WeatherProvider" name="CyanogenMod/android_packages_providers_WeatherProvider" />
-  <project path="packages/services/CMAudioService" name="CyanogenMod/android_packages_services_CMAudioService" />
-  <project path="packages/services/LiveLockScreenService" name="CyanogenMod/android_packages_services_LiveLockScreenService" />
-  <project path="packages/services/ThemeManagerService" name="CyanogenMod/android_packages_services_ThemeManagerService" />
-  <project path="packages/services/WeatherService" name="CyanogenMod/android_packages_services_WeatherService" />
-  <project path="packages/themes/HexoLibre" name="CyanogenMod/android_packages_themes_HexoLibre" groups="themes" />
-  <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" />
-  <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
-  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="CyanogenMod/android_packages_apps_YahooWeatherProvider" />
+  <!-- LineageOS additions -->
+  <project path="android" name="LineageOS/android" />
+  <project path="external/ahbottomnavigation" name="LineageOS/android_external_ahbottomnavigation" />
+  <project path="external/android-visualizer" name="LineageOS/android_external_android-visualizer" />
+  <project path="external/bash" name="LineageOS/android_external_bash" />
+  <project path="external/cmsdk-api-coverage" name="LineageOS/android_external_cmsdk-api-coverage" />
+  <project path="external/exfat" name="LineageOS/android_external_exfat" />
+  <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" />
+  <project path="external/fuse" name="LineageOS/android_external_fuse" />
+  <project path="external/gello-build" name="LineageOS/android_external_gello_build" />
+  <project path="external/google" name="LineageOS/android_external_google" />
+  <project path="external/htop" name="LineageOS/android_external_htop" />
+  <project path="external/koush/ion" name="LineageOS/ion" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
+  <project path="external/libphonenumbergoogle" name="LineageOS/android_external_libphonenumbergoogle" />
+  <project path="external/libtar" name="LineageOS/android_external_libtar" />
+  <project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />
+  <project path="external/lzo" name="LineageOS/android_external_lzo" />
+  <project path="external/nano" name="LineageOS/android_external_nano" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
+  <project path="external/openssh" name="LineageOS/android_external_openssh" />
+  <project path="external/p7zip" name="LineageOS/android_external_p7zip" />
+  <project path="external/pigz" name="LineageOS/android_external_pigz" />
+  <project path="external/rsync" name="LineageOS/android_external_rsync" />
+  <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />
+  <project path="external/uicommon" name="LineageOS/android_external_cyanogen_UICommon" />
+  <project path="external/unrar" name="LineageOS/android_external_unrar" />
+  <project path="external/unzip" name="LineageOS/android_external_unzip" />
+  <project path="external/vim" name="LineageOS/android_external_vim" />
+  <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" />
+  <project path="external/zip" name="LineageOS/android_external_zip" />
+  <project path="hardware/cyanogen" name="LineageOS/android_hardware_cyanogen" />
+  <project path="frameworks/opt/hardware" name="LineageOS/android_frameworks_opt_hardware" />
+  <project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />
+  <project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />
+  <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />
+  <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
+  <project path="packages/apps/Browser" name="LineageOS/android_packages_apps_Browser" />
+  <project path="packages/apps/CMBugReport" name="LineageOS/android_packages_apps_CMBugreport" />
+  <project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" />
+  <project path="packages/apps/CMParts" name="LineageOS/android_packages_apps_CMParts" />
+  <project path="packages/apps/CMUpdater" name="LineageOS/android_packages_apps_CMUpdater" />
+  <project path="packages/apps/CMWallpapers" name="LineageOS/android_packages_apps_CMWallpapers" />
+  <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
+  <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
+  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
+  <project path="packages/apps/Gello" name="LineageOS/android_packages_apps_Gello" />
+  <project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />
+  <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
+  <project path="packages/apps/Screencast" name="LineageOS/android_packages_apps_Screencast" />
+  <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
+  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
+  <project path="packages/apps/ThemeChooser" name="LineageOS/android_packages_apps_ThemeChooser" />
+  <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
+  <project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" />
+  <project path="packages/providers/ThemesProvider" name="LineageOS/android_packages_providers_ThemesProvider" />
+  <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />
+  <project path="packages/services/CMAudioService" name="LineageOS/android_packages_services_CMAudioService" />
+  <project path="packages/services/LiveLockScreenService" name="LineageOS/android_packages_services_LiveLockScreenService" />
+  <project path="packages/services/ThemeManagerService" name="LineageOS/android_packages_services_ThemeManagerService" />
+  <project path="packages/services/WeatherService" name="LineageOS/android_packages_services_WeatherService" />
+  <project path="packages/themes/HexoLibre" name="LineageOS/android_packages_themes_HexoLibre" groups="themes" />
+  <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" />
+  <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
+  <project path="vendor/cm" name="LineageOS/android_vendor_cm" />
+  <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS/android_packages_apps_YahooWeatherProvider" />
 
   <!-- CodeAurora additions -->
-  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
-  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" />
-  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" />
-  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" />
-  <project path="external/brctl" name="CyanogenMod/android_external_brctl" />
-  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" />
-  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" />
-  <project path="external/gson" name="CyanogenMod/android_external_gson" />
-  <project path="external/json-c" name="CyanogenMod/android_external_json-c" />
-  <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" />
-  <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" />
-  <project path="external/powertop" name="CyanogenMod/android_external_powertop" />
-  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" />
-  <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8084" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8937" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8937" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8996" />
-  <project path="hardware/qcom/bt-caf" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" revision="cm-14.1-caf" />
-  <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8084" />
-  <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8937" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8937" />
-  <project path="hardware/qcom/display-caf/msm8952" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8952" />
-  <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8994" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8994" />
-  <project path="hardware/qcom/display-caf/msm8996" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8996" />
-  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" groups="qcom,qcom_fm" />
-  <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8937" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8937" />
-  <project path="hardware/qcom/media-caf/msm8952" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8952" />
-  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8994" />
-  <project path="hardware/qcom/media-caf/msm8996" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8996" />
-  <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1-caf" />
-  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-14.1-caf" />
-  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
-  <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" />
-  <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_vendor_qcom_opensource_bluetooth" />
-  <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" />
-  <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" />
-  <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
+  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" />
+  <project path="external/brctl" name="LineageOS/android_external_brctl" />
+  <project path="external/connectivity" name="LineageOS/android_external_connectivity" />
+  <project path="external/ebtables" name="LineageOS/android_external_ebtables" />
+  <project path="external/gson" name="LineageOS/android_external_gson" />
+  <project path="external/json-c" name="LineageOS/android_external_json-c" />
+  <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" />
+  <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" />
+  <project path="external/powertop" name="LineageOS/android_external_powertop" />
+  <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8084" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom" revision="cm-14.1-caf" />
+  <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8937" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/display-caf/msm8952" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" />
+  <project path="hardware/qcom/media-caf/apq8084" name="LineageOS/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8937" name="LineageOS/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/media-caf/msm8952" name="LineageOS/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="LineageOS/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1-caf" />
+  <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="cm-14.1-caf" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
+  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" />
+  <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" />
+  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
+  <project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" />
+  <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" />
 </manifest>
