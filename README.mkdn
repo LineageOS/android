@@ -1,50 +1,57 @@
-LineageOS
-===========
-
-Submitting Patches
+## Submitting Patches ##
 ------------------
-Patches are always welcome!  Please submit your patches via LineageOS Gerrit!
-You can do this by using these commands:
+Our project is open source, and patches are always welcome!
+You can send patches by using:
 
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    cmgerrit <for(new)/changes(patch set)> <branch/change-id> 
+Pull request, right here on git.
 
-    repo start cm-14.1 .
-    (Make your changes and commit)
-    repo upload .
-Note: "." meaning current directory
-For more help on using this tool, use this command: repo help upload
+Contact me on irc, Network: freenode, Channel: #twrp
 
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
+## Maintaining Authorship ##
+----------------------
+Mainting authorship is a very important aspect of working with Open Source code. If you wish to submit a patch/fix
+from anywhere else (another ROM, project, etc.), it is imperative that you maintain the ownership of the person whose
+work you're seeking to include. Doing so will ensure that credit is given where it is deserved, and the [prinicples of open source](http://opensource.org/docs/osd)
+are upheld. Your contribution to the project will still be recognized as you will forever be listed as the committer.
 
-To view the status of your and others' patches, visit [LineageOS Code Review](http://review.lineageos.org/)
+If you manually cherry pick a patch/fix then you will need to add the original author prior to pushing to our [gerrit](https://review.cyanogenmod.org).
+This is a very easy task to perform, and is usually done after you commit a patch/fix locally. This is accomplished
+after you type in `git commit -a` , type in the commit message and save. You would then do the following:
+
+```bash
+git commit --amend --author "Author <email@address.com>"
+```
+
+So it should look like this once you get all of the author's information
+
+```bash
+git commit --amend --author "Spencer McGillicuddy <spencer.the.bestest@gmail.com>"
+```
+
+Alternatively, adding as part of the original `git commit` message is preferred and done like the following:
+
+```bash
+git commit --author="Author <email@address.com>" -m "[commit message]"
+```
+
+This saves time, and when part of your normal routine, prevents the infamous "ermahgerd I forgot to add authorship -
+let me fix it because I was found out!" message.
 
 
-Getting Started
+## Getting Started ##
 ---------------
 
-To get started with Android/LineageOS, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+To get started with LineageOS sources to build TWRP, you'll need to get
+familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+To initialize your local repository using the LineageOS trees to build TWRP, use a command like this:
 
-    repo init -u git://github.com/LineageOS/android.git -b cm-14.1
+    repo init -u git://github.com/lj50036/platform_manifest_twrp_lineageos.git -b twrp-14.1
 
 Then to sync up:
 
     repo sync
 
-Please see the [LineageOS Wiki](http://wiki.lineageos.org/) for building instructions.
+Then to build:
 
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.lineageos.org/w/Github_Organization)
-
-Buildbot
---------
-
-All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [LineageOS Jenkins](http://jenkins.lineageos.org/)
+     cd <source-dir>; . build/envsetup.sh; lunch cm_<device>-eng; mka recoveryimage
