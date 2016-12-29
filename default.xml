@@ -506,5 +506,4 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
   <include name="snippets/cm.xml" />
-
 </manifest>
