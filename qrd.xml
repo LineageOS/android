@@ -514,43 +514,43 @@
   <project name="platform/vendor/qcom/msm8916_32_k64" path="device/qcom/msm8916_32_k64" revision="25cc643509d4e4848bc437f71b9487bd2b3ff69b" upstream="LA.BR.1.2.3"/>
   <project name="platform/vendor/qcom/plutonium" path="device/qcom/msm8994" revision="07e9beaed770c4021059de22d86255bf4bdb848d" upstream="LA.BR.1.2.3"/>
 
-  <!-- CyanogenMod projects that are being swapped out for CAF projects. Add to this as we touch more repositories. -->
+  <!-- LineageOS projects that are being swapped out for CAF projects. Add to this as we touch more repositories. -->
   <!-- The below projects sync to the caf/cm-12.1 branch that is based on the CAF tree -->
-  <project name="CyanogenMod/android_frameworks_base" path="frameworks/base" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project groups="pdk" name="CyanogenMod/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project name="CyanogenMod/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project name="CyanogenMod/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project name="CyanogenMod/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project name="CyanogenMod/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project name="CyanogenMod/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project name="CyanogenMod/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project name="CyanogenMod/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project name="CyanogenMod/android_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project name="CyanogenMod/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project name="CyanogenMod/android_packages_apps_Mms-caf" path="packages/apps/Mms" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project groups="pdk" name="CyanogenMod/android_external_sepolicy" path="external/sepolicy" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project groups="pdk-cw-fs" name="CyanogenMod/android_frameworks_opt_chips" path="frameworks/opt/chips" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project name="LineageOS/android_frameworks_base" path="frameworks/base" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project groups="pdk" name="LineageOS/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project name="LineageOS/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project name="LineageOS/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project name="LineageOS/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project name="LineageOS/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project name="LineageOS/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project name="LineageOS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project name="LineageOS/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project name="LineageOS/android_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project name="LineageOS/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project name="LineageOS/android_packages_apps_Mms-caf" path="packages/apps/Mms" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project groups="pdk" name="LineageOS/android_external_sepolicy" path="external/sepolicy" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project groups="pdk-cw-fs" name="LineageOS/android_frameworks_opt_chips" path="frameworks/opt/chips" remote="github" revision="refs/heads/caf/cm-12.1"/>
 
-  <project groups="pdk" name="CyanogenMod/android_build" path="build" remote="github" revision="refs/heads/caf/cm-12.1">
+  <project groups="pdk" name="LineageOS/android_build" path="build" remote="github" revision="refs/heads/caf/cm-12.1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
 
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="refs/heads/caf/cm-12.1">
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="refs/heads/caf/cm-12.1">
     <copyfile dest="build.sh" src="build.sh"/>
     <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
 
-  <project groups="pdk" name="CyanogenMod/android_external_libtruezip" path="external/libtruezip" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project name="CyanogenMod/android_external_android-visualizer" path="external/android-visualizer" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project groups="pdk-cw-fs" name="CyanogenMod/android_frameworks_opt_datetimepicker" path="frameworks/opt/datetimepicker" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project name="CyanogenMod/android_packages_apps_Calendar" path="packages/apps/Calendar" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project name="CyanogenMod/android_packages_apps_Calculator" path="packages/apps/Calculator" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project name="CyanogenMod/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="github" revision="refs/heads/caf/cm-12.1"/>
-  <project name="CyanogenMod/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project groups="pdk" name="LineageOS/android_external_libtruezip" path="external/libtruezip" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project name="LineageOS/android_external_android-visualizer" path="external/android-visualizer" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project groups="pdk-cw-fs" name="LineageOS/android_frameworks_opt_datetimepicker" path="frameworks/opt/datetimepicker" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project name="LineageOS/android_packages_apps_Calendar" path="packages/apps/Calendar" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project name="LineageOS/android_packages_apps_Calculator" path="packages/apps/Calculator" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project name="LineageOS/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project name="LineageOS/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="github" revision="refs/heads/caf/cm-12.1"/>
+  <project name="LineageOS/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="github" revision="refs/heads/caf/cm-12.1"/>
 
-  <!-- The below projects sync directly from the cm-12.0 branch in CyanogenMod -->
-  <project name="CyanogenMod/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="github" revision="refs/heads/cm-12.0"/>
-  <project name="CyanogenMod/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="refs/heads/cm-12.0"/>
+  <!-- The below projects sync directly from the cm-12.0 branch in LineageOS -->
+  <project name="LineageOS/android_packages_apps_Eleven" path="packages/apps/Eleven" remote="github" revision="refs/heads/cm-12.0"/>
+  <project name="LineageOS/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" revision="refs/heads/cm-12.0"/>
 
 </manifest>
