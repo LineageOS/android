@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa3479d7_fbe36a31",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2017-01-09T22:34:48Z",
+      "side": 1,
+      "message": "LineageOS",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 8
+      },
+      "revId": "52109cde2352d24663172b47296dfa2039f1a025",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
