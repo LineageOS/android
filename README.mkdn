@@ -1,4 +1,4 @@
-LineageOS
+CyanogenMod
 ===========
 
 Submitting Patches
@@ -26,10 +26,10 @@ To view the status of your and others' patches, visit [LineageOS Code Review](ht
 Getting Started
 ---------------
 
-To get started with Android/LineageOS, you'll need to get
+To get started with Android/CyanogenMod, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+To initialize your local repository using the CyanogenMod trees, use a command like this:
 
     repo init -u git://github.com/LineageOS/android.git -b cm-11.0
 
@@ -40,7 +40,7 @@ Then to sync up:
 Please see the [LineageOS Wiki](http://wiki.lineageos.org/) for building instructions.
 
 For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.lineageos.org/w/Github_Organization)
+please visit the [LineageOS Wiki](http://wiki.lineageos.org/).
 
 Buildbot
 --------
