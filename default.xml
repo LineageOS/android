@@ -166,7 +166,7 @@
   <!-- project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/libavc" name="platform/external/libavc" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/libbrillo" name="platform/external/libbrillo" remote="aosp" /> -->
-  <!-- project path="external/libcap" name="platform/external/libcap" remote="aosp" /> -->
+  <project path="external/libcap" name="platform/external/libcap" remote="aosp" />
   <!-- project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/libchrome" name="platform/external/libchrome" remote="aosp" /> -->
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
@@ -216,7 +216,7 @@
   <!-- project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/messageformat" name="platform/external/messageformat" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
-  <!-- project path="external/minijail" name="platform/external/minijail" remote="aosp" /> -->
+  <project path="external/minijail" name="platform/external/minijail" remote="aosp" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" />
   <!-- project path="external/mmc-utils" name="platform/external/mmc-utils" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/mockftpserver" name="platform/external/mockftpserver" groups="pdk-fs" remote="aosp" /> -->
