@@ -93,7 +93,7 @@
   <!-- project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" remote="aosp" /> -->
   <!-- project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/dhcpcd-6.8.2" name="platform/external/dhcpcd-6.8.2" remote="aosp" /> -->
-  <!-- project path="external/dlmalloc" name="platform/external/dlmalloc" remote="aosp" /> -->
+  <project path="external/dlmalloc" name="platform/external/dlmalloc" remote="aosp" />
   <!-- project path="external/dng_sdk" name="platform/external/dng_sdk" remote="aosp" /> -->
   <!-- project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
