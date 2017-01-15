@@ -37,7 +37,6 @@ git commit --author="Author <email@address.com>" -m "[commit message]"
 This saves time, and when part of your normal routine, prevents the infamous "ermahgerd I forgot to add authorship -
 let me fix it because I was found out!" message.
 
-
 ## Getting Started ##
 ---------------
 
