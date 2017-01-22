@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_a9025109",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 7
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-01-22T00:48:43Z",
+      "side": 1,
+      "message": "No point rebasing this. We\u0027re switching to the Recorder app anyway",
+      "revId": "83060ffbc1ad9b7a7e3de6035e1f5f5bcdfeefbc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
