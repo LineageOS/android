@@ -11,7 +11,6 @@
   <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" />
   <project path="external/fuse" name="LineageOS/android_external_fuse" />
   <project path="external/gello-build" name="LineageOS/android_external_gello_build" />
-  <project path="external/google" name="LineageOS/android_external_google" />
   <project path="external/htop" name="LineageOS/android_external_htop" />
   <project path="external/koush/ion" name="LineageOS/ion" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
