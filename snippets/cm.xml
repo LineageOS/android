@@ -110,6 +110,14 @@
   <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/power-caf/msm8084" name="LineageOS/android_hardware_qcom_power" groups="qcom" revision="cm-14.1-caf-8084" />
+  <project path="hardware/qcom/power-caf/msm8916" name="LineageOS/android_hardware_qcom_power" groups="qcom" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/power-caf/msm8937" name="LineageOS/android_hardware_qcom_power" groups="qcom" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/power-caf/msm8952" name="LineageOS/android_hardware_qcom_power" groups="qcom" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/power-caf/msm8960" name="LineageOS/android_hardware_qcom_power" groups="qcom" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/power-caf/msm8974" name="LineageOS/android_hardware_qcom_power" groups="qcom" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/power-caf/msm8994" name="LineageOS/android_hardware_qcom_power" groups="qcom" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/power-caf/msm8996" name="LineageOS/android_hardware_qcom_power" groups="qcom" revision="cm-14.1-caf-8996" />
   <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1-caf" />
   <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="cm-14.1-caf" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
