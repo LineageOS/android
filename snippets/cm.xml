@@ -3,7 +3,6 @@
 
   <!-- LineageOS additions -->
   <project path="android" name="LineageOS/android" />
-  <project path="external/android-visualizer" name="LineageOS/android_external_android-visualizer" />
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/cmsdk-api-coverage" name="LineageOS/android_external_cmsdk-api-coverage" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
