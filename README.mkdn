@@ -5,7 +5,7 @@ You can send patches by using:
 
 Pull request, right here on git.
 
-Contact me on irc, Network: freenode, Channel: #twrp
+Contact us on irc, Network: freenode, Channel: #twrp
 
 ## Maintaining Authorship ##
 ----------------------
@@ -45,7 +45,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the LineageOS trees to build TWRP, use a command like this:
 
-    repo init -u git://github.com/lj50036/platform_manifest_twrp_lineageos.git -b twrp-14.1
+    repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_lineageos.git -b twrp-14.1
 
 Then to sync up:
 
