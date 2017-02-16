@@ -3,8 +3,6 @@
 
   <!-- LineageOS additions -->
   <project path="android" name="LineageOS/android" />
-  <!-- project path="external/ahbottomnavigation" name="LineageOS/android_external_ahbottomnavigation" /> -->
-  <!-- project path="external/android-visualizer" name="LineageOS/android_external_android-visualizer" /> -->
   <!-- project path="external/bash" name="LineageOS/android_external_bash" /> -->
   <!-- project path="external/cmsdk-api-coverage" name="LineageOS/android_external_cmsdk-api-coverage" /> -->
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
@@ -42,7 +40,6 @@
   <!-- project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" /> -->
   <!-- project path="packages/apps/CMParts" name="LineageOS/android_packages_apps_CMParts" /> -->
   <!-- project path="packages/apps/CMUpdater" name="LineageOS/android_packages_apps_CMUpdater" /> -->
-  <!-- project path="packages/apps/CMWallpapers" name="LineageOS/android_packages_apps_CMWallpapers" /> -->
   <!-- project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" /> -->
   <!-- project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" /> -->
   <!-- project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" /> -->
@@ -115,7 +112,9 @@
   <!-- project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" /> -->
   <!-- project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" /> -->
   <!-- project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" /> -->
+  <!-- project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" /> -->
   <!-- project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" /> -->
   <!-- project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" /> -->
   <!-- project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" /> -->
+
 </manifest>
