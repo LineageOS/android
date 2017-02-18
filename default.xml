@@ -70,7 +70,6 @@
   <project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/fuse" name="LineageOS/android_external_fuse" />
   <project path="external/gello-build" name="LineageOS/android_external_gello_build" />
-  <project path="external/google" name="LineageOS/android_external_google" />
   <project path="external/gmock" name="LineageOS/android_external_gmock"/>
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk-fs" />
   <project path="external/gson" name="LineageOS/android_external_gson" />
