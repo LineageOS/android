@@ -255,7 +255,7 @@
   <!-- project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/rootdev" name="platform/external/rootdev" remote="aosp" /> -->
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" remote="aosp" />
-  <!-- project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" /> -->
+  <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" remote="aosp" />
   <!-- project path="external/shflags" name="platform/external/shflags" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" remote="aosp" /> -->
