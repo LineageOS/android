@@ -113,7 +113,7 @@
   <!-- project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" groups="pdk" />
   <!-- project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" /> -->
-  <!-- project path="external/fec" name="platform/external/fec" remote="aosp" /> -->
+  <project path="external/fec" name="platform/external/fec" remote="aosp" />
   <!-- project path="external/fio" name="platform/external/fio" groups="pdk-fs" remote="aosp" /> -->
   <!-- project path="external/flac" name="LineageOS/android_external_flac" groups="pdk" /> -->
   <!-- project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" remote="aosp" /> -->
@@ -247,7 +247,7 @@
   <!-- project path="external/piex" name="platform/external/piex" remote="aosp" /> -->
   <!-- project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/proguard" name="platform/external/proguard" groups="pdk" remote="aosp" /> -->
-  <!-- project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" /> -->
+  <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" />
   <!-- project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/rmi4utils" name="platform/external/rmi4utils" remote="aosp" /> -->
@@ -435,7 +435,7 @@
   <!-- project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="pdk,darwin" clone-depth="1" remote="aosp" /> -->
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" clone-depth="1" remote="aosp" />
   <!-- project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="pdk,darwin" clone-depth="1" remote="aosp" /> -->
-  <!-- project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" remote="aosp" /> -->
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" remote="aosp" />
   <!-- project path="prebuilts/deqp" name="platform/prebuilts/deqp" groups="pdk-fs" clone-depth="1" remote="aosp" /> -->
   <!-- project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" clone-depth="1" remote="aosp" /> -->
   <!-- project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" clone-depth="1" remote="aosp" /> -->
@@ -477,13 +477,13 @@
   <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <!-- project path="system/firewalld" name="platform/system/firewalld" remote="aosp" /> -->
-  <!-- project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
-  <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" /> -->
+  <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
+  <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" />
   <!-- project path="system/media" name="LineageOS/android_system_media" groups="pdk" /> -->
   <!-- project path="system/nativepower" name="platform/system/nativepower" remote="aosp" /> -->
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
   <!-- project path="system/nvram" name="platform/system/nvram" remote="aosp" /> -->
-  <!-- project path="system/security" name="LineageOS/android_system_security" groups="pdk" /> -->
+  <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
   <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" groups="pdk" />
   <!-- project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="system/tpm" name="platform/system/tpm" remote="aosp" /> -->
