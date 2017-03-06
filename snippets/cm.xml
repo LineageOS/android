@@ -28,6 +28,7 @@
   <!-- project path="external/unzip" name="LineageOS/android_external_unzip" /> -->
   <!-- project path="external/vim" name="LineageOS/android_external_vim" /> -->
   <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" />
+<<<<<<< HEAD
   <!-- project path="external/zip" name="LineageOS/android_external_zip" /> -->
   <!-- project path="hardware/cyanogen" name="LineageOS/android_hardware_cyanogen" /> -->
   <!-- project path="frameworks/opt/hardware" name="LineageOS/android_frameworks_opt_hardware" /> -->
@@ -37,7 +38,6 @@
   <!-- project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" /> -->
   <!-- project path="packages/apps/Browser" name="LineageOS/android_packages_apps_Browser" /> -->
   <!-- project path="packages/apps/CMBugReport" name="LineageOS/android_packages_apps_CMBugreport" /> -->
-  <!-- project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" /> -->
   <!-- project path="packages/apps/CMParts" name="LineageOS/android_packages_apps_CMParts" /> -->
   <!-- project path="packages/apps/CMUpdater" name="LineageOS/android_packages_apps_CMUpdater" /> -->
   <!-- project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" /> -->
