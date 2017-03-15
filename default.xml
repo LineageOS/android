@@ -486,7 +486,7 @@
   <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" groups="pdk" />
   <project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" remote="aosp" />
-  <project path="system/update_engine" name="platform/system/update_engine" remote="aosp" />
+  <project path="system/update_engine" name="LineageOS/android_system_update_engine" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
   <project path="system/weaved" name="platform/system/weaved" remote="aosp" />
   <project path="system/webservd" name="platform/system/webservd" remote="aosp" />
