@@ -21,8 +21,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="LineageOS/android" />
-
   <project path="abi/cpp" name="LineageOS/android_abi_cpp" groups="pdk" />
   <project path="art" name="LineageOS/android_art" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
