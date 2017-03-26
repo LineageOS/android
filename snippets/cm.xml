@@ -117,4 +117,14 @@
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" />
+
+  <!-- Infrastructure -->
+  <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
+  <project path="lineage/cve" name="LineageOS/cve_tracker" groups="infra" revision="master" />
+  <project path="lineage/jenkins" name="LineageOS/hudson" groups="infra" revision="master" />
+  <project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="master" />
+  <project path="lineage/stats" name="LineageOS/tribble-tracker" groups="infra" revision="master" />
+  <project path="lineage/updater" name="LineageOS/lineageos_updater" groups="infra" revision="master" />
+  <project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
+  <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
 </manifest>
