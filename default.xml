@@ -145,7 +145,7 @@
   <project path="external/ipsec-tools" name="LineageOS/android_external_ipsec-tools" groups="pdk" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk" remote="aosp" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk" remote="aosp" />
-  <project path="external/iw" name="platform/external/iw" groups="pdk" remote="aosp" />
+  <project path="external/iw" name="LineageOS/android_external_iw" />
   <project path="external/jacoco" name="platform/external/jacoco" groups="pdk" remote="aosp" />
   <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" remote="aosp" />
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk" remote="aosp" />
