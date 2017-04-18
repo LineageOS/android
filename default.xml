@@ -170,7 +170,7 @@
   <project path="external/libbrillo" name="platform/external/libbrillo" groups="pdk" remote="aosp" />
   <project path="external/libcap" name="platform/external/libcap" groups="pdk" remote="aosp" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk" remote="aosp" />
-  <project path="external/libchrome" name="platform/external/libchrome" groups="pdk" remote="aosp" />
+  <project path="external/libchrome" name="LineageOS/android_external_libchrome" groups="pdk" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
   <project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" remote="aosp" />
