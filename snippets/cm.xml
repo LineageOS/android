@@ -128,4 +128,8 @@
   <project path="lineage/updater" name="LineageOS/lineageos_updater" groups="infra" revision="master" />
   <project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
   <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
+
+  <!-- Tools -->
+  <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
+  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
 </manifest>
