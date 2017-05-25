@@ -138,6 +138,7 @@
   <project path="external/uicommon" name="LineageOS/android_external_cyanogen_UICommon" />
   <project path="external/unrar" name="LineageOS/android_external_unrar" />
   <project path="external/unzip" name="LineageOS/android_external_unzip" />
+  <project path="external/v8" name="LineageOS/android_external_v8" groups="pdk" />
   <project path="external/vim" name="LineageOS/android_external_vim" />
   <project path="external/vogar" name="LineageOS/android_external_vogar" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" />
@@ -455,7 +456,6 @@
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
-  <project path="external/v8" name="platform/external/v8" groups="pdk" remote="aosp" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" remote="aosp" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" remote="aosp" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" />
