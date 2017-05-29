@@ -17,6 +17,16 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
+  
+  <!-- Nokia Lumia 525 stuff + extras -->
+  
+  <project path="device/nokia/fame" name="Android4Lumia/device_nokia_fame" />
+  <project path="kernel/nokia/msm8x27" name="Android4Lumia/kernel_nokia_msm8x27" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
+  <project path="vendor/sony" name="trashmaster76/proprietary_vendor_sony" remote="github" revision="master" />
+  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-6.0" />
+  <project path="external/busybox" name="LineageOS/android_external_busybox" />
 
 <!-- BEGIN LINEAGEOS -->
   <project path="build" name="LineageOS/android_build" groups="pdk" >
