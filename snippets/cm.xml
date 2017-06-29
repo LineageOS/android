@@ -38,7 +38,6 @@
   <project path="packages/apps/CMBugReport" name="LineageOS/android_packages_apps_CMBugreport" />
   <project path="packages/apps/CMParts" name="LineageOS/android_packages_apps_CMParts" />
   <project path="packages/apps/CMUpdater" name="LineageOS/android_packages_apps_CMUpdater" />
-  <project path="packages/apps/CustomTiles" name="LineageOS/android_packages_apps_CustomTiles" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
   <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
