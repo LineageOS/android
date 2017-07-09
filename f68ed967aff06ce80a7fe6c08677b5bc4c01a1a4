@@ -1,0 +1,22 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b5437bc4_5ba6704d",
+        "filename": "README.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-09T14:27:20Z",
+      "side": 1,
+      "message": "We could strip the \"periodically\" bit, since this isn\u0027t true currently",
+      "parentUuid": "",
+      "revId": "f68ed967aff06ce80a7fe6c08677b5bc4c01a1a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "69c6160f_de40b792",
+        "filename": "README.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-09T14:27:20Z",
+      "side": 0,
+      "message": "Looking at a cached version of the CM Wiki\u0027s page for this, it seems pretty pointless. It was also very outdated, so I don\u0027t see a reason to bring this forward to the LineageOS Wiki. Do wiki editors have anything to say about it?",
+      "revId": "6c8d65944c456da96c13eb40f0256ece9a3f1d20",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
