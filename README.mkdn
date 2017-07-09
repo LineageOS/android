@@ -3,7 +3,8 @@ LineageOS
 
 Submitting Patches
 ------------------
-Patches are always welcome!  Please submit your patches via LineageOS Gerrit!
+
+Patches are always welcome!  Please submit your patches via LineageOS Gerrit.
 You can do this by using these commands:
 
     (From root android directory)
@@ -14,20 +15,21 @@ You can do this by using these commands:
     repo start cm-14.1 .
     (Make your changes and commit)
     repo upload .
-Note: "." meaning current directory
-For more help on using this tool, use this command: repo help upload
 
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
+Note: "." means the current directory
+For more help on using this tool, use this command: `repo help upload`
 
-To view the status of your and others' patches, visit [LineageOS Code Review](http://review.lineageos.org/)
+Make your changes and commit with a detailed message, starting with what you are working with (i.e. "vision: Update Kernel")
+Commit your patches in a single commit. Squash multiple commits using this command: `git rebase -i HEAD~<# of commits>`
+
+To view the status of your and others' patches, visit [LineageOS Code Review](https://review.lineageos.org/)
 
 
 Getting Started
 ---------------
 
 To get started with Android/LineageOS, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 
@@ -37,14 +39,14 @@ Then to sync up:
 
     repo sync
 
-Please see the [LineageOS Wiki](http://wiki.lineageos.org/) for building instructions.
+Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions.
 
-For more information on this Github Organization and how it is structured,
-please [read the wiki article](http://wiki.lineageos.org/w/Github_Organization)
 
 Buildbot
 --------
 
-All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
+All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
 
-You can view the current build statuses at [LineageOS Jenkins](http://jenkins.lineageos.org/)
+You can view the current build statuses at [LineageOS Jenkins](https://jenkins.lineageos.org/)
+
+Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/)
