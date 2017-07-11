@@ -11,6 +11,7 @@
   <project path="external/fuse" name="LineageOS/android_external_fuse" />
   <project path="external/htop" name="LineageOS/android_external_htop" />
   <project path="external/koush/ion" name="LineageOS/ion" />
+  <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
   <project path="external/libphonenumbergoogle" name="LineageOS/android_external_libphonenumbergoogle" />
   <project path="external/libtar" name="LineageOS/android_external_libtar" />
