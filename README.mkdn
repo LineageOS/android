@@ -1,29 +1,10 @@
-LineageOS
-===========
+LineageOMS
+==========
 
-Submitting Patches
-------------------
+WTF is this?
+------------
 
-Patches are always welcome!  Please submit your patches via LineageOS Gerrit.
-You can do this by using these commands:
-
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    cmgerrit <for(new)/changes(patch set)> <branch/change-id>
-
-    repo start cm-14.1 .
-    (Make your changes and commit)
-    repo upload .
-
-Note: "." means the current directory
-For more help on using this tool, use this command: `repo help upload`
-
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. "vision: Update Kernel")
-Commit your patches in a single commit. Squash multiple commits using this command: `git rebase -i HEAD~<# of commits>`
-
-To view the status of your and others' patches, visit [LineageOS Code Review](https://review.lineageos.org/)
-
+This is an unofficial LineageOS organization with the necessary patches for full [Substratum](https://github.com/substratum/substratum) support. To learn more about Substratum, check out their [documentation repo](https://github.com/substratum/documentation).
 
 Getting Started
 ---------------
@@ -31,22 +12,15 @@ Getting Started
 To get started with Android/LineageOS, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+To initialize your local repository using the LineageOMS trees, use a command like this:
 
-    repo init -u git://github.com/LineageOS/android.git -b cm-14.1
+    repo init -u https://github.com/LineageOMS/android.git -b cm-14.1 --no-clone-bundle --depth=1
 
 Then to sync up:
 
-    repo sync
-
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions.
+    repo sync -j$( nproc --all ) --force-sync -c --no-clone-bundle --no-tags --optimized-fetch --prune
 
 
-Buildbot
---------
+The extra flags on the `repo init` command will make the repo much smaller by initializing shallow clones. To pull down new changes, run the repo sync command.
 
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [LineageOS Jenkins](https://jenkins.lineageos.org/)
-
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/)
+Please see the [LineageOS Wiki](http://wiki.lineageos.org/) for further building instructions.
