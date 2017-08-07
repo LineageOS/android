@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-7.1.2_r24" />
+           revision="refs/tags/android-7.1.2_r29" />
 
   <default revision="refs/heads/cm-14.1"
            remote="github"
