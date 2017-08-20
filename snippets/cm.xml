@@ -34,7 +34,6 @@
   <project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
-  <project path="packages/apps/CMBugReport" name="LineageOS/android_packages_apps_CMBugreport" />
   <project path="packages/apps/CMParts" name="LineageOS/android_packages_apps_CMParts" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
   <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
@@ -45,17 +44,12 @@
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
   <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
-  <project path="packages/apps/ThemeChooser" name="LineageOS/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
   <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
   <project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" />
-  <project path="packages/providers/ThemesProvider" name="LineageOS/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />
   <project path="packages/services/CMAudioService" name="LineageOS/android_packages_services_CMAudioService" />
-  <project path="packages/services/LiveLockScreenService" name="LineageOS/android_packages_services_LiveLockScreenService" />
-  <project path="packages/services/ThemeManagerService" name="LineageOS/android_packages_services_ThemeManagerService" />
   <project path="packages/services/WeatherService" name="LineageOS/android_packages_services_WeatherService" />
-  <project path="packages/themes/HexoLibre" name="LineageOS/android_packages_themes_HexoLibre" groups="themes" />
   <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" />
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
   <project path="vendor/cm" name="LineageOS/android_vendor_cm" />
