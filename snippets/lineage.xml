@@ -3,7 +3,7 @@
 
   <!-- LineageOS additions -->
   <project path="android" name="LineageOS/android" />
-  <project path="external/bash" name="LineageOS/android_external_bash" />
+  <!-- <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/cmsdk-api-coverage" name="LineageOS/android_external_cmsdk-api-coverage" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
   <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" />
@@ -17,7 +17,6 @@
   <project path="external/lzo" name="LineageOS/android_external_lzo" />
   <project path="external/nano" name="LineageOS/android_external_nano" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
-  <project path="external/openssh" name="LineageOS/android_external_openssh" />
   <project path="external/p7zip" name="LineageOS/android_external_p7zip" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
@@ -62,9 +61,9 @@
   <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS/android_packages_apps_YahooWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS/android_packages_apps_YahooWeatherProvider" /> -->
 
-  <!-- CodeAurora additions -->
+  <!-- CodeAurora additions
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" />
@@ -74,8 +73,6 @@
   <project path="external/ebtables" name="LineageOS/android_external_ebtables" />
   <project path="external/gson" name="LineageOS/android_external_gson" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" />
-  <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" />
-  <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" />
   <project path="external/powertop" name="LineageOS/android_external_powertop" />
   <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" />
   <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8084" />
@@ -115,7 +112,7 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" />
-  <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" />
+  <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" /> -->
 
   <!-- Infrastructure -->
   <project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
