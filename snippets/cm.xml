@@ -51,6 +51,7 @@
   <project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" />
   <project path="packages/providers/ThemesProvider" name="LineageOS/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   <project path="packages/services/CMAudioService" name="LineageOS/android_packages_services_CMAudioService" />
   <project path="packages/services/LiveLockScreenService" name="LineageOS/android_packages_services_LiveLockScreenService" />
   <project path="packages/services/ThemeManagerService" name="LineageOS/android_packages_services_ThemeManagerService" />
