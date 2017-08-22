@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d3520ed2_8b40ef04",
+        "filename": "default.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-08-22T11:17:39Z",
+      "side": 1,
+      "message": "This should remain android_build, AOSP repo is platform/build",
+      "range": {
+        "startLine": 23,
+        "startChar": 35,
+        "endLine": 23,
+        "endChar": 63
+      },
+      "revId": "a22582a7e48a233a633621f12d498f2b915df8be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
