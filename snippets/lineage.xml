@@ -20,8 +20,9 @@
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
   <project path="external/p7zip" name="LineageOS/android_external_p7zip" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" />
-  <project path="external/rsync" name="LineageOS/android_external_rsync" />
-  <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />
+  <project path="external/rsync" name="LineageOS/android_external_rsync" />-->
+  <project path="external/selinux" name="LineageOS/android_external_selinux" />
+  <!--<project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />
   <project path="external/uicommon" name="LineageOS/android_external_cyanogen_UICommon" />
   <project path="external/unrar" name="LineageOS/android_external_unrar" />
   <project path="external/unzip" name="LineageOS/android_external_unzip" />
