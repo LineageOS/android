@@ -3,14 +3,14 @@
 
   <remote  name="github"
            fetch=".."
-           review="https://review.lineageos.org" />
+           review="review.lineageos.org" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
-           review="https://android-review.googlesource.com"
+           review="android-review.googlesource.com"
            revision="refs/tags/android-8.0.0_r3" />
 
   <default revision="refs/heads/lineage-15.0"
