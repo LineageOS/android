@@ -4,21 +4,21 @@
   <!-- LineageOS additions -->
   <project path="android" name="LineageOS/android" />
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
-  <!--<project path="external/bash" name="LineageOS/android_external_bash" />
-  <project path="external/cmsdk-api-coverage" name="LineageOS/android_external_cmsdk-api-coverage" />
+  <project path="external/bash" name="LineageOS/android_external_bash" />
+  <!--<project path="external/cmsdk-api-coverage" name="LineageOS/android_external_cmsdk-api-coverage" />-->
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
-  <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" />
+  <!--<project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" />-->
   <project path="external/fuse" name="LineageOS/android_external_fuse" />
   <project path="external/htop" name="LineageOS/android_external_htop" />
-  <project path="external/koush/ion" name="LineageOS/ion" />
-  <project path="external/libncurses" name="LineageOS/android_external_libncurses" />-->
+  <!--<project path="external/koush/ion" name="LineageOS/ion" />-->
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" />
   <!--<project path="external/libphonenumbergoogle" name="LineageOS/android_external_libphonenumbergoogle" />
   <project path="external/libtar" name="LineageOS/android_external_libtar" />
   <project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />
-  <project path="external/lzo" name="LineageOS/android_external_lzo" />
+  <project path="external/lzo" name="LineageOS/android_external_lzo" />-->
   <project path="external/nano" name="LineageOS/android_external_nano" />
-  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
+  <!--<project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
   <project path="external/p7zip" name="LineageOS/android_external_p7zip" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
@@ -66,17 +66,17 @@
   <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS/android_packages_apps_YahooWeatherProvider" /> -->
 
   <!-- CodeAurora additions
-  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />
+  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />-->
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" />
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" />
-  <project path="external/brctl" name="LineageOS/android_external_brctl" />-->
+  <project path="external/brctl" name="LineageOS/android_external_brctl" />
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" />
-  <!--<project path="external/ebtables" name="LineageOS/android_external_ebtables" />
-  <project path="external/gson" name="LineageOS/android_external_gson" />
+  <project path="external/ebtables" name="LineageOS/android_external_ebtables" />
+  <!--<project path="external/gson" name="LineageOS/android_external_gson" />-->
   <project path="external/json-c" name="LineageOS/android_external_json-c" />
   <project path="external/powertop" name="LineageOS/android_external_powertop" />
-  <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" />
+  <!--<project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" />
   <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8937" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8937" />
@@ -107,11 +107,11 @@
   <!--<project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8998" />-->
   <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-15.0-caf" />
-  <!--<project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="lineage-15.0-caf" />
+  <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="lineage-15.0-caf" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
-  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" />
-  <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />-->
+  <!--<project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" />
+  <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" />-->
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
   <!--<project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" /> -->
