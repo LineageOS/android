@@ -22,20 +22,20 @@
   <project path="external/p7zip" name="LineageOS/android_external_p7zip" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
-  <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />
-  <project path="external/uicommon" name="LineageOS/android_external_cyanogen_UICommon" />
-  <project path="external/unrar" name="LineageOS/android_external_unrar" />
+  <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />-->
+  <project path="external/uicommon" name="LineageOS/android_external_lineage_UICommon" />
+  <!--<project path="external/unrar" name="LineageOS/android_external_unrar" />
   <project path="external/unzip" name="LineageOS/android_external_unzip" />
   <project path="external/vim" name="LineageOS/android_external_vim" />
   <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" />
-  <project path="external/zip" name="LineageOS/android_external_zip" />
-  <project path="hardware/cyanogen" name="LineageOS/android_hardware_cyanogen" />
+  <project path="external/zip" name="LineageOS/android_external_zip" />-->
+  <project path="hardware/lineage" name="LineageOS/android_hardware_lineage" />
   <project path="frameworks/opt/hardware" name="LineageOS/android_frameworks_opt_hardware" />
-  <project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />
+  <!--<project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />
   <project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />
-  <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
-  <project path="packages/apps/CMParts" name="LineageOS/android_packages_apps_CMParts" />-->
+  <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />-->
+  <project path="packages/apps/LineageSettings" name="LineageOS/android_packages_apps_LineageSettings" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
   <!--<project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />-->
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
@@ -54,8 +54,8 @@
   <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" />
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" />-->
   <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
-  <!--<project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
+  <project path="vendor/lineagesdk" name="LineageOS/lineage_platform_sdk" />
+  <!--project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS/android_packages_apps_YahooWeatherProvider" /> -->
 
