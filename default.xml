@@ -159,7 +159,6 @@
   <project path="external/javasqlite" name="LineageOS/android_external_javasqlite" />
   <project path="external/javassist" name="LineageOS/android_external_javassist" />
   <project path="external/jdiff" name="LineageOS/android_external_jdiff" />
-  <project path="external/jhead" name="LineageOS/android_external_jhead" groups="pdk" />
   <project path="external/jmdns" name="LineageOS/android_external_jmdns" />
   <project path="external/jmonkeyengine" name="LineageOS/android_external_jmonkeyengine" />
   <project path="external/jpeg" name="LineageOS/android_external_jpeg" groups="pdk" />
@@ -254,7 +253,7 @@
   <project path="external/safe-iop" name="LineageOS/android_external_safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/sepolicy" name="LineageOS/android_external_sepolicy" groups="pdk" />
-  <project path="external/sfntly" name="LineageOS/android_external_sfntly" remote="github" />
+  <project path="external/sfntly" name="platform/external/sfntly" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/skia" name="LineageOS/android_external_skia" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
