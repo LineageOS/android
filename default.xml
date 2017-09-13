@@ -159,7 +159,6 @@
   <project path="external/javasqlite" name="LineageOS/android_external_javasqlite" />
   <project path="external/javassist" name="LineageOS/android_external_javassist" />
   <project path="external/jdiff" name="LineageOS/android_external_jdiff" />
-  <project path="external/jhead" name="LineageOS/android_external_jhead" groups="pdk" />
   <project path="external/jmdns" name="LineageOS/android_external_jmdns" />
   <project path="external/jmonkeyengine" name="LineageOS/android_external_jmonkeyengine" />
   <project path="external/jpeg" name="LineageOS/android_external_jpeg" groups="pdk" />
