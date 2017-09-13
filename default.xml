@@ -108,7 +108,7 @@
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="aosp" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk" remote="aosp" />
   <project path="external/dtc" name="platform/external/dtc" groups="pdk" remote="aosp" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" remote="aosp" />
+  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk" remote="aosp" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk" remote="aosp" />
@@ -118,7 +118,7 @@
   <project path="external/esd" name="platform/external/esd" groups="pdk" remote="aosp" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk" remote="aosp" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" remote="aosp" />
+  <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" />
   <project path="external/fec" name="platform/external/fec" groups="pdk" remote="aosp" />
   <project path="external/fio" name="platform/external/fio" groups="pdk" remote="aosp" />
@@ -139,7 +139,7 @@
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk" remote="aosp" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk" remote="aosp" />
   <project path="external/googletest" name="platform/external/googletest" groups="pdk" remote="aosp" />
-  <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk" remote="aosp" />
+  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" />
   <project path="external/guava" name="platform/external/guava" groups="pdk" remote="aosp" />
   <project path="external/guice" name="platform/external/guice" groups="pdk" remote="aosp" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk" remote="aosp" />
@@ -318,7 +318,7 @@
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" remote="aosp" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk" remote="aosp" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk" remote="aosp" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" remote="aosp" />
+  <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
@@ -516,7 +516,7 @@
   <project path="system/hwservicemanager" name="platform/system/hwservicemanager" groups="pdk" remote="aosp" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="aosp" />
   <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" remote="aosp" />
-  <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" remote="aosp" />
+  <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk" />
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" remote="aosp" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" remote="aosp" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" remote="aosp" />

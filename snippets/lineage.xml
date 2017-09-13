@@ -13,15 +13,15 @@
   <!--<project path="external/koush/ion" name="LineageOS/ion" />-->
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" />
-  <!--<project path="external/libphonenumbergoogle" name="LineageOS/android_external_libphonenumbergoogle" />
+  <!--<project path="external/libphonenumbergoogle" name="LineageOS/android_external_libphonenumbergoogle" />-->
   <project path="external/libtar" name="LineageOS/android_external_libtar" />
-  <project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />
+  <!--<project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />
   <project path="external/lzo" name="LineageOS/android_external_lzo" />-->
   <project path="external/nano" name="LineageOS/android_external_nano" />
-  <!--<project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
-  <project path="external/p7zip" name="LineageOS/android_external_p7zip" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
+  <!--<project path="external/p7zip" name="LineageOS/android_external_p7zip" />-->
   <project path="external/pigz" name="LineageOS/android_external_pigz" />
-  <project path="external/rsync" name="LineageOS/android_external_rsync" />
+  <!--<project path="external/rsync" name="LineageOS/android_external_rsync" />
   <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />
   <project path="external/uicommon" name="LineageOS/android_external_cyanogen_UICommon" />
   <project path="external/unrar" name="LineageOS/android_external_unrar" />
