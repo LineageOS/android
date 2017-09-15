@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f2bf0cd5_a4d4b963",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-09-15T12:31:57Z",
+      "side": 1,
+      "message": "Should fork \u0026 enable this as well",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 54,
+        "endChar": 93
+      },
+      "revId": "6f52a08c4b4f9ce31ce1f271bf0e2be12cec569b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
