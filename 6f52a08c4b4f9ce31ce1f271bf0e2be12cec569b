@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "390c94b6_8fba3592",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-09-16T10:27:39Z",
+      "side": 1,
+      "message": "Need to do something with this as well",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 108
+      },
+      "revId": "6f52a08c4b4f9ce31ce1f271bf0e2be12cec569b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f2bf0cd5_a4d4b963",
         "filename": "snippets/lineage.xml",
         "patchSetId": 4
