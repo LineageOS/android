@@ -70,6 +70,7 @@
   <project path="external/json-c" name="LineageOS/android_external_json-c" />
   <project path="external/powertop" name="LineageOS/android_external_powertop" />
   <!--<project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" />-->
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
   <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8916" />
   <!--<project path="hardware/qcom/audio-caf/msm8937" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8937" />-->
