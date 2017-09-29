@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "a0afe4c2_dbf80d1c",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2017-09-29T22:02:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4a83d7fb_e239a8f1",
+      "revId": "e3bd96fb8f6f99acc66dccedd28c3155955dd8e9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4ef8455a_966a04ed",
         "filename": "snippets/lineage.xml",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2017-09-29T21:33:21Z",
       "side": 1,
       "message": "Another couple",
+      "revId": "e3bd96fb8f6f99acc66dccedd28c3155955dd8e9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "85ccbd62_9b686069",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2017-09-29T22:02:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4ef8455a_966a04ed",
       "revId": "e3bd96fb8f6f99acc66dccedd28c3155955dd8e9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
