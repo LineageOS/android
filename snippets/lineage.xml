@@ -14,52 +14,52 @@
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" />
   <project path="external/libtar" name="LineageOS/android_external_libtar" />
-  <!--<project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />
-  <project path="external/lzo" name="LineageOS/android_external_lzo" />-->
+  <!--<project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />-->
+  <!--<project path="external/lzo" name="LineageOS/android_external_lzo" />-->
   <project path="external/nano" name="LineageOS/android_external_nano" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
   <!--<project path="external/p7zip" name="LineageOS/android_external_p7zip" />-->
   <project path="external/pigz" name="LineageOS/android_external_pigz" />
-  <!--<project path="external/rsync" name="LineageOS/android_external_rsync" />
-  <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />
-  <project path="external/uicommon" name="LineageOS/android_external_cyanogen_UICommon" />
-  <project path="external/unrar" name="LineageOS/android_external_unrar" />
-  <project path="external/unzip" name="LineageOS/android_external_unzip" />
-  <project path="external/vim" name="LineageOS/android_external_vim" />
-  <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" />
-  <project path="external/zip" name="LineageOS/android_external_zip" />
-  <project path="hardware/cyanogen" name="LineageOS/android_hardware_cyanogen" />
-  <project path="frameworks/opt/hardware" name="LineageOS/android_frameworks_opt_hardware" />-->
+  <!--<project path="external/rsync" name="LineageOS/android_external_rsync" />-->
+  <!--<project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />-->
+  <!--<project path="external/uicommon" name="LineageOS/android_external_cyanogen_UICommon" />-->
+  <!--<project path="external/unrar" name="LineageOS/android_external_unrar" />-->
+  <!--<project path="external/unzip" name="LineageOS/android_external_unzip" />-->
+  <!--<project path="external/vim" name="LineageOS/android_external_vim" />-->
+  <!--<project path="external/yaffs2" name="LineageOS/android_external_yaffs2" />-->
+  <!--<project path="external/zip" name="LineageOS/android_external_zip" />-->
+  <!--<project path="hardware/cyanogen" name="LineageOS/android_hardware_cyanogen" />-->
+  <!--<project path="frameworks/opt/hardware" name="LineageOS/android_frameworks_opt_hardware" />-->
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" >
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
   </project>
-  <!--<project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />
-  <project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />
-  <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />
-  <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
-  <project path="packages/apps/CMParts" name="LineageOS/android_packages_apps_CMParts" />-->
+  <!--<project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />-->
+  <!--<project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />-->
+  <!--<project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />-->
+  <!--<project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />-->
+  <!--<project path="packages/apps/CMParts" name="LineageOS/android_packages_apps_CMParts" />-->
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
   <!--<project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />-->
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
-  <!--<project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />
-  <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />-->
+  <!--<project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />-->
+  <!--<project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />-->
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
-  <!--<project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
-  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />-->
+  <!--<project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />-->
+  <!--<project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />-->
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
-  <!--<project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
-  <project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" />
-  <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />
-  <project path="packages/services/CMAudioService" name="LineageOS/android_packages_services_CMAudioService" />
-  <project path="packages/services/WeatherService" name="LineageOS/android_packages_services_WeatherService" />
-  <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" />
-  <project path="system/extras/su" name="LineageOS/android_system_extras_su" />-->
+  <!--<project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />-->
+  <!--<project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" />-->
+  <!--<project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />-->
+  <!--<project path="packages/services/CMAudioService" name="LineageOS/android_packages_services_CMAudioService" />-->
+  <!--<project path="packages/services/WeatherService" name="LineageOS/android_packages_services_WeatherService" />-->
+  <!--<project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" />-->
+  <!--<project path="system/extras/su" name="LineageOS/android_system_extras_su" />-->
   <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
-  <!--<project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS/android_packages_apps_YahooWeatherProvider" /> -->
+  <!--<project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />-->
+  <!--<project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />-->
+  <!--<project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />-->
+  <!--<project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS/android_packages_apps_YahooWeatherProvider" />-->
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />
@@ -105,15 +105,15 @@
   <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-15.0-caf" />
   <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="lineage-15.0-caf" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
-  <!--<project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" />
-  <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" />-->
+  <!--<project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" />-->
+  <!--<project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" />-->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
   <!--<project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" />-->
   <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
-  <!--<project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" /> -->
+  <!--<project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" />-->
 
   <!-- Infrastructure -->
   <project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
