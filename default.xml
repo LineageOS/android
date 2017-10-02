@@ -95,7 +95,7 @@
   <project path="external/dhcpcd-6.8.2" name="platform/external/dhcpcd-6.8.2" groups="pdk" remote="aosp" />
   <project path="external/dlmalloc" name="platform/external/dlmalloc" groups="pdk" remote="aosp" />
   <project path="external/dng_sdk" name="platform/external/dng_sdk" groups="pdk" remote="aosp" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" remote="aosp" />
+  <project path="external/dnsmasq" name="LineageOS/android_external_dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk" remote="aosp" />
   <project path="external/donuts" name="platform/external/donuts" groups="pdk" remote="aosp" />
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc,pdk-fs" remote="aosp" />
@@ -185,7 +185,7 @@
   <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" remote="aosp" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" remote="aosp" />
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" groups="pdk" remote="aosp" />
-  <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" remote="aosp" />
+  <project path="external/libmpeg2" name="LineageOS/android_external_libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk" remote="aosp" />
   <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" />
