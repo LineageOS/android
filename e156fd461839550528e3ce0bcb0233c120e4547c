@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5bf00ecc_97384809",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 565,
+      "author": {
+        "id": 1690
+      },
+      "writtenOn": "2017-10-27T09:57:26Z",
+      "side": 1,
+      "message": "Is there a benefit to syncing all of these?",
+      "range": {
+        "startLine": 565,
+        "startChar": 0,
+        "endLine": 565,
+        "endChar": 109
+      },
+      "revId": "e156fd461839550528e3ce0bcb0233c120e4547c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
