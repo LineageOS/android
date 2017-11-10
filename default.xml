@@ -84,6 +84,7 @@
   <project path="external/jsr305" name="LineageOS/android_external_jsr305" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/koush/AndroidAsync" name="LineageOS/AndroidAsync" />
   <project path="external/koush/ion" name="LineageOS/ion" />
+  <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" />
   <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk-fs" />
   <project path="external/libmpeg2" name="LineageOS/android_external_libmpeg2" groups="pdk" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
@@ -382,7 +383,6 @@
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/libavc" name="platform/external/libavc" groups="pdk" remote="aosp" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
