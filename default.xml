@@ -172,7 +172,6 @@
   <project path="external/kissfft" name="LineageOS/android_external_kissfft" />
   <project path="external/koush/ion" name="LineageOS/ion" />
   <project path="external/koush/AndroidAsync" name="LineageOS/AndroidAsync" />
-  <project path="external/koush/Superuser" name="LineageOS/Superuser" />
   <project path="external/koush/Widgets" name="LineageOS/Widgets" />
   <project path="external/libcap-ng" name="LineageOS/android_external_libcap-ng" />
   <project path="external/libexif" name="platform/external/libexif" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -479,6 +478,7 @@
   <project path="sdk" name="LineageOS/android_sdk" />
   <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
+  <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
