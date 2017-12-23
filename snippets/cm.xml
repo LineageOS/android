@@ -116,7 +116,6 @@
   <project path="lineage/jenkins" name="LineageOS/hudson" groups="infra" revision="master" />
   <project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="master" />
   <project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" />
-  <project path="lineage/stats" name="LineageOS/tribble-tracker" groups="infra" revision="master" />
   <project path="lineage/updater" name="LineageOS/lineageos_updater" groups="infra" revision="master" />
   <project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
   <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
