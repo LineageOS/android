@@ -12,7 +12,6 @@
   <project path="external/koush/ion" name="LineageOS/ion" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
   <project path="external/libtar" name="LineageOS/android_external_libtar" />
-  <project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />
   <project path="external/lzo" name="LineageOS/android_external_lzo" />
   <project path="external/nano" name="LineageOS/android_external_nano" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
