@@ -20,7 +20,6 @@
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
   <!--<project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />-->
   <!--<project path="external/unrar" name="LineageOS/android_external_unrar" />-->
-  <!--<project path="external/unzip" name="LineageOS/android_external_unzip" />-->
   <project path="external/vim" name="LineageOS/android_external_vim" />
   <!--<project path="external/yaffs2" name="LineageOS/android_external_yaffs2" />-->
   <!--<project path="external/zip" name="LineageOS/android_external_zip" />-->
