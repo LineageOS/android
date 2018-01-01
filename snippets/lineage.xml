@@ -62,10 +62,8 @@
   <project path="external/brctl" name="LineageOS/android_external_brctl" />
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" />
   <project path="external/ebtables" name="LineageOS/android_external_ebtables" />
-  <!--<project path="external/gson" name="LineageOS/android_external_gson" />-->
   <project path="external/json-c" name="LineageOS/android_external_json-c" />
   <project path="external/powertop" name="LineageOS/android_external_powertop" />
-  <!--<project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" />-->
   <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8952" />
@@ -97,14 +95,11 @@
   <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="staging/lineage-15.1-caf" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" />
-  <!--<project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" />-->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
-  <!--<project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" />-->
   <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
-  <!--<project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" />-->
 
   <!-- Infrastructure -->
   <project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
