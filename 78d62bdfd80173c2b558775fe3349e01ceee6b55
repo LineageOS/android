@@ -16,6 +16,24 @@
       "revId": "78d62bdfd80173c2b558775fe3349e01ceee6b55",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ffc440c_a5b1a36e",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2018-01-09T23:19:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "70649e4c_f15961a8",
+      "revId": "78d62bdfd80173c2b558775fe3349e01ceee6b55",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
