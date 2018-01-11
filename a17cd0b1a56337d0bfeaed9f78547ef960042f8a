@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "903b15e2_62d73b25",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 548,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-01-11T22:19:16Z",
+      "side": 0,
+      "message": "Shouldn\u0027t remove this",
+      "range": {
+        "startLine": 548,
+        "startChar": 76,
+        "endLine": 548,
+        "endChar": 88
+      },
+      "revId": "a17cd0b1a56337d0bfeaed9f78547ef960042f8a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
