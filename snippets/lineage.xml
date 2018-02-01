@@ -10,7 +10,6 @@
   <project path="external/fuse" name="LineageOS/android_external_fuse" />
   <project path="external/htop" name="LineageOS/android_external_htop" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
-  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" />
   <project path="external/libtar" name="LineageOS/android_external_libtar" />
   <project path="external/lineage-sdk-api-coverage" name="LineageOS/android_external_lineage-sdk-api-coverage" />
   <project path="external/nano" name="LineageOS/android_external_nano" />
