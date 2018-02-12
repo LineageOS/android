@@ -46,7 +46,7 @@
   <project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
-  <!--<project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />-->
+  <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
   <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
