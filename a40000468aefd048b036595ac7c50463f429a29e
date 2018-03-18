@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9b3a670f_72f28085",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 8964
+      },
+      "writtenOn": "2018-03-18T10:49:45Z",
+      "side": 0,
+      "message": "remove Widgets too? i think it\u0027s also not needed after removing Superuser",
+      "range": {
+        "startLine": 176,
+        "startChar": 0,
+        "endLine": 176,
+        "endChar": 68
+      },
+      "revId": "a40000468aefd048b036595ac7c50463f429a29e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
