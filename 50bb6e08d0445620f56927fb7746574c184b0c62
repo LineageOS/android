@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "49390e4b_7b582428",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2018-03-19T16:47:08Z",
+      "side": 1,
+      "message": "this is really shitty to have to do",
+      "range": {
+        "startLine": 98,
+        "startChar": 4,
+        "endLine": 98,
+        "endChar": 64
+      },
+      "revId": "50bb6e08d0445620f56927fb7746574c184b0c62",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
