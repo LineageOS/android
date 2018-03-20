@@ -3,6 +3,9 @@
 
   <!-- LineageOS additions -->
   <project path="android" name="LineageOS/android" />
+  <project path="device/generic/arm64" name="device/generic/arm64" />
+  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
+  <project path="device/generic/x86" name="device/generic/x86" /> 
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
