@@ -103,6 +103,12 @@
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
   <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" />
+  <project path="vendor/nxp/interfaces/opensource/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" >
+    <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>
+  </project>
+  <project path="vendor/nxp/opensource/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
+  <project path="vendor/nxp/opensource/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" />
+  <project path="vendor/nxp/opensource/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" >
