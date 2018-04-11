@@ -24,6 +24,8 @@
   <project path="external/vim" name="LineageOS/android_external_vim" />
   <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" />
   <project path="external/zip" name="LineageOS/android_external_zip" />
+  <project path="external/fsck/msdos" name="lineageOS/android_external_fsck_msdos" />
+  <project path="external/tinyxml2" name="lineageOS/android_external_tinyxml2" />
   <project path="hardware/cyanogen" name="LineageOS/android_hardware_cyanogen" />
   <project path="frameworks/opt/hardware" name="LineageOS/android_frameworks_opt_hardware" />
   <project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />
