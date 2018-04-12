@@ -16,6 +16,7 @@
   <project path="external/nano" name="LineageOS/android_external_nano" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
   <project path="external/one-true-awk" name="LineageOS/android_external_one-true-awk" />
+  <project path="external/openssh" name="LineageOS/android_external_openssh" />
   <project path="external/p7zip" name="LineageOS/android_external_p7zip" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
