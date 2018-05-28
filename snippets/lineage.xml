@@ -98,6 +98,8 @@
     <copyfile dest="hardware/qcom/Android.bp" src="Android.bp"/>
   </project>
   <project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" groups="qcom,pdk" />
+  <project path="hardware/qcom/thermal" name="LineageOS/android_hardware_qcom_thermal" />
+  <project path="hardware/qcom/vr" name="LineageOS/android_hardware_qcom_vr" />
   <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-15.1-caf" />
   <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="lineage-15.1-caf" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
