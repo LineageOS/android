@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "deae7ffa_5c90aba9",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 3962
+      },
+      "writtenOn": "2018-08-04T16:46:43Z",
+      "side": 0,
+      "message": "Lol",
+      "revId": "23b40d0b29f789d46aba7bc10a27253404caa7c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6f6d655a_71f8a1df",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 3962
+      },
+      "writtenOn": "2018-08-04T16:46:43Z",
+      "side": 0,
+      "message": "What was the issue with this?",
+      "revId": "23b40d0b29f789d46aba7bc10a27253404caa7c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
