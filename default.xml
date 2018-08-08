@@ -86,7 +86,7 @@
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" remote="aosp" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk" remote="aosp" />
   <project path="external/cros/system_api" name="platform/external/cros/system_api" groups="pdk" remote="aosp" />
-  <project path="external/curl" name="platform/external/curl" groups="pdk" remote="aosp" />
+  <project path="external/curl" name="LineageOS/android_external_curl" groups="pdk" />
   <project path="external/dagger2" name="platform/external/dagger2" groups="pdk" remote="aosp" />
   <project path="external/dbus" name="platform/external/dbus" groups="pdk" remote="aosp" />
   <project path="external/dbus-binding-generator" name="platform/external/dbus-binding-generator" groups="pdk" remote="aosp" />
