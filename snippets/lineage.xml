@@ -21,13 +21,13 @@
   <!--<project path="external/unrar" name="LineageOS/android_external_unrar" />-->
   <!--<project path="external/vim" name="LineageOS/android_external_vim" />-->
   <!--<project path="external/zip" name="LineageOS/android_external_zip" />-->
-  <!--<project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />-->
-  <!--<project path="hardware/lineage/lineagehw" name="LineageOS/android_hardware_lineage_lineagehw" />-->
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
+  <project path="hardware/lineage/lineagehw" name="LineageOS/android_hardware_lineage_lineagehw" />
   <!--<project path="hardware/lineage/telephony" name="LineageOS/android_hardware_lineage_telephony" />-->
   <!--<project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />-->
   <!--<project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />-->
   <!--<project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />-->
-  <!--<project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />-->
+  <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
   <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />-->
   <!--<project path="lineage-sdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />-->
   <!--<project path="lineage-sdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS/android_packages_apps_YahooWeatherProvider" />-->
@@ -38,7 +38,7 @@
   <!--<project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />-->
   <!--<project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />-->
   <!--<project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer" />-->
-  <!--<project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />-->
+  <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
   <!--<project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />-->
   <!--<project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />-->
   <!--<project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />-->
