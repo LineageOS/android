@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fc758182_43f3acbe",
+        "filename": "default.xml",
+        "patchSetId": 13
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2018-08-09T14:32:45Z",
+      "side": 1,
+      "message": "can we keep stuff like this in a separate change? just so that we can actually ship the manifest when it\u0027s ready",
+      "range": {
+        "startLine": 23,
+        "startChar": 83,
+        "endLine": 23,
+        "endChar": 107
+      },
+      "revId": "85c0f20e76770f2c2cd5fd80450cbad152243be3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
