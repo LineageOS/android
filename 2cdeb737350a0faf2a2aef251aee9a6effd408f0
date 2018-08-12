@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a7a79c71_6de4fe12",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 13825
+      },
+      "writtenOn": "2018-08-12T18:51:16Z",
+      "side": 1,
+      "message": "leftover",
+      "range": {
+        "startLine": 28,
+        "startChar": 67,
+        "endLine": 28,
+        "endChar": 70
+      },
+      "revId": "2cdeb737350a0faf2a2aef251aee9a6effd408f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
