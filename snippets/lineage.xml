@@ -4,23 +4,23 @@
   <!-- LineageOS additions -->
   <project path="android" name="LineageOS/android" />
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
-  <!--<project path="external/bash" name="LineageOS/android_external_bash" />-->
+  <project path="external/bash" name="LineageOS/android_external_bash" />
   <!--<project path="external/exfat" name="LineageOS/android_external_exfat" />-->
   <!--<project path="external/fuse" name="LineageOS/android_external_fuse" />-->
-  <!--<project path="external/htop" name="LineageOS/android_external_htop" />-->
-  <!--<project path="external/libncurses" name="LineageOS/android_external_libncurses" />-->
+  <project path="external/htop" name="LineageOS/android_external_htop" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" />
   <!--<project path="external/libtar" name="LineageOS/android_external_libtar" />-->
   <!--<project path="external/lineage-sdk-api-coverage" name="LineageOS/android_external_lineage-sdk-api-coverage" />-->
-  <!--<project path="external/nano" name="LineageOS/android_external_nano" />-->
+  <project path="external/nano" name="LineageOS/android_external_nano" />
   <!--<project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />-->
-  <!--<project path="external/openssh" name="LineageOS/android_external_openssh" />-->
-  <!--<project path="external/p7zip" name="LineageOS/android_external_p7zip" />-->
-  <!--<project path="external/pigz" name="LineageOS/android_external_pigz" />-->
-  <!--<project path="external/rsync" name="LineageOS/android_external_rsync" />-->
-  <!--<project path="external/unrar" name="LineageOS/android_external_unrar" />-->
-  <!--<project path="external/vim" name="LineageOS/android_external_vim" />-->
-  <!--<project path="external/zip" name="LineageOS/android_external_zip" />-->
+  <project path="external/openssh" name="LineageOS/android_external_openssh" />
+  <project path="external/p7zip" name="LineageOS/android_external_p7zip" />
+  <project path="external/pigz" name="LineageOS/android_external_pigz" />
+  <project path="external/rsync" name="LineageOS/android_external_rsync" />
+  <project path="external/unrar" name="LineageOS/android_external_unrar" />
+  <project path="external/vim" name="LineageOS/android_external_vim" />
+  <project path="external/zip" name="LineageOS/android_external_zip" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
   <project path="hardware/lineage/lineagehw" name="LineageOS/android_hardware_lineage_lineagehw" />
   <!--<project path="hardware/lineage/telephony" name="LineageOS/android_hardware_lineage_telephony" />-->
