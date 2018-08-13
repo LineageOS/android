@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bc9d264f_ae29e449",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 16
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 18061
+      },
+      "writtenOn": "2018-08-13T16:14:09Z",
+      "side": 1,
+      "message": "duplicated revison...",
+      "revId": "4df7f2f97acd61948354568e50e5974741e61173",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
