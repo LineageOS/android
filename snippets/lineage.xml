@@ -21,9 +21,7 @@
   <!--<project path="external/unrar" name="LineageOS/android_external_unrar" />-->
   <!--<project path="external/vim" name="LineageOS/android_external_vim" />-->
   <!--<project path="external/zip" name="LineageOS/android_external_zip" />-->
-  <!--<project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" >-->
-  <!--  <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>-->
-  <!--</project>-->
+  <!--<project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />-->
   <!--<project path="hardware/lineage/lineagehw" name="LineageOS/android_hardware_lineage_lineagehw" />-->
   <!--<project path="hardware/lineage/telephony" name="LineageOS/android_hardware_lineage_telephony" />-->
   <!--<project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />-->
@@ -101,17 +99,13 @@
   <!--<project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />-->
   <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" />
-  <!--<project path="vendor/nxp/interfaces/opensource/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" >-->
-  <!--  <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>-->
-  <!--</project>-->
+  <!--<project path="vendor/nxp/interfaces/opensource/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" />-->
   <!--<project path="vendor/nxp/opensource/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />-->
   <!--<project path="vendor/nxp/opensource/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" />-->
   <!--<project path="vendor/nxp/opensource/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />-->
   <!--<project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />-->
   <!--<project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />-->
-  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" >
-    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
-  </project>
+  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" />
   <!--<project path="vendor/qcom/opensource/rcs-service" name="LineageOS/android_vendor_qcom_opensource_rcs-service" />-->
 
   <!-- Infrastructure -->
