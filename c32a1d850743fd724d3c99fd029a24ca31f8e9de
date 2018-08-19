@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "360cca68_227810f5",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-08-19T21:49:38Z",
+      "side": 1,
+      "message": "Rashed, I don\u0027t think we need to do this anymore. Do you confirm?",
+      "range": {
+        "startLine": 25,
+        "startChar": 4,
+        "endLine": 25,
+        "endChar": 67
+      },
+      "revId": "c32a1d850743fd724d3c99fd029a24ca31f8e9de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
