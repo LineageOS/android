@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "be1699e9_c111e322",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 464,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-08-20T06:47:39Z",
+      "side": 1,
+      "message": "/\u003e",
+      "range": {
+        "startLine": 464,
+        "startChar": 143,
+        "endLine": 464,
+        "endChar": 144
+      },
+      "revId": "70816f6aacc49aaeedc9d3e80a990002b8abad85",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e891b9e0_4e5fb61a",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-08-20T06:47:39Z",
+      "side": 1,
+      "message": "/\u003e",
+      "range": {
+        "startLine": 24,
+        "startChar": 103,
+        "endLine": 24,
+        "endChar": 104
+      },
+      "revId": "70816f6aacc49aaeedc9d3e80a990002b8abad85",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "205a0045_05fdbcc5",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-08-20T06:47:39Z",
+      "side": 1,
+      "message": "/\u003e",
+      "range": {
+        "startLine": 102,
+        "startChar": 121,
+        "endLine": 102,
+        "endChar": 122
+      },
+      "revId": "70816f6aacc49aaeedc9d3e80a990002b8abad85",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "03dee0fc_f9430b8a",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-08-20T06:47:39Z",
+      "side": 1,
+      "message": "/\u003e",
+      "range": {
+        "startLine": 108,
+        "startChar": 111,
+        "endLine": 108,
+        "endChar": 112
+      },
+      "revId": "70816f6aacc49aaeedc9d3e80a990002b8abad85",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
