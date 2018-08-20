@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0d593b63_4ed11a8f",
+        "filename": "default.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-08-20T17:37:11Z",
+      "side": 1,
+      "message": "Missing android_",
+      "revId": "b5e2ff531fd9538b66f13cc6e5efe4a0c5e64f13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
