@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4043398a_809efa95",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-08-20T13:33:58Z",
+      "side": 1,
+      "message": "Should also enable this to have the complete set",
+      "range": {
+        "startLine": 10,
+        "startChar": 2,
+        "endLine": 10,
+        "endChar": 80
+      },
+      "revId": "aac1c626e1b9367b2b727cc3d31baeca024925cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
