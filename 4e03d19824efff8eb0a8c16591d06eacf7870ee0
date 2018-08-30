@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "05635204_fb3cd37d",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-08-30T19:07:50Z",
+      "side": 1,
+      "message": "Can someone create a 16.0 branch for Profiles? I have local changes to upload.",
+      "range": {
+        "startLine": 43,
+        "startChar": 61,
+        "endLine": 43,
+        "endChar": 91
+      },
+      "revId": "4e03d19824efff8eb0a8c16591d06eacf7870ee0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
