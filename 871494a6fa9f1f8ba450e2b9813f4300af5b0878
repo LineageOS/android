@@ -16,6 +16,24 @@
       "revId": "871494a6fa9f1f8ba450e2b9813f4300af5b0878",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "43ec061d_00eb128e",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-08-30T09:56:47Z",
+      "side": 1,
+      "message": "Not sure, I didn\u0027t clone it.",
+      "parentUuid": "fd0b2b71_f326a887",
+      "revId": "871494a6fa9f1f8ba450e2b9813f4300af5b0878",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
