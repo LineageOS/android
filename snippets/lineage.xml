@@ -71,7 +71,7 @@
   <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-16.0-caf-8996" />
   <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-16.0-caf-8998" />
   <!--<project path="hardware/qcom/audio-caf/sdm845" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-16.0-caf-845" />-->
-  <!--<project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" revision="lineage-16.0-caf" />-->
+  <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" revision="lineage-16.0-caf" />
   <!--<project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-16.0-caf-8084" /-->
   <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-16.0-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8952" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-16.0-caf-8952" />
@@ -94,7 +94,7 @@
   <project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" groups="qcom,pdk" />
   <!--<project path="hardware/qcom/thermal" name="LineageOS/android_hardware_qcom_thermal" />-->
   <!--<project path="hardware/qcom/vr" name="LineageOS/android_hardware_qcom_vr" />-->
-  <!--<project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-16.0-caf" />-->
+  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-16.0-caf" />
   <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="lineage-16.0-caf" />
   <!--<project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />-->
   <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" />
