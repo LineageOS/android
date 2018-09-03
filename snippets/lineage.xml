@@ -104,7 +104,7 @@
   <project path="vendor/nxp/opensource/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" />
   <project path="vendor/nxp/opensource/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" />
   <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" />
-  <!--<project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />-->
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" />
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" />
