@@ -231,7 +231,7 @@
   <project path="external/naver-fonts" name="platform/external/naver-fonts" groups="pdk" remote="aosp" />
   <project path="external/netcat" name="platform/external/netcat" groups="pdk" remote="aosp" />
   <project path="external/netperf" name="platform/external/netperf" groups="pdk" remote="aosp" />
-  <project path="external/neven" name="platform/external/neven" groups="pdk" remote="aosp" />
+  <project path="external/neven" name="LineageOS/android_external_neven" groups="pdk" />
   <project path="external/nfacct" name="platform/external/nfacct" groups="pdk" remote="aosp" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk" remote="aosp" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk" remote="aosp" />
