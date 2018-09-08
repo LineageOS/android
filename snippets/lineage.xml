@@ -54,13 +54,13 @@
 
   <!-- CodeAurora additions -->
   <!--<project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />-->
-  <!--<project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />-->
-  <!--<project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" />-->
-  <!--<project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" />-->
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" />
   <!--<project path="external/brctl" name="LineageOS/android_external_brctl" />-->
-  <!--<project path="external/connectivity" name="LineageOS/android_external_connectivity" />-->
+  <project path="external/connectivity" name="LineageOS/android_external_connectivity" />
   <!--<project path="external/ebtables" name="LineageOS/android_external_ebtables" />-->
-  <!--<project path="external/json-c" name="LineageOS/android_external_json-c" />-->
+  <project path="external/json-c" name="LineageOS/android_external_json-c" />
   <!--<project path="external/powertop" name="LineageOS/android_external_powertop" />-->
   <!--<project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-16.0-caf-8084" />-->
   <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-16.0-caf-8916" />
