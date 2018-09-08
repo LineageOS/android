@@ -57,9 +57,7 @@
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" />
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" />
-  <!--<project path="external/brctl" name="LineageOS/android_external_brctl" />-->
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" />
-  <!--<project path="external/ebtables" name="LineageOS/android_external_ebtables" />-->
   <project path="external/json-c" name="LineageOS/android_external_json-c" />
   <!--<project path="external/powertop" name="LineageOS/android_external_powertop" />-->
   <!--<project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-16.0-caf-8084" />-->
@@ -96,7 +94,6 @@
   <!--<project path="hardware/qcom/vr" name="LineageOS/android_hardware_qcom_vr" />-->
   <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-16.0-caf" />
   <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="lineage-16.0-caf" />
-  <!--<project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />-->
   <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" />
   <!--<project path="vendor/nxp/interfaces/opensource/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" />-->
