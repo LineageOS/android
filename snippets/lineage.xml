@@ -91,8 +91,8 @@
   <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-16.0-caf-8998" />
   <!--<project path="hardware/qcom/media-caf/sdm845" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-16.0-caf-845" />-->
   <project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" groups="qcom,pdk" />
-  <!--<project path="hardware/qcom/thermal" name="LineageOS/android_hardware_qcom_thermal" />-->
-  <!--<project path="hardware/qcom/vr" name="LineageOS/android_hardware_qcom_vr" />-->
+  <project path="hardware/qcom/thermal" name="LineageOS/android_hardware_qcom_thermal" />
+  <project path="hardware/qcom/vr" name="LineageOS/android_hardware_qcom_vr" />
   <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-16.0-caf" />
   <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="lineage-16.0-caf" />
   <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" />
@@ -108,6 +108,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" />
   <!--<project path="vendor/qcom/opensource/rcs-service" name="LineageOS/android_vendor_qcom_opensource_rcs-service" />-->
+  <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" />
 
   <!-- Infrastructure -->
   <project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
