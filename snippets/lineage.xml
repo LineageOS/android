@@ -28,9 +28,7 @@
   <!--<project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />-->
   <!--<project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />-->
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
-  <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />-->
-  <!--<project path="lineage-sdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />-->
-  <!--<project path="lineage-sdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS/android_packages_apps_YahooWeatherProvider" />-->
+  <project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
   <project path="packages/apps/AppDrawer" name="LineageOS/android_packages_apps_AppDrawer" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
@@ -47,7 +45,7 @@
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
   <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
   <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
-  <!--<project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />-->
+  <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />
   <!--<project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />-->
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
   <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
