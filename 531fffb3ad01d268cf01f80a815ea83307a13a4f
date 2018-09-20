@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c4d19e8e_261f651f",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-09-20T00:14:58Z",
+      "side": 1,
+      "message": "https://source.codeaurora.org/quic/la/platform/manifest/tree/LA.UM.7.3.r1-05100-sdm845.0.xml?h\u003dLA.UM.7.3.r1-05100-sdm845.0#n664",
+      "revId": "531fffb3ad01d268cf01f80a815ea83307a13a4f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5e625120_3889ed1d",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-09-20T00:14:58Z",
+      "side": 1,
+      "message": "https://source.codeaurora.org/quic/la/platform/manifest/tree/LA.UM.7.3.r1-05100-sdm845.0.xml?h\u003dLA.UM.7.3.r1-05100-sdm845.0#n665",
+      "revId": "531fffb3ad01d268cf01f80a815ea83307a13a4f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
