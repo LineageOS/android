@@ -111,6 +111,7 @@
   <project path="external/lzo" name="LineageOS/android_external_lzo" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" />
   <project path="external/nano" name="LineageOS/android_external_nano" />
+  <project path="external/neven" name="LineageOS/android_external_neven" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/nist-sip" name="LineageOS/android_external_nist-sip" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
   <project path="external/okhttp" name="LineageOS/android_external_okhttp" groups="pdk-cw-fs,pdk-fs" />
@@ -423,7 +424,6 @@
   <project path="external/naver-fonts" name="platform/external/naver-fonts" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/netcat" name="platform/external/netcat" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/netperf" name="platform/external/netperf" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/neven" name="platform/external/neven" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/nfacct" name="platform/external/nfacct" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" remote="aosp" />
