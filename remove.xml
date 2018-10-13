@@ -55,7 +55,7 @@
   <remove-project name="LineageOS/android_packages_apps_AudioFX" />
   <!-- May or May Not Stay ? -->
   <!-- <remove-project name="LineageOS/android_packages_apps_Recorder" /> -->
-  <remove-project name="LineageOS/android_packages_apps_UnifiedEmail" />
+  <!-- <remove-project name="LineageOS/android_packages_apps_UnifiedEmail" /> -->
   <!-- Tv Os Thing Not Needed For Phones And Tablets -->
   <remove-project name="LineageOS/android_packages_apps_TV" />
   <remove-project name="LineageOS/android_packages_apps_TvSettings" />
