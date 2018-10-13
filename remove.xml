@@ -33,11 +33,11 @@
   <remove-project name="LineageOS/android_packages_apps_Calendar" />
   <remove-project name="LineageOS/android_packages_apps_DeskClock" />
   <remove-project name="LineageOS/android_packages_apps_LockClock" />
-  <remove-project name="LineageOS/android_packages_apps_Email" />
+  <!-- <remove-project name="LineageOS/android_packages_apps_Email" />  -->
   <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
   <!-- Internet -->
   <!-- android_packages_apps_Jelly For Testing Wifi -->
-  <!--<remove-project name="LineageOS/android_packages_apps_Jelly" /> -->
+  <!-- <remove-project name="LineageOS/android_packages_apps_Jelly" /> -->
   <!-- Launchers -->
   <!-- Replaced Launcher3 With Rootless pixel Luncher For Mods -->
   <remove-project name="platform/packages/apps/Launcher3" />
