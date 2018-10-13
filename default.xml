@@ -656,7 +656,6 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" remote="aosp" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
-  <project path="vendor/light" name="BAProductions/android_vendor_light" revision="lightos-1.0"/>
 
   <include name="snippets/lineage.xml" />
 
