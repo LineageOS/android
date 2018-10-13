@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Removed AOSP Repos -->
+
+  <!-- Device tree Repos -->
+  <remove-project name="device/common" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/car" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/uml" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/sample" />
+
+  <!-- Package system Apps Repos -->
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <remove-project name="LineageOS/android_packages_apps_Calendar" />
+  <remove-project name="LineageOS/android_packages_apps_DeskClock" />
+  <remove-project name="LineageOS/android_packages_apps_Email" />
+  <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
+  <remove-project name="LineageOS/android_packages_apps_Gallery2" />
+  <!-- Replaced Launcher3 With Rootless pixel Luncher For Mods-->
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="/amirzaidi/Launcher3/" groups="pdk-fs" remote="github" revision="p" />
+  <remove-project name="LineageOS/android_packages_apps_Messaging" />
+  <remove-project name="LineageOS/android_packages_apps_Eleven" />
+  <remove-project name="LineageOS/android_packages_apps_AudioFX" />
+  <!-- May or May Not Stay ? -->
+  <!--<remove-project name="LineageOS/android_packages_apps_Recorder" />-->
+  <remove-project name="LineageOS/android_packages_apps_UnifiedEmail" />
+  <remove-project name="LineageOS/android_packages_apps_TV" />
+  <remove-project name="LineageOS/android_packages_apps_TvSettings" />
+  <remove-project name="LineageOS/android_packages_apps_Terminal" />
+  
+</manifest>
