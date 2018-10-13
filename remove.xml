@@ -48,7 +48,6 @@
   <!-- Can Be ommented out When Building For New Or Unsupported Device For Testing Perpos -->
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <remove-project name="LineageOS/android_packages_apps_Camera2" />
-  <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" />
   <!-- Audio Apps -->
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
   <remove-project name="LineageOS/android_packages_apps_AudioFX" />
