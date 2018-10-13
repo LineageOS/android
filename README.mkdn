@@ -1,12 +1,12 @@
 LightOS
 ===========
 This is a lighter version of LineageOS with none of the crap for tablets ATM & adds Rootless pixel Luncher for show.
----------------
+===========
 Thank @amirzaidi for the 
 [Rootless Launcher Repo](https://github.com/amirzaidi/Launcher3/)
----------------
+===========
 I may add remove or replace as needed. If you have any suggestion I'll be glade to add them if posable. This rom is not yet finished untilled i can get it ti build for my device successful all. Help is welcome and credit will be given if so.
----------------
+===========
 Getting Started
 ---------------
 
