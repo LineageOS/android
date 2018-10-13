@@ -4,8 +4,8 @@
 
   <!-- Device tree Repos -->
   <remove-project name="device/common" />
-  <remove-project name="LineageOS/android_device_generic_arm64" />
-  <remove-project name="LineageOS/android_device_generic_armv7-a-neon" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
   <remove-project name="LineageOS/android_device_generic_goldfish" />
   <remove-project name="LineageOS/android_device_generic_goldfish-opengl" />
   <remove-project name="LineageOS/android_device_generic_mini-emulator-armv7-a-neon" />
