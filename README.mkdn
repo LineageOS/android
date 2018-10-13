@@ -1,6 +1,8 @@
 LightOS
 ===========
-This is a lighter version of LineageOS with none of the crap for tablets
+This is a lighter version of LineageOS with none of the crap for tablets ATM & Rootless pixel Luncher for show
+Thank amirzaidi
+https://github.com/amirzaidi/Launcher3/
 Getting Started
 ---------------
 
