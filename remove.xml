@@ -6,6 +6,9 @@
   <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/goldfish" />
+  <remove-project name="device/generic/goldfish-opengl" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
   <remove-project name="device/generic/car" />
   <remove-project name="device/generic/common" />
   <remove-project name="device/generic/uml" />
