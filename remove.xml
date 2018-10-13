@@ -34,7 +34,7 @@
   <remove-project name="LineageOS/android_packages_apps_Email" />
   <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
-  <remove-project name="LineageOS/LineageOS/android_packages_apps_Dialer" />
+  <remove-project name="LineageOS/android_packages_apps_Dialer" />
   <!-- Replaced Launcher3 With Rootless pixel Luncher For Mods-->
   <remove-project name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Launcher3" name="/amirzaidi/Launcher3/" groups="pdk-fs" remote="github" revision="p" />
