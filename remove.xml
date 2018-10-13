@@ -4,14 +4,14 @@
 
   <!-- Device tree Repos -->
   <remove-project name="device/common" />
-  <remove-project name="device/generic/arm64" />
-  <remove-project name="device/generic/armv7-a-neon" />
-  <remove-project name="device/generic/goldfish" />
-  <remove-project name="device/generic/goldfish-opengl" />
-  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
-  <remove-project name="device/generic/car" />
-  <remove-project name="device/generic/common" />
-  <remove-project name="device/generic/uml" />
+  <remove-project name="LineageOS/android_device_generic_arm64" />
+  <remove-project name="LineageOS/android_device_generic_armv7-a-neon" />
+  <remove-project name="LineageOS/android_device_generic_goldfish" />
+  <remove-project name="LineageOS/android_device_generic_goldfish-opengl" />
+  <remove-project name="LineageOS/android_device_generic_mini-emulator-armv7-a-neon" />
+  <remove-project name="LineageOS/android_device_generic_car" />
+  <remove-project name="LineageOS/android_device_generic_common" />
+  <remove-project name="LineageOS/android_device_generic_uml" />
   <remove-project name="device/google/atv" />
   <remove-project name="device/google/contexthub" />
   <remove-project name="device/sample" />
@@ -48,5 +48,5 @@
   <!-- May or May Not Stay ? -->
   <remove-project name="LineageOS/android_packages_wallpapers_LivePicker" />
   <!-- Added My Own For Branding Perpous-->
-  <project path="vendor/light" name="BAProductions/android_vendor_light" revision="lightos-1.0"/>
+  <project path="vendor/light" name="BAProductions/android_vendor_light" revision="lightos-1.0" remote="github"/>
 </manifest>
