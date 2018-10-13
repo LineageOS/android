@@ -39,7 +39,7 @@
   <!-- Launchers -->
   <!-- Replaced Launcher3 With Rootless pixel Luncher For Mods-->
   <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="amirzaidi/Launcher3/" groups="pdk-fs" remote="github" revision="p" />
+  <project path="packages/apps/Launcher3" name="amirzaidi/Launcher3/" groups="pdk-fs" revision="p" />
   <!-- Phone -->
   <!-- Can Be ommented out When Building For New Or Unsupported Phone For Testing Prepos -->
   <remove-project name="LineageOS/android_packages_apps_Messaging" />
@@ -71,5 +71,5 @@
   <!-- May or May Not Stay ? Thats Up To You-->
   <remove-project name="LineageOS/android_packages_wallpapers_LivePicker" />
   <!-- Added My Own For Branding Perpous-->
-  <project path="vendor/light" name="BAProductions/android_vendor_light" revision="lightos-1.0" remote="github"/>
+  <project path="vendor/light" name="BAProductions/android_vendor_light" revision="lightos-1.0" />
 </manifest>
