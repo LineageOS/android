@@ -13,6 +13,7 @@
   <remove-project name="device/generic/common" />
   <remove-project name="device/generic/uml" />
   <remove-project name="device/google/atv" />
+  <remove-project name="device/google/contexthub" />
   <remove-project name="device/sample" />
 
   <!-- Package system Apps Repos -->
