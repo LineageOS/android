@@ -20,9 +20,11 @@
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
   <remove-project name="LineageOS/android_packages_apps_Calendar" />
   <remove-project name="LineageOS/android_packages_apps_DeskClock" />
+  <remove-project name="LineageOS/android_packages_apps_LockClock" />
   <remove-project name="LineageOS/android_packages_apps_Email" />
   <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
+  <remove-project name="LineageOS/LineageOS/android_packages_apps_Dialer" />
   <!-- Replaced Launcher3 With Rootless pixel Luncher For Mods-->
   <remove-project name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Launcher3" name="/amirzaidi/Launcher3/" groups="pdk-fs" remote="github" revision="p" />
@@ -30,10 +32,21 @@
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
   <remove-project name="LineageOS/android_packages_apps_AudioFX" />
   <!-- May or May Not Stay ? -->
-  <!--<remove-project name="LineageOS/android_packages_apps_Recorder" />-->
+  <!-- <remove-project name="LineageOS/android_packages_apps_Recorder" /> -->
   <remove-project name="LineageOS/android_packages_apps_UnifiedEmail" />
   <remove-project name="LineageOS/android_packages_apps_TV" />
   <remove-project name="LineageOS/android_packages_apps_TvSettings" />
-  <remove-project name="LineageOS/android_packages_apps_Terminal" />
-  
+  <!-- May or May Not Stay ? -->
+  <!-- <remove-project name="LineageOS/android_packages_apps_Recorder" /> -->
+  <!-- Replaced LineageOS android_packages_apps_WallpaperPicker With My Repo For Branding Perpous -->
+  <remove-project name="LineageOS/android_packages_apps_WallpaperPicker" />
+  <project path="packages/apps/WallpaperPicker" name="BAProductions/android_packages_apps_WallpaperPicker" groups="pdk-fs" />
+  <!-- Removing Screensaver -->
+  <remove-project name="LineageOS/android_packages_screensavers_Basic" />
+  <remove-project name="LineageOS/android_packages_screensavers_PhotoTable" />
+  <remove-project name="LineageOS/android_packages_screensavers_WebView" />
+  <!-- May or May Not Stay ? -->
+  <remove-project name="LineageOS/android_packages_wallpapers_LivePicker" />
+  <!-- Added My Own For Branding Perpous-->
+  <project path="vendor/light" name="BAProductions/android_vendor_light" revision="lightos-1.0"/>
 </manifest>
