@@ -39,9 +39,9 @@
   <!-- android_packages_apps_Jelly For Testing Wifi -->
   <!--<remove-project name="LineageOS/android_packages_apps_Jelly" /> -->
   <!-- Launchers -->
-  <!-- Replaced Launcher3 With Rootless pixel Luncher For Mods-->
+  <!-- Replaced Launcher3 With Rootless pixel Luncher For Mods -->
   <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="amirzaidi/Launcher3/" groups="pdk-fs" revision="p" remote="GitHubMods" />
+  <project path="packages/apps/Launcher3" name="amirzaidi/Launcher3" groups="pdk-fs" revision="p" remote="GitHubMods" />
   <!-- Phone -->
   <!-- Can Be ommented out When Building For New Or Unsupported Phone For Testing Prepos -->
   <remove-project name="LineageOS/android_packages_apps_Messaging" />
