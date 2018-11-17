@@ -102,7 +102,7 @@
   <project path="external/libvorbis" name="LineageOS/android_external_libvorbis" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libvpx" name="LineageOS/android_external_libvpx" groups="pdk" />
   <project path="external/libvterm" name="LineageOS/android_external_libvterm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libxml2" name="LineageOS/android_external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
+  <project path="external/libxml2" name="LineageOS/android_external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" revision="126c3993d2ad55db2abfe80e3d671bf584e7b13b" />
   <project path="external/libxslt" name="LineageOS/android_external_libxslt" />
   <project path="external/linux-tools-perf" name="LineageOS/android_external_linux-tools-perf" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />
