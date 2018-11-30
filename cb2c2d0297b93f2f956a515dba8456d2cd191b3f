@@ -46,6 +46,30 @@
       "revId": "cb2c2d0297b93f2f956a515dba8456d2cd191b3f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5f99337d_808e8f4b",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 470,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2018-11-30T16:55:07Z",
+      "side": 1,
+      "message": "And more importantly, a single guard for all HALs for the SOC. CMing it in ipacfg-mgr seems somewhat arbitrary, but they had to put it somewhere.",
+      "parentUuid": "254c5081_8fbf48ad",
+      "range": {
+        "startLine": 469,
+        "startChar": 0,
+        "endLine": 470,
+        "endChar": 74
+      },
+      "revId": "cb2c2d0297b93f2f956a515dba8456d2cd191b3f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
