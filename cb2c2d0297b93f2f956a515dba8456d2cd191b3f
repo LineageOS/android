@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "87a6e00a_b853b077",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 470,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-11-30T16:44:31Z",
+      "side": 1,
+      "message": "I thought this is no longer needed, build scans for .bp recursively now",
+      "range": {
+        "startLine": 469,
+        "startChar": 0,
+        "endLine": 470,
+        "endChar": 74
+      },
+      "revId": "cb2c2d0297b93f2f956a515dba8456d2cd191b3f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
