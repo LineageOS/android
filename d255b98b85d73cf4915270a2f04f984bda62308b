@@ -68,6 +68,23 @@
       "revId": "d255b98b85d73cf4915270a2f04f984bda62308b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "72950695_840062a7",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2018-12-13T16:44:53Z",
+      "side": 1,
+      "message": "won\u0027t this break build as we load telephony-next from there?",
+      "revId": "d255b98b85d73cf4915270a2f04f984bda62308b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
