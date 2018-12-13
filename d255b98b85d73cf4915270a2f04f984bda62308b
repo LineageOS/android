@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "cf718299_91a2cb0c",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-12-13T14:16:13Z",
+      "side": 1,
+      "message": "These are used for qcom only AFAIK",
+      "range": {
+        "startLine": 63,
+        "startChar": 0,
+        "endLine": 66,
+        "endChar": 77
+      },
+      "revId": "d255b98b85d73cf4915270a2f04f984bda62308b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "2ce7a607_b60fcd0d",
         "filename": "snippets/lineage.xml",
         "patchSetId": 3
