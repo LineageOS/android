@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "26e3516d_e2c8c553",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 461,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2018-12-16T03:33:01Z",
+      "side": 1,
+      "message": "This needs a pathmap to not interfere with devices which have included their own version of data-ipacfg-mgr. See https://review.lineageos.org/c/LineageOS/android_vendor_lineage/+/236374",
+      "range": {
+        "startLine": 461,
+        "startChar": 17,
+        "endLine": 461,
+        "endChar": 46
+      },
+      "revId": "cb2c2d0297b93f2f956a515dba8456d2cd191b3f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "87a6e00a_b853b077",
         "filename": "default.xml",
         "patchSetId": 2
