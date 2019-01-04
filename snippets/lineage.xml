@@ -32,8 +32,6 @@
   <!--<project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />-->
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
   <project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
-  <project path="lineage-sdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
-  <project path="lineage-sdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS/android_packages_apps_YahooWeatherProvider" />
   <project path="packages/apps/AppDrawer" name="LineageOS/android_packages_apps_AppDrawer" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
