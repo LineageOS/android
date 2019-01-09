@@ -323,7 +323,7 @@
   <project path="external/walt" name="platform/external/walt" groups="pdk" remote="aosp" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" remote="aosp" />
+  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/wycheproof" name="platform/external/wycheproof" groups="pdk" remote="aosp" />
   <project path="external/x264" name="platform/external/x264" groups="pdk" remote="aosp" />
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" remote="aosp" />
