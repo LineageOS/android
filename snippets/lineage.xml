@@ -23,6 +23,7 @@
   <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
   <project path="hardware/lineage/lineagehw" name="LineageOS/android_hardware_lineage_lineagehw" />
+  <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />
   <project path="hardware/lineage/telephony" name="LineageOS/android_hardware_lineage_telephony" />
   <!--<project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />-->
   <!--<project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />-->
