@@ -231,7 +231,6 @@
   <project path="external/objenesis" name="platform/external/objenesis" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/okhttp" name="LineageOS/android_external_okhttp" />
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/opencv" name="LineageOS/android_external_opencv" />
   <project path="external/openfst" name="LineageOS/android_external_openfst" />
   <project path="external/openssh" name="LineageOS/android_external_openssh" />
   <project path="external/openssl" name="LineageOS/android_external_openssl" groups="pdk" />
