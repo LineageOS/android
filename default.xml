@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-9.0.0_r34" />
+           revision="refs/tags/android-9.0.0_r35" />
 
   <default revision="refs/heads/lineage-16.0"
            remote="github"
