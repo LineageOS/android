@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0a6238c3_66f1e0a4",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2019-05-23T06:19:02Z",
+      "side": 1,
+      "message": "Shouldn\u0027t we use (or reserve) the remote \"gitlab\" for public fetch ?  ie https://gitlab.com\nAnd use something else for private.  privgitlab or something.",
+      "revId": "488f3f6fa3a63b3ce1d9ae2481e71aaf7644623d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
