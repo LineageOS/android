@@ -129,6 +129,7 @@
   <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="LineageOS/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="LineageOS/android_external_spongycastle" groups="pdk" />
+  <project path="external/sqlite" name="LineageOS/android_external_sqlite" groups="pdk" revision="a4467e889297a4184561a572b9c8614b8b4a432e" />
   <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />
   <project path="external/strace" name="LineageOS/android_external_strace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tcpdump" name="LineageOS/android_external_tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
