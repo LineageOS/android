@@ -141,7 +141,6 @@
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/glide" name="platform/external/glide" groups="pdk" remote="aosp" />
   <project path="external/golang-protobuf" name="platform/external/golang-protobuf" groups="pdk" remote="aosp" />
-  <project path="external/google-api-services-storage" name="platform/external/google-api-services-storage" groups="pdk" remote="aosp" />
   <project path="external/google-benchmark" name="platform/external/google-benchmark" groups="pdk" remote="aosp" />
   <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="pdk-fs" remote="aosp" />
   <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk" remote="aosp" />
@@ -283,45 +282,9 @@
   <project path="external/proguard" name="LineageOS/android_external_proguard" groups="pdk" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" />
   <project path="external/puffin" name="platform/external/puffin" groups="pdk" remote="aosp" />
-  <project path="external/python/appdirs" name="platform/external/python/appdirs" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/cachetools" name="platform/external/python/cachetools" groups="vts,pdk" remote="aosp" />
   <project path="external/python/cpython2" name="platform/external/python/cpython2" groups="pdk" remote="aosp" />
   <project path="external/python/cpython3" name="platform/external/python/cpython3" groups="pdk" remote="aosp" />
-  <project path="external/python/dill" name="platform/external/python/dill" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/enum" name="platform/external/python/enum" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/enum34" name="platform/external/python/enum34" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/future" name="platform/external/python/future" groups="vts,pdk" remote="aosp" />
   <project path="external/python/futures" name="platform/external/python/futures" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/gapic-google-cloud-pubsub-v1" name="platform/external/python/gapic-google-cloud-pubsub-v1" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/google-api-python-client" name="platform/external/python/google-api-python-client" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/google-auth" name="platform/external/python/google-auth" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/google-auth-httplib2" name="platform/external/python/google-auth-httplib2" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/google-cloud-core" name="platform/external/python/google-cloud-core" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/google-cloud-pubsub" name="platform/external/python/google-cloud-pubsub" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/google-gax" name="platform/external/python/google-gax" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/googleapis" name="platform/external/python/googleapis" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/grpc-google-iam-v1" name="platform/external/python/grpc-google-iam-v1" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/grpcio" name="platform/external/python/grpcio" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/httplib2" name="platform/external/python/httplib2" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/matplotlib" name="platform/external/python/matplotlib" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/numpy" name="platform/external/python/numpy" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/oauth2client" name="platform/external/python/oauth2client" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/olefile" name="platform/external/python/olefile" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/packaging" name="platform/external/python/packaging" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/parse" name="platform/external/python/parse" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/Pillow" name="platform/external/python/Pillow" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/ply" name="platform/external/python/ply" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/proto-google-cloud-pubsub-v1" name="platform/external/python/proto-google-cloud-pubsub-v1" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/protobuf" name="platform/external/python/protobuf" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/pyasn1" name="platform/external/python/pyasn1" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/pyasn1-modules" name="platform/external/python/pyasn1-modules" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/pyparsing" name="platform/external/python/pyparsing" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/requests" name="platform/external/python/requests" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/rsa" name="platform/external/python/rsa" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/scipy" name="platform/external/python/scipy" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/setuptools" name="platform/external/python/setuptools" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/six" name="platform/external/python/six" groups="vts,pdk" remote="aosp" />
-  <project path="external/python/uritemplates" name="platform/external/python/uritemplates" groups="vts,pdk" remote="aosp" />
   <project path="external/rappor" name="platform/external/rappor" groups="pdk" remote="aosp" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk" remote="aosp" />
   <project path="external/rmi4utils" name="platform/external/rmi4utils" groups="pdk" remote="aosp" />
@@ -598,7 +561,6 @@
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/maven_repo/bumptech" name="platform/prebuilts/maven_repo/bumptech" groups="pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/maven_repo/google-play-service-client-libraries-3p" name="platform/prebuilts/maven_repo/google-play-service-client-libraries-3p" clone-depth="1" remote="aosp" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/ktlint" name="platform/prebuilts/ktlint" clone-depth="1" remote="aosp" />
@@ -641,7 +603,6 @@
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
   <project path="test/framework" name="platform/test/framework" groups="vts,pdk" remote="aosp" />
   <project path="test/suite_harness" name="platform/test/suite_harness" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="test/vti/alert" name="platform/test/vti/alert" groups="vts,pdk" remote="aosp" />
   <project path="test/vti/dashboard" name="platform/test/vti/dashboard" groups="vts,pdk" remote="aosp" />
   <project path="test/vti/fuzz_test_serving" name="platform/test/vti/fuzz_test_serving" groups="vts,pdk" remote="aosp" />
   <project path="test/vti/test_serving" name="platform/test/vti/test_serving" groups="vts,pdk" remote="aosp" />
