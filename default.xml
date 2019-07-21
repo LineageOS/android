@@ -583,7 +583,7 @@
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="aosp" />
   <project path="system/hwservicemanager" name="platform/system/hwservicemanager" groups="pdk" remote="aosp" />
   <project path="system/iot/attestation" name="platform/system/iot/attestation" groups="pdk" remote="aosp" />
-  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="aosp" />
+  <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" />
   <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" remote="aosp" />
   <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" remote="aosp" />
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" remote="aosp" />
@@ -614,7 +614,7 @@
   <project path="test/vts-testcase/nbu" name="platform/test/vts-testcase/nbu" groups="vts,pdk" remote="aosp" />
   <project path="test/vts-testcase/performance" name="platform/test/vts-testcase/performance" groups="vts,pdk" remote="aosp" />
   <project path="test/vts-testcase/security" name="platform/test/vts-testcase/security" groups="vts,pdk" remote="aosp" />
-  <project path="test/vts-testcase/vndk" name="platform/test/vts-testcase/vndk" groups="vts,pdk" remote="aosp" />
+  <project path="test/vts-testcase/vndk" name="LineageOS/android_test_vts-testcase_vndk" groups="vts,pdk" />
   <project path="toolchain/benchmark" name="toolchain/benchmark" remote="aosp" />
   <project path="toolchain/binutils" name="toolchain/binutils" groups="pdk" remote="aosp" />
   <project path="toolchain/pgo-profiles" name="toolchain/pgo-profiles" groups="pdk" remote="aosp" />
