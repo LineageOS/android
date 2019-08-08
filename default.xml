@@ -523,7 +523,7 @@
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" remote="aosp" />
   <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
-  <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
+  <project path="system/gatekeeper" name="LineageOS/android_system_gatekeeper" groups="pdk" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="aosp" />
   <project path="system/hwservicemanager" name="LineageOS/android_system_hwservicemanager" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="aosp" />
