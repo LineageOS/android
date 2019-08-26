@@ -55,7 +55,7 @@
   <project path="external/brctl" name="LineageOS/android_external_brctl" />
   <project path="external/bzip2" name="LineageOS/android_external_bzip2" groups="pdk" />
   <project path="external/chromium-libpac" name="LineageOS/android_external_chromium-libpac" groups="pdk-fs" remote="github" />
-  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" clone-depth="1" />
+  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" clone-depth="1" revision="master" />
   <project path="external/cmsdk-api-coverage" name="LineageOS/android_external_cmsdk-api-coverage" />
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" />
   <project path="external/curl" name="LineageOS/android_external_curl" />
