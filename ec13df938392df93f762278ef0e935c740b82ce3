@@ -16,6 +16,24 @@
       "revId": "ec13df938392df93f762278ef0e935c740b82ce3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ed075a95_b1c4bcb8",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2019-09-04T19:24:58Z",
+      "side": 1,
+      "message": "Now fixed.",
+      "parentUuid": "c41e61f4_82dc1bc3",
+      "revId": "ec13df938392df93f762278ef0e935c740b82ce3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
