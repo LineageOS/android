@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c41e61f4_82dc1bc3",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2019-09-04T19:10:13Z",
+      "side": 1,
+      "message": "Just to put it in writing here - soong lineage-17.0 is on our gerrit but is not currently replicating to github.  Waiting on further investigation.",
+      "revId": "ec13df938392df93f762278ef0e935c740b82ce3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
