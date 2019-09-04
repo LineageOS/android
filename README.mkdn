@@ -9,7 +9,7 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
+repo init -u git://github.com/LineageOS/android.git -b lineage-17.0
 ```
 Then to sync up:
 ```
