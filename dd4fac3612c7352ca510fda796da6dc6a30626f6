@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e942b0d6_54cacdb5",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2019-09-06T02:35:48Z",
+      "side": 1,
+      "message": "lineage-17.0 branch went up today, btw",
+      "revId": "dd4fac3612c7352ca510fda796da6dc6a30626f6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
