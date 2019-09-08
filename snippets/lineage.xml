@@ -21,7 +21,7 @@
   <!--<project path="external/vim" name="LineageOS/android_external_vim" />-->
   <!--<project path="external/zip" name="LineageOS/android_external_zip" />-->
   <!--<project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" />-->
-  <!--<project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />-->
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
   <!--<project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />-->
   <!--<project path="hardware/lineage/telephony" name="LineageOS/android_hardware_lineage_telephony" />-->
   <!--<project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />-->
@@ -50,7 +50,8 @@
   <!--<project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />-->
   <!--<project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />-->
   <!--<project path="system/extras/su" name="LineageOS/android_system_extras_su" />-->
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" revision="refs/changes/73/256273/2" />
+  <project path="prebuilts/openssl" name="Rashed97/android_prebuilts_openssl" clone-depth="1" />
 
   <!-- CodeAurora additions -->
   <!--<project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />-->
@@ -64,7 +65,7 @@
   <!--<project path="hardware/qcom-caf/apq8084/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-apq8084" />-->
   <!--<project path="hardware/qcom-caf/apq8084/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-apq8084" />-->
   <!--<project path="hardware/qcom-caf/apq8084/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-apq8084" />-->
-  <!--<project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" revision="lineage-17.0-caf" />-->
+  <project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" revision="refs/changes/02/256302/1" />
   <!--<project path="hardware/qcom-caf/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" />-->
   <!--<project path="hardware/qcom-caf/msm8916/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8916" />-->
   <!--<project path="hardware/qcom-caf/msm8916/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-msm8916" />-->
@@ -81,13 +82,13 @@
   <!--<project path="hardware/qcom-caf/msm8994/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8994" />-->
   <!--<project path="hardware/qcom-caf/msm8994/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-msm8994" />-->
   <!--<project path="hardware/qcom-caf/msm8994/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-msm8994" />-->
-  <!--<project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8996" />-->
-  <!--<project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-msm8996" />-->
-  <!--<project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-msm8996" />-->
+  <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="refs/changes/96/256296/1" />
+  <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="refs/changes/10/256310/1" />
+  <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="refs/changes/78/256278/1" />
   <!--<project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8998" />-->
   <!--<project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-msm8998" />-->
   <!--<project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-msm8998" />-->
-  <!--<project path="hardware/qcom-caf/power" name="LineageOS/android_hardware_qcom_power" groups="qcom,pdk-qcom" />-->
+  <project path="hardware/qcom-caf/power" name="LineageOS/android_hardware_qcom_power" groups="qcom,pdk-qcom" revision="lineage-16.0" />
   <!--<project path="hardware/qcom-caf/sdm845/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-sdm845" />-->
   <!--<project path="hardware/qcom-caf/sdm845/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-sdm845" />-->
   <!--<project path="hardware/qcom-caf/sdm845/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-sdm845" />-->
@@ -96,8 +97,8 @@
   <!--<project path="hardware/qcom-caf/sdm8150/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-sm8150" />-->
   <!--<project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" />-->
   <!--<project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" />-->
-  <!--<project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-17.0-caf" />-->
-  <!--<project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="qcom,pdk-qcom" revision="lineage-17.0-caf" />-->
+  <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="refs/changes/86/256286/1" />
+  <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="qcom,pdk-qcom" revision="lineage-16.0-caf" />
   <!--<project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" />-->
   <!--<project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" />-->
   <!--<project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" />-->
@@ -106,11 +107,11 @@
   <!--<project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />-->
   <!--<project path="vendor/nxp/opensource/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" />-->
   <!--<project path="vendor/nxp/opensource/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" />-->
-  <!--<project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" />-->
+  <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" revision="lineage-16.0" />
   <!--<project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" />-->
-  <!--<project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" />-->
-  <!--<project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" />-->
-  <!--<project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" />-->
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" revision="refs/changes/84/256184/2" />
+  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" revision="lineage-16.0" />
+  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" revision="lineage-16.0" />
   <!--<project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" />-->
 
   <!-- Infrastructure -->
