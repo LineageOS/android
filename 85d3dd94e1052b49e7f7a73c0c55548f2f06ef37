@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dcea460e_28c4dd53",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-09-12T08:32:54Z",
+      "side": 1,
+      "message": "Why not use linkfile instead, just like Google does?",
+      "range": {
+        "startLine": 70,
+        "startChar": 5,
+        "endLine": 70,
+        "endChar": 14
+      },
+      "revId": "85d3dd94e1052b49e7f7a73c0c55548f2f06ef37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
