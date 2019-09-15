@@ -261,7 +261,7 @@
   <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="LineageOS/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="LineageOS/android_external_spongycastle" groups="pdk" />
-  <project path="external/sqlite" name="LineageOS/android_external_sqlite" groups="pdk" />
+  <project path="external/sqlite" name="timschumi/android_external_sqlite" groups="pdk" revision="cm-13.0" />
   <project path="external/square/dagger" name="LineageOS/android_external_square_dagger" />
   <project path="external/square/javawriter" name="LineageOS/android_external_square_javawriter" />
   <project path="external/srec" name="LineageOS/android_external_srec" />
