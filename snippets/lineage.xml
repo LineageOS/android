@@ -9,7 +9,7 @@
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" />
   <project path="external/htop" name="LineageOS/android_external_htop" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
-  <!--<project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" />-->
+  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" />
   <project path="external/nano" name="LineageOS/android_external_nano" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
   <project path="external/p7zip" name="LineageOS/android_external_p7zip" />
