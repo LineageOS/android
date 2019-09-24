@@ -54,9 +54,9 @@
   <!-- CodeAurora additions -->
   <!--<project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />-->
   <!--<project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy-legacy" groups="qcom,pdk-qcom" />-->
-  <!--<project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />-->
-  <!--<project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" />-->
-  <!--<project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" />-->
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" />
   <!--<project path="external/connectivity" name="LineageOS/android_external_connectivity" groups="qcom,pdk-qcom" />-->
   <!--<project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,pdk-qcom" />-->
   <!--<project path="external/powertop" name="LineageOS/android_external_powertop" />-->
