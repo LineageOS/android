@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c15f4d76_5f0ac5e9",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-09-25T10:24:20Z",
+      "side": 1,
+      "message": "If we could make use of an existing os_pickup.bp and place it in vendor/nxp/opensource/halimpl and vendor/nxp/opensource/hidlimpl, we could dismiss the need of https://review.lineageos.org/c/259401 and https://review.lineageos.org/c/259400",
+      "range": {
+        "startLine": 105,
+        "startChar": 0,
+        "endLine": 108,
+        "endChar": 145
+      },
+      "revId": "e8a9f121f55b2bed110c736a501d4cf2965a295e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
