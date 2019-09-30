@@ -635,7 +635,7 @@
   <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk" remote="aosp" />
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" />
   <project path="system/ucontainer" name="platform/system/ucontainer" groups="pdk" remote="aosp" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" remote="aosp" />
+  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
   <project path="test/framework" name="platform/test/framework" groups="vts,projectarch,pdk" remote="aosp" />
   <project path="test/mlts/benchmark" name="platform/test/mlts/benchmark" groups="pdk" remote="aosp" />
   <project path="test/mlts/models" name="platform/test/mlts/models" groups="pdk" remote="aosp" />
