@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dcd1f1d2_c89c330f",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2019-10-07T18:28:40Z",
+      "side": 1,
+      "message": "You missed this",
+      "range": {
+        "startLine": 75,
+        "startChar": 0,
+        "endLine": 75,
+        "endChar": 88
+      },
+      "revId": "f9b94fa8322afbc0740071dcac7c71d3c99d6421",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
