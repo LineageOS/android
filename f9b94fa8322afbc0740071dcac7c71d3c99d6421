@@ -22,6 +22,30 @@
       "revId": "f9b94fa8322afbc0740071dcac7c71d3c99d6421",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1447d1bd_fb9fece5",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2019-10-08T12:19:02Z",
+      "side": 1,
+      "message": "Are these even necessary? These HALs have been building fine without it for me. I also build msm8974 and AOSP HAL\u0027d devices just fine without this guard...",
+      "parentUuid": "dcd1f1d2_c89c330f",
+      "range": {
+        "startLine": 75,
+        "startChar": 0,
+        "endLine": 75,
+        "endChar": 88
+      },
+      "revId": "f9b94fa8322afbc0740071dcac7c71d3c99d6421",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
