@@ -286,7 +286,7 @@
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk" remote="aosp" />
   <project path="external/one-true-awk" name="platform/external/one-true-awk" groups="pdk" remote="aosp" />
   <project path="external/opencensus-java" name="platform/external/opencensus-java" groups="pdk,tradefed" remote="aosp" />
-  <project path="external/openssh" name="platform/external/openssh" groups="pdk" remote="aosp" />
+  <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" remote="aosp" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" remote="aosp" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" remote="aosp" />
