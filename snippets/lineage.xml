@@ -29,7 +29,7 @@
   <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" />
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
   <!--<project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />-->
-  <!--<project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />-->
+  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
   <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
   <project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer" />
@@ -144,7 +144,7 @@
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" />
-  <!--<project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" />-->
+  <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/power" name="LineageOS/android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" />
   <!--<project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" />-->
