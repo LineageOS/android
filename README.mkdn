@@ -20,7 +20,7 @@ Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instru
 
 Submitting patches
 ------------------
-Patches are always welcome! Please submit your patches via LineageOS Gerrit!
+Patches are always welcomed! Please submit your patches via LineageOS Gerrit!
 
 Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
 
