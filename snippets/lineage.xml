@@ -61,15 +61,15 @@
   <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,pdk-qcom" />
   <!--<project path="external/powertop" name="LineageOS/android_external_powertop" />-->
   <!--<project path="hardware/qcom-caf/apq8084/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-apq8084" />-->
-  <!--<project path="hardware/qcom-caf/apq8084/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-apq8084" />-->
-  <!--<project path="hardware/qcom-caf/apq8084/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-apq8084" />-->
+  <project path="hardware/qcom-caf/apq8084/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-apq8084" />
+  <project path="hardware/qcom-caf/apq8084/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-apq8084" />
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- for AOSP sdm845, we override os_pickup.mk -->
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <!-- add guards for CAF repositories -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" /> -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" /> -->
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
@@ -98,7 +98,17 @@
   <project path="hardware/qcom-caf/msm8960/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8960" />
   <project path="hardware/qcom-caf/msm8960/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-msm8960" />
   <project path="hardware/qcom-caf/msm8960/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-msm8960" />
-  <project path="hardware/qcom-caf/msm8974/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8974">
+	  <linkfile src="audiod" dest="hardware/qcom-caf/apq8084/audio/audiod" />
+	  <linkfile src="hal" dest="hardware/qcom-caf/apq8084/audio/hal" />
+	  <linkfile src="hal_mpq" dest="hardware/qcom-caf/apq8084/audio/hal_mpq" />
+	  <linkfile src="legacy" dest="hardware/qcom-caf/apq8084/audio/legacy" />
+	  <linkfile src="mm-audio" dest="hardware/qcom-caf/apq8084/audio/mm-audio" />
+	  <linkfile src="post_proc" dest="hardware/qcom-caf/apq8084/audio/post_proc" />
+	  <linkfile src="visualizer" dest="hardware/qcom-caf/apq8084/audio/visualizer" />
+	  <linkfile src="voice_processing" dest="hardware/qcom-caf/apq8084/audio/voice_processing" />
+	  <linkfile src="Android.mk" dest="hardware/qcom-caf/apq8084/audio/Android.mk" />
+  </project>
   <project path="hardware/qcom-caf/msm8974/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-msm8974" />
   <project path="hardware/qcom-caf/msm8974/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-msm8974" />
   <project path="hardware/qcom-caf/msm8994/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8994" />
