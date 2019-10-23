@@ -22,6 +22,30 @@
       "revId": "96e9677668b468450e87707ab8e74324e99dae80",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "870798c5_bd69a35a",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-10-23T06:44:52Z",
+      "side": 1,
+      "message": "IMO we should be doing like we always did: https://github.com/LineageOS/android/blob/lineage-16.0/snippets/lineage.xml#L65 + the symlink directly in the repo.",
+      "parentUuid": "6c3a6b52_10d985a3",
+      "range": {
+        "startLine": 102,
+        "startChar": 3,
+        "endLine": 110,
+        "endChar": 82
+      },
+      "revId": "96e9677668b468450e87707ab8e74324e99dae80",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
