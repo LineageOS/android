@@ -46,6 +46,30 @@
       "revId": "96e9677668b468450e87707ab8e74324e99dae80",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ad8675b6_17539773",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 18005
+      },
+      "writtenOn": "2019-10-23T11:37:23Z",
+      "side": 1,
+      "message": "Kevin: if that can be done inside the project path hardware/qcom-caf/msm8974/audio, i\u0027ll do it. I just need to test it first. \n\nBruno: I think this was the new way to do it. I don\u0027t have permission to create new branches on this hals, but if if someone else do that, i just symlink the new repo.",
+      "parentUuid": "870798c5_bd69a35a",
+      "range": {
+        "startLine": 102,
+        "startChar": 3,
+        "endLine": 110,
+        "endChar": 82
+      },
+      "revId": "96e9677668b468450e87707ab8e74324e99dae80",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
