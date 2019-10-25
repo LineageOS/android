@@ -38,7 +38,7 @@
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
   <!--<project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />-->
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
-  <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" revision="refs/heads/staging/lineage-17.0_merge-android-10.0.0_r9" />
   <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
   <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
   <!--<project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />-->
@@ -61,8 +61,9 @@
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-    <!-- for AOSP sdm845, we override os_pickup.mk -->
+    <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
     <!-- add guards for CAF repositories -->
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
