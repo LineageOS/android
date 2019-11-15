@@ -14,7 +14,7 @@
   <project path="external/nano" name="LineageOS/android_external_nano" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
   <project path="external/openssh" name="LineageOS/android_external_openssh" />
-  <project path="external/p7zip" name="LineageOS/android_external_p7zip" />
+  <project path="external/p7zip" name="LineageOS/android_external_p7zip" revision="lineage-17.1" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
   <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />
