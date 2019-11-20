@@ -27,7 +27,6 @@
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
   <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />-->
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
-  <!--<project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />-->
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
   <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
@@ -41,7 +40,7 @@
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
   <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
-  <!--<project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />-->
+  <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
   <!--<project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />-->
   <!--<project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />-->
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
