@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a4a5e92f_411fd6be",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2020-01-23T02:56:35Z",
+      "side": 1,
+      "message": "Alphabet...",
+      "revId": "9bd031c7c1554966658a0c2f985d5773ea16f284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
