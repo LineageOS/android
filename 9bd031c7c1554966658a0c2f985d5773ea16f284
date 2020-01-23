@@ -16,6 +16,24 @@
       "revId": "9bd031c7c1554966658a0c2f985d5773ea16f284",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9234aee4_794914b5",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2020-01-23T10:31:15Z",
+      "side": 1,
+      "message": "do you want us to do case sensitive or case insensitive sort?",
+      "parentUuid": "a4a5e92f_411fd6be",
+      "revId": "9bd031c7c1554966658a0c2f985d5773ea16f284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
