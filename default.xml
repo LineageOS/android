@@ -359,7 +359,7 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
   <project path="external/toolchain-utils" name="platform/external/toolchain-utils" remote="aosp" />
-  <project path="external/toybox" name="platform/external/toybox" groups="pdk" remote="aosp" />
+  <project path="external/toybox" name="LineageOS/android_external_toybox" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
   <project path="external/turbine" name="platform/external/turbine" groups="pdk" remote="aosp" />
   <project path="external/u-boot" name="platform/external/u-boot" groups="pdk" remote="aosp" />
