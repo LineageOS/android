@@ -8,9 +8,6 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <remote  name="gitlab"
-           fetch="ssh://git@gitlab.com" />
-
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
