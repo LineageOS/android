@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1786b4ec_d16d0d1b",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 668,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2020-03-03T16:29:14Z",
+      "side": 1,
+      "message": "Please stick to a specific sha1, master may change and break",
+      "range": {
+        "startLine": 668,
+        "startChar": 109,
+        "endLine": 668,
+        "endChar": 115
+      },
+      "revId": "77b7540d6a11c6d1fb68ed72d149cacae083a2af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
