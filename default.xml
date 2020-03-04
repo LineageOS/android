@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
+  <remote  name="lineage"
            fetch=".."
            review="review.lineageos.org" />
+
+  <remote  name="github"
+           fetch=".." />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -14,7 +17,7 @@
            revision="refs/tags/android-10.0.0_r27" />
 
   <default revision="refs/heads/lineage-17.1"
-           remote="github"
+           remote="lineage"
            sync-c="true"
            sync-j="4" />
 
