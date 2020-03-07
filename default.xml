@@ -245,7 +245,7 @@
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" remote="aosp" />
   <project path="external/pdfium" name="LineageOS/android_external_pdfium" groups="pdk" />
   <project path="external/piex" name="platform/external/piex" groups="pdk" remote="aosp" />
-  <project path="external/ppp" name="platform/external/ppp" groups="pdk" remote="aosp" />
+  <project path="external/ppp" name="LineageOS/android_external_ppp" groups="pdk" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" remote="aosp" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" />
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk" remote="aosp" />
