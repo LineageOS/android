@@ -9,8 +9,8 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the LIMITLESSOS trees, use a command like this:
 ```
-repo init -u git://github.com/LIMITLESS-IO/android -b Limitless(alfa/pong)
-```
+repo init -u git://github.com/LIMITLESS-IO/android -b limitless-alfa-pong
+
 Then to sync up:
 ```
 repo sync
