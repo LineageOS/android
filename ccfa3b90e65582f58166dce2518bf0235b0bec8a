@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bd974dd5_bd169046",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-04-26T19:32:36Z",
+      "side": 1,
+      "message": "derp?",
+      "range": {
+        "startLine": 9,
+        "startChar": 81,
+        "endLine": 9,
+        "endChar": 82
+      },
+      "revId": "ccfa3b90e65582f58166dce2518bf0235b0bec8a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
