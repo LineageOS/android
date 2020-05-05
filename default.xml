@@ -192,7 +192,7 @@
   <project path="external/libedit" name="platform/external/libedit" groups="pdk" remote="aosp" />
   <project path="external/libese" name="platform/external/libese" groups="pdk" remote="aosp" />
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" remote="aosp" />
-  <project path="external/libexif" name="platform/external/libexif" groups="pdk" remote="aosp" />
+  <project path="external/libexif" name="LineageOS/android_external_libexif" groups="pdk" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
   <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk" />
   <project path="external/libjpeg-turbo" name="LineageOS/android_external_libjpeg-turbo" groups="pdk" />
