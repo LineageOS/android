@@ -29,6 +29,7 @@
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
+  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" />
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
   <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
