@@ -47,7 +47,7 @@
   <!--<project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />-->
   <!--<project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />-->
   <!--<project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />-->
-  <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />-->
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   <!--<project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />-->
   <!--<project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />-->
   <!--<project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />-->
