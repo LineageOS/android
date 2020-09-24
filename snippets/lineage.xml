@@ -21,10 +21,10 @@
   <project path="external/vim" name="LineageOS/android_external_vim" />
   <project path="external/zip" name="LineageOS/android_external_zip" />
   <!--<project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" />-->
-  <!--<project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />-->
-  <!--<project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />-->
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
+  <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />
   <!--<project path="hardware/lineage/telephony" name="LineageOS/android_hardware_lineage_telephony" />-->
-  <!--<project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />-->
+  <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
   <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />-->
   <!--<project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />-->
   <!--<project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />-->
@@ -37,7 +37,7 @@
   <!--<project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />-->
   <!--<project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />-->
   <project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer" />
-  <!--<project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />-->
+  <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
   <!--<project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />-->
   <!--<project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />-->
   <!--<project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />-->
@@ -50,8 +50,8 @@
   <!--<project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />-->
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   <!--<project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />-->
-  <!--<project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />-->
-  <!--<project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />-->
+  <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
+  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />
@@ -131,7 +131,7 @@
   <!--<project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" />-->
   <!--<project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-18.0-caf" />-->
   <!--<project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" />-->
-  <!--<project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" />-->
+  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" />
   <!--<project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" />-->
   <!--<project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />-->
   <!--<project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" />-->
