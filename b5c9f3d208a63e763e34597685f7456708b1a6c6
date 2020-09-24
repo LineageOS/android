@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "446e6dc2_32b8ab65",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2020-09-24T17:57:10Z",
+      "side": 1,
+      "message": "You need to remove the aosp symlinks for these",
+      "range": {
+        "startLine": 75,
+        "startChar": 0,
+        "endLine": 76,
+        "endChar": 74
+      },
+      "revId": "b5c9f3d208a63e763e34597685f7456708b1a6c6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
