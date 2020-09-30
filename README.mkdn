@@ -1,4 +1,4 @@
-LineageOS
+LineageOS A better and Optimized Operating System to improv performance
 ===========
 
 Getting started
