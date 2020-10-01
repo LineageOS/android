@@ -1,4 +1,4 @@
-LineageOS
+LineageOS - an unbeatable OS
 ===========
 
 Getting started
