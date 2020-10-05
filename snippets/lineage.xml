@@ -26,12 +26,12 @@
   <!--<project path="hardware/lineage/telephony" name="LineageOS/android_hardware_lineage_telephony" />-->
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
   <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />-->
-  <!--<project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />-->
+  <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
   <!--<project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />-->
   <!--<project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />-->
   <!--<project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" />-->
   <!--<project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" />-->
-  <!--<project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />-->
+  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
   <!--<project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />-->
   <!--<project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />-->
   <!--<project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />-->
@@ -56,7 +56,7 @@
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />
   <!--<project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-18.0-legacy" />-->
-  <!--<project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-18.0-legacy-um" />-->
+  <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-18.0-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" />
   <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />
