@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e324a20e_ac97a64c",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 13
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2020-10-16T22:48:07Z",
+      "side": 1,
+      "message": "As noted in patchset 6, you need to remove the AOSP symlinks for these from default.xml, however AOSP has some more complicated logic in their os_pickup now",
+      "range": {
+        "startLine": 67,
+        "startChar": 1,
+        "endLine": 69,
+        "endChar": 74
+      },
+      "revId": "c4e171bd671810c74d3df1d7ddc1cf88caa95031",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
