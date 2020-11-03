@@ -62,7 +62,7 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" remote="aosp" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="external/ARMComputeLibrary" name="platform/external/ARMComputeLibrary" groups="pdk" remote="aosp" />
-  <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
+  <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" />
   <project path="external/adeb" name="platform/external/adeb" groups="pdk" remote="aosp" />
   <project path="external/adhd" name="platform/external/adhd" groups="pdk" remote="aosp" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault,pdk-fs" remote="aosp" />
@@ -213,7 +213,7 @@
   <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="aosp" />
   <project path="external/libese" name="platform/external/libese" groups="pdk" remote="aosp" />
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" remote="aosp" />
-  <project path="external/libexif" name="platform/external/libexif" groups="pdk" remote="aosp" />
+  <project path="external/libexif" name="LineageOS/android_external_libexif" groups="pdk" />
   <project path="external/libffi" name="platform/external/libffi" groups="pdk" remote="aosp" />
   <project path="external/libgav1" name="platform/external/libgav1" groups="pdk" remote="aosp" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
@@ -630,7 +630,7 @@
   <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" remote="aosp" />
   <project path="system/media" name="platform/system/media" groups="pdk" remote="aosp" />
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
-  <project path="system/nfc" name="platform/system/nfc" groups="pdk" remote="aosp" />
+  <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" remote="aosp" />
   <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" />
   <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" groups="pdk" />
