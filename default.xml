@@ -174,7 +174,7 @@
   <project path="external/google-fruit" name="platform/external/google-fruit" groups="pdk" remote="aosp" />
   <project path="external/google-styleguide" name="platform/external/google-styleguide" groups="pdk" remote="aosp" />
   <project path="external/googletest" name="platform/external/googletest" groups="pdk" remote="aosp" />
-  <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk" remote="aosp" />
+  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" />
   <project path="external/grpc-grpc" name="platform/external/grpc-grpc" groups="pdk,tradefed" remote="aosp" />
   <project path="external/grpc-grpc-java" name="platform/external/grpc-grpc-java" groups="pdk,tradefed" remote="aosp" />
   <project path="external/guava" name="platform/external/guava" groups="pdk" remote="aosp" />
