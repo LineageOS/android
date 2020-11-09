@@ -25,6 +25,7 @@
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
+  <project path="packages/apps/ElmyraService" name="LineageOS/android_packages_apps_ElmyraService" />
   <!--<project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" />-->
   <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" />
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
