@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f930ed2d_d5c74ebd",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-11-11T17:12:29Z",
+      "side": 1,
+      "message": "This.",
+      "range": {
+        "startLine": 84,
+        "startChar": 1,
+        "endLine": 85,
+        "endChar": 85
+      },
+      "revId": "82d9f7dd3f89d763b0d47f11ad9d26878b7b53b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
