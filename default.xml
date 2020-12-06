@@ -387,7 +387,7 @@
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk" remote="aosp" />
   <project path="external/tensorflow" name="platform/external/tensorflow" groups="pdk" remote="aosp" />
   <project path="external/testng" name="platform/external/testng" groups="pdk" remote="aosp" />
-  <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="aosp" />
+  <project path="external/tinyalsa" name="LineageOS/android_external_tinyalsa" groups="pdk" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
