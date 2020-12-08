@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-11.0.0_r17" />
+           revision="refs/tags/android-11.0.0_r19" />
 
   <default revision="refs/heads/lineage-18.0"
            remote="github"
@@ -302,7 +302,7 @@
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk" remote="aosp" />
   <project path="external/one-true-awk" name="platform/external/one-true-awk" groups="pdk" remote="aosp" />
   <project path="external/opencensus-java" name="platform/external/opencensus-java" groups="pdk,tradefed" remote="aosp" />
-  <project path="external/OpenCL-CTS" name="platform/external/OpenCL-CTS" groups="pdk" remote="aosp" />
+  <project path="external/OpenCL-CTS" name="platform/external/OpenCL-CTS" remote="aosp" />
   <project path="external/OpenCSD" name="platform/external/OpenCSD" groups="pdk" remote="aosp" />
   <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" />
   <project path="external/oss-fuzz" name="platform/external/oss-fuzz" groups="pdk" remote="aosp" />
@@ -483,7 +483,7 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk-qcom" remote="aosp" />
   <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk-qcom" remote="aosp" />
-  <project path="hardware/qcom/neuralnetworks/hvxservice" name="platform/hardware/qcom/neuralnetworks/hvxservice" groups="wahoo" remote="aosp" />
+  <project path="hardware/qcom/neuralnetworks/hvxservice" name="platform/hardware/qcom/neuralnetworks/hvxservice" groups="wahoo" remote="aosp" revision="refs/tags/android-11.0.0_r25" />
   <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="generic_fs,qcom_sdm845" remote="aosp" />
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="generic_fs,vendor,qcom_sdm845" remote="aosp" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
@@ -498,6 +498,12 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7150/Android.bp" />
   </project>
+  <project path="hardware/qcom/sm7250/display" name="platform/hardware/qcom/sm7250/display" groups="qcom_sm7250" remote="aosp" />
+  <project path="hardware/qcom/sm7250/gps" name="platform/hardware/qcom/sm7250/gps" groups="qcom_sm7250" remote="aosp" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7250/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp" />
+  </project>
+  <project path="hardware/qcom/sm7250/media" name="platform/hardware/qcom/sm7250/media" groups="qcom_sm7250" remote="aosp" />
   <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" groups="qcom_sm8150" remote="aosp" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
@@ -516,7 +522,6 @@
   <project path="hardware/st/nfc" name="platform/hardware/st/nfc" groups="pdk" remote="aosp" />
   <project path="hardware/st/secure_element" name="platform/hardware/st/secure_element" groups="pdk" remote="aosp" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" remote="aosp" />
-  <project path="kernel/build" name="kernel/build" remote="aosp" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="aosp" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" remote="aosp" />
   <project path="libcore" name="platform/libcore" groups="pdk" remote="aosp" />
