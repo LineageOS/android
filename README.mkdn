@@ -32,6 +32,6 @@ Buildbot
 
 All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
 
-You can view the current build statuses at [LineageOS Jenkins](https://jenkins.lineageos.org/).
+You can view the current build statuses at [LineageOS Buildkite](https://buildkite.com/lineageos).
 
 Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
