@@ -13,7 +13,7 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-11.0.0_r19" />
 
-  <default revision="refs/heads/lineage-18.0"
+  <default revision="refs/heads/lineage-18.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
@@ -676,7 +676,7 @@
   <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="system/apex" name="LineageOS/android_system_apex" groups="pdk" />
+  <project path="system/apex" name="platform/system/apex" groups="pdk" remote="aosp" />
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" />
   <project path="system/bpf" name="platform/system/bpf" groups="pdk" remote="aosp" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" remote="aosp" />
