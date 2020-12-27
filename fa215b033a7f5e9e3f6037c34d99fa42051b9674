@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2c02d74c_656bc8d7",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2020-12-27T16:38:53Z",
+      "side": 0,
+      "message": "for real?",
+      "revId": "fa215b033a7f5e9e3f6037c34d99fa42051b9674",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
