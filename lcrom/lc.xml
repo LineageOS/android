@@ -9,6 +9,7 @@
 <!-- Lcrom repos -->
  
 <project name="android_vendor_google_marlin" path="vendor/google/marlin" remote="lcrom" revision="master" />
+<project name="android_kernel_google_marlin" path="kernel/google/marlin" remote="lcrom" revision="lineage-17.1" />
 
 
 </manifest>
