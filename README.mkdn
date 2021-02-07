@@ -9,5 +9,5 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the LCROM trees, use a command like this:
 ```
-repo init -u 
+repo init -u https://github.com/LarryCasillas/android.git -b lineage-17.1
 
