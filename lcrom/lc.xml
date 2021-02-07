@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remote  name="lcrom"
+           fetch="https://github.com/LarryCasillas/"
+           review="github.com/LarryCasillas/"
+           revision=". ." />
+           
+           
+ <!--- lcrom --->
 
 
 
