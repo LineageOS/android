@@ -7,7 +7,8 @@
            revision=". ." />
            
            
- <!--- lcrom --->
+<!-- Lcrom repos -->
+ 
 <project name="android_vendor_google_marlin" path="vendor/google/marlin" remote="lcrom" />
 
 
