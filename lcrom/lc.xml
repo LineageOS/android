@@ -3,13 +3,12 @@
 
 <remote  name="lcrom"
            fetch="https://github.com/LarryCasillas/"
-           review="github.com/LarryCasillas/"
-           revision=". ." />
+           review="github.com/LarryCasillas/" />
            
            
 <!-- Lcrom repos -->
  
-<project name="android_vendor_google_marlin" path="vendor/google/marlin" remote="lcrom" />
+<project name="android_vendor_google_marlin" path="vendor/google/marlin" remote="lcrom" revision="master" />
 
 
 </manifest>
