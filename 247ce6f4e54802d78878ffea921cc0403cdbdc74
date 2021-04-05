@@ -22,6 +22,30 @@
       "revId": "247ce6f4e54802d78878ffea921cc0403cdbdc74",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "daf58614_968dcef8",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2021-04-05T02:50:30Z",
+      "side": 1,
+      "message": "I chose to indent an extra set, but I can undo it.",
+      "parentUuid": "b2da422f_7f23d4f5",
+      "range": {
+        "startLine": 155,
+        "startChar": 2,
+        "endLine": 155,
+        "endChar": 4
+      },
+      "revId": "247ce6f4e54802d78878ffea921cc0403cdbdc74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
