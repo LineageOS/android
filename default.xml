@@ -322,7 +322,7 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/net/ims" name="LineageOS/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/net/voip" name="LineageOS/android_frameworks_opt_net_voip" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/setupwizard" name="LineageOS/android_frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" />
