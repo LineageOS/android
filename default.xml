@@ -340,7 +340,7 @@
   <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" remote="aosp" />
   <project path="external/spirv-llvm" name="platform/external/spirv-llvm" groups="pdk" remote="aosp" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" remote="aosp" />
+  <project path="external/sqlite" name="LineageOS/android_external_sqlite" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
   <project path="external/strace" name="platform/external/strace" groups="pdk" remote="aosp" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk" remote="aosp" />
@@ -623,7 +623,7 @@
   <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" />
   <project path="system/libfmq" name="LineageOS/android_system_libfmq" groups="pdk" />
   <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" remote="aosp" />
-  <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" remote="aosp" />
+  <project path="system/libhwbinder" name="LineageOS/android_system_libhwbinder" groups="pdk" />
   <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" remote="aosp" />
   <project path="system/libufdt" name="LineageOS/android_system_libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" remote="aosp" />
