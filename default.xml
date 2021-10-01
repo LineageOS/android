@@ -591,7 +591,7 @@
   <project path="packages/modules/CaptivePortalLogin" name="LineageOS/android_packages_modules_CaptivePortalLogin" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/CellBroadcastService" name="platform/packages/modules/CellBroadcastService" groups="pdk" remote="aosp" />
   <project path="packages/modules/Cronet" name="platform/packages/modules/Cronet" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="packages/modules/DnsResolver" name="LineageOS/android_packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/ExtServices" name="platform/packages/modules/ExtServices" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/ModuleMetadata" name="platform/packages/modules/ModuleMetadata" groups="pdk" remote="aosp" />
