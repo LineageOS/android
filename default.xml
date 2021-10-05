@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-11.0.0_r43" />
+           revision="refs/tags/android-11.0.0_r46" />
 
   <default revision="refs/heads/lineage-18.1"
            remote="github"
@@ -711,7 +711,7 @@
   <project path="system/memory/libmemunreachable" name="platform/system/memory/libmemunreachable" groups="pdk" remote="aosp" />
   <project path="system/memory/lmkd" name="platform/system/memory/lmkd" groups="pdk" remote="aosp" />
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
-  <project path="system/nfc" name="platform/system/nfc" groups="pdk" remote="aosp" />
+  <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" remote="aosp" />
   <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" />
   <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" groups="pdk" />
