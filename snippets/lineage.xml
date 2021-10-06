@@ -46,9 +46,9 @@
   <!--<project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />-->
   <!--<project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />-->
   <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />-->
-  <!--<project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" />-->
+  <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" />
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
-  <!--<project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" />-->
+  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" />
   <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 
   <!-- CodeAurora additions -->
