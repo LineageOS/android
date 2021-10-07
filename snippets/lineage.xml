@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project path="android" name="LineageOS/android" />
+  <project path="android" name="LineageOS/android" revision="refs/changes/97/317297/1" />
   <!--<project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />-->
   <!--<project path="device/lineage/car" name="LineageOS/android_device_lineage_car" />-->
   <!--<project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />-->
@@ -25,7 +25,7 @@
   <!--<project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />-->
   <!--<project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />-->
   <!--<project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />-->
-  <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
+  <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" revision="refs/changes/92/317292/1" />
   <!--<project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" />-->
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
   <!--<project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />-->
