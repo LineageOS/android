@@ -44,7 +44,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
-  <project path="bionic" name="platform/bionic" groups="pdk" remote="aosp" />
+  <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="aosp" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" remote="aosp" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" remote="aosp" />
@@ -604,7 +604,7 @@
   <project path="external/timezone-boundary-builder" name="platform/external/timezone-boundary-builder" groups="pdk" clone-depth="2" remote="aosp" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="aosp" />
   <project path="external/tinyalsa_new" name="platform/external/tinyalsa_new" groups="pdk" remote="aosp" />
-  <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" remote="aosp" />
+  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
   <project path="external/toolchain-utils" name="platform/external/toolchain-utils" remote="aosp" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" remote="aosp" />
