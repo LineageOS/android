@@ -766,7 +766,6 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" />
   <project path="packages/apps/Car/Calendar" name="platform/packages/apps/Car/Calendar" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/Cluster" name="platform/packages/apps/Car/Cluster" groups="pdk-fs" remote="aosp" />
