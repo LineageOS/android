@@ -260,7 +260,7 @@
   <project path="external/libchromeos-rs" name="platform/external/libchromeos-rs" groups="pdk" remote="aosp" />
   <project path="external/libcppbor" name="platform/external/libcppbor" groups="pdk" remote="aosp" />
   <project path="external/libcups" name="platform/external/libcups" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
+  <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
   <project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" remote="aosp" />
   <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="aosp" />
