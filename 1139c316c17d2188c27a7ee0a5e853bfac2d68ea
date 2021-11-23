@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "48e07258_f797616a",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 787,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2021-11-23T17:37:12Z",
+      "side": 1,
+      "message": "This is incorrect...",
+      "range": {
+        "startLine": 787,
+        "startChar": 51,
+        "endLine": 787,
+        "endChar": 86
+      },
+      "revId": "1139c316c17d2188c27a7ee0a5e853bfac2d68ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
