@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "63cd5390_e51c5ab6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29147
+      },
+      "writtenOn": "2021-11-24T09:10:50Z",
+      "side": 1,
+      "message": "Thanks for spotting and fixing. Since the other commits are merged I tested with repo sync --no-manifest-update to be certain.",
+      "revId": "c0d16f5ead1ee0c473f99a40d59110331652ba1f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
