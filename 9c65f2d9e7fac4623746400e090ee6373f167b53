@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c40c364_f13c6f42",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 6360
+      },
+      "writtenOn": "2021-11-29T16:45:19Z",
+      "side": 1,
+      "message": "Typo?\ndevice/qcom/qssi/Androi.bp",
+      "revId": "9c65f2d9e7fac4623746400e090ee6373f167b53",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
