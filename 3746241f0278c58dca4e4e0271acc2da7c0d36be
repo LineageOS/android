@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a0c5a057_ef141f1e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 21
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28232
+      },
+      "writtenOn": "2021-11-30T04:32:24Z",
+      "side": 1,
+      "message": "Replaced packages/apps/Bluetooth with our fork.",
+      "revId": "3746241f0278c58dca4e4e0271acc2da7c0d36be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
