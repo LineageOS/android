@@ -52,6 +52,7 @@
   <!-- project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" /> -->
   <!-- project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" remote="aosp" /> -->
   <!-- project path="device/google/contexthub" name="device/google/contexthub" groups="device" remote="aosp" /> -->
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" groups="pdk" />
   <!-- project path="device/sample" name="device/sample" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" /> -->
   <!-- project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault" remote="aosp" /> -->
@@ -71,8 +72,9 @@
   <project path="external/boringssl" name="LineageOS/android_external_boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" remote="aosp" />
   <!-- project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" /> -->
+  <project path="external/bson" name="LineageOS/android_external_bson" />
   <project path="external/bzip2" name="LineageOS/android_external_bzip2" groups="pdk" />
-  <project path="external/busybox" name="LineageOS/android_external_busybox" revision="cm-14.1" />
+  <project path="external/busybox" name="LineageOS/android_external_busybox" groups="pdk" />
   <!-- project path="external/c-ares" name="platform/external/c-ares" remote="aosp" /> -->
   <!-- project path="external/caliper" name="platform/external/caliper" remote="aosp" /> -->
   <!-- project path="external/cblas" name="platform/external/cblas" groups="pdk" remote="aosp" /> -->
@@ -267,10 +269,12 @@
   <!-- project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/sonic" name="platform/external/sonic" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/sonivox" name="platform/external/sonivox" groups="pdk" remote="aosp" /> -->
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" groups="pdk" />
   <!-- project path="external/speex" name="platform/external/speex" groups="pdk" remote="aosp" /> -->
   <!-- project path="external/sqlite" name="platform/external/sqlite" groups="pdk" remote="aosp" /> -->
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
   <!-- project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
+  <project path="external/stlport" name="LineageOS/android_external_stlport" groups="pdk" />
   <!-- project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <!-- project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
@@ -422,6 +426,7 @@
   <!-- project path="packages/providers/TelephonyProvider" name="LineageOS/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- project path="packages/providers/TvProvider" name="LineageOS/android_packages_providers_TvProvider" groups="pdk-fs" /> -->
   <!-- project path="packages/providers/UserDictionaryProvider" name="LineageOS/android_packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" /> -->
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" groups="pdk" />
   <!-- project path="packages/screensavers/Basic" name="LineageOS/android_packages_screensavers_Basic" groups="pdk-fs" /> -->
   <!-- project path="packages/screensavers/PhotoTable" name="LineageOS/android_packages_screensavers_PhotoTable" groups="pdk-fs" /> -->
   <!-- project path="packages/screensavers/WebView" name="LineageOS/android_packages_screensavers_WebView" groups="pdk-fs" /> -->
