@@ -4,8 +4,15 @@
             fetch="https://github.com/TeamWin"
             review="https://gerrit.twrp.me" />
 
+    <remote name="omnirom"
+            fetch="https://github.com/omnirom"
+            review="https://gerrit.omnirom.org" />
+
 <!-- TWRP lives in TeamWin repo -->
     <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-9.0" />
+
+<!-- TWRP busybox lives in omnirom repo -->
+    <project name="android_external_busybox" path="external/busybox" remote="omnirom" revision="android-7.1" />
 
 <!-- Include Magisk repo for resetprop support -->
     <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="android-7.1" />
