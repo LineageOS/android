@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="TeamWin"
+            fetch="https://github.com/TeamWin"
+            review="https://gerrit.twrp.me" />
+
+<!-- TWRP lives in TeamWin repo -->
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-9.0" />
+
+<!-- Include Magisk repo for resetprop support -->
+    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="android-7.1" />
+
+<!-- Include forked external unzip repo from CyanogenMod for toolbox/toybox support -->
+    <project path="external/unzip" name="android_external_unzip" remote="TeamWin" revision="cm-14.1" />
+
+<!-- Include external zip repo for zip support -->
+    <project path="external/zip" name="android_external_zip" remote="TeamWin" revision="android-7.1" />
+
+<!-- Include external repos for bash & nano -->
+    <project name="LineageOS/android_external_bash" path="external/bash" />
+    <project name="LineageOS/android_external_nano" path="external/nano" />
+    <project name="LineageOS/android_external_libncurses" path="external/libncurses" />
+</manifest>
