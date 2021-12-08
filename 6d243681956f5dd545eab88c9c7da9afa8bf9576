@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "550bb7c6_a288a7f1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2021-12-08T23:26:15Z",
+      "side": 1,
+      "message": "Rebase and submit?\n\nhttps://android.googlesource.com/platform/hardware/qcom/sdm845/media/+log/refs/tags/android-12.0.0_r12\n\n12 is ahead of 16, but it\u0027s just an empty merge commit.",
+      "revId": "6d243681956f5dd545eab88c9c7da9afa8bf9576",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
