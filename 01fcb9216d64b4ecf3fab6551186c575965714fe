@@ -16,6 +16,24 @@
       "message": "Didn\u0027t you forget to upload the change that bumps security string?\n\nAll good here, anyways.",
       "revId": "01fcb9216d64b4ecf3fab6551186c575965714fe",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2db5cc8c_b8c9c6c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2021-12-08T01:00:03Z",
+      "side": 1,
+      "message": "\u003e Didn\u0027t you forget to upload the change that bumps security string?\n\nNo, because the ASB isn\u0027t updated with linkage yet. By (personal) policy I don\u0027t upload that change until I can verify the full traceability against what is published.",
+      "parentUuid": "697f0e72_626f271a",
+      "revId": "01fcb9216d64b4ecf3fab6551186c575965714fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
