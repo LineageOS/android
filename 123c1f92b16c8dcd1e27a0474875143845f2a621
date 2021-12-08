@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0098520c_64b13b96",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2021-12-08T23:39:54Z",
+      "side": 1,
+      "message": "Needs some patches which are after this in the relation chain, since we forked those already and they were included in the merge.",
+      "revId": "123c1f92b16c8dcd1e27a0474875143845f2a621",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
