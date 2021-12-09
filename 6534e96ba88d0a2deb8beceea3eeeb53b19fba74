@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "580445ac_2ba8a979",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2021-12-09T21:47:22Z",
+      "side": 1,
+      "message": "Mike said we don\u0027t need the AOSP linkfile.",
+      "revId": "6534e96ba88d0a2deb8beceea3eeeb53b19fba74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
