@@ -9,7 +9,7 @@
             review="https://gerrit.omnirom.org" />
 
 <!-- TWRP lives in TeamWin repo -->
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-9.0" />
+    <project path="bootable/recovery-twrp" name="android_bootable_recovery" remote="TeamWin" revision="android-9.0" />
 
 <!-- TWRP busybox lives in omnirom repo -->
     <project name="android_external_busybox" path="external/busybox" remote="omnirom" revision="android-7.1" />
