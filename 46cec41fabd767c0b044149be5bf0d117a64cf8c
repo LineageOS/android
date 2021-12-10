@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f497528_9d92c5e9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 23573
+      },
+      "writtenOn": "2021-12-10T08:17:49Z",
+      "side": 1,
+      "message": "Build fails at the start after including vibrator. \n\nLogs:\nerror: vendor/qcom/opensource/vibrator/aidl/Android.bp:4:1: \"vendor.qti.hardware.vibrator.impl\" depends on undefined module \"libsoc_helper\"\nerror: vendor/qcom/opensource/vibrator/aidl/Android.bp:4:1: \"vendor.qti.hardware.vibrator.impl\" depends on undefined module \"android.hardware.vibrator-ndk_platform\"\nerror: vendor/qcom/opensource/vibrator/aidl/Android.bp:45:1: \"vendor.qti.hardware.vibrator.offload.impl\" depends on undefined module \"qti_kernel_headers\"\nModule \"vendor.qti.hardware.vibrator.offload.impl\" is defined in namespace \".\" which can read these 1 namespaces: [\".\"]\nModule \"qti_kernel_headers\" can be found in these namespaces: [\"hardware/google/pixel\"]\nerror: vendor/qcom/opensource/vibrator/aidl/Android.bp:45:1: \"vendor.qti.hardware.vibrator.offload.impl\" depends on undefined module \"libsoc_helper\"\nerror: vendor/qcom/opensource/vibrator/aidl/Android.bp:45:1: \"vendor.qti.hardware.vibrator.offload.impl\" depends on undefined module \"android.hardware.vibrator-ndk_platform\"\n",
+      "revId": "46cec41fabd767c0b044149be5bf0d117a64cf8c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
