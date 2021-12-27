@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "99effc07_8df2b15c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 29
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2021-12-27T13:53:12Z",
+      "side": 1,
+      "message": "Can you consider system/logging as well? It\u0027s needed for magisk adb root patch.",
+      "revId": "0789069d54b2352fe30f41010b8f7f09c6cfc4f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
