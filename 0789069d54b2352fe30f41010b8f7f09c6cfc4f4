@@ -16,6 +16,24 @@
       "message": "Can you consider system/logging as well? It\u0027s needed for magisk adb root patch.",
       "revId": "0789069d54b2352fe30f41010b8f7f09c6cfc4f4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb963948_204dc5f1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 29
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2021-12-27T14:03:07Z",
+      "side": 1,
+      "message": "Do it here: https://review.lineageos.org/c/LineageOS/android/+/320752",
+      "parentUuid": "99effc07_8df2b15c",
+      "revId": "0789069d54b2352fe30f41010b8f7f09c6cfc4f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
