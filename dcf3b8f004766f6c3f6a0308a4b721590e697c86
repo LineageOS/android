@@ -16,6 +16,24 @@
       "message": "Hold until there is an 8996 device that runs 19 without being horribly broken",
       "revId": "dcf3b8f004766f6c3f6a0308a4b721590e697c86",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "baf01e70_1572f41e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-01-05T22:04:09Z",
+      "side": 1,
+      "message": "Don\u0027t hold the HALs for BPF - if it boots and functions, I\u0027d call it good.",
+      "parentUuid": "a8140dda_4db2c34e",
+      "revId": "dcf3b8f004766f6c3f6a0308a4b721590e697c86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
