@@ -9,7 +9,11 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
+<<<<<<< HEAD   (8b1cd7 Track our own forks for 2021-12 ASB patching)
 repo init -u git://github.com/LineageOS/android.git -b lineage-17.1
+=======
+repo init -u https://github.com/LineageOS/android.git -b lineage-18.1
+>>>>>>> CHANGE (532ec4 Update readme to use HTTPS instead of git protocol)
 ```
 Then to sync up:
 ```
