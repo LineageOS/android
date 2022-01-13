@@ -16,6 +16,24 @@
       "message": "is it possible to create a lineage-19.0 branch. Devices like hima, m8 and m7 will need this, see:\nhttps://github.com/Claymore1297/android_hardware_ril/commits/lineage-19.0",
       "revId": "c58424e371e62537ce1dc978e2e2e22708f16b78",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "400f99d1_5ec2c3d2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-01-13T14:23:20Z",
+      "side": 1,
+      "message": "You can push the remaining changes when needed.",
+      "parentUuid": "1e91e571_a16520e7",
+      "revId": "c58424e371e62537ce1dc978e2e2e22708f16b78",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
