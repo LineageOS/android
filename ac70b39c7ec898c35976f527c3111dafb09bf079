@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2748416b_9d2932a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20162
+      },
+      "writtenOn": "2022-01-13T10:14:52Z",
+      "side": 1,
+      "message": "Seems fine on treble_*.",
+      "revId": "ac70b39c7ec898c35976f527c3111dafb09bf079",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
