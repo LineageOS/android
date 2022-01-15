@@ -96,8 +96,8 @@
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" groups="pdk" remote="aosp" />
   <project path="external/auto" name="platform/external/auto" groups="pdk" remote="aosp" />
   <project path="external/autotest" name="platform/external/autotest" groups="pdk-fs" remote="aosp" />
-  <project path="external/android-nn-driver" name="platform/external/android-nn-driver" groups="pdk-lassen" remote="aosp" />
-  <project path="external/armnn" name="platform/external/armnn" groups="pdk-lassen" remote="aosp" />
+  <project path="external/android-nn-driver" name="LineageOS/android_external_android-nn-driver" groups="pdk-lassen" />
+  <project path="external/armnn" name="LineageOS/android_external_armnn" groups="pdk-lassen" />
   <project path="external/avb" name="platform/external/avb" groups="pdk" remote="aosp" />
   <project path="external/bazelbuild-rules_android" name="platform/external/bazelbuild-rules_android" groups="pdk" remote="aosp" />
   <project path="external/bc" name="platform/external/bc" groups="pdk" remote="aosp" />
