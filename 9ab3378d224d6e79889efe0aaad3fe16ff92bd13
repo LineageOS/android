@@ -16,6 +16,24 @@
       "message": "system/bt repo missed?",
       "revId": "9ab3378d224d6e79889efe0aaad3fe16ff92bd13",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3869206_10482f56",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2022-01-15T14:50:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "51edea84_4f5f8429",
+      "revId": "9ab3378d224d6e79889efe0aaad3fe16ff92bd13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
