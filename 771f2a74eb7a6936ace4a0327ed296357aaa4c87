@@ -16,6 +16,24 @@
       "message": "need to properly solve https://review.lineageos.org/c/LineageOS/android_device_qcom_sepolicy/+/320096 first",
       "revId": "771f2a74eb7a6936ace4a0327ed296357aaa4c87",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "54cb1cc8_065c3e91",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-01-24T12:52:51Z",
+      "side": 1,
+      "message": "Can be done later. Current HEAD of qcom/sepolicy and qcom/sepolicy_vndr builds out-of-the-box.",
+      "parentUuid": "2f9a706e_0e679eac",
+      "revId": "771f2a74eb7a6936ace4a0327ed296357aaa4c87",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
