@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7199f3c2_65f4206b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2022-01-25T17:17:01Z",
+      "side": 1,
+      "message": "Merge of https://review.lineageos.org/q/branch:lineage-19.0-caf-sm8350+status:open required before this.",
+      "revId": "c7f9a919daf0a20fa16f8c03b68dbcd808b59c5d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
