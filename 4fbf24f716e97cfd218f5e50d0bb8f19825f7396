@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a3df5f0_21291566",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-01-26T17:27:37Z",
+      "side": 1,
+      "message": "Verified on a QTI BT enabled device as well on a pure AOSP BT device, without regressions.",
+      "revId": "4fbf24f716e97cfd218f5e50d0bb8f19825f7396",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
