@@ -16,6 +16,24 @@
       "message": "Did you request branch creation? I don\u0027t see any open ticket.",
       "revId": "74b676a14366e8752fab8121959745cab3628bf1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a8ef75df_77814974",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28232
+      },
+      "writtenOn": "2022-01-31T04:12:19Z",
+      "side": 1,
+      "message": "Done now. Issue 797.\n\nThanks.",
+      "parentUuid": "63232d08_9a268925",
+      "revId": "74b676a14366e8752fab8121959745cab3628bf1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
