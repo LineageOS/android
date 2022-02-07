@@ -85,6 +85,24 @@
       "message": "Currently adds some namespace conflicts",
       "revId": "dcf3b8f004766f6c3f6a0308a4b721590e697c86",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3812df9_fa0c4fe2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-02-07T18:26:01Z",
+      "side": 1,
+      "message": "What is conflicting?",
+      "parentUuid": "ecdc6c58_13bf7b1a",
+      "revId": "dcf3b8f004766f6c3f6a0308a4b721590e697c86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
