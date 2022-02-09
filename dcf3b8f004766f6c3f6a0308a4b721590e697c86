@@ -120,6 +120,23 @@
       "message": "Ok, it was my environment that was all messed up, not this change",
       "revId": "dcf3b8f004766f6c3f6a0308a4b721590e697c86",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "123de795_e4e07925",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8752
+      },
+      "writtenOn": "2022-02-09T21:30:15Z",
+      "side": 1,
+      "message": "Works also here msm8953.",
+      "revId": "dcf3b8f004766f6c3f6a0308a4b721590e697c86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
