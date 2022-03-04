@@ -16,6 +16,23 @@
       "message": "Holding merge/V+1 for proper handling of https://review.lineageos.org/c/LineageOS/android_hardware_qcom_audio/+/323441",
       "revId": "a96bda0684f088384d97296defa718bdd684969e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3c5fc51_e62db14a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-03-04T22:29:34Z",
+      "side": 1,
+      "message": "merged, ready",
+      "revId": "a96bda0684f088384d97296defa718bdd684969e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
