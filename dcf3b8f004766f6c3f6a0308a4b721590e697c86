@@ -137,6 +137,24 @@
       "message": "Works also here msm8953.",
       "revId": "dcf3b8f004766f6c3f6a0308a4b721590e697c86",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76df819e_c1b230e9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-03-08T20:16:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4f6f43d9_cc90669d",
+      "revId": "dcf3b8f004766f6c3f6a0308a4b721590e697c86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
