@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1033636c_23fb370e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-03-10T18:59:19Z",
+      "side": 1,
+      "message": "We already have one change merged and this is needed to proper \"12L\" topic repopick.",
+      "revId": "4bb4914ab41e79d3e701c010dc53b131395aae78",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
