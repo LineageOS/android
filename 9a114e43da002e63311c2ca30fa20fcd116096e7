@@ -16,6 +16,23 @@
       "message": "Chain compiles, and (seems to) work on payton.",
       "revId": "9a114e43da002e63311c2ca30fa20fcd116096e7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8cbc814_c6f3d1c7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-03-10T09:12:05Z",
+      "side": 1,
+      "message": "booted on alioth, had to do a factory reset from my feb build(12)",
+      "revId": "9a114e43da002e63311c2ca30fa20fcd116096e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
