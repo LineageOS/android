@@ -963,8 +963,8 @@
   <project path="system/libartpalette" name="platform/system/libartpalette" groups="pdk" remote="aosp" />
   <project path="system/libbase" name="platform/system/libbase" groups="pdk" remote="aosp" />
   <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" remote="aosp" />
-  <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" remote="aosp" />
-  <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" remote="aosp" />
+  <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk" />
+  <project path="system/libhwbinder" name="LineageOS/android_system_libhwbinder" groups="pdk" />
   <project path="system/libprocinfo" name="platform/system/libprocinfo" groups="pdk" remote="aosp" />
   <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" remote="aosp" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" remote="aosp" />
