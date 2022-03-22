@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fead6433_85ee419a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2022-03-22T18:22:29Z",
+      "side": 1,
+      "message": "Please merge, too, as repo has merged changes now (see topic)",
+      "revId": "2a78f38a6c03b71cab88b0b920accbb7a19dd732",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
