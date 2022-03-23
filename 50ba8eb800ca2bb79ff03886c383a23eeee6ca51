@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f56ae09_8561fc23",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-03-23T21:03:36Z",
+      "side": 1,
+      "message": "libhwbinder dep was false and dumped.",
+      "revId": "50ba8eb800ca2bb79ff03886c383a23eeee6ca51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
