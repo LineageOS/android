@@ -16,6 +16,23 @@
       "message": "fine on klte",
       "revId": "acda4b10aa1ceda07950a223d0acd8da1f9c8406",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a6ab318_927f6291",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-04-06T13:10:11Z",
+      "side": 1,
+      "message": "All good here.",
+      "revId": "acda4b10aa1ceda07950a223d0acd8da1f9c8406",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
