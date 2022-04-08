@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "213bc5a0_de8ae289",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-04-08T16:02:35Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_system_security/+/327113",
+      "revId": "29ba30229dd3b1c9781afa8ad9219325f0916e5f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
