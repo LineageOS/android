@@ -7,7 +7,19 @@
   <project path="device/lineage/car" name="LineageOS/android_device_lineage_car" />
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
   <project path="external/bash" name="LineageOS/android_external_bash" />
-  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" revision="master" />
+  <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" groups="pdk" revision="main" >
+    <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
+    <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
+    <linkfile src="README" dest="external/chromium-webview/README" />
+  </project>
+  <project path="external/chromium-webview/prebuilt/arm" name="LineageOS/android_external_chromium-webview_prebuilt_arm" groups="pdk" clone-depth="1" revision="main" />
+  <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" clone-depth="1" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" clone-depth="1" revision="main" />
+  <!-- The below will sync if you have a gitlab remote defined, but review/approval
+       does not run through Gerrit. Additionally, those who sync referncing a
+       mirror won't get that benefit from this remote/project. Place a line in
+       a local manifest if you desire x86_64 Webview -->
+  <!-- <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" clone-depth="1" revision="main" remote="gitlab" /> -->
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" />
   <project path="external/htop" name="LineageOS/android_external_htop" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
