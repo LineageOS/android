@@ -16,6 +16,23 @@
       "message": "Verified building foster",
       "revId": "78df5f65837561d509bbcd7559cdcfb79202a27c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "176bb505_97ca1730",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-04-29T04:25:09Z",
+      "side": 1,
+      "message": "waiting for merge of the commit",
+      "revId": "78df5f65837561d509bbcd7559cdcfb79202a27c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
