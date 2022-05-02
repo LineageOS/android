@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0697ad4_c1a3c8b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-05-02T15:30:54Z",
+      "side": 1,
+      "message": "Changes merged with topic twelve-fbe-qcom-wrapped-key",
+      "revId": "77994e75b92eeb04e8b7d9ab3bc8b0ec9f3102e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
