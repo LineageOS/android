@@ -16,6 +16,23 @@
       "message": "All good here.",
       "revId": "50ca1611a9648bf97e6133f81aef03943af7e931",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "71f85184_9c97d033",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2022-05-07T23:10:25Z",
+      "side": 1,
+      "message": "Good on davinci",
+      "revId": "50ca1611a9648bf97e6133f81aef03943af7e931",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
