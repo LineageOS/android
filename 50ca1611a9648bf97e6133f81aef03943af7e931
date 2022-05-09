@@ -50,6 +50,23 @@
       "message": "fine on alioth",
       "revId": "50ca1611a9648bf97e6133f81aef03943af7e931",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5ac1a71_64e12eac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 6360
+      },
+      "writtenOn": "2022-05-09T15:38:22Z",
+      "side": 1,
+      "message": "merge?",
+      "revId": "50ca1611a9648bf97e6133f81aef03943af7e931",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
