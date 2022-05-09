@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b492e823_8874bb6a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2022-05-09T15:14:38Z",
+      "side": 1,
+      "message": "+2 if you want it, can re +2 for ansible and cve addition",
+      "revId": "946ac634eca209596623ea368fbbb0b25a26acb4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
