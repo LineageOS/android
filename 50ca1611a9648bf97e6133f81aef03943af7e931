@@ -33,6 +33,23 @@
       "message": "Good on davinci",
       "revId": "50ca1611a9648bf97e6133f81aef03943af7e931",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "acc2d747_2612284e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-05-09T09:41:41Z",
+      "side": 1,
+      "message": "fine on alioth",
+      "revId": "50ca1611a9648bf97e6133f81aef03943af7e931",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
