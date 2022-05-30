@@ -65,7 +65,7 @@
   <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin" />
   <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 
-  <!-- CodeAurora additions -->
+  <!-- CodeLinaro additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,qssi" />
   <!--<project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-19.1-legacy" />-->
   <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-19.1-legacy-um" />
