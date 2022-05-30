@@ -54,7 +54,6 @@
   <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" />
   <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
   <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" />
-  <!--<project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />-->
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
   <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
   <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
