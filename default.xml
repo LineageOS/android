@@ -65,7 +65,7 @@
   <project path="device/google/cuttlefish_kernel" name="device/google/cuttlefish_kernel" groups="device,pdk" clone-depth="1" remote="aosp" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" remote="aosp" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
-  <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
+  <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" />
   <project path="external/adeb" name="platform/external/adeb" groups="pdk" remote="aosp" />
   <project path="external/adhd" name="platform/external/adhd" groups="pdk" remote="aosp" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault,pdk-fs" remote="aosp" />
