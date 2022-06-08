@@ -16,6 +16,23 @@
       "message": "All good here.",
       "revId": "c428eb11a5443e1b0aafc608c7d2dcc9e8d40a65",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4075f023_9291378c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-06-08T17:04:14Z",
+      "side": 1,
+      "message": "Same, my flight of devices is fine.",
+      "revId": "c428eb11a5443e1b0aafc608c7d2dcc9e8d40a65",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
