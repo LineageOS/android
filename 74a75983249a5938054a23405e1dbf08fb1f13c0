@@ -16,6 +16,23 @@
       "message": "fine on alioth",
       "revId": "74a75983249a5938054a23405e1dbf08fb1f13c0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1dafa4d8_5033e634",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-07-10T20:50:06Z",
+      "side": 1,
+      "message": "Fine on my flight of devices.",
+      "revId": "74a75983249a5938054a23405e1dbf08fb1f13c0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
