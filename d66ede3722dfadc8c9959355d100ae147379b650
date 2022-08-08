@@ -33,6 +33,24 @@
       "message": "Is this topic unrelated?\nhttps://review.lineageos.org/q/topic:S_asb_2022-08",
       "revId": "d66ede3722dfadc8c9959355d100ae147379b650",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f691b006_65075ddf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-08-08T09:25:48Z",
+      "side": 1,
+      "message": "its basically the same branch",
+      "parentUuid": "35d06b99_8d96f2b9",
+      "revId": "d66ede3722dfadc8c9959355d100ae147379b650",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
