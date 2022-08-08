@@ -16,6 +16,23 @@
       "message": "Only build ID changed",
       "revId": "d66ede3722dfadc8c9959355d100ae147379b650",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35d06b99_8d96f2b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 6360
+      },
+      "writtenOn": "2022-08-08T07:13:19Z",
+      "side": 1,
+      "message": "Is this topic unrelated?\nhttps://review.lineageos.org/q/topic:S_asb_2022-08",
+      "revId": "d66ede3722dfadc8c9959355d100ae147379b650",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
