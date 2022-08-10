@@ -179,7 +179,6 @@
   <project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
   <project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="master" />
   <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
-  <project path="lineage/cve" name="LineageOS/cve_tracker" groups="infra" revision="master" />
   <project path="lineage/hudson" name="LineageOS/hudson" groups="infra" revision="master" />
   <project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="master" />
   <project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" />
