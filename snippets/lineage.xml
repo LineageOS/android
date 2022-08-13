@@ -160,7 +160,6 @@
   <project path="vendor/nxp/secure_element_extns" name="LineageOS/android_vendor_nxp_secure_element_extns" groups="nxp" />
 
   <!-- Infrastructure -->
-  <project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
   <project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="master" />
   <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
   <project path="lineage/hudson" name="LineageOS/hudson" groups="infra" revision="master" />
