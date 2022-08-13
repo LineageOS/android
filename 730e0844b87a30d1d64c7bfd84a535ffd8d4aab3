@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1f9a40d_7c74b5de",
+        "filename": "snippets/pixel.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2022-08-13T12:34:24Z",
+      "side": 1,
+      "message": "This uses branch because google forgot to tag it...",
+      "range": {
+        "startLine": 23,
+        "startChar": 132,
+        "endLine": 23,
+        "endChar": 169
+      },
+      "revId": "730e0844b87a30d1d64c7bfd84a535ffd8d4aab3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
