@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Pixel 6/6 Pro kernel modules -->
+  <project path="kernel/google/raviole/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" remote="aosp" revision="refs/tags/android-12.1.0_r0.35" />
+  <project path="kernel/google/raviole/private/google-modules/aoc" name="kernel/google-modules/aoc" remote="aosp" revision="refs/tags/android-12.1.0_r0.35" />
+  <project path="kernel/google/raviole/private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" remote="aosp" revision="refs/tags/android-12.1.0_r0.35" />
+  <project path="kernel/google/raviole/private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" remote="aosp" revision="refs/tags/android-12.1.0_r0.35" />
+  <project path="kernel/google/raviole/private/google-modules/bms" name="kernel/google-modules/bms" remote="aosp" revision="refs/tags/android-12.1.0_r0.35" />
+  <project path="kernel/google/raviole/private/google-modules/display" name="kernel/google-modules/display" remote="aosp" revision="refs/tags/android-12.1.0_r0.35" />
+  <project path="kernel/google/raviole/private/google-modules/edgetpu" name="kernel/google-modules/edgetpu" remote="aosp" revision="refs/tags/android-12.1.0_r0.35" />
+  <project path="kernel/google/raviole/private/google-modules/gpu" name="kernel/google-modules/gpu" remote="aosp" revision="refs/tags/android-12.1.0_r0.35" />
+  <project path="kernel/google/raviole/private/google-modules/lwis" name="kernel/google-modules/lwis" remote="aosp" revision="refs/tags/android-12.1.0_r0.35" />
+  <project path="kernel/google/raviole/private/google-modules/nfc" name="kernel/google-modules/nfc" remote="aosp" revision="refs/tags/android-12.1.0_r0.35" />
+  <project path="kernel/google/raviole/private/google-modules/power/reset" name="kernel/google-modules/power/reset" remote="aosp" revision="refs/tags/android-12.1.0_r0.35" />
+  <project path="kernel/google/raviole/private/google-modules/touch/common" name="kernel/google-modules/touch/common" remote="aosp" revision="refs/tags/android-12.1.0_r0.35" />
+  <project path="kernel/google/raviole/private/google-modules/touch/fts" name="kernel/google-modules/touch/fts_touch" remote="aosp" revision="refs/tags/android-12.1.0_r0.35" />
+  <project path="kernel/google/raviole/private/google-modules/touch/sec" name="kernel/google-modules/touch/sec_touch" remote="aosp" revision="refs/tags/android-12.1.0_r0.35" />
+  <project path="kernel/google/raviole/private/google-modules/uwb" name="kernel/google-modules/uwb" remote="aosp" revision="refs/tags/android-12.1.0_r0.35" />
+  <project path="kernel/google/raviole/private/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" remote="aosp" revision="refs/tags/android-12.1.0_r0.35" />
+
+  <!-- Pixel 6a kernel modules -->
+  <project path="kernel/google/bluejay/private/devices/google/bluejay" name="kernel/devices/google/bluejay" remote="aosp" revision="android-gs-bluejay-5.10-android12L-d2" />
+  <project path="kernel/google/bluejay/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" remote="aosp" revision="refs/tags/android-12.1.0_r0.40" />
+  <project path="kernel/google/bluejay/private/google-modules/aoc" name="kernel/google-modules/aoc" remote="aosp" revision="refs/tags/android-12.1.0_r0.40" />
+  <project path="kernel/google/bluejay/private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" remote="aosp" revision="refs/tags/android-12.1.0_r0.40" />
+  <project path="kernel/google/bluejay/private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" remote="aosp" revision="refs/tags/android-12.1.0_r0.40" />
+  <project path="kernel/google/bluejay/private/google-modules/bms" name="kernel/google-modules/bms" remote="aosp" revision="refs/tags/android-12.1.0_r0.40" />
+  <project path="kernel/google/bluejay/private/google-modules/display" name="kernel/google-modules/display" remote="aosp" revision="refs/tags/android-12.1.0_r0.40" />
+  <project path="kernel/google/bluejay/private/google-modules/edgetpu" name="kernel/google-modules/edgetpu" remote="aosp" revision="refs/tags/android-12.1.0_r0.40" />
+  <project path="kernel/google/bluejay/private/google-modules/fingerprint/fpc" name="kernel/google-modules/fingerprint/fpc" remote="aosp" revision="refs/tags/android-12.1.0_r0.40" />
+  <project path="kernel/google/bluejay/private/google-modules/gpu" name="kernel/google-modules/gpu" remote="aosp" revision="refs/tags/android-12.1.0_r0.40" />
+  <project path="kernel/google/bluejay/private/google-modules/lwis" name="kernel/google-modules/lwis" remote="aosp" revision="refs/tags/android-12.1.0_r0.40" />
+  <project path="kernel/google/bluejay/private/google-modules/nfc" name="kernel/google-modules/nfc" remote="aosp" revision="refs/tags/android-12.1.0_r0.40" />
+  <project path="kernel/google/bluejay/private/google-modules/power/reset" name="kernel/google-modules/power/reset" remote="aosp" revision="refs/tags/android-12.1.0_r0.40" />
+  <project path="kernel/google/bluejay/private/google-modules/sensors/hall_sensor" name="kernel/google-modules/sensors/hall_sensor" remote="aosp" revision="refs/tags/android-12.1.0_r0.40" />
+  <project path="kernel/google/bluejay/private/google-modules/touch/common" name="kernel/google-modules/touch/common" remote="aosp" revision="refs/tags/android-12.1.0_r0.40" />
+  <project path="kernel/google/bluejay/private/google-modules/touch/fts" name="kernel/google-modules/touch/fts_touch" remote="aosp" revision="refs/tags/android-12.1.0_r0.40" />
+  <project path="kernel/google/bluejay/private/google-modules/touch/sec" name="kernel/google-modules/touch/sec_touch" remote="aosp" revision="refs/tags/android-12.1.0_r0.40" />
+  <project path="kernel/google/bluejay/private/google-modules/uwb" name="kernel/google-modules/uwb" remote="aosp" revision="refs/tags/android-12.1.0_r0.40" />
+  <project path="kernel/google/bluejay/private/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" remote="aosp" revision="refs/tags/android-12.1.0_r0.40" />
+
+</manifest>
