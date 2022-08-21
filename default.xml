@@ -11,20 +11,19 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-12.1.0_r22" />
+           revision="refs/tags/android-13.0.0_r3" />
 
   <default revision="refs/heads/lineage-19.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r22" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r3" />
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- AOSP Projects -->
 
   <project path="build/make" name="LineageOS/android_build" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -37,6 +36,7 @@
     <linkfile src="bazel.sh" dest="tools/bazel" />
     <linkfile src="bazel.BUILD" dest="BUILD" />
   </project>
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="pdk" remote="aosp" />
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" remote="aosp" />
   <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" >
@@ -47,7 +47,6 @@
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" remote="aosp" />
-  <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" remote="aosp" />
@@ -95,15 +94,17 @@
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" groups="pdk" remote="aosp" />
   <project path="external/auto" name="platform/external/auto" groups="pdk" remote="aosp" />
   <project path="external/autotest" name="platform/external/autotest" groups="pdk-fs" remote="aosp" />
-  <project path="external/android-nn-driver" name="LineageOS/android_external_android-nn-driver" groups="pdk-lassen" />
-  <project path="external/armnn" name="LineageOS/android_external_armnn" groups="pdk-lassen" />
+  <project path="external/android-nn-driver" name="LineageOS/android_external_android-nn-driver" groups="pdk-lassen,pdk-gs-arm" />
+  <project path="external/armnn" name="LineageOS/android_external_armnn" groups="pdk-lassen,pdk-gs-arm" />
   <project path="external/avb" name="platform/external/avb" groups="pdk" remote="aosp" />
   <project path="external/bazelbuild-rules_android" name="platform/external/bazelbuild-rules_android" groups="pdk" remote="aosp" />
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="pdk" remote="aosp" />
   <project path="external/bc" name="platform/external/bc" groups="pdk" remote="aosp" />
   <project path="external/bcc" name="platform/external/bcc" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk" remote="aosp" />
   <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" remote="aosp" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" remote="aosp" />
+  <project path="external/bpftool" name="platform/external/bpftool" groups="pdk" remote="aosp" />
   <project path="external/brotli" name="platform/external/brotli" groups="pdk" remote="aosp" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" remote="aosp" />
@@ -117,7 +118,7 @@
   <project path="external/cldr" name="platform/external/cldr" groups="pdk" remote="aosp" />
   <project path="external/cn-cbor" name="platform/external/cn-cbor" groups="pdk" remote="aosp" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
-  <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" groups="pdk-lassen" remote="aosp" />
+  <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" groups="pdk-lassen,pdk-gs-arm" remote="aosp" />
   <project path="external/connectedappssdk" name="platform/external/connectedappssdk" groups="pdk" remote="aosp" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" remote="aosp" />
   <project path="external/cpu_features" name="platform/external/cpu_features" groups="pdk" remote="aosp" />
@@ -141,7 +142,6 @@
   <project path="external/dokka" name="platform/external/dokka" groups="pdk" remote="aosp" />
   <project path="external/downloader" name="platform/external/downloader" groups="pdk" remote="aosp" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="aosp" />
-  <project path="external/drrickorang" name="platform/external/drrickorang" groups="pdk" remote="aosp" />
   <project path="external/dtc" name="platform/external/dtc" groups="pdk" remote="aosp" />
   <project path="external/dynamic_depth" name="platform/external/dynamic_depth" groups="pdk" remote="aosp" />
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" />
@@ -174,8 +174,10 @@
   <project path="external/geojson-jackson" name="platform/external/geojson-jackson" groups="pdk" remote="aosp" />
   <project path="external/geonames" name="platform/external/geonames" groups="pdk" remote="aosp" />
   <project path="external/gflags" name="platform/external/gflags" groups="pdk" remote="aosp" />
+  <project path="external/gfxstream-protocols" name="platform/external/gfxstream-protocols" groups="pdk" remote="aosp" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/glide" name="platform/external/glide" groups="pdk" remote="aosp" />
+  <project path="external/go-cmp" name="platform/external/go-cmp" groups="pdk" remote="aosp" />
   <project path="external/golang-protobuf" name="platform/external/golang-protobuf" groups="pdk" remote="aosp" />
   <project path="external/google-benchmark" name="platform/external/google-benchmark" groups="pdk" remote="aosp" />
   <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="pdk-fs" remote="aosp" />
@@ -228,6 +230,7 @@
   <project path="external/javapoet" name="platform/external/javapoet" groups="pdk" remote="aosp" />
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk" remote="aosp" />
   <project path="external/javassist" name="platform/external/javassist" groups="pdk" remote="aosp" />
+  <project path="external/jazzer-api" name="platform/external/jazzer-api" groups="pdk" remote="aosp" />
   <project path="external/jcommander" name="platform/external/jcommander" groups="pdk" remote="aosp" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk" remote="aosp" />
   <project path="external/jemalloc_new" name="platform/external/jemalloc_new" groups="pdk" remote="aosp" />
@@ -252,10 +255,12 @@
   <project path="external/libavc" name="platform/external/libavc" groups="pdk" remote="aosp" />
   <project path="external/libbackup" name="platform/external/libbackup" groups="pdk" remote="aosp" />
   <project path="external/libbrillo" name="platform/external/libbrillo" groups="pdk" remote="aosp" />
+  <project path="external/libbpf" name="platform/external/libbpf" groups="pdk" remote="aosp" />
   <project path="external/libcap" name="platform/external/libcap" groups="pdk" remote="aosp" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk" remote="aosp" />
   <project path="external/libchrome" name="platform/external/libchrome" groups="pdk" remote="aosp" />
   <project path="external/libchromeos-rs" name="platform/external/libchromeos-rs" groups="pdk" remote="aosp" />
+  <project path="external/libconfig" name="platform/external/libconfig" groups="pdk" remote="aosp" />
   <project path="external/libcppbor" name="platform/external/libcppbor" groups="pdk" remote="aosp" />
   <project path="external/libcups" name="platform/external/libcups" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" />
@@ -281,12 +286,16 @@
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" remote="aosp" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" remote="aosp" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" remote="aosp" />
+  <project path="external/libpalmrejection" name="platform/external/libpalmrejection" groups="pdk" remote="aosp" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" remote="aosp" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk" remote="aosp" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" remote="aosp" />
   <project path="external/libprotobuf-mutator" name="platform/external/libprotobuf-mutator" groups="pdk" remote="aosp" />
   <project path="external/libsrtp2" name="platform/external/libsrtp2" groups="pdk" remote="aosp" />
   <project path="external/libtextclassifier" name="platform/external/libtextclassifier" groups="pdk" remote="aosp" />
+  <project path="external/libtraceevent" name="platform/external/libtraceevent" groups="pdk" remote="aosp" />
+  <project path="external/libtracefs" name="platform/external/libtracefs" groups="pdk" remote="aosp" />
+  <project path="external/liburing" name="platform/external/liburing" groups="pdk" remote="aosp" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk" remote="aosp" />
   <project path="external/libutf" name="platform/external/libutf" groups="pdk" remote="aosp" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" remote="aosp" />
@@ -298,7 +307,6 @@
   <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" remote="aosp" />
   <project path="external/linux-kselftest" name="platform/external/linux-kselftest" groups="vts,pdk" clone-depth="1" remote="aosp" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
-  <project path="external/llvm-project" name="toolchain/llvm-project" groups="pdk" remote="aosp" />
   <project path="external/lmfit" name="platform/external/lmfit" groups="pdk" remote="aosp" />
   <project path="external/lottie" name="platform/external/lottie" groups="pdk" remote="aosp" />
   <project path="external/ltp" name="platform/external/ltp" groups="vts,pdk" remote="aosp" />
@@ -313,6 +321,8 @@
   <project path="external/minigbm" name="platform/external/minigbm" groups="pdk" remote="aosp" />
   <project path="external/minijail" name="platform/external/minijail" groups="pdk" remote="aosp" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" />
+  <project path="external/mobly-bundled-snippets" name="platform/external/mobly-bundled-snippets" groups="pdk" remote="aosp" />
+  <project path="external/mobly-snippet-lib" name="platform/external/mobly-snippet-lib" groups="pdk" remote="aosp" />
   <project path="external/mockftpserver" name="platform/external/mockftpserver" groups="pdk" remote="aosp" />
   <project path="external/mockito" name="platform/external/mockito" groups="pdk" remote="aosp" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" groups="pdk" remote="aosp" />
@@ -321,6 +331,7 @@
   <project path="external/ms-tpm-20-ref" name="platform/external/ms-tpm-20-ref" groups="pdk" remote="aosp" />
   <project path="external/mtools" name="platform/external/mtools" groups="pdk" remote="aosp" />
   <project path="external/mtpd" name="platform/external/mtpd" groups="pdk" remote="aosp" />
+  <project path="external/musl" name="platform/external/musl" groups="pdk" remote="aosp" />
   <project path="external/nanohttpd" name="platform/external/nanohttpd" groups="pdk" remote="aosp" />
   <project path="external/nanopb-c" name="platform/external/nanopb-c" groups="pdk" remote="aosp" />
   <project path="external/naver-fonts" name="platform/external/naver-fonts" groups="pdk" remote="aosp" />
@@ -331,9 +342,12 @@
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk" remote="aosp" />
   <project path="external/nos/host/generic" name="platform/external/nos/host/generic" groups="pdk" remote="aosp" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" remote="aosp" />
+  <project path="external/nullaway" name="platform/external/nullaway" groups="pdk" remote="aosp" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk" remote="aosp" />
+  <project path="external/obex" name="platform/external/obex" groups="pdk" remote="aosp" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" remote="aosp" />
   <project path="external/oboe" name="platform/external/oboe" groups="pdk" remote="aosp" />
+  <project path="external/obstack" name="platform/external/obstack" groups="pdk" remote="aosp" />
   <project path="external/oj-libjdwp" name="platform/external/oj-libjdwp" groups="pdk" remote="aosp" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk" remote="aosp" />
   <project path="external/okhttp4" name="platform/external/okhttp4" groups="pdk" remote="aosp" />
@@ -342,8 +356,9 @@
   <project path="external/opencensus-java" name="platform/external/opencensus-java" groups="pdk,tradefed" remote="aosp" />
   <project path="external/OpenCL-CTS" name="platform/external/OpenCL-CTS" remote="aosp" />
   <project path="external/OpenCSD" name="platform/external/OpenCSD" groups="pdk" remote="aosp" />
+  <project path="external/open-dice" name="platform/external/open-dice" groups="pdk" remote="aosp" />
   <project path="external/openscreen" name="platform/external/openscreen" groups="pdk" remote="aosp" />
-  <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" />
+  <project path="external/openwrt-prebuilts" name="platform/external/openwrt-prebuilts" groups="pdk" remote="aosp" />
   <project path="external/oss-fuzz" name="platform/external/oss-fuzz" groups="pdk" remote="aosp" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" remote="aosp" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" remote="aosp" />
@@ -362,6 +377,7 @@
   <project path="external/puffin" name="platform/external/puffin" groups="pdk" remote="aosp" />
   <project path="external/python/apitools" name="platform/external/python/apitools" groups="pdk" remote="aosp" />
   <project path="external/python/asn1crypto" name="platform/external/python/asn1crypto" groups="pdk" remote="aosp" />
+  <project path="external/python/cachetools" name="platform/external/python/cachetools" groups="pdk" remote="aosp" />
   <project path="external/python/cffi" name="platform/external/python/cffi" groups="pdk" remote="aosp" />
   <project path="external/python/cpython2" name="platform/external/python/cpython2" groups="pdk" remote="aosp" />
   <project path="external/python/cpython3" name="platform/external/python/cpython3" groups="pdk" remote="aosp" />
@@ -371,24 +387,32 @@
   <project path="external/python/funcsigs" name="platform/external/python/funcsigs" groups="pdk" remote="aosp" />
   <project path="external/python/futures" name="platform/external/python/futures" groups="vts,pdk" remote="aosp" />
   <project path="external/python/google-api-python-client" name="platform/external/python/google-api-python-client" groups="vts,pdk" remote="aosp" />
+  <project path="external/python/google-auth-library-python" name="platform/external/python/google-auth-library-python" groups="pdk" remote="aosp" />
   <project path="external/python/httplib2" name="platform/external/python/httplib2" groups="vts,pdk" remote="aosp" />
   <project path="external/python/ipaddress" name="platform/external/python/ipaddress" groups="pdk" remote="aosp" />
   <project path="external/python/jinja" name="platform/external/python/jinja" groups="pdk" remote="aosp" />
   <project path="external/python/markupsafe" name="platform/external/python/markupsafe" groups="pdk" remote="aosp" />
-  <project path="external/python/mock" name="platform/external/python/mock" groups="pdk" remote="aosp" />
+  <project path="external/python/mobly" name="platform/external/python/mobly" groups="pdk" remote="aosp" />
   <project path="external/python/oauth2client" name="platform/external/python/oauth2client" groups="vts,pdk" remote="aosp" />
   <project path="external/python/parse_type" name="platform/external/python/parse_type" groups="vts,pdk" remote="aosp" />
+  <project path="external/python/portpicker" name="platform/external/python/portpicker" groups="pdk" remote="aosp" />
   <project path="external/python/pyasn1" name="platform/external/python/pyasn1" groups="vts,pdk" remote="aosp" />
   <project path="external/python/pyasn1-modules" name="platform/external/python/pyasn1-modules" groups="vts,pdk" remote="aosp" />
   <project path="external/python/pybind11" name="platform/external/python/pybind11" groups="pdk" remote="aosp" />
   <project path="external/python/pycparser" name="platform/external/python/pycparser" groups="pdk" remote="aosp" />
   <project path="external/python/pyfakefs" name="platform/external/python/pyfakefs" groups="pdk" remote="aosp" />
   <project path="external/python/pyopenssl" name="platform/external/python/pyopenssl" groups="pdk" remote="aosp" />
+  <project path="external/python/pyserial" name="platform/external/python/pyserial" groups="pdk" remote="aosp" />
+  <project path="external/python/python-api-core" name="platform/external/python/python-api-core" groups="pdk" remote="aosp" />
+  <project path="external/python/pyyaml" name="platform/external/python/pyyaml" groups="pdk" remote="aosp" />
   <project path="external/python/rsa" name="platform/external/python/rsa" groups="vts,pdk" remote="aosp" />
   <project path="external/python/setuptools" name="platform/external/python/setuptools" groups="vts,pdk" remote="aosp" />
   <project path="external/python/six" name="platform/external/python/six" groups="vts,pdk" remote="aosp" />
+  <project path="external/python/timeout-decorator" name="platform/external/python/timeout-decorator" groups="pdk" remote="aosp" />
+  <project path="external/python/typing" name="platform/external/python/typing" groups="pdk" remote="aosp" />
   <project path="external/python/uritemplates" name="platform/external/python/uritemplates" groups="vts,pdk" remote="aosp" />
   <project path="external/rappor" name="platform/external/rappor" groups="pdk" remote="aosp" />
+  <project path="external/renderscript-intrinsics-replacement-toolkit" name="platform/external/renderscript-intrinsics-replacement-toolkit" groups="pdk" remote="aosp" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk" remote="aosp" />
   <project path="external/rmi4utils" name="platform/external/rmi4utils" groups="pdk" remote="aosp" />
   <project path="external/robolectric-shadows" name="platform/external/robolectric-shadows" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -402,11 +426,16 @@
   <project path="external/rust/crates/android_log-sys" name="platform/external/rust/crates/android_log-sys" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/anyhow" name="platform/external/rust/crates/anyhow" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/arbitrary" name="platform/external/rust/crates/arbitrary" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/argh" name="platform/external/rust/crates/argh" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/argh_derive" name="platform/external/rust/crates/argh_derive" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/argh_shared" name="platform/external/rust/crates/argh_shared" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/ash" name="platform/external/rust/crates/ash" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/async-stream" name="platform/external/rust/crates/async-stream" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/async-stream-impl" name="platform/external/rust/crates/async-stream-impl" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/async-task" name="platform/external/rust/crates/async-task" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/async-trait" name="platform/external/rust/crates/async-trait" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/atty" name="platform/external/rust/crates/atty" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/base64" name="platform/external/rust/crates/base64" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/bencher" name="platform/external/rust/crates/bencher" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/bindgen" name="platform/external/rust/crates/bindgen" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/bitflags" name="platform/external/rust/crates/bitflags" groups="pdk" remote="aosp" />
@@ -414,24 +443,35 @@
   <project path="external/rust/crates/byteorder" name="platform/external/rust/crates/byteorder" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/bytes" name="platform/external/rust/crates/bytes" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/cast" name="platform/external/rust/crates/cast" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/cesu8" name="platform/external/rust/crates/cesu8" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/cexpr" name="platform/external/rust/crates/cexpr" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/cfg-if" name="platform/external/rust/crates/cfg-if" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/chrono" name="platform/external/rust/crates/chrono" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/ciborium" name="platform/external/rust/crates/ciborium" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/ciborium-io" name="platform/external/rust/crates/ciborium-io" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/ciborium-ll" name="platform/external/rust/crates/ciborium-ll" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/clang-sys" name="platform/external/rust/crates/clang-sys" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/clap" name="platform/external/rust/crates/clap" groups="pdk" remote="aosp" />
-  <project path="external/rust/crates/crc32fast" name="platform/external/rust/crates/crc32fast" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/codespan-reporting" name="platform/external/rust/crates/codespan-reporting" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/combine" name="platform/external/rust/crates/combine" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/command-fds" name="platform/external/rust/crates/command-fds" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/coset" name="platform/external/rust/crates/coset" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/crc32fast" name="platform/external/rust/crates/crc32fast" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/criterion" name="platform/external/rust/crates/criterion" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/criterion-plot" name="platform/external/rust/crates/criterion-plot" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/crossbeam-channel" name="platform/external/rust/crates/crossbeam-channel" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/crossbeam-deque" name="platform/external/rust/crates/crossbeam-deque" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/crossbeam-epoch" name="platform/external/rust/crates/crossbeam-epoch" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/crossbeam-queue" name="platform/external/rust/crates/crossbeam-queue" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/crossbeam-utils" name="platform/external/rust/crates/crossbeam-utils" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/csv" name="platform/external/rust/crates/csv" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/csv-core" name="platform/external/rust/crates/csv-core" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/der-oid-macro" name="platform/external/rust/crates/der-oid-macro" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/der-parser" name="platform/external/rust/crates/der-parser" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/derive_arbitrary" name="platform/external/rust/crates/derive_arbitrary" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/downcast-rs" name="platform/external/rust/crates/downcast-rs" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/either" name="platform/external/rust/crates/either" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/enumn" name="platform/external/rust/crates/enumn" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/env_logger" name="platform/external/rust/crates/env_logger" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/fallible-iterator" name="platform/external/rust/crates/fallible-iterator" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/fallible-streaming-iterator" name="platform/external/rust/crates/fallible-streaming-iterator" groups="pdk" remote="aosp" />
@@ -463,6 +503,9 @@
   <project path="external/rust/crates/intrusive-collections" name="platform/external/rust/crates/intrusive-collections" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/itertools" name="platform/external/rust/crates/itertools" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/itoa" name="platform/external/rust/crates/itoa" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/jni" name="platform/external/rust/crates/jni" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/jni-sys" name="platform/external/rust/crates/jni-sys" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/kernlog" name="platform/external/rust/crates/kernlog" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/lazy_static" name="platform/external/rust/crates/lazy_static" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/lazycell" name="platform/external/rust/crates/lazycell" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/libc" name="platform/external/rust/crates/libc" groups="pdk" remote="aosp" />
@@ -480,14 +523,17 @@
   <project path="external/rust/crates/matches" name="platform/external/rust/crates/matches" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/memchr" name="platform/external/rust/crates/memchr" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/memoffset" name="platform/external/rust/crates/memoffset" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/minimal-lexical" name="platform/external/rust/crates/minimal-lexical" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/mio" name="platform/external/rust/crates/mio" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/nix" name="platform/external/rust/crates/nix" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/no-panic" name="platform/external/rust/crates/no-panic" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/nom" name="platform/external/rust/crates/nom" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/num-bigint" name="platform/external/rust/crates/num-bigint" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/num-derive" name="platform/external/rust/crates/num-derive" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/num-integer" name="platform/external/rust/crates/num-integer" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/num-traits" name="platform/external/rust/crates/num-traits" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/num_cpus" name="platform/external/rust/crates/num_cpus" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/oid-registry" name="platform/external/rust/crates/oid-registry" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/once_cell" name="platform/external/rust/crates/once_cell" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/oorandom" name="platform/external/rust/crates/oorandom" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/parking_lot" name="platform/external/rust/crates/parking_lot" groups="pdk" remote="aosp" />
@@ -495,6 +541,10 @@
   <project path="external/rust/crates/paste" name="platform/external/rust/crates/paste" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/peeking_take_while" name="platform/external/rust/crates/peeking_take_while" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/percent-encoding" name="platform/external/rust/crates/percent-encoding" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/pest" name="platform/external/rust/crates/pest" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/pest_derive" name="platform/external/rust/crates/pest_derive" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/pest_generator" name="platform/external/rust/crates/pest_generator" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/pest_meta" name="platform/external/rust/crates/pest_meta" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/pin-project" name="platform/external/rust/crates/pin-project" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/pin-project-internal" name="platform/external/rust/crates/pin-project-internal" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/pin-project-lite" name="platform/external/rust/crates/pin-project-lite" groups="pdk" remote="aosp" />
@@ -511,6 +561,7 @@
   <project path="external/rust/crates/protobuf" name="platform/external/rust/crates/protobuf" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/protobuf-codegen" name="platform/external/rust/crates/protobuf-codegen" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/quiche" name="platform/external/rust/crates/quiche" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/quickcheck" name="platform/external/rust/crates/quickcheck" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/quote" name="platform/external/rust/crates/quote" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/rand" name="platform/external/rust/crates/rand" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/rand_chacha" name="platform/external/rust/crates/rand_chacha" groups="pdk" remote="aosp" />
@@ -522,19 +573,26 @@
   <project path="external/rust/crates/regex-automata" name="platform/external/rust/crates/regex-automata" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/regex-syntax" name="platform/external/rust/crates/regex-syntax" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/remain" name="platform/external/rust/crates/remain" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/remove_dir_all" name="platform/external/rust/crates/remove_dir_all" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/ring" name="platform/external/rust/crates/ring" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/rusqlite" name="platform/external/rust/crates/rusqlite" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/rustc-hash" name="platform/external/rust/crates/rustc-hash" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/rusticata-macros" name="platform/external/rust/crates/rusticata-macros" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/rustc-demangle" name="platform/external/rust/crates/rustc-demangle" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/rustc-demangle-capi" name="platform/external/rust/crates/rustc-demangle-capi" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/rustversion" name="platform/external/rust/crates/rustversion" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/ryu" name="platform/external/rust/crates/ryu" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/same-file" name="platform/external/rust/crates/same-file" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/scopeguard" name="platform/external/rust/crates/scopeguard" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/semver" name="platform/external/rust/crates/semver" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/serde" name="platform/external/rust/crates/serde" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/serde_cbor" name="platform/external/rust/crates/serde_cbor" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/serde_derive" name="platform/external/rust/crates/serde_derive" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/serde_json" name="platform/external/rust/crates/serde_json" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/serde_test" name="platform/external/rust/crates/serde_test" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/serde-xml-rs" name="platform/external/rust/crates/serde-xml-rs" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/shared_child" name="platform/external/rust/crates/shared_child" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/shared_library" name="platform/external/rust/crates/shared_library" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/shlex" name="platform/external/rust/crates/shlex" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/slab" name="platform/external/rust/crates/slab" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/smallvec" name="platform/external/rust/crates/smallvec" groups="pdk" remote="aosp" />
@@ -543,6 +601,7 @@
   <project path="external/rust/crates/structopt-derive" name="platform/external/rust/crates/structopt-derive" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/syn" name="platform/external/rust/crates/syn" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/syn-mid" name="platform/external/rust/crates/syn-mid" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/tempfile" name="platform/external/rust/crates/tempfile" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/termcolor" name="platform/external/rust/crates/termcolor" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/textwrap" name="platform/external/rust/crates/textwrap" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/thiserror" name="platform/external/rust/crates/thiserror" groups="pdk" remote="aosp" />
@@ -555,6 +614,7 @@
   <project path="external/rust/crates/tokio-macros" name="platform/external/rust/crates/tokio-macros" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/tokio-stream" name="platform/external/rust/crates/tokio-stream" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/tokio-test" name="platform/external/rust/crates/tokio-test" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/ucd-trie" name="platform/external/rust/crates/ucd-trie" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/unicode-bidi" name="platform/external/rust/crates/unicode-bidi" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/unicode-normalization" name="platform/external/rust/crates/unicode-normalization" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/unicode-segmentation" name="platform/external/rust/crates/unicode-segmentation" groups="pdk" remote="aosp" />
@@ -563,11 +623,14 @@
   <project path="external/rust/crates/untrusted" name="platform/external/rust/crates/untrusted" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/url" name="platform/external/rust/crates/url" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/uuid" name="platform/external/rust/crates/uuid" groups="pdk" remote="aosp" />
-  <project path="external/rust/crates/vmm_vhost" name="platform/external/rust/crates/vmm_vhost" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/vsock" name="platform/external/rust/crates/vsock" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/vulkano" name="platform/external/rust/crates/vulkano" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/walkdir" name="platform/external/rust/crates/walkdir" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/weak-table" name="platform/external/rust/crates/weak-table" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/webpki" name="platform/external/rust/crates/webpki" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/which" name="platform/external/rust/crates/which" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/x509-parser" name="platform/external/rust/crates/x509-parser" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/xml-rs" name="platform/external/rust/crates/xml-rs" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/zip" name="platform/external/rust/crates/zip" groups="pdk" remote="aosp" />
   <project path="external/rust/cxx" name="platform/external/rust/cxx" groups="pdk" remote="aosp" />
   <project path="external/ruy" name="platform/external/ruy" groups="pdk" remote="aosp" />
@@ -583,7 +646,6 @@
   <project path="external/shaderc/spirv-headers" name="platform/external/shaderc/spirv-headers" groups="pdk" remote="aosp" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" remote="aosp" />
   <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" remote="aosp" />
-  <project path="external/skqp" name="platform/external/skqp" groups="cts,pdk" clone-depth="1" remote="aosp" />
   <project path="external/sl4a" name="platform/external/sl4a" groups="pdk" remote="aosp" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk" remote="aosp" />
   <project path="external/smali" name="platform/external/smali" groups="pdk" remote="aosp" />
@@ -593,6 +655,7 @@
   <project path="external/speex" name="platform/external/speex" groups="pdk" remote="aosp" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" remote="aosp" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
+  <project path="external/stardoc" name="platform/external/stardoc" groups="pdk" remote="aosp" />
   <project path="external/starlark-go" name="platform/external/starlark-go" groups="pdk" remote="aosp" />
   <project path="external/strace" name="platform/external/strace" groups="pdk" remote="aosp" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk" remote="aosp" />
@@ -612,12 +675,14 @@
   <project path="external/toolchain-utils" name="platform/external/toolchain-utils" remote="aosp" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" remote="aosp" />
   <project path="external/tpm2-tss" name="platform/external/tpm2-tss" groups="pdk" remote="aosp" />
+  <project path="external/trace-cmd" name="platform/external/trace-cmd" groups="pdk" remote="aosp" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
   <project path="external/turbine" name="platform/external/turbine" groups="pdk" remote="aosp" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" remote="aosp" />
   <project path="external/universal-tween-engine" name="platform/external/universal-tween-engine" remote="aosp" />
   <project path="external/ukey2" name="platform/external/ukey2" groups="pdk" remote="aosp" />
   <project path="external/usrsctp" name="platform/external/usrsctp" groups="pdk" remote="aosp" />
+  <project path="external/uwb" name="platform/external/uwb" groups="pdk" remote="aosp" />
   <project path="external/v4l2_codec2" name="platform/external/v4l2_codec2" groups="pdk" remote="aosp" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot,pdk-fs" remote="aosp" />
   <project path="external/virglrenderer" name="platform/external/virglrenderer" groups="pdk" remote="aosp" />
@@ -632,6 +697,8 @@
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
   <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" />
+  <project path="external/wmediumd" name="platform/external/wmediumd" groups="pdk" remote="aosp" />
+  <project path="external/wuffs-mirror-release-c" name="platform/external/wuffs-mirror-release-c" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/wycheproof" name="platform/external/wycheproof" groups="pdk" remote="aosp" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk" remote="aosp" />
   <project path="external/XNNPACK" name="platform/external/XNNPACK" groups="pdk" remote="aosp" />
@@ -641,6 +708,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" remote="aosp" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zstd" name="platform/external/zstd" groups="pdk" remote="aosp" />
+  <project path="external/zucchini" name="platform/external/zucchini" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
@@ -684,9 +752,9 @@
   <project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk" remote="aosp" />
   <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" remote="aosp" />
   <project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" remote="aosp" />
-  <project path="hardware/google/gchips" name="LineageOS/android_hardware_google_gchips" groups="pdk-lassen" />
-  <project path="hardware/google/graphics/common" name="LineageOS/android_hardware_google_graphics_common" groups="pdk-lassen" />
-  <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen" remote="aosp" />
+  <project path="hardware/google/gchips" name="LineageOS/android_hardware_google_gchips" groups="pdk-lassen,pdk-gs-arm" />
+  <project path="hardware/google/graphics/common" name="LineageOS/android_hardware_google_graphics_common" groups="pdk-lassen,pdk-gs-arm" />
+  <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen,pdk-gs-arm" remote="aosp" />
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" remote="aosp" />
   <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel" />
   <project path="hardware/google/pixel-sepolicy" name="LineageOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" />
@@ -752,11 +820,16 @@
   <project path="kernel/prebuilts/5.4/x86_64" name="kernel/prebuilts/5.4/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/5.10/arm64" name="kernel/prebuilts/5.10/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/5.10/x86_64" name="kernel/prebuilts/5.10/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="kernel/prebuilts/5.15/arm64" name="kernel/prebuilts/5.15/arm64" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="kernel/prebuilts/5.15/x86_64" name="kernel/prebuilts/5.15/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/mainline/arm64" name="kernel/prebuilts/mainline/arm64" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="kernel/prebuilts/mainline/x86_64" name="kernel/prebuilts/mainline/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/common-modules/virtual-device/4.19/arm64" name="kernel/prebuilts/common-modules/virtual-device/4.19/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/common-modules/virtual-device/4.19/x86-64" name="kernel/prebuilts/common-modules/virtual-device/4.19/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/common-modules/virtual-device/5.10/arm64" name="kernel/prebuilts/common-modules/virtual-device/5.10/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/common-modules/virtual-device/5.10/x86-64" name="kernel/prebuilts/common-modules/virtual-device/5.10/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/5.15/arm64" name="kernel/prebuilts/common-modules/virtual-device/5.15/arm64" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/5.15/x86-64" name="kernel/prebuilts/common-modules/virtual-device/5.15/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/common-modules/virtual-device/5.4/arm64" name="kernel/prebuilts/common-modules/virtual-device/5.4/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/common-modules/virtual-device/5.4/x86-64" name="kernel/prebuilts/common-modules/virtual-device/5.4/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1" remote="aosp" />
@@ -765,19 +838,15 @@
   <project path="libcore" name="platform/libcore" groups="pdk" remote="aosp" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" />
   <project path="packages/apps/Car/Calendar" name="platform/packages/apps/Car/Calendar" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/Cluster" name="platform/packages/apps/Car/Cluster" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/DebuggingRestrictionController" name="platform/packages/apps/Car/DebuggingRestrictionController" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/Dialer" name="platform/packages/apps/Car/Dialer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/Hvac" name="platform/packages/apps/Car/Hvac" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/LatinIME" name="platform/packages/apps/Car/LatinIME" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/Launcher" name="platform/packages/apps/Car/Launcher" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/LinkViewer" name="platform/packages/apps/Car/LinkViewer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/LocalMediaPlayer" name="platform/packages/apps/Car/LocalMediaPlayer" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/Media" name="platform/packages/apps/Car/Media" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/Messenger" name="platform/packages/apps/Car/Messenger" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/Notification" name="platform/packages/apps/Car/Notification" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/Provision" name="platform/packages/apps/Car/Provision" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/Radio" name="platform/packages/apps/Car/Radio" groups="pdk-fs" remote="aosp" />
@@ -787,8 +856,6 @@
   <project path="packages/apps/Car/systemlibs" name="platform/packages/apps/Car/systemlibs" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/SystemUI" name="platform/packages/apps/Car/SystemUI" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/SystemUpdater" name="platform/packages/apps/Car/SystemUpdater" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Car/tests" name="platform/packages/apps/Car/tests" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -815,6 +882,7 @@
   <project path="packages/apps/SettingsIntelligence" name="LineageOS/android_packages_apps_SettingsIntelligence" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/SystemUIGo" name="platform/packages/apps/SystemUIGo" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" groups="pdk" remote="aosp" />
   <project path="packages/apps/TimeZoneData" name="platform/packages/apps/TimeZoneData" groups="pdk" remote="aosp" />
@@ -828,29 +896,35 @@
   <project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
   <project path="packages/inputmethods/LeanbackIME" name="LineageOS/android_packages_inputmethods_LeanbackIME" groups="pdk-fs" />
   <project path="packages/modules/adb" name="LineageOS/android_packages_modules_adb" groups="pdk" />
+  <project path="packages/modules/AdServices" name="platform/packages/modules/AdServices" groups="pdk-fs" remote="aosp" />
+  <project path="packages/modules/AppSearch" name="platform/packages/modules/AppSearch" groups="pdk" remote="aosp" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="packages/modules/Bluetooth" name="platform/packages/modules/Bluetooth" groups="pdk" remote="aosp" />
   <project path="packages/modules/BootPrebuilt/5.4/arm64" name="platform/packages/modules/BootPrebuilt/5.4/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="packages/modules/BootPrebuilt/5.10/arm64" name="platform/packages/modules/BootPrebuilt/5.10/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="packages/modules/CaptivePortalLogin" name="platform/packages/modules/CaptivePortalLogin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/CellBroadcastService" name="platform/packages/modules/CellBroadcastService" groups="pdk" remote="aosp" />
   <project path="packages/modules/common" name="LineageOS/android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Connectivity" name="LineageOS/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/modules/Cronet" name="platform/packages/modules/Cronet" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/ExtServices" name="platform/packages/modules/ExtServices" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/GeoTZ" name="platform/packages/modules/GeoTZ" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/Gki" name="platform/packages/modules/Gki" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" groups="pdk" remote="aosp" />
+  <project path="packages/modules/Media" name="platform/packages/modules/Media" groups="pdk" remote="aosp" />
   <project path="packages/modules/ModuleMetadata" name="platform/packages/modules/ModuleMetadata" groups="pdk" remote="aosp" />
   <project path="packages/modules/NetworkPermissionConfig" name="platform/packages/modules/NetworkPermissionConfig" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="packages/modules/OnDevicePersonalization" name="platform/packages/modules/OnDevicePersonalization" groups="pdk-fs" remote="aosp" />
   <project path="packages/modules/Permission" name="LineageOS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/RuntimeI18n" name="platform/packages/modules/RuntimeI18n" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/Scheduling" name="platform/packages/modules/Scheduling" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="packages/modules/SEPolicy" name="platform/packages/modules/SEPolicy" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/SdkExtensions" name="platform/packages/modules/SdkExtensions" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/TestModule" name="platform/packages/modules/TestModule" remote="aosp" />
+  <project path="packages/modules/Uwb" name="platform/packages/modules/Uwb" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" groups="pdk" remote="aosp" />
   <project path="packages/modules/vndk" name="platform/packages/modules/vndk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/Wifi" name="LineageOS/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" />
@@ -895,22 +969,13 @@
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/cmdline-tools" name="platform/prebuilts/cmdline-tools" groups="pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" groups="pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" groups="pdk,darwin,x86" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" groups="pdk,linux" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" />
-  <project path="prebuilts/gdb/darwin-x86" name="platform/prebuilts/gdb/darwin-x86" groups="darwin,pdk" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/gdb/linux-x86" name="platform/prebuilts/gdb/linux-x86" groups="linux,pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="darwin,pdk,tradefed" clone-depth="1" remote="aosp" />
   <project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" groups="linux,pdk,tradefed" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/jdk/jdk9" name="platform/prebuilts/jdk/jdk9" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/manifest-merger" name="platform/prebuilts/manifest-merger" groups="pdk" clone-depth="1" remote="aosp" />
@@ -918,20 +983,23 @@
   <project path="prebuilts/maven_repo/bumptech" name="platform/prebuilts/maven_repo/bumptech" groups="pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/art" name="platform/prebuilts/module_sdk/art" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/module_sdk/AdServices" name="platform/prebuilts/module_sdk/AdServices" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/module_sdk/AppSearch" name="platform/prebuilts/module_sdk/AppSearch" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/module_sdk/Bluetooth" name="platform/prebuilts/module_sdk/Bluetooth" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/conscrypt" name="platform/prebuilts/module_sdk/conscrypt" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/Connectivity" name="platform/prebuilts/module_sdk/Connectivity" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/IPsec" name="platform/prebuilts/module_sdk/IPsec" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/Media" name="platform/prebuilts/module_sdk/Media" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/MediaProvider" name="platform/prebuilts/module_sdk/MediaProvider" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/module_sdk/OnDevicePersonalization" name="platform/prebuilts/module_sdk/OnDevicePersonalization" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/Permission" name="platform/prebuilts/module_sdk/Permission" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/Scheduling" name="platform/prebuilts/module_sdk/Scheduling" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/SdkExtensions" name="platform/prebuilts/module_sdk/SdkExtensions" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/StatsD" name="platform/prebuilts/module_sdk/StatsD" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/module_sdk/Uwb" name="platform/prebuilts/module_sdk/Uwb" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/Wifi" name="platform/prebuilts/module_sdk/Wifi" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/ktlint" name="platform/prebuilts/ktlint" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/remoteexecution-client" name="platform/prebuilts/remoteexecution-client" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" groups="pdk" clone-depth="1" remote="aosp" />
@@ -943,15 +1011,16 @@
   <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/vndk/v30" name="platform/prebuilts/vndk/v30" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/vndk/v31" name="platform/prebuilts/vndk/v31" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/vndk/v32" name="platform/prebuilts/vndk/v32" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/apex" name="platform/system/apex" groups="pdk" remote="aosp" />
-  <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" />
   <project path="system/bpf" name="platform/system/bpf" groups="pdk" remote="aosp" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" remote="aosp" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp" />
   <project path="system/chre" name="platform/system/chre" groups="pdk" remote="aosp" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" remote="aosp" />
   <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
+  <project path="system/dmesgd" name="platform/system/dmesgd" groups="pdk" remote="aosp" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/gsid" name="platform/system/gsid" groups="pdk" remote="aosp" />
@@ -966,6 +1035,7 @@
   <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk" />
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" remote="aosp" />
   <project path="system/libprocinfo" name="platform/system/libprocinfo" groups="pdk" remote="aosp" />
+  <project path="system/librustutils" name="platform/system/librustutils" groups="pdk" remote="aosp" />
   <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" remote="aosp" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" remote="aosp" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" remote="aosp" />
@@ -996,15 +1066,12 @@
   <project path="system/unwinding" name="platform/system/unwinding" groups="pdk" remote="aosp" />
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
-  <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" remote="aosp" />
+  <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" groups="pdk" remote="aosp" />
   <project path="test/cts-root" name="platform/test/cts-root" remote="aosp" />
   <project path="test/framework" name="platform/test/framework" groups="vts,projectarch,pdk" remote="aosp" />
   <project path="test/mlts/benchmark" name="platform/test/mlts/benchmark" groups="pdk" remote="aosp" />
   <project path="test/mlts/models" name="platform/test/mlts/models" groups="pdk" remote="aosp" />
   <project path="test/mts" name="platform/test/mts" remote="aosp" />
-  <project path="test/vti/dashboard" name="platform/test/vti/dashboard" groups="vts,projectarch,pdk" remote="aosp" />
-  <project path="test/vti/fuzz_test_serving" name="platform/test/vti/fuzz_test_serving" groups="vts,projectarch,pdk" remote="aosp" />
-  <project path="test/vti/test_serving" name="platform/test/vti/test_serving" groups="vts,projectarch,pdk" remote="aosp" />
   <project path="test/vts" name="platform/test/vts" groups="vts,pdk" remote="aosp" />
   <project path="test/vts-testcase/fuzz" name="platform/test/vts-testcase/fuzz" groups="vts,projectarch,pdk" remote="aosp" />
   <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" groups="vts,pdk" remote="aosp" />
@@ -1033,23 +1100,22 @@
   <project path="tools/external_updater" name="platform/tools/external_updater" groups="tools" remote="aosp" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" />
+  <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="nopresubmit,pdk,tradefed" remote="aosp" />
   <project path="tools/metalava" name="platform/tools/metalava" groups="pdk,tools" remote="aosp" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" remote="aosp" />
   <project path="tools/ndkports" name="platform/tools/ndkports" groups="pdk" remote="aosp" />
   <project path="tools/platform-compat" name="tools/platform-compat" groups="pdk-cw-fs,pdk-fs,pdk" remote="aosp" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" remote="aosp" revision="master" />
   <project path="tools/security" name="platform/tools/security" groups="pdk,tools" remote="aosp" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" remote="aosp" />
   <project path="tools/test/graphicsbenchmark" name="platform/tools/test/graphicsbenchmark" groups="pdk" remote="aosp" />
+  <project path="tools/test/mobly_snippets" name="platform/tools/test/mobly_snippets" groups="pdk" remote="aosp" />
   <project path="tools/test/openhst" name="platform/tools/test/openhst" groups="tools" remote="aosp" />
-  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" remote="aosp" />
+  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" remote="aosp" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" remote="aosp" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
-
-  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
