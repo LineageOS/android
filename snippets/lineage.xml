@@ -66,14 +66,14 @@
   <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 
   <!-- CodeLinaro additions -->
-  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,qssi" />
+  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,qssi" revision="lineage-19.1" />
   <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-19.1-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" />
-  <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom,sdm845" />
-  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm845" />
-  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm845" />
-  <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" groups="qcom,qssi" />
-  <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" />
+  <project path="device/qcom/sepolicy_vndr" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="lineage-19.1" />
+  <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom,sdm845" revision="lineage-19.1" />
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm845" revision="lineage-19.1" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm845" revision="lineage-19.1" />
+  <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" groups="qcom,qssi" revision="lineage-19.1" />
+  <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" revision="lineage-19.1" />
   <project path="hardware/qcom-caf/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="qcom,lahaina" revision="lineage-19.1-caf" />
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom" >
     <!-- add guard for AOSP hardware/qcom dir -->
@@ -122,39 +122,39 @@
   <project path="hardware/qcom-caf/sm8350/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,lahaina" revision="lineage-19.1-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-19.1-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,lahaina" revision="lineage-19.1-caf-sm8350" />
-  <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,lahaina" />
-  <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,sdm660" />
+  <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,lahaina" revision="lineage-19.1" />
+  <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,sdm660" revision="lineage-19.1" />
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,sdm845" revision="lineage-19.1-caf" />
-  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" groups="qcom,qssi" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" groups="qcom,qssi" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" groups="qcom,qssi" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" groups="qcom,qssi" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" groups="qcom,qssi" />
+  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" groups="qcom,qssi" revision="lineage-19.1" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" groups="qcom,qssi" revision="lineage-19.1" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" groups="qcom,qssi" revision="lineage-19.1" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" groups="qcom,qssi" revision="lineage-19.1" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" groups="qcom,qssi" revision="lineage-19.1" />
   <project path="vendor/nxp/opensource/pn5xx/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" groups="qcom,sdm845" revision="lineage-19.1-pn5xx" />
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" groups="qcom,sdm845" revision="lineage-19.1-pn5xx" />
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" groups="qcom,lahaina" revision="lineage-19.1-sn100x" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" groups="qcom,lahaina" revision="lineage-19.1-sn100x" />
-  <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" groups="qcom,qssi" revision="lineage-19.1" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" revision="lineage-19.1" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" revision="lineage-19.1" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" revision="lineage-19.1" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" groups="qcom,qssi" revision="lineage-19.1" />
   <project path="vendor/qcom/opensource/display" name="LineageOS/android_vendor_qcom_opensource_display" groups="qcom" />
-  <project path="vendor/qcom/opensource/fm-commonsys" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" />
-  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" groups="qcom,sdm845" />
-  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" revision="lineage-19.1" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="lineage-19.1" />
+  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" groups="qcom,sdm845" revision="lineage-19.1" />
+  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" revision="lineage-19.1" />
   <!--<project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom" />-->
-  <project path="vendor/qcom/opensource/power" name="LineageOS/android_vendor_qcom_opensource_power" groups="qcom,lahaina" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="qcom,lahaina" />
-  <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="qcom,lahaina" />
-  <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,lahaina" />
-  <project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,sdm845" />
+  <project path="vendor/qcom/opensource/power" name="LineageOS/android_vendor_qcom_opensource_power" groups="qcom,lahaina" revision="lineage-19.1" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="qcom,lahaina" revision="lineage-19.1" />
+  <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="qcom,lahaina" revision="lineage-19.1" />
+  <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,lahaina" revision="lineage-19.1" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,sdm845" revision="lineage-19.1" />
 
   <!-- NXP additions -->
-  <project path="vendor/nxp/nfc" name="LineageOS/android_vendor_nxp_nfc" groups="nxp" />
-  <project path="vendor/nxp/secure_element" name="LineageOS/android_vendor_nxp_secure_element" groups="nxp" />
-  <project path="vendor/nxp/secure_element_extns" name="LineageOS/android_vendor_nxp_secure_element_extns" groups="nxp" />
+  <project path="vendor/nxp/nfc" name="LineageOS/android_vendor_nxp_nfc" groups="nxp" revision="lineage-19.1" />
+  <project path="vendor/nxp/secure_element" name="LineageOS/android_vendor_nxp_secure_element" groups="nxp" revision="lineage-19.1" />
+  <project path="vendor/nxp/secure_element_extns" name="LineageOS/android_vendor_nxp_secure_element_extns" groups="nxp" revision="lineage-19.1" />
 
   <!-- Infrastructure -->
   <project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="master" />
