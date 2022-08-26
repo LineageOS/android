@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6a0f85f_bf798950",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 23782
+      },
+      "writtenOn": "2022-08-26T14:39:36Z",
+      "side": 1,
+      "message": "I can\u0027t do a +2, but LGTM.",
+      "revId": "8807b7741ec1319ab57566b3a37a672310ac4609",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
