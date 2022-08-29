@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa2cdf47_2ee4c70f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2022-08-29T14:54:39Z",
+      "side": 1,
+      "message": "Let\u0027s get this in for now to unbreak builds, we can figure out later if we want to kill GCC completely. We can just put a warning in kernel.mk for now.",
+      "revId": "43dd5a3a8767f32ce04a26fab66db0c58ac60031",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
