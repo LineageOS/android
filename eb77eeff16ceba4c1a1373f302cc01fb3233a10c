@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c4851bad_94da6fe2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2022-08-30T03:13:17Z",
+      "side": 1,
+      "message": "This is at least enough to clear out qcom dependency errors when cloning with group default,-qcom.",
+      "revId": "eb77eeff16ceba4c1a1373f302cc01fb3233a10c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
