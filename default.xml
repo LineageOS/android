@@ -128,7 +128,7 @@
   <project path="external/emma" name="platform/external/emma" groups="pdk" remote="aosp" />
   <project path="external/epid-sdk" name="platform/external/epid-sdk" groups="pdk" remote="aosp" />
   <project path="external/error_prone" name="platform/external/error_prone" groups="pdk" remote="aosp" />
-  <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" />
+  <project path="external/expat" name="LineageOS/android_external_expat" groups="pdk" />
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" remote="aosp" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" />
   <project path="external/fec" name="platform/external/fec" groups="pdk" remote="aosp" />
