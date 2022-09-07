@@ -154,7 +154,7 @@
   <project path="external/escapevelocity" name="platform/external/escapevelocity" groups="pdk" remote="aosp" />
   <project path="external/ethtool" name="platform/external/ethtool" groups="pdk" remote="aosp" />
   <project path="external/exoplayer" name="platform/external/exoplayer" groups="pdk" remote="aosp" />
-  <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" />
+  <project path="external/expat" name="LineageOS/android_external_expat" groups="pdk" />
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" remote="aosp" />
   <project path="external/fastrpc" name="platform/external/fastrpc" groups="pdk" remote="aosp" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" />
