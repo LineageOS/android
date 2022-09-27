@@ -16,6 +16,24 @@
       "message": "Does this remove the need of https://review.lineageos.org/c/LineageOS/android_build/+/339646?",
       "revId": "8a8da735be56e95d817a6ae6353124ebf8da9f41",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a36ea03d_91ad710c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-09-27T21:08:15Z",
+      "side": 1,
+      "message": "correct. this is what mike wanted, I am currently checking our apps to make sure these are override correctly",
+      "parentUuid": "217a4217_ca4c0c0a",
+      "revId": "8a8da735be56e95d817a6ae6353124ebf8da9f41",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
