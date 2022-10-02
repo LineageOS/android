@@ -16,6 +16,24 @@
       "message": "QuickSearchBox is being installed when building without GMS, FYI.",
       "revId": "edb596b6b498d337c2988caeb74adbdca7133960",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4352ca50_2cf45181",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-10-02T23:04:43Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "7e5d269c_949251d1",
+      "revId": "edb596b6b498d337c2988caeb74adbdca7133960",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
