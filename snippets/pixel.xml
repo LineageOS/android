@@ -2,24 +2,24 @@
 <manifest>
 
   <!-- Pixel 6/6 Pro/6a kernel modules -->
-  <project path="kernel/google/gs101/private/devices/google/bluejay" name="kernel/devices/google/bluejay" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
-  <project path="kernel/google/gs101/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
-  <project path="kernel/google/gs101/private/google-modules/aoc" name="kernel/google-modules/aoc" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
-  <project path="kernel/google/gs101/private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
-  <project path="kernel/google/gs101/private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
-  <project path="kernel/google/gs101/private/google-modules/bms" name="kernel/google-modules/bms" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
-  <project path="kernel/google/gs101/private/google-modules/display" name="kernel/google-modules/display" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
-  <project path="kernel/google/gs101/private/google-modules/edgetpu/abrolhos" name="kernel/google-modules/edgetpu/abrolhos" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
-  <project path="kernel/google/gs101/private/google-modules/fingerprint/fpc" name="kernel/google-modules/fingerprint/fpc" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
-  <project path="kernel/google/gs101/private/google-modules/gpu" name="kernel/google-modules/gpu" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
-  <project path="kernel/google/gs101/private/google-modules/lwis" name="kernel/google-modules/lwis" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
-  <project path="kernel/google/gs101/private/google-modules/nfc" name="kernel/google-modules/nfc" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
-  <project path="kernel/google/gs101/private/google-modules/power/reset" name="kernel/google-modules/power/reset" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
-  <project path="kernel/google/gs101/private/google-modules/sensors/hall_sensor" name="kernel/google-modules/sensors/hall_sensor" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
-  <project path="kernel/google/gs101/private/google-modules/touch/common" name="kernel/google-modules/touch/common" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
-  <project path="kernel/google/gs101/private/google-modules/touch/fts" name="kernel/google-modules/touch/fts_touch" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
-  <project path="kernel/google/gs101/private/google-modules/touch/sec" name="kernel/google-modules/touch/sec_touch" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
-  <project path="kernel/google/gs101/private/google-modules/uwb" name="kernel/google-modules/uwb" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
-  <project path="kernel/google/gs101/private/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/devices/google/bluejay" name="kernel/devices/google/bluejay" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/google-modules/aoc" name="kernel/google-modules/aoc" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/google-modules/bms" name="kernel/google-modules/bms" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/google-modules/display" name="kernel/google-modules/display" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/google-modules/edgetpu/abrolhos" name="kernel/google-modules/edgetpu/abrolhos" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/google-modules/fingerprint/fpc" name="kernel/google-modules/fingerprint/fpc" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/google-modules/gpu" name="kernel/google-modules/gpu" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/google-modules/lwis" name="kernel/google-modules/lwis" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/google-modules/nfc" name="kernel/google-modules/nfc" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/google-modules/power/reset" name="kernel/google-modules/power/reset" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/google-modules/sensors/hall_sensor" name="kernel/google-modules/sensors/hall_sensor" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/google-modules/touch/common" name="kernel/google-modules/touch/common" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/google-modules/touch/fts" name="kernel/google-modules/touch/fts_touch" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/google-modules/touch/sec" name="kernel/google-modules/touch/sec_touch" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/google-modules/uwb" name="kernel/google-modules/uwb" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
+  <project path="kernel/google/gs101/private/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
 
 </manifest>
