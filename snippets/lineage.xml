@@ -20,7 +20,6 @@
        mirror won't get that benefit from this remote/project. Place a line in
        a local manifest if you desire x86_64 Webview -->
   <!-- <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" clone-depth="1" revision="main" remote="gitlab" /> -->
-  <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" />
   <project path="external/htop" name="LineageOS/android_external_htop" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
@@ -55,6 +54,12 @@
   <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" />
+  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" />
+  <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin" />
+  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+
+  <!-- Inline kernel build -->
+  <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" revision="lineage-19.1" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" revision="lineage-19.1" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" groups="pdk,darwin,x86" clone-depth="1" revision="lineage-19.1" />
@@ -63,9 +68,6 @@
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" revision="lineage-19.1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.20" />
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
-  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" />
-  <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin" />
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 
   <!-- CodeLinaro additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,qssi" />
