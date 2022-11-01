@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d7917f4a_b138f9c9",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2022-11-01T13:25:05Z",
+      "side": 1,
+      "message": "We can\u0027t use roomservice to sync AOSP repos, plus the tags change every month and they are independent of the platform tag",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 44
+      },
+      "revId": "4fcfa6bc665f4c457b9ddb5c82a2ba959e697491",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f9fa796_908b18ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2022-11-01T13:25:05Z",
+      "side": 1,
+      "message": "Put groups before remote",
+      "revId": "4fcfa6bc665f4c457b9ddb5c82a2ba959e697491",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
