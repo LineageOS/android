@@ -16,6 +16,23 @@
       "message": "Would lineage.dependencies for NOT android_device_google_gs101 be a better home?",
       "revId": "4191c363269808751814ceb34179c369fb1aca42",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c20f7fb9_47220f13",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22837
+      },
+      "writtenOn": "2022-11-02T09:25:05Z",
+      "side": 1,
+      "message": "Just saw 343384. Still not ideal I think. Would gs201 modules be pixel-extras-2 group? ",
+      "revId": "4191c363269808751814ceb34179c369fb1aca42",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
