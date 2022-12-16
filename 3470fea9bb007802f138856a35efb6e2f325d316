@@ -16,6 +16,23 @@
       "message": "Build just fine on LineageOS 19.1. Tested on Kebab",
       "revId": "3470fea9bb007802f138856a35efb6e2f325d316",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "22a14b09_d477dc26",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-12-16T22:35:55Z",
+      "side": 1,
+      "message": "these were dropped as we decided that unless someone wanted to go update them, we\u0027d let them die.\n\nIf you want to merge upstreams for each, push a DMN squashed update to Gerrit, and link a GitHub repo with the full merge, we can get these re-enabled.",
+      "revId": "3470fea9bb007802f138856a35efb6e2f325d316",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
