@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea39d48d_a69d877e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17945
+      },
+      "writtenOn": "2022-12-16T20:32:53Z",
+      "side": 1,
+      "message": "Build just fine on LineageOS 19.1. Tested on Kebab",
+      "revId": "3470fea9bb007802f138856a35efb6e2f325d316",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
