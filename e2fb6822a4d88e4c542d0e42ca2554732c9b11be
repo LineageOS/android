@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "990aa456_12eaf9f1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17945
+      },
+      "writtenOn": "2022-12-18T16:41:27Z",
+      "side": 1,
+      "message": "For now I have upstreamed rsync and enabled it here.\nFork with the merge history: https://github.com/DroidFreak32/android_external_rsync",
+      "revId": "e2fb6822a4d88e4c542d0e42ca2554732c9b11be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
