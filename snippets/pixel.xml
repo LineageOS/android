@@ -2,45 +2,45 @@
 <manifest>
 
   <!-- Pixel 6/6 Pro/6a kernel modules -->
-  <project path="kernel/google/gs101/private/devices/google/bluejay" name="kernel/devices/google/bluejay" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
-  <project path="kernel/google/gs101/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
-  <project path="kernel/google/gs101/private/google-modules/aoc" name="kernel/google-modules/aoc" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
-  <project path="kernel/google/gs101/private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
-  <project path="kernel/google/gs101/private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
-  <project path="kernel/google/gs101/private/google-modules/bms" name="kernel/google-modules/bms" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
-  <project path="kernel/google/gs101/private/google-modules/display" name="kernel/google-modules/display" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
-  <project path="kernel/google/gs101/private/google-modules/edgetpu/abrolhos" name="kernel/google-modules/edgetpu/abrolhos" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
-  <project path="kernel/google/gs101/private/google-modules/fingerprint/fpc" name="kernel/google-modules/fingerprint/fpc" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
-  <project path="kernel/google/gs101/private/google-modules/gpu" name="kernel/google-modules/gpu" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
-  <project path="kernel/google/gs101/private/google-modules/lwis" name="kernel/google-modules/lwis" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
-  <project path="kernel/google/gs101/private/google-modules/nfc" name="kernel/google-modules/nfc" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
-  <project path="kernel/google/gs101/private/google-modules/power/reset" name="kernel/google-modules/power/reset" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
-  <project path="kernel/google/gs101/private/google-modules/sensors/hall_sensor" name="kernel/google-modules/sensors/hall_sensor" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
-  <project path="kernel/google/gs101/private/google-modules/touch/common" name="kernel/google-modules/touch/common" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
-  <project path="kernel/google/gs101/private/google-modules/touch/fts" name="kernel/google-modules/touch/fts_touch" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
-  <project path="kernel/google/gs101/private/google-modules/touch/sec" name="kernel/google-modules/touch/sec_touch" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
-  <project path="kernel/google/gs101/private/google-modules/uwb" name="kernel/google-modules/uwb" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
-  <project path="kernel/google/gs101/private/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.49" />
+  <project path="kernel/google/gs101/private/devices/google/bluejay" name="kernel/devices/google/bluejay" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="kernel/google/gs101/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="kernel/google/gs101/private/google-modules/aoc" name="kernel/google-modules/aoc" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="kernel/google/gs101/private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="kernel/google/gs101/private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="kernel/google/gs101/private/google-modules/bms" name="kernel/google-modules/bms" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="kernel/google/gs101/private/google-modules/display" name="kernel/google-modules/display" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="kernel/google/gs101/private/google-modules/edgetpu/abrolhos" name="kernel/google-modules/edgetpu/abrolhos" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="kernel/google/gs101/private/google-modules/fingerprint/fpc" name="kernel/google-modules/fingerprint/fpc" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="kernel/google/gs101/private/google-modules/gpu" name="kernel/google-modules/gpu" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="kernel/google/gs101/private/google-modules/lwis" name="kernel/google-modules/lwis" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="kernel/google/gs101/private/google-modules/nfc" name="kernel/google-modules/nfc" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="kernel/google/gs101/private/google-modules/power/reset" name="kernel/google-modules/power/reset" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="kernel/google/gs101/private/google-modules/sensors/hall_sensor" name="kernel/google-modules/sensors/hall_sensor" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="kernel/google/gs101/private/google-modules/touch/common" name="kernel/google-modules/touch/common" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="kernel/google/gs101/private/google-modules/touch/fts" name="kernel/google-modules/touch/fts_touch" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="kernel/google/gs101/private/google-modules/touch/sec" name="kernel/google-modules/touch/sec_touch" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="kernel/google/gs101/private/google-modules/uwb" name="kernel/google-modules/uwb" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="kernel/google/gs101/private/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.54" />
 
   <!-- Pixel 7/7 Pro kernel modules -->
-  <project path="kernel/google/gs201/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
-  <project path="kernel/google/gs201/private/google-modules/aoc" name="kernel/google-modules/aoc" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
-  <project path="kernel/google/gs201/private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
-  <project path="kernel/google/gs201/private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
-  <project path="kernel/google/gs201/private/google-modules/bms" name="kernel/google-modules/bms" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
-  <project path="kernel/google/gs201/private/google-modules/display" name="kernel/google-modules/display" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
-  <project path="kernel/google/gs201/private/google-modules/edgetpu/janeiro" name="kernel/google-modules/edgetpu/janeiro" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
-  <project path="kernel/google/gs201/private/google-modules/gpu" name="kernel/google-modules/gpu" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
-  <project path="kernel/google/gs201/private/google-modules/gxp/gs201" name="kernel/google-modules/gxp/gs201" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
-  <project path="kernel/google/gs201/private/google-modules/lwis" name="kernel/google-modules/lwis" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
-  <project path="kernel/google/gs201/private/google-modules/nfc" name="kernel/google-modules/nfc" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
-  <project path="kernel/google/gs201/private/google-modules/power/reset" name="kernel/google-modules/power/reset" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
-  <project path="kernel/google/gs201/private/google-modules/touch/common" name="kernel/google-modules/touch/common" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
-  <project path="kernel/google/gs201/private/google-modules/touch/focaltech" name="kernel/google-modules/touch/focaltech_touch" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
-  <project path="kernel/google/gs201/private/google-modules/touch/sec" name="kernel/google-modules/touch/sec_touch" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
-  <project path="kernel/google/gs201/private/google-modules/touch/synaptics" name="kernel/google-modules/touch/synaptics_touch" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
-  <project path="kernel/google/gs201/private/google-modules/uwb" name="kernel/google-modules/uwb" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
-  <project path="kernel/google/gs201/private/google-modules/video/gchips" name="kernel/google-modules/video/gchips" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
-  <project path="kernel/google/gs201/private/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.50" />
+  <project path="kernel/google/gs201/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
+  <project path="kernel/google/gs201/private/google-modules/aoc" name="kernel/google-modules/aoc" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
+  <project path="kernel/google/gs201/private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
+  <project path="kernel/google/gs201/private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
+  <project path="kernel/google/gs201/private/google-modules/bms" name="kernel/google-modules/bms" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
+  <project path="kernel/google/gs201/private/google-modules/display" name="kernel/google-modules/display" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
+  <project path="kernel/google/gs201/private/google-modules/edgetpu/janeiro" name="kernel/google-modules/edgetpu/janeiro" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
+  <project path="kernel/google/gs201/private/google-modules/gpu" name="kernel/google-modules/gpu" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
+  <project path="kernel/google/gs201/private/google-modules/gxp/gs201" name="kernel/google-modules/gxp/gs201" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
+  <project path="kernel/google/gs201/private/google-modules/lwis" name="kernel/google-modules/lwis" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
+  <project path="kernel/google/gs201/private/google-modules/nfc" name="kernel/google-modules/nfc" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
+  <project path="kernel/google/gs201/private/google-modules/power/reset" name="kernel/google-modules/power/reset" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
+  <project path="kernel/google/gs201/private/google-modules/touch/common" name="kernel/google-modules/touch/common" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
+  <project path="kernel/google/gs201/private/google-modules/touch/focaltech" name="kernel/google-modules/touch/focaltech_touch" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
+  <project path="kernel/google/gs201/private/google-modules/touch/sec" name="kernel/google-modules/touch/sec_touch" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
+  <project path="kernel/google/gs201/private/google-modules/touch/synaptics" name="kernel/google-modules/touch/synaptics_touch" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
+  <project path="kernel/google/gs201/private/google-modules/uwb" name="kernel/google-modules/uwb" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
+  <project path="kernel/google/gs201/private/google-modules/video/gchips" name="kernel/google-modules/video/gchips" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
+  <project path="kernel/google/gs201/private/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.55" />
 
 </manifest>
