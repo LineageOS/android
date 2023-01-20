@@ -16,6 +16,24 @@
       "message": "remote: error: File libs/idsig/testdata/input.272629760 is 260.00 MB; this exceeds GitHub\u0027s file size limit of 100.00 MB",
       "revId": "143e79ad54cbdd66226baadd86444efb8a1ffc31",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "83b4e9f5_4e7cd5a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2023-01-20T20:41:18Z",
+      "side": 1,
+      "message": "Hacky workaround - Copy apex/sign_virt_apex.py elsewhere, update callers.\n\nCall it `sign_virt_apex2` perhaps - https://cs.android.com/search?q\u003dsign_virt_apex\u0026sq\u003d\n\nWill handle 2/3 commits.",
+      "parentUuid": "8c9273b9_0022214d",
+      "revId": "143e79ad54cbdd66226baadd86444efb8a1ffc31",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
