@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c9273b9_0022214d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-01-20T01:25:28Z",
+      "side": 1,
+      "message": "remote: error: File libs/idsig/testdata/input.272629760 is 260.00 MB; this exceeds GitHub\u0027s file size limit of 100.00 MB",
+      "revId": "143e79ad54cbdd66226baadd86444efb8a1ffc31",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
