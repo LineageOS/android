@@ -50,6 +50,23 @@
       "message": "Entire topic builds and runs OK on pro1 and pro1x",
       "revId": "0bfb1bbc9d45c2aaa08945881faf63d79e875ef0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee61ae4c_a8958c68",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20364
+      },
+      "writtenOn": "2023-02-08T22:27:23Z",
+      "side": 1,
+      "message": "Works fine on device",
+      "revId": "0bfb1bbc9d45c2aaa08945881faf63d79e875ef0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
