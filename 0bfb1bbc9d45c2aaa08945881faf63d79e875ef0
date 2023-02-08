@@ -33,6 +33,23 @@
       "message": "All fine here",
       "revId": "0bfb1bbc9d45c2aaa08945881faf63d79e875ef0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e593f71_a4d2bfb6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16914
+      },
+      "writtenOn": "2023-02-08T20:31:07Z",
+      "side": 1,
+      "message": "Entire topic builds and runs OK on pro1 and pro1x",
+      "revId": "0bfb1bbc9d45c2aaa08945881faf63d79e875ef0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
