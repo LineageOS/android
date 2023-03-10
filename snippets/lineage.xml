@@ -14,11 +14,7 @@
   <project path="external/chromium-webview/prebuilt/arm" name="LineageOS/android_external_chromium-webview_prebuilt_arm" groups="pdk" clone-depth="1" revision="b2639126d02b401ae8a8a7f3ca302633713a12e6" />
   <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" clone-depth="1" revision="f6f994f9912b26d1dffd100f6de959f9dfd31414" />
   <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" clone-depth="1" revision="fff97d58fdeb0b54d6ea55d293ee63283d0c6eb0" />
-  <!-- The below will sync if you have a gitlab remote defined, but review/approval
-       does not run through Gerrit. Additionally, those who sync referncing a
-       mirror won't get that benefit from this remote/project. Place a line in
-       a local manifest if you desire x86_64 Webview -->
-  <!-- <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" clone-depth="1" revision="248528f1f481f07bc3688eb7e362d59c56ecce29" remote="gitlab" /> -->
+  <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="248528f1f481f07bc3688eb7e362d59c56ecce29" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
   <project path="external/htop" name="LineageOS/android_external_htop" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
