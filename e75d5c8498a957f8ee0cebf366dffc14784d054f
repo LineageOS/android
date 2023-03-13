@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0c2cd2d_f6e2a89d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2023-03-13T07:58:12Z",
+      "side": 1,
+      "message": "Sync (assuming you nuke the old project sync) and repopick works LFS.",
+      "revId": "e75d5c8498a957f8ee0cebf366dffc14784d054f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
