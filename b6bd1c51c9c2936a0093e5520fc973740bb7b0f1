@@ -16,6 +16,24 @@
       "message": "Cherry picking this change and re-syncing leads to the following error when picking the topick:\n```\nApplying change number 351197...\n--\u003e Subject:       \"fixup! bluetooth: abandon app local certificate\"\n--\u003e Project path:  packages/modules/Bluetooth\n--\u003e Change number: 351197 (Patch Set 2)\n[\u0027git fetch github\u0027, \u0027refs/changes/97/351197/2\u0027]\nremote: Enumerating objects: 11998, done.\nremote: Counting objects: 100% (11783/11783), done.\nremote: Compressing objects: 100% (2815/2815), done.\nremote: Total 11998 (delta 7363), reused 11159 (delta 6755), pack-reused 215\nReceiving objects: 100% (11998/11998), 5.95 MiB | 6.26 MiB/s, done.\nResolving deltas: 100% (7493/7493), completed with 66 local objects.\nFrom https://github.com/LineageOS/android_packages_modules_Bluetooth\n * branch                  refs/changes/97/351197/2 -\u003e FETCH_HEAD\nCONFLICT (modify/delete): android/BluetoothLegacyMigration/Android.bp deleted in HEAD and modified in 4ced7fa2e1 (fixup! bluetooth: abandon app local certificate).  Version 4ced7fa2e1 (fixup! bluetooth: abandon app local certificate) of android/BluetoothLegacyMigration/Android.bp left in tree.\nerror: could not apply 4ced7fa2e1... fixup! bluetooth: abandon app local certificate\nhint: After resolving the conflicts, mark them with\nhint: \"git add/rm \u003cpathspec\u003e\", then run\nhint: \"git cherry-pick --continue\".\nhint: You can instead skip this commit with \"git cherry-pick --skip\".\nhint: To abort and get back to the state before \"git cherry-pick\",\nhint: run \"git cherry-pick --abort\".\nERROR: git command failed\n```",
       "revId": "b6bd1c51c9c2936a0093e5520fc973740bb7b0f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "97b10d55_d8dd2878",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-03-15T22:52:34Z",
+      "side": 1,
+      "message": "Use `repopick -p -t T_asb_2023-03`",
+      "parentUuid": "974599c2_0517e4db",
+      "revId": "b6bd1c51c9c2936a0093e5520fc973740bb7b0f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
