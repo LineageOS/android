@@ -70,6 +70,24 @@
       "parentUuid": "007f0331_b33f69b3",
       "revId": "b6bd1c51c9c2936a0093e5520fc973740bb7b0f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "96c6148d_776b74ce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26658
+      },
+      "writtenOn": "2023-03-16T19:09:20Z",
+      "side": 1,
+      "message": "How could I solve that? All I\u0027m trying is picking 351108, copying the xmls to .repo/manifests, resyncing, and then picking the topic. This did work in the past...",
+      "parentUuid": "77f1b2a7_c89a2223",
+      "revId": "b6bd1c51c9c2936a0093e5520fc973740bb7b0f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
