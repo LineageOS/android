@@ -52,6 +52,24 @@
       "parentUuid": "97b10d55_d8dd2878",
       "revId": "b6bd1c51c9c2936a0093e5520fc973740bb7b0f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "77f1b2a7_c89a2223",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-03-16T18:19:23Z",
+      "side": 1,
+      "message": "It definitely works, this is an issue with your local tree. Pulling is required instead of cherry picking for merge commits, like in this case",
+      "parentUuid": "007f0331_b33f69b3",
+      "revId": "b6bd1c51c9c2936a0093e5520fc973740bb7b0f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
