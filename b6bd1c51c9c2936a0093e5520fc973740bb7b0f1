@@ -34,6 +34,24 @@
       "parentUuid": "974599c2_0517e4db",
       "revId": "b6bd1c51c9c2936a0093e5520fc973740bb7b0f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "007f0331_b33f69b3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26658
+      },
+      "writtenOn": "2023-03-16T18:08:18Z",
+      "side": 1,
+      "message": "That doesn\u0027t solve it:\n```\nApplying change number 351197...\n--\u003e Subject:       \"fixup! bluetooth: abandon app local certificate\"\n--\u003e Project path:  packages/modules/Bluetooth\n--\u003e Change number: 351197 (Patch Set 2)\n[\u0027git pull --no-edit github\u0027, \u0027refs/changes/97/351197/2\u0027]\nerror: Pulling is not possible because you have unmerged files.\nhint: Fix them up in the work tree, and then use \u0027git add/rm \u003cfile\u003e\u0027\nhint: as appropriate to mark resolution and make a commit.\nfatal: Exiting because of an unresolved conflict.\nERROR: git command failed\n```\nIs pulling over cherry picking generally recommended?",
+      "parentUuid": "97b10d55_d8dd2878",
+      "revId": "b6bd1c51c9c2936a0093e5520fc973740bb7b0f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
