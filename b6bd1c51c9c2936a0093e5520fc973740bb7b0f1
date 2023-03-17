@@ -88,6 +88,24 @@
       "parentUuid": "77f1b2a7_c89a2223",
       "revId": "b6bd1c51c9c2936a0093e5520fc973740bb7b0f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35f90b2f_84303830",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31334
+      },
+      "writtenOn": "2023-03-17T08:43:56Z",
+      "side": 1,
+      "message": "Try re-sync the repo that failed to pick this topic, then pick this topic again. This works for me :)",
+      "parentUuid": "96c6148d_776b74ce",
+      "revId": "b6bd1c51c9c2936a0093e5520fc973740bb7b0f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
