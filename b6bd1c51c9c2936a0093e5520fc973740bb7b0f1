@@ -106,6 +106,24 @@
       "parentUuid": "96c6148d_776b74ce",
       "revId": "b6bd1c51c9c2936a0093e5520fc973740bb7b0f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "044987f5_676041b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16179
+      },
+      "writtenOn": "2023-03-17T13:48:55Z",
+      "side": 1,
+      "message": "repo init\nrepo sync\n. build/envsetup.sh\nrepopick -p -t T_asb_2023-03\n\nFrom https://github.com/LineageOS/android_frameworks_base\n * branch                      refs/changes/27/351227/1 -\u003e FETCH_HEAD\nRebasing (10/2097)^MRebasing (11/2097)^MRebasing (12/2097)^MRebasing (13/2097)^MRebasing (14/2097)^MAuto-merging package\nAuto-merging packages/SystemUI/tests/src/com/android/systemui/statusbar/phone/StatusBarKeyguardViewManagerTest.java\nCONFLICT (content): Merge conflict in packages/SystemUI/tests/src/com/android/systemui/statusbar/phone/StatusBarKeyguard\nerror: could not apply f348307f7ba5... [Bouncer] ensure bouncer not shown with doze state.\nhint: Resolve all conflicts manually, mark them as resolved with\nhint: \"git add/rm \u003cconflicted_files\u003e\", then run \"git rebase --continue\".\nhint: You can instead skip this commit: run \"git rebase --skip\".\nhint: To abort and get back to the state before \"git rebase\", run \"git rebase --abort\".\nRecorded preimage for \u0027packages/SystemUI/tests/src/com/android/systemui/statusbar/phone/StatusBarKeyguardViewManagerTest\nCould not apply f348307f7ba5... [Bouncer] ensure bouncer not shown with doze state.\n[\u0027git pull --no-edit github\u0027, \u0027refs/changes/18/351218/2\u0027]\n\nApplying change number 351227...\n--\u003e Subject:       \"Revert \"SystemUI: ic_brightness_*: drawables get surface color\"\"\n--\u003e Project path:  frameworks/base\n--\u003e Change number: 351227 (Patch Set 1)\n[\u0027git pull --no-edit github\u0027, \u0027refs/changes/27/351227/1\u0027]\nERROR: git command failed\n\nin frameworks/base/packages/SystemUI/tests/src/com/android/systemui/statusbar/phone/StatusBarKeyguardViewManagerTest.java:533\n\n\u003c\u003c\u003c\u003c\u003c\u003c\u003c HEAD\n    @Test\n    public void flag_off_DoesNotCallBouncerInteractor() {\n        when(mFeatureFlags.isEnabled(MODERN_BOUNCER)).thenReturn(false);\n        mStatusBarKeyguardViewManager.hideBouncer(false);\n        verify(mBouncerInteractor, never()).hide();\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n\n    @Test\n    public void testSetDozing_bouncerShowing_Dozing() {\n        clearInvocations(mBouncer);\n        when(mBouncer.isShowing()).thenReturn(true);\n        doAnswer(invocation -\u003e {\n            when(mBouncer.isShowing()).thenReturn(false);\n            return null;\n        }).when(mBouncer).hide(false);\n        mStatusBarKeyguardViewManager.onDozingChanged(true);\n        verify(mBouncer, times(1)).hide(false);\n    }\n\n    @Test\n    public void testSetDozing_bouncerShowing_notDozing() {\n        mStatusBarKeyguardViewManager.onDozingChanged(true);\n        when(mBouncer.isShowing()).thenReturn(true);\n        clearInvocations(mBouncer);\n        mStatusBarKeyguardViewManager.onDozingChanged(false);\n        verify(mBouncer, times(1)).hide(false);\n\u003e\u003e\u003e\u003e\u003e\u003e\u003e f348307f7ba5 ([Bouncer] ensure bouncer not shown with doze state.)\n    }",
+      "parentUuid": "35f90b2f_84303830",
+      "revId": "b6bd1c51c9c2936a0093e5520fc973740bb7b0f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
