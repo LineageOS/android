@@ -124,6 +124,24 @@
       "parentUuid": "35f90b2f_84303830",
       "revId": "b6bd1c51c9c2936a0093e5520fc973740bb7b0f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "921281ca_4ef51e1a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16179
+      },
+      "writtenOn": "2023-03-18T10:21:21Z",
+      "side": 1,
+      "message": ". build/envsetup.sh\nrepopick -p -e 351173,351227,351228,351229,351230,351231,351232,351233,351234,351235,351236,351237,351251,351264,351265,351266,351267,351268,351276 -t T_asb_2023-03\n\n#without 351173\nrepopick -p 351227 351228 351229 351230 351231 351232 351233 351234 351235 351236 351237 351251 351264 351265 351266 351267 351268 351276\n\nrepopick -p 351173\n#skipping 351173 - already picked in frameworks/base as HEAD~8",
+      "parentUuid": "044987f5_676041b9",
+      "revId": "b6bd1c51c9c2936a0093e5520fc973740bb7b0f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
