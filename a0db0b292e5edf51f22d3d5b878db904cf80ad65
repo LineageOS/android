@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff265aa8_e649a8d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20587
+      },
+      "writtenOn": "2023-03-26T19:14:21Z",
+      "side": 1,
+      "message": "This needs a lineage-17.1 branch at https://github.com/LineageOS/android_external_zlib but I\u0027m not sure how to add that. I guess an admin of that repo needs to do that with the state of commit 661c183e19d3a6848a046f1db973f5725c7f2204/tag android-10.0.0_r45 of https://android.googlesource.com/platform/external/zlib",
+      "revId": "a0db0b292e5edf51f22d3d5b878db904cf80ad65",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
