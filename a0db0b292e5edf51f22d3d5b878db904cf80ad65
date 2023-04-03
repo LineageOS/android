@@ -34,6 +34,23 @@
       "parentUuid": "ff265aa8_e649a8d6",
       "revId": "a0db0b292e5edf51f22d3d5b878db904cf80ad65",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b9da7e9_cdb151a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32577
+      },
+      "writtenOn": "2023-04-03T19:14:17Z",
+      "side": 1,
+      "message": "Actually the lineage-17.1 branch is old from April 2019. It has not been updated contrary to the lineage-18.1 branch which has received a patch in march. Do not we need to update the lineage-17.1 branch as well ?",
+      "revId": "a0db0b292e5edf51f22d3d5b878db904cf80ad65",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
