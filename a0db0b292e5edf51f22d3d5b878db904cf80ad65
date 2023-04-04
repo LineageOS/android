@@ -51,6 +51,24 @@
       "message": "Actually the lineage-17.1 branch is old from April 2019. It has not been updated contrary to the lineage-18.1 branch which has received a patch in march. Do not we need to update the lineage-17.1 branch as well ?",
       "revId": "a0db0b292e5edf51f22d3d5b878db904cf80ad65",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "28877b37_489751f1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20587
+      },
+      "writtenOn": "2023-04-04T16:34:41Z",
+      "side": 1,
+      "message": "The lineage-17 branches have received at least ASB updates until February 2023, see https://review.lineageos.org/q/topic:Q_asb_2023-02\nThis is seemingly when Google stopped providing backports to Android 10, i.e. 2023-02 is the last ASB that mentions updates to Android 10, 2023-03 starts at Android 11.\nHence I did the work manually backporting the ASB updates from LineageOS 18 to 17 as per https://review.lineageos.org/q/topic:R_asb_2023-03\nThe 2023-03 ASB mentions a bug in ZLIB with CVE-2023-20966 hence I also backported that at https://review.lineageos.org/c/LineageOS/android_external_zlib/+/352570 but this needs a corresponding branch in the LOS fork to target that.\n\nWere you referring to that or did you mean another patch/patches are missing from ZLIB?\n\nThe lineage-17.1 branch in https://github.com/LineageOS/android_external_zlib is new and contains the latest commit used from upstream for android-10: https://android.googlesource.com/platform/external/zlib/+log/661c183e19d3a6848a046f1db973f5725c7f2204\nI found that used after a `repo sync` and verified that there were no further changes for android-10\n\nDoes this clear your issue?",
+      "parentUuid": "3b9da7e9_cdb151a8",
+      "revId": "a0db0b292e5edf51f22d3d5b878db904cf80ad65",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
