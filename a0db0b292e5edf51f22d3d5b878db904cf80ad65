@@ -69,6 +69,24 @@
       "parentUuid": "3b9da7e9_cdb151a8",
       "revId": "a0db0b292e5edf51f22d3d5b878db904cf80ad65",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a4ea96b_2a3fc01d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32577
+      },
+      "writtenOn": "2023-04-05T14:40:56Z",
+      "side": 1,
+      "message": "I was refering to https://github.com/LineageOS/android_external_zlib/tree/lineage-17.1 which from what I can see, received its last commit in April 11, 2019.\nI didn\u0027t see your changes on Gerrit about this branch. I apologize. Now I assume a repo sync will adopt your latest changes on Gerrit. Thank you.\nThis clear my issue.",
+      "parentUuid": "28877b37_489751f1",
+      "revId": "a0db0b292e5edf51f22d3d5b878db904cf80ad65",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
