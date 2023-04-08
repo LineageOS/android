@@ -16,6 +16,24 @@
       "message": "This app hasn\u0027t seen a real commit since 2016 and it targets an ancient SDK:\n\n   android:minSdkVersion\u003d\"21\"\n   android:targetSdkVersion\u003d\"23\"\n\nAccording to https://developer.android.com/google/play/requirements/target-sdk we should target at least SDK 30 and preferrably latest SDK which is 33.",
       "revId": "50e8d2a29be2533692a9920fab31061689c17190",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba23c892_61a9fc15",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-04-08T15:16:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1f4231ac_e52b4b12",
+      "revId": "50e8d2a29be2533692a9920fab31061689c17190",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
