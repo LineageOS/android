@@ -16,6 +16,23 @@
       "message": "Works fine.",
       "revId": "5cc2fa44998ac65f9e9fbd0dcd9f56bfefbbc2e6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9260e60_83c0144f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2023-04-11T14:16:08Z",
+      "side": 1,
+      "message": "Builds and seems to run fine on xiaomi sm7150",
+      "revId": "5cc2fa44998ac65f9e9fbd0dcd9f56bfefbbc2e6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
