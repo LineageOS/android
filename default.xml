@@ -81,7 +81,7 @@
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault,pdk-fs" remote="aosp" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk" remote="aosp" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk" remote="aosp" />
-  <project path="external/angle" name="platform/external/angle" groups="pdk" remote="aosp" />
+  <project path="external/angle" name="LineageOS/android_external_angle" groups="pdk" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk" remote="aosp" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk" remote="aosp" />
   <project path="external/apache-commons-bcel" name="platform/external/apache-commons-bcel" groups="pdk" remote="aosp" />
