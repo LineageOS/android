@@ -67,6 +67,23 @@
       "message": "Builds and runs fine on pro1 and pro1x",
       "revId": "5cc2fa44998ac65f9e9fbd0dcd9f56bfefbbc2e6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc512754_438e7d3b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32042
+      },
+      "writtenOn": "2023-04-13T15:48:54Z",
+      "side": 1,
+      "message": "Works fine on xiaomi sm8350 (mars)",
+      "revId": "5cc2fa44998ac65f9e9fbd0dcd9f56bfefbbc2e6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
