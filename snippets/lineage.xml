@@ -26,7 +26,7 @@
   <!--<project path="external/pigz" name="LineageOS/android_external_pigz" />-->
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-  <!--<project path="external/unrar" name="LineageOS/android_external_unrar" />-->
+  <project path="external/unrar" name="LineageOS/android_external_unrar" />
   <project path="external/vim" name="LineageOS/android_external_vim" />
   <!--<project path="external/zip" name="LineageOS/android_external_zip" />-->
   <!--<project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" />-->
