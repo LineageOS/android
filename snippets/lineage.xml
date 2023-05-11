@@ -25,6 +25,7 @@
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
   <project path="external/vim" name="LineageOS/android_external_vim" />
+  <project path="external/zstd" name="LineageOS/android_external_zstd" />
   <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />
