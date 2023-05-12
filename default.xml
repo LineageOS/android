@@ -758,7 +758,7 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="aosp" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" remote="aosp" />
   <project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk" remote="aosp" />
-  <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" remote="aosp" />
+  <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" remote="aosp" revision="refs/tags/android-13.0.0_r49" />
   <project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" remote="aosp" />
   <project path="hardware/google/gchips" name="LineageOS/android_hardware_google_gchips" groups="pdk-lassen,pdk-gs-arm" />
   <project path="hardware/google/graphics/common" name="LineageOS/android_hardware_google_graphics_common" groups="pdk-lassen,pdk-gs-arm" />
