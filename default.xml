@@ -11,14 +11,14 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-13.0.0_r43" />
+           revision="refs/tags/android-13.0.0_r52" />
 
   <default revision="refs/heads/lineage-20.0"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r43" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r52" />
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- AOSP Projects -->
@@ -814,6 +814,7 @@
   <project path="hardware/st/nfc" name="platform/hardware/st/nfc" groups="pdk" remote="aosp" />
   <project path="hardware/st/secure_element" name="platform/hardware/st/secure_element" groups="pdk" remote="aosp" />
   <project path="hardware/st/secure_element2" name="platform/hardware/st/secure_element2" groups="pdk" remote="aosp" />
+  <project path="hardware/synaptics/wlan" name="platform/hardware/synaptics/wlan" groups="pdk" remote="aosp" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" remote="aosp" />
   <project path="kernel/configs" name="LineageOS/android_kernel_configs" groups="vts,pdk" />
   <project path="kernel/prebuilts/4.19/arm64" name="kernel/prebuilts/4.19/arm64" groups="pdk" clone-depth="1" remote="aosp" />
