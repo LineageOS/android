@@ -117,17 +117,17 @@
   <project path="vendor/qcom/opensource/rcs-service" name="LineageOS/android_vendor_qcom_opensource_rcs-service" />
 
   <!-- Infrastructure -->
-  <project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
-  <project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="master" />
-  <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
-  <project path="lineage/cve" name="LineageOS/cve_tracker" groups="infra" revision="master" />
-  <project path="lineage/jenkins" name="LineageOS/hudson" groups="infra" revision="master" />
-  <project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="master" />
-  <project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" />
-  <project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
-  <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
+  <project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="main" />
+  <project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="main" />
+  <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="main" />
+  <project path="lineage/cve" name="LineageOS/cve_tracker" groups="infra" revision="main" />
+  <project path="lineage/jenkins" name="LineageOS/hudson" groups="infra" revision="main" />
+  <project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="main" />
+  <project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="main" />
+  <project path="lineage/website" name="LineageOS/www" groups="infra" revision="main" />
+  <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="main" />
 
   <!-- Tools -->
-  <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
-  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
+  <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="main" />
+  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" />
 </manifest>
