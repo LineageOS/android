@@ -166,7 +166,7 @@
   <project path="external/fmtlib" name="platform/external/fmtlib" groups="pdk" remote="aosp" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk" remote="aosp" />
   <project path="external/FP16" name="platform/external/FP16" groups="pdk" remote="aosp" />
-  <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" />
+  <project path="external/freetype" name="LineageOS/android_external_freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk" remote="aosp" />
   <project path="external/fsverity-utils" name="platform/external/fsverity-utils" groups="pdk" remote="aosp" />
   <project path="external/FXdiv" name="platform/external/FXdiv" groups="pdk" remote="aosp" />
@@ -1021,7 +1021,7 @@
   <project path="tools/acloud" name="platform/tools/acloud" groups="tools,vts,projectarch,pdk,tradefed" remote="aosp" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" />
   <project path="tools/apifinder" name="platform/tools/apifinder" groups="pdk,tools" remote="aosp" />
-  <project path="tools/apksig" name="platform/tools/apksig" groups="pdk,tradefed" remote="aosp" />
+  <project path="tools/apksig" name="LineageOS/android_tools_apksig" groups="pdk,tradefed" />
   <project path="tools/apkzlib" name="platform/tools/apkzlib" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/asuite" name="platform/tools/asuite" groups="pdk" remote="aosp" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" />
