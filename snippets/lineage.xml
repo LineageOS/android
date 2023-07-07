@@ -169,14 +169,14 @@
   <project path="vendor/nxp/secure_element_extns" name="LineageOS/android_vendor_nxp_secure_element_extns" groups="nxp" />
 
   <!-- Infrastructure -->
-  <project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="master" />
-  <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
-  <project path="lineage/hudson" name="LineageOS/hudson" groups="infra" revision="master" />
-  <project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="master" />
-  <project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
-  <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
+  <project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="main" />
+  <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="main" />
+  <project path="lineage/hudson" name="LineageOS/hudson" groups="infra" revision="main" />
+  <project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="main" />
+  <project path="lineage/website" name="LineageOS/www" groups="infra" revision="main" />
+  <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="main" />
 
   <!-- Tools -->
-  <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
-  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
+  <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="main" />
+  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" />
 </manifest>
