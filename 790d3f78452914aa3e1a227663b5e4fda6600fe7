@@ -16,6 +16,23 @@
       "message": "Topic builds and runs fine",
       "revId": "790d3f78452914aa3e1a227663b5e4fda6600fe7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "103d0840_1bea4210",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26658
+      },
+      "writtenOn": "2023-07-09T11:10:13Z",
+      "side": 1,
+      "message": "Topic builds fine for sargo.",
+      "revId": "790d3f78452914aa3e1a227663b5e4fda6600fe7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
