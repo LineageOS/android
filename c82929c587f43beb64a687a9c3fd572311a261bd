@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c3ae9489_59759bd1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20587
+      },
+      "writtenOn": "2023-07-21T09:06:08Z",
+      "side": 1,
+      "message": "Can someone please create the lineage-17.1 at revision e1bd6e19a027f460fa8fcc5fbaf2cddfafca8a79 in https://github.com/LineageOS/android_tools_apksig please?",
+      "revId": "c82929c587f43beb64a687a9c3fd572311a261bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
