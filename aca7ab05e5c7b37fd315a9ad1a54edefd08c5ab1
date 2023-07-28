@@ -16,6 +16,24 @@
       "message": "I think this was left because some people were inheriting the qssi makefiles in it",
       "revId": "aca7ab05e5c7b37fd315a9ad1a54edefd08c5ab1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc5dcd3b_cbfcba79",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-07-28T23:51:37Z",
+      "side": 1,
+      "message": "Really? That\u0027s kinda bad, then.",
+      "parentUuid": "a8d26f3c_8524f77b",
+      "revId": "aca7ab05e5c7b37fd315a9ad1a54edefd08c5ab1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
