@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0dce498c_07af15f7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-07-28T14:27:08Z",
+      "side": 1,
+      "message": "These have been forked some time ago, but never synced. See: https://review.lineageos.org/c/356681.",
+      "revId": "2fa2e8b84802a7ee527b0a09cca8796e07c440df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
