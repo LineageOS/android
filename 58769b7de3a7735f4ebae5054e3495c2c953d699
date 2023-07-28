@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fe977131_0fad739a",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-07-28T14:00:06Z",
+      "side": 1,
+      "message": "This comes from https://review.lineageos.org/c/362623",
+      "range": {
+        "startLine": 99,
+        "startChar": 4,
+        "endLine": 99,
+        "endChar": 93
+      },
+      "revId": "58769b7de3a7735f4ebae5054e3495c2c953d699",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
