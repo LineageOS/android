@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a8d26f3c_8524f77b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-07-28T23:07:43Z",
+      "side": 1,
+      "message": "I think this was left because some people were inheriting the qssi makefiles in it",
+      "revId": "aca7ab05e5c7b37fd315a9ad1a54edefd08c5ab1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
