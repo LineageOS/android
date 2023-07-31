@@ -69,6 +69,24 @@
       "message": "Can we do this?\n\nhttps://github.com/search?q\u003dorg%3ALineageOS+vendor%2Fqcom%2Fopensource%2Faudio%2F\u0026type\u003dcode",
       "revId": "aca7ab05e5c7b37fd315a9ad1a54edefd08c5ab1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0f7a199_5fc9f2fa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2023-07-31T14:48:21Z",
+      "side": 1,
+      "message": "I used to do it with Zenfone 8, but moved away from it later on: https://github.com/LineageOS/android_device_asus_sake/commit/f8713bb916903eb2390658df719e577c90071358",
+      "parentUuid": "c85d564b_d0ac8511",
+      "revId": "aca7ab05e5c7b37fd315a9ad1a54edefd08c5ab1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
