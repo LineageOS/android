@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e15409b_9f05de40",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-08-01T21:34:40Z",
+      "side": 1,
+      "message": "We need to pick https://git.codelinaro.org/clo/la/platform/hardware/libhardware_legacy/-/commit/635788a14361c38d4d67a734d5db9d675fd1566e, in order to merge kailua tag on android_hardware_qcom_wlan ( https://review.lineageos.org/c/363136 ).",
+      "revId": "f50c4cf19b155dab0b899b8857f6a19a0e6a7eb4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
