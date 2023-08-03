@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "90cf371c_efc75185",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-08-03T09:59:18Z",
+      "side": 1,
+      "message": "Mike: https://review.lineageos.org/c/LineageOS/android_vendor_qcom_opensource_healthd-ext/+/363248",
+      "revId": "35762c69589a7e17ea26c1ec4a5fadc97fdf2d2b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
