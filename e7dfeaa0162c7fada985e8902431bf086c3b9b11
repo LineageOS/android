@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17e05ff7_93e796ee",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20364
+      },
+      "writtenOn": "2023-08-12T12:37:52Z",
+      "side": 1,
+      "message": "Build and boots without any issues",
+      "revId": "e7dfeaa0162c7fada985e8902431bf086c3b9b11",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
