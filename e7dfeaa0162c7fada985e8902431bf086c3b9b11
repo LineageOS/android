@@ -16,6 +16,23 @@
       "message": "Build and boots without any issues",
       "revId": "e7dfeaa0162c7fada985e8902431bf086c3b9b11",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6fdbe7d_86b49657",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2644
+      },
+      "writtenOn": "2023-08-12T15:10:14Z",
+      "side": 1,
+      "message": "Topic builds and works fine on gts4lvwifi.",
+      "revId": "e7dfeaa0162c7fada985e8902431bf086c3b9b11",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
