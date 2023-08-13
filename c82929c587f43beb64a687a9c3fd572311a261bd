@@ -34,6 +34,24 @@
       "parentUuid": "c3ae9489_59759bd1",
       "revId": "c82929c587f43beb64a687a9c3fd572311a261bd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "95690b89_227fb185",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20587
+      },
+      "writtenOn": "2023-08-13T10:18:00Z",
+      "side": 1,
+      "message": "Looks like you are right. Sad as they are seemingly a couple of devs still using LOS 17 and the patches are there...\nSo same issue again for August ASB",
+      "parentUuid": "03935162_c4e1b9f9",
+      "revId": "c82929c587f43beb64a687a9c3fd572311a261bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
