@@ -143,7 +143,7 @@
   <project path="external/dokka" name="platform/external/dokka" groups="pdk" remote="aosp" />
   <project path="external/downloader" name="platform/external/downloader" groups="pdk" remote="aosp" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="aosp" />
-  <project path="external/dtc" name="platform/external/dtc" groups="pdk" remote="aosp" />
+  <project path="external/dtc" name="LineageOS/android_external_dtc" groups="pdk" />
   <project path="external/dynamic_depth" name="platform/external/dynamic_depth" groups="pdk" remote="aosp" />
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk" remote="aosp" />
