@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2efd89e3_733e4ee3",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 984,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2023-10-08T23:27:23Z",
+      "side": 1,
+      "message": "Can you push AOSP r1 to 21 branch here?",
+      "revId": "65f225b958814d28877baad3330d7688976bb71e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
