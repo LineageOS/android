@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- Pixel 6/6 Pro/6a/7/7 Pro/7a/Tablet/Fold kernel modules -->
+  <!--
   <project path="kernel/google/gs201/private/devices/google/bluejay" name="kernel/devices/google/bluejay" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.117" />
   <project path="kernel/google/gs201/private/devices/google/felix" name="kernel/devices/google/felix" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.117" />
   <project path="kernel/google/gs201/private/devices/google/lynx" name="kernel/devices/google/lynx" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.117" />
@@ -37,5 +38,6 @@
   <project path="kernel/google/gs201/private/google-modules/wlan/wcn6740/cnss2" name="kernel/google-modules/wlan/qcom/wcn6740/cnss2" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.117" />
   <project path="kernel/google/gs201/private/google-modules/wlan/wcn6740/wlan" name="kernel/google-modules/wlan/qcom/wcn6740/wlan" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.117" />
   <project path="kernel/google/gs201/private/google-modules/wlan/wlan_ptracker" name="kernel/google-modules/wlan/wlan_ptracker" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.117" />
+  -->
 
 </manifest>
