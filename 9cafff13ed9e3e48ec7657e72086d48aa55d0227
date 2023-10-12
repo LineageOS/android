@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "946fec05_1420d838",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20587
+      },
+      "writtenOn": "2023-10-12T11:33:47Z",
+      "side": 1,
+      "message": "Can we get a branch for lineage-17.1 in libxml2 too please?",
+      "revId": "9cafff13ed9e3e48ec7657e72086d48aa55d0227",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
