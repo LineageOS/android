@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "21f993fa_8a3ae95a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-10-14T17:20:29Z",
+      "side": 1,
+      "message": "error: Cannot checkout platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8: ManifestInvalidPathError: /home/bgcngm/android/lineage/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8/sysroot/usr/lib/libncurses.so.5: traversing symlinks not allow",
+      "revId": "0913e7099843390a97e3c5bd794b9ef43d353383",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
