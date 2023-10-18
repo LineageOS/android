@@ -70,6 +70,23 @@
       "parentUuid": "95690b89_227fb185",
       "revId": "c82929c587f43beb64a687a9c3fd572311a261bd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f4e4fd82_0f12bff2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26658
+      },
+      "writtenOn": "2023-10-18T23:34:28Z",
+      "side": 1,
+      "message": "Sadly this topic can\u0027t be picked due to the changes in the change.\n\nCould you remove this change from the topic or how do you work around this issue?\n\nThis might also be an issue here: https://review.lineageos.org/c/LineageOS/android/+/365443",
+      "revId": "c82929c587f43beb64a687a9c3fd572311a261bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
