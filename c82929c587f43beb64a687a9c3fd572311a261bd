@@ -87,6 +87,24 @@
       "message": "Sadly this topic can\u0027t be picked due to the changes in the change.\n\nCould you remove this change from the topic or how do you work around this issue?\n\nThis might also be an issue here: https://review.lineageos.org/c/LineageOS/android/+/365443",
       "revId": "c82929c587f43beb64a687a9c3fd572311a261bd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1477d8a_5a1ce5d0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-10-19T04:03:01Z",
+      "side": 1,
+      "message": "@Alex please join our public discord and give me your handle.\n\nWant to pull you into the maintainer discord so you can file tickets to get these sort of things forked.",
+      "parentUuid": "658fb2de_c51e8608",
+      "revId": "c82929c587f43beb64a687a9c3fd572311a261bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
