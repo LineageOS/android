@@ -105,6 +105,24 @@
       "parentUuid": "658fb2de_c51e8608",
       "revId": "c82929c587f43beb64a687a9c3fd572311a261bd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f4fa5454_7495f3d8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20587
+      },
+      "writtenOn": "2023-10-19T09:25:12Z",
+      "side": 1,
+      "message": "@Nolen I joined the LOS discord with flamefire89 (Display name: Flamefire)",
+      "parentUuid": "c1477d8a_5a1ce5d0",
+      "revId": "c82929c587f43beb64a687a9c3fd572311a261bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
