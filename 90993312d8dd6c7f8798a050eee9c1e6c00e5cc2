@@ -34,6 +34,24 @@
       "parentUuid": "b016bc74_ce79c92b",
       "revId": "90993312d8dd6c7f8798a050eee9c1e6c00e5cc2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff483483_c15a725d",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-10-26T18:51:33Z",
+      "side": 1,
+      "message": "Just remove the comment.",
+      "parentUuid": "29752d94_e1e562c3",
+      "revId": "90993312d8dd6c7f8798a050eee9c1e6c00e5cc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
