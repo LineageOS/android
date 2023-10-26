@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f85f2ca2_609cf921",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-10-26T16:38:47Z",
+      "side": 1,
+      "message": "Only power and sepolicy_vndr/legacy-um is pending, as far as I can tell.",
+      "revId": "3ec174dd8933d44743da05e1037a261c1b935c68",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
