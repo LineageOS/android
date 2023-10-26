@@ -3,8 +3,8 @@
 
   <!-- LineageOS additions -->
   <project path="android" name="LineageOS/android" />
-  <!--
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
+  <!--
   <project path="device/lineage/car" name="LineageOS/android_device_lineage_car" />
   -->
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
@@ -45,9 +45,7 @@
   -->
   <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
-  <!--
   <project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer" />
-  -->
   <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
