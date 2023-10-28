@@ -52,6 +52,24 @@
       "parentUuid": "29752d94_e1e562c3",
       "revId": "90993312d8dd6c7f8798a050eee9c1e6c00e5cc2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "32683dfc_67b72f7e",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-10-28T10:15:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ff483483_c15a725d",
+      "revId": "90993312d8dd6c7f8798a050eee9c1e6c00e5cc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
