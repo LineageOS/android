@@ -25,7 +25,6 @@
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
   <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
-  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
   <project path="external/unrar" name="LineageOS/android_external_unrar" />
   <project path="external/vim" name="LineageOS/android_external_vim" />
   <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" />
@@ -61,6 +60,19 @@
   <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin" />
   -->
   <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+
+  <!-- Legacy AOSP additions -->
+  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+  <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="generic_fs,qcom,qcom_sdm845" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_sdm845_data_ipacfg-mgr" groups="generic_fs,vendor,qcom,qcom_sdm845" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
+  </project>
+  <project path="hardware/qcom/sdm845/display" name="LineageOS/android_hardware_qcom_sdm845_display" groups="generic_fs,qcom,qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/gps" name="LineageOS/android_hardware_qcom_sdm845_gps" groups="generic_fs,qcom,qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/media" name="LineageOS/android_hardware_qcom_sdm845_media" groups="generic_fs,qcom,qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" groups="generic_fs,qcom,qcom_sdm845" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" groups="generic_fs,qcom,qcom_sdm845" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
 
   <!-- Inline kernel build -->
   <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" revision="lineage-20.0" />
