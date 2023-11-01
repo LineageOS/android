@@ -33,6 +33,24 @@
       "message": "Green light from 8996.",
       "revId": "446233b83560e1d1ff7ad87dcdf73fb9d43ccea0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dec4a522_9bf2d377",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-11-01T16:43:10Z",
+      "side": 1,
+      "message": "also from 8998",
+      "parentUuid": "10a7a7b8_84ec8516",
+      "revId": "446233b83560e1d1ff7ad87dcdf73fb9d43ccea0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
