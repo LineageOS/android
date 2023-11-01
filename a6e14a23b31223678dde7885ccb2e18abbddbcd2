@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0951244_bfe180bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-11-01T15:05:46Z",
+      "side": 1,
+      "message": "since 8996 requires same patches to build, we might as well squash in 8996 here.",
+      "revId": "a6e14a23b31223678dde7885ccb2e18abbddbcd2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
