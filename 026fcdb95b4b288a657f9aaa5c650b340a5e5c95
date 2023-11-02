@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ec5775a_6288865b",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-11-02T18:56:01Z",
+      "side": 1,
+      "message": "Was this only used in ultra legacy devices?",
+      "revId": "026fcdb95b4b288a657f9aaa5c650b340a5e5c95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
