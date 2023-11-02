@@ -34,6 +34,24 @@
       "parentUuid": "9ec5775a_6288865b",
       "revId": "026fcdb95b4b288a657f9aaa5c650b340a5e5c95",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c6a12d8_e8d803ec",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-11-02T20:48:08Z",
+      "side": 1,
+      "message": "can confirm devices that will ship will use this.",
+      "parentUuid": "d1ea4f94_75d97f67",
+      "revId": "026fcdb95b4b288a657f9aaa5c650b340a5e5c95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
