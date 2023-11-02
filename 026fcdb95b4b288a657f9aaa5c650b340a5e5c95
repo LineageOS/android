@@ -16,6 +16,24 @@
       "message": "Was this only used in ultra legacy devices?",
       "revId": "026fcdb95b4b288a657f9aaa5c650b340a5e5c95",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d1ea4f94_75d97f67",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-11-02T19:47:59Z",
+      "side": 1,
+      "message": "I think mata still uses it and other pre-qti BT devices",
+      "parentUuid": "9ec5775a_6288865b",
+      "revId": "026fcdb95b4b288a657f9aaa5c650b340a5e5c95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
