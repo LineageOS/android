@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73d9c827_f4106877",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2644
+      },
+      "writtenOn": "2023-11-09T22:37:35Z",
+      "side": 1,
+      "message": "Topic T_asb_2023-11, builds and works fine on gts4lvwifi.",
+      "revId": "2f71389974d6ea0c5951f574b230341b6cc8e916",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
