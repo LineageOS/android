@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06e75d9c_19aa9a39",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2644
+      },
+      "writtenOn": "2023-12-06T16:52:10Z",
+      "side": 1,
+      "message": "There is no ineage-20.0 branch of android_cts. https://github.com/LineageOS/android_cts",
+      "revId": "8445642ba43e28384e46c217a086d66d7fccc676",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
