@@ -16,6 +16,23 @@
       "message": "There is no ineage-20.0 branch of android_cts. https://github.com/LineageOS/android_cts",
       "revId": "8445642ba43e28384e46c217a086d66d7fccc676",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "628b343e_a0a918a7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2644
+      },
+      "writtenOn": "2023-12-09T15:49:21Z",
+      "side": 1,
+      "message": "Topic builds and works fine on gts4lvwifi.",
+      "revId": "8445642ba43e28384e46c217a086d66d7fccc676",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
