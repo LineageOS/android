@@ -286,7 +286,7 @@
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" remote="aosp" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" remote="aosp" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" remote="aosp" />
-  <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" remote="aosp" />
+  <project path="external/pdfium" name="LineageOS/android_external_pdfium" groups="pdk" />
   <project path="external/perf_data_converter" name="platform/external/perf_data_converter" groups="pdk" remote="aosp" />
   <project path="external/perfetto" name="platform/external/perfetto" groups="pdk" remote="aosp" />
   <project path="external/piex" name="platform/external/piex" groups="pdk" remote="aosp" />
