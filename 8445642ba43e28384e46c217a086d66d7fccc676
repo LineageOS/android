@@ -33,6 +33,23 @@
       "message": "Topic builds and works fine on gts4lvwifi.",
       "revId": "8445642ba43e28384e46c217a086d66d7fccc676",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ca10c19_8d080082",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2023-12-10T06:15:17Z",
+      "side": 1,
+      "message": "same on rtwo, it builds and works fine",
+      "revId": "8445642ba43e28384e46c217a086d66d7fccc676",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
