@@ -342,6 +342,7 @@
   <project path="external/mobly-snippet-lib" name="platform/external/mobly-snippet-lib" groups="pdk" remote="aosp" />
   <project path="external/mockftpserver" name="platform/external/mockftpserver" groups="pdk" remote="aosp" />
   <project path="external/mockito" name="platform/external/mockito" groups="pdk" remote="aosp" />
+  <project path="external/mockito-kotlin" name="platform/external/mockito-kotlin" groups="pdk" remote="aosp" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" groups="pdk" remote="aosp" />
   <project path="external/modp_b64" name="platform/external/modp_b64" groups="pdk" remote="aosp" />
   <project path="external/mp4parser" name="platform/external/mp4parser" groups="pdk" remote="aosp" />
