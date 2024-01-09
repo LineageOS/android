@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7fddb1a_0084b6df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-01-09T10:56:30Z",
+      "side": 1,
+      "message": "Latest tag LA.UM.12.2.1.r1-02500-sdm660.0 doesn\u0027t exist on these repositories.",
+      "revId": "b2682aa2f1f2bd053d41f66e8c350e20c4d0e202",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
