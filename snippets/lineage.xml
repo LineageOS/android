@@ -88,9 +88,9 @@
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="lineage-21.0-legacy-um" />
   <project path="device/qcom/sepolicy_vndr/sm8450" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="lineage-21.0-caf-sm8450" />
   <project path="device/qcom/sepolicy_vndr/sm8550" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="lineage-21.0-caf-sm8550" />
-  <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom,sdm660" />
-  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" />
-  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" />
+  <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom" />
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom" />
   <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" groups="qcom,qssi" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" />
   <project path="hardware/qcom-caf/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="qcom,kailua-vendor" revision="lineage-21.0-caf" />
