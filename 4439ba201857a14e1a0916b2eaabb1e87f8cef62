@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2fc8364f_8a4907f3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2644
+      },
+      "writtenOn": "2024-01-20T16:14:22Z",
+      "side": 1,
+      "message": "There is no 21.0 branch for android_packages_services_Car. It stops at 18.1.",
+      "revId": "4439ba201857a14e1a0916b2eaabb1e87f8cef62",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
