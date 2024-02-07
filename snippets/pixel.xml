@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="aosp-shusky"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-14.0.0_r25"
+           clone-depth="1" />
+
   <!-- Pixel 6/6 Pro/6a/7/7 Pro/7a/Tablet/Fold kernel modules -->
   <project path="kernel/google/gs201/private/devices/google/bluejay" name="kernel/devices/google/bluejay" groups="pixel-extra" remote="aosp" revision="refs/tags/android-14.0.0_r0.44" />
   <project path="kernel/google/gs201/private/devices/google/felix" name="kernel/devices/google/felix" groups="pixel-extra" remote="aosp" revision="refs/tags/android-14.0.0_r0.44" />
