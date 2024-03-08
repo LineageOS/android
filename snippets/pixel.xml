@@ -2,20 +2,20 @@
 <manifest>
 
   <!-- Pixel 6/6 Pro -->
-  <remote name="aosp-raviole" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-14.0.0_r22" clone-depth="1" />
+  <remote name="aosp-raviole" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-14.0.0_r29" clone-depth="1" />
   <!-- Pixel 6a -->
-  <remote name="aosp-bluejay" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-14.0.0_r22" clone-depth="1" />
+  <remote name="aosp-bluejay" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-14.0.0_r29" clone-depth="1" />
 
   <!-- Pixel 7/7 Pro -->
-  <remote name="aosp-pantah" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-14.0.0_r22" clone-depth="1" />
+  <remote name="aosp-pantah" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-14.0.0_r29" clone-depth="1" />
   <!-- Pixel 7a -->
-  <remote name="aosp-lynx" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-14.0.0_r22" clone-depth="1" />
+  <remote name="aosp-lynx" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-14.0.0_r29" clone-depth="1" />
   <!-- Pixel Tablet -->
-  <remote name="aosp-tangorpro" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-14.0.0_r22" clone-depth="1" />
+  <remote name="aosp-tangorpro" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-14.0.0_r29" clone-depth="1" />
   <!-- Pixel Fold -->
-  <remote name="aosp-felix" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-14.0.0_r22" clone-depth="1" />
+  <remote name="aosp-felix" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-14.0.0_r29" clone-depth="1" />
 
   <!-- Pixel 8/8 Pro -->
-  <remote name="aosp-shusky" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-14.0.0_r25" clone-depth="1" />
+  <remote name="aosp-shusky" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-14.0.0_r29" clone-depth="1" />
 
 </manifest>
