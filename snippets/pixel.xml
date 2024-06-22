@@ -17,5 +17,7 @@
 
   <!-- Pixel 8/8 Pro -->
   <remote name="aosp-shusky" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-14.0.0_r50" clone-depth="1" />
+  <!-- Pixel 8a -->
+  <remote name="aosp-akita" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-14.0.0_r50" clone-depth="1" />
 
 </manifest>
