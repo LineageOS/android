@@ -16,6 +16,23 @@
       "message": "This solves the issue discussed here (https://www.reddit.com/r/LineageOS/comments/1j0gxjk/advice_on_building_an_unsupported_os_for_an_older/) and here (https://www.reddit.com/r/LineageOS/comments/1j732c1/build_issues_for_linageos_171/) when trying to build for potter and sargo (should apply to all devices as it fixes a general build issue).",
       "revId": "7c10f919325425dfec0bb6993d950c6f5a3bff90",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "085c86fc_5170e3c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35342
+      },
+      "writtenOn": "2025-05-16T17:30:30Z",
+      "side": 1,
+      "message": "Cooooooooooooooooooooool👍👌👍💕",
+      "revId": "7c10f919325425dfec0bb6993d950c6f5a3bff90",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
