@@ -16,6 +16,23 @@
       "message": "Builds and boots on kiev",
       "revId": "dd7da3358e187ee1f2efc56553c2f100741817f8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a5fe81b_d91718ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-06-05T15:27:32Z",
+      "side": 1,
+      "message": "Fine on apollon",
+      "revId": "dd7da3358e187ee1f2efc56553c2f100741817f8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
