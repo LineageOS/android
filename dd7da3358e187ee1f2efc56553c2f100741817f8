@@ -50,6 +50,23 @@
       "message": "Fine on laurel_sprout",
       "revId": "dd7da3358e187ee1f2efc56553c2f100741817f8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "919eb325_3402826b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2644
+      },
+      "writtenOn": "2025-06-05T18:06:07Z",
+      "side": 1,
+      "message": "Works on bluejay, gts4lvwifi, marlin and troika.",
+      "revId": "dd7da3358e187ee1f2efc56553c2f100741817f8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
