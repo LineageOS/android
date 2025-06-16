@@ -13,7 +13,7 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-16.0.0_r1" />
 
-  <default revision="refs/heads/lineage-22.2"
+  <default revision="refs/heads/lineage-23.0"
            remote="github"
            sync-c="true"
            sync-j="4" />
