@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb72ae42_cb42f0f1",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-05T12:16:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8606bb1e_0918fcd8",
+      "range": {
+        "startLine": 192,
+        "startChar": 119,
+        "endLine": 192,
+        "endChar": 142
+      },
+      "revId": "00f20ae70140660d5ca8dcb47fdd717b9b208216",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "df60a406_4b91870b",
@@ -37,6 +61,30 @@
       "writtenOn": "2025-07-05T12:11:58Z",
       "side": 1,
       "message": "Same as above\n```suggestion\n  \u003cproject path\u003d\"vendor/qcom/opensource/audio-hal/st-hal-ar\" name\u003d\"LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar\" groups\u003d\"qcom,pakala-audio\" /\u003e\n```",
+      "range": {
+        "startLine": 197,
+        "startChar": 156,
+        "endLine": 197,
+        "endChar": 179
+      },
+      "revId": "00f20ae70140660d5ca8dcb47fdd717b9b208216",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5fe41ef6_5a8ac73f",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-05T12:16:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "df60a406_4b91870b",
       "range": {
         "startLine": 197,
         "startChar": 156,
