@@ -99,6 +99,7 @@
   <project path="device/qcom/sepolicy_vndr/sm8450" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="lineage-22.2-caf-sm8450" />
   <project path="device/qcom/sepolicy_vndr/sm8550" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="lineage-22.2-caf-sm8550" />
   <project path="device/qcom/sepolicy_vndr/sm8650" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" revision="lineage-22.2-caf-sm8650" />
+  <project path="device/qcom/sepolicy_vndr/sm8750" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,pakala-vendor" revision="lineage-22.2-caf-sm8750" />
   <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom" />
@@ -133,6 +134,8 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
     <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8650/audio/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8750/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8750/Android.bp" />
   </project>
   <project path="hardware/qcom-caf/msm8953/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msm8953" revision="lineage-22.2-caf-msm8953" />
   <project path="hardware/qcom-caf/msm8953/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-22.2-caf-msm8953" />
@@ -177,11 +180,23 @@
   <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lanai-vendor" revision="lineage-22.2-caf-sm8650" />
   <project path="hardware/qcom-caf/sm8650/dataipa" name="LineageOS/android_vendor_qcom_opensource_dataipa" groups="qcom,lanai-vendor" revision="lineage-22.2-caf-sm8650" />
   <project path="hardware/qcom-caf/sm8650/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-22.2-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8750/audio/agm" name="LineageOS/android_vendor_qcom_opensource_agm" groups="qcom,pakala-audio" revision="lineage-22.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/audio/graphservices" name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-22.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" groups="qcom,pakala-audio" revision="lineage-22.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/audio/primary-hal" name="LineageOS/android_hardware_qcom_audio-ar" groups="qcom,pakala-audio" revision="lineage-22.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pakala-vendor" revision="lineage-22.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/dataipa" name="LineageOS/android_vendor_qcom_opensource_dataipa" groups="qcom,pakala-vendor" revision="lineage-22.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/display/core" name="LineageOS/android_vendor_qcom_opensource_display-core" groups="qcom" revision="lineage-22.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/display/hal" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-22.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/display/intf" name="LineageOS/android_vendor_qcom_opensource_display-intf" groups="qcom" revision="lineage-22.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pakala-vendor" />
   <project path="hardware/qcom-caf/thermal-legacy-um" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,lanai-vendor" revision="lineage-22.2-legacy-um" />
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,lanai-vendor" revision="lineage-22.2-caf" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,pakala-audio" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar-legacy" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,lanai-audio" revision="lineage-22.2-legacy" />
+  <project path="vendor/qcom/opensource/commonsys-intf/audio" name="LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/commonsys/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" />
