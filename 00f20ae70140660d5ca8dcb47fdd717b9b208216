@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8606bb1e_0918fcd8",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-07-05T12:11:58Z",
+      "side": 1,
+      "message": "Don\u0027t need revision here\n```suggestion\n  \u003cproject path\u003d\"hardware/qcom-caf/thermal\" name\u003d\"LineageOS/android_hardware_qcom_thermal\" groups\u003d\"qcom,pakala-vendor\" /\u003e\n```",
+      "range": {
+        "startLine": 192,
+        "startChar": 119,
+        "endLine": 192,
+        "endChar": 142
+      },
+      "revId": "00f20ae70140660d5ca8dcb47fdd717b9b208216",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "df60a406_4b91870b",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-07-05T12:11:58Z",
+      "side": 1,
+      "message": "Same as above\n```suggestion\n  \u003cproject path\u003d\"vendor/qcom/opensource/audio-hal/st-hal-ar\" name\u003d\"LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar\" groups\u003d\"qcom,pakala-audio\" /\u003e\n```",
+      "range": {
+        "startLine": 197,
+        "startChar": 156,
+        "endLine": 197,
+        "endChar": 179
+      },
+      "revId": "00f20ae70140660d5ca8dcb47fdd717b9b208216",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
