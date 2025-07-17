@@ -16,6 +16,24 @@
       "message": "just no... abandon ts. u can manually pick changes for specific repos dont add it to a manifest",
       "revId": "155afc8bcaf86e1f0d085e3ddbaa1384bccf86ab",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d746d8b9_8aefa26a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16779
+      },
+      "writtenOn": "2025-07-17T14:41:24Z",
+      "side": 1,
+      "message": "Thanks for the heads up, I definitely was planning to get this merged and not just using it for my personal builds.",
+      "parentUuid": "3d83931a_1c067d04",
+      "revId": "155afc8bcaf86e1f0d085e3ddbaa1384bccf86ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
