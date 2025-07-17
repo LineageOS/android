@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d83931a_1c067d04",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-07-17T14:38:56Z",
+      "side": 1,
+      "message": "just no... abandon ts. u can manually pick changes for specific repos dont add it to a manifest",
+      "revId": "155afc8bcaf86e1f0d085e3ddbaa1384bccf86ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
