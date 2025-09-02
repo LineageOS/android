@@ -16,6 +16,24 @@
       "message": "Why not msm8998 and msm8996 together?",
       "revId": "a01587601d3e1a170e7d13ae3b4d061b127fa832",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "abcd9fa4_e6fd7680",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-09-02T18:47:26Z",
+      "side": 1,
+      "message": "because msm8996 is not done. It is also different enough that it would take someone some effort to convert.",
+      "parentUuid": "56c548b7_e4e50f9b",
+      "revId": "a01587601d3e1a170e7d13ae3b4d061b127fa832",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
