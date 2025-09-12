@@ -41,7 +41,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="art" name="platform/art" groups="pdk" remote="aosp" />
+  <project path="art" name="LineageOS/android_art" groups="pdk" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/deprecated-ota" name="LineageOS/android_bootable_deprecated-ota" groups="pdk-cw" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
@@ -759,7 +759,7 @@
   <project path="packages/modules/Gki" name="platform/packages/modules/Gki" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/ImsMedia" name="platform/packages/modules/ImsMedia" groups="pdk" remote="aosp" />
-  <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" groups="pdk,sysui-studio" remote="aosp" />
+  <project path="packages/modules/IntentResolver" name="LineageOS/android_packages_modules_IntentResolver" groups="pdk,sysui-studio" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" groups="pdk" remote="aosp" />
   <project path="packages/modules/Media" name="platform/packages/modules/Media" groups="pdk" remote="aosp" />
   <project path="packages/modules/ModuleMetadata" name="platform/packages/modules/ModuleMetadata" groups="pdk" remote="aosp" />
