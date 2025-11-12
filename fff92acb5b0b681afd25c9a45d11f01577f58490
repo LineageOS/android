@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "acfb47fc_5856bd92",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-11-12T05:07:22Z",
+      "side": 1,
+      "message": "```\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nPLATFORM_VERSION_CODENAME\u003dREL\nPLATFORM_VERSION\u003d15\nLINEAGE_VERSION\u003d22.2-20251112-UNOFFICIAL-PL2\nPRODUCT_SOURCE_ROOT_DIRS\u003d-vendor/nvidia/common -device/nvidia/tegra-common/vendor -vendor/nvidia/shield -device/nvidia/shield-common/vendor\nTARGET_PRODUCT\u003dlineage_PL2\nTARGET_BUILD_VARIANT\u003duserdebug\nTARGET_ARCH\u003darm64\nTARGET_ARCH_VARIANT\u003darmv8-a\nTARGET_CPU_VARIANT\u003dgeneric\nTARGET_2ND_ARCH\u003darm\nTARGET_2ND_ARCH_VARIANT\u003darmv8-a\nTARGET_2ND_CPU_VARIANT\u003dgeneric\nHOST_OS\u003dlinux\nHOST_OS_EXTRA\u003dLinux-6.14.0-35-generic-x86_64-Ubuntu-24.04.3-LTS\nHOST_CROSS_OS\u003dwindows\nBUILD_ID\u003dBP1A.250505.005\nOUT_DIR\u003d/mnt/out/out/lineage-22\nWITH_GMS\u003dtrue\nGMS_MAKEFILE\u003dgms_minimal.mk\nPRODUCT_SOONG_NAMESPACES\u003dvendor/partner_gms/etc/sysconfig/gms vendor/partner_gms/etc/preferred-apps/gms vendor/nokia/PL2 device/nokia/sdm660-common hardware/samsung hardware/google/interfaces hardware/google/pixel hardware/lineage/interfaces/power-libperfmgr hardware/qcom-caf/common/libqti-perfd-client vendor/nokia/sdm660-common hardware/qcom-caf/msm8998 hardware/qcom-caf/bootctrl vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um vendor/qcom/opensource/dataservices hardware/qcom-caf/thermal-legacy-um hardware/qcom-caf/wlan\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n[ 96% 53/55] //vendor/apn:apns-conf.xml xmllint-xsd (priority: 5)\n/mnt/out/out/lineage-22/soong/.intermediates/vendor/apn/apns-conf/gen/apns-conf.xml validates\n[100% 55/55] Install: /mnt/out/out/lineage-22/target/product/PL2/system/product/etc/apns-conf.xml (priority: 3)\n```",
+      "revId": "fff92acb5b0b681afd25c9a45d11f01577f58490",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
