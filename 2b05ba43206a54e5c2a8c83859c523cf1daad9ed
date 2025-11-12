@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "164df460_3308ddd5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-11-12T05:09:46Z",
+      "side": 1,
+      "message": "```\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nPLATFORM_VERSION_CODENAME\u003dREL\nPLATFORM_VERSION\u003d11\nLINEAGE_VERSION\u003d18.1-20251112-UNOFFICIAL-jfltevzw\nTARGET_PRODUCT\u003dlineage_jfltevzw\nTARGET_BUILD_VARIANT\u003duserdebug\nTARGET_BUILD_TYPE\u003drelease\nTARGET_ARCH\u003darm\nTARGET_ARCH_VARIANT\u003darmv7-a-neon\nTARGET_CPU_VARIANT\u003dgeneric\nHOST_ARCH\u003dx86_64\nHOST_2ND_ARCH\u003dx86\nHOST_OS\u003dlinux\nHOST_OS_EXTRA\u003dLinux-6.14.0-35-generic-x86_64-Ubuntu-24.04.3-LTS\nHOST_CROSS_OS\u003dwindows\nHOST_CROSS_ARCH\u003dx86\nHOST_CROSS_2ND_ARCH\u003dx86_64\nHOST_BUILD_TYPE\u003drelease\nBUILD_ID\u003dRQ3A.211001.001\nOUT_DIR\u003d/mnt/out/out/lineage-18\nPRODUCT_SOONG_NAMESPACES\u003dvendor/samsung/jf-common device/samsung/jf-common vendor/samsung/jfltevzw hardware/qcom-caf/msm8960 vendor/qcom/opensource/data-ipa-cfg-mgr vendor/qcom/opensource/dataservices packages/apps/Bluetooth\nWITH_GMS\u003dtrue\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n[ 99% 555/557] //vendor/apn:apns-conf.xml xmllint-xsd\n/mnt/out/out/lineage-18/soong/.intermediates/vendor/apn/apns-conf/gen/apns-conf.xml validates\n[100% 557/557] Install: /mnt/out/out/lineage-18/target/product/jfltevzw/system/product/etc/apns-conf.xml\n```",
+      "revId": "2b05ba43206a54e5c2a8c83859c523cf1daad9ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
