@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c499733c_51e55429",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-11-12T05:05:40Z",
+      "side": 1,
+      "message": "```\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nPLATFORM_VERSION_CODENAME\u003dREL\nPLATFORM_VERSION\u003d13\nLINEAGE_VERSION\u003d20.0-20251112-UNOFFICIAL-beast\nTARGET_PRODUCT\u003dlineage_beast\nTARGET_BUILD_VARIANT\u003duserdebug\nTARGET_BUILD_TYPE\u003drelease\nTARGET_ARCH\u003darm\nTARGET_ARCH_VARIANT\u003darmv8-a\nTARGET_CPU_VARIANT\u003dgeneric\nHOST_ARCH\u003dx86_64\nHOST_2ND_ARCH\u003dx86\nHOST_OS\u003dlinux\nHOST_OS_EXTRA\u003dLinux-6.14.0-35-generic-x86_64-Ubuntu-24.04.3-LTS\nHOST_CROSS_OS\u003dwindows\nHOST_CROSS_ARCH\u003dx86\nHOST_CROSS_2ND_ARCH\u003dx86_64\nHOST_BUILD_TYPE\u003drelease\nBUILD_ID\u003dTQ3A.230901.001\nOUT_DIR\u003d/mnt/out/out/lineage-20\nPRODUCT_SOONG_NAMESPACES\u003dvendor/partner_gms-tv device/lineage/atv device/amlogic/gx-common device/amlogic/common vendor/amlogic/gx-common vendor/google/beast\nPRODUCT_IS_ATV\u003dtrue\nWITH_GMS\u003dtrue\nGMS_MAKEFILE\u003dgms_minimal.mk\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nAdding CUSTOM_LOCALES [ast_ES gd_GB cy_GB fur_IT] to PRODUCT_LOCALES [en_US af_ZA am_ET ar_EG ar_XB as_IN az_AZ be_BY bg_BG bn_BD bs_BA ca_ES cs_CZ da_DK de_DE el_GR en_AU en_CA en_GB en_IN en_XA es_ES es_US et_EE eu_ES fa_IR fi_FI fr_CA fr_FR gl_ES gu_IN hi_IN hr_HR hu_HU hy_AM in_ID is_IS it_IT iw_IL ja_JP ka_GE kk_KZ km_KH kn_IN ko_KR ky_KG lo_LA lt_LT lv_LV mk_MK ml_IN mn_MN mr_IN ms_MY my_MM nb_NO ne_NP nl_NL or_IN pa_IN pl_PL pt_BR pt_PT ro_RO ru_RU si_LK sk_SK sl_SI sq_AL sr_Latn_RS sr_RS sv_SE sw_TZ ta_IN te_IN th_TH tl_PH tr_TR uk_UA ur_PK uz_UZ vi_VN zh_CN zh_HK zh_TW zu_ZA]\n[100% 399/399] initializing build system ...\nAdding CUSTOM_LOCALES [ast_ES gd_GB cy_GB fur_IT] to PRODUCT_LOCALES [en_US af_ZA am_ET ar_EG ar_XB as_IN az_AZ be_BY bg_BG bn_BD bs_BA ca_ES cs_CZ da_DK de_DE el_GR en_AU en_CA en_GB en_IN en_XA es_ES es_US et_EE eu_ES fa_IR fi_FI fr_CA fr_FR gl_ES gu_IN hi_IN hr_HR hu_HU hy_AM in_ID is_IS it_IT iw_IL ja_JP ka_GE kk_KZ km_KH kn_IN ko_KR ky_KG lo_LA lt_LT lv_LV mk_MK ml_IN mn_MN mr_IN ms_MY my_MM nb_NO ne_NP nl_NL or_IN pa_IN pl_PL pt_BR pt_PT ro_RO ru_RU si_LK sk_SK sl_SI sq_AL sr_Latn_RS sr_RS sv_SE sw_TZ ta_IN te_IN th_TH tl_PH tr_TR uk_UA ur_PK uz_UZ vi_VN zh_CN zh_HK zh_TW zu_ZA]\n[ 94% 561/595] including system/sepolicy/Android.mk ...\nsystem/sepolicy/Android.mk:87: warning: Be careful when using the SELINUX_IGNORE_NEVERALLOWS flag. It does not work in user builds and using it will not stop you from failing CTS.\n[ 99% 1168/1170] //vendor/apn:apns-conf.xml xmllint-xsd\n/mnt/out/out/lineage-20/soong/.intermediates/vendor/apn/apns-conf/gen/apns-conf.xml validates\n[100% 1170/1170] Install: /mnt/out/out/lineage-20/target/product/beast/system/product/etc/apns-conf.xml\n```",
+      "revId": "9d62700cb489f4a5c22baed70c5f9a61eccf5442",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
