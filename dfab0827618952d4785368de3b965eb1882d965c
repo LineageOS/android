@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ae25c5f_7d20f24d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-11-14T20:49:00Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/q/project:LineageOS/android_development+branch:lineage-23.0",
+      "revId": "dfab0827618952d4785368de3b965eb1882d965c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
