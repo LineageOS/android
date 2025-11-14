@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6ccc283_fd24ff1b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-11-14T22:16:53Z",
+      "side": 1,
+      "message": "FYI this had open changes that were cherry picked for older device development. We dont unfork projects once the are forked unless there is a version bump",
+      "revId": "afc3dd03255b54b6276ecebe3a47238daaa9521c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
