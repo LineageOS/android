@@ -41,7 +41,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="art" name="LineageOS/android_art" groups="pdk" />
+  <project path="art" name="platform/art" groups="pdk" remote="aosp" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/deprecated-ota" name="LineageOS/android_bootable_deprecated-ota" groups="pdk-cw" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
@@ -49,7 +49,7 @@
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" remote="aosp" />
-  <project path="development" name="LineageOS/android_development" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio" />
+  <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio" remote="aosp" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" remote="aosp" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
