@@ -34,6 +34,24 @@
       "parentUuid": "4c419789_dd4b405f",
       "revId": "cd567b0eb96285ffe6c6b3e33576ca7ddc0bcf52",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a8a2a00_172ef1f7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2025-11-15T19:36:07Z",
+      "side": 1,
+      "message": "23.0 will not be getting another AOSP tag merge",
+      "parentUuid": "cbe7161b_3277863a",
+      "revId": "cd567b0eb96285ffe6c6b3e33576ca7ddc0bcf52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
