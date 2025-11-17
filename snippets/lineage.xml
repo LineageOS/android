@@ -16,6 +16,7 @@
   <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" />
   <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" />
+  <project path="external/google-fonts/google-sans-flex" name="LineageOS/android_external_google-fonts_google-sans-flex" />
   <project path="external/htop" name="LineageOS/android_external_htop" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
   <project path="external/nano" name="LineageOS/android_external_nano" />
