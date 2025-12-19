@@ -16,6 +16,24 @@
       "message": "what about luk\u0027s comment on the discord?\n\n\"refs/changes/88/3884788/1 would probably be nicer\"",
       "revId": "b70e89f546c0369010f4c83fc4f3cd751a796e02",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b3c6dac_8487f6d5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-19T23:01:20Z",
+      "side": 1,
+      "message": "I missed that. Fine with either solution.",
+      "parentUuid": "02141915_9b0c4799",
+      "revId": "b70e89f546c0369010f4c83fc4f3cd751a796e02",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
