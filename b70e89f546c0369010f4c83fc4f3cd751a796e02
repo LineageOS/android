@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "02141915_9b0c4799",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-12-19T13:53:20Z",
+      "side": 1,
+      "message": "what about luk\u0027s comment on the discord?\n\n\"refs/changes/88/3884788/1 would probably be nicer\"",
+      "revId": "b70e89f546c0369010f4c83fc4f3cd751a796e02",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
