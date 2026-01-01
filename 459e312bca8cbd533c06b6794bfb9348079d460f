@@ -33,6 +33,23 @@
       "message": "Use https://github.com/elginsk8r/android_packages_apps_EuiccPolicy until forked",
       "revId": "459e312bca8cbd533c06b6794bfb9348079d460f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d80d68e_ac9ad90a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-01T14:26:36Z",
+      "side": 1,
+      "message": "Move to 23.2",
+      "revId": "459e312bca8cbd533c06b6794bfb9348079d460f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
