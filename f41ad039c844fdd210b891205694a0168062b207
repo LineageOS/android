@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "90c6f074_ec75dbda",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-01-10T07:46:59Z",
+      "side": 1,
+      "message": "Should this get targeted for 23.0 since the repo was created with that branch?",
+      "revId": "f41ad039c844fdd210b891205694a0168062b207",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
