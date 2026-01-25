@@ -16,6 +16,23 @@
       "message": "There\u0027s not much point in unforking things if we already forked them for this release, we\u0027re not getting any more QPRs",
       "revId": "389ce4d2c38546b02d3835567bb75d389a339d6f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f64f880_81c1af2a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-01-25T23:17:19Z",
+      "side": 1,
+      "message": "well, kill next version then",
+      "revId": "389ce4d2c38546b02d3835567bb75d389a339d6f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
