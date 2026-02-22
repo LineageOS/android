@@ -16,6 +16,24 @@
       "message": "this change will be used to test legacy branch reviewers CR/V capabilities, fret not.",
       "revId": "c0995b37ad95f0d820736180998263fb7b3ad41e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26af2bc8_2b629277",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17656
+      },
+      "writtenOn": "2026-02-22T18:42:11Z",
+      "side": 1,
+      "message": "this change needs a further patchset: v138 is the last chromium version supporting Android P, so we would need to either point to a specific commit representing v138 or to set a tag in the main branch - which way would you prefer?",
+      "parentUuid": "991e1b1f_a872d7ba",
+      "revId": "c0995b37ad95f0d820736180998263fb7b3ad41e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
