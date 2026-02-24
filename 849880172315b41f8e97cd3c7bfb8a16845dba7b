@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1eb040ec_38e811dc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-02-24T14:29:37Z",
+      "side": 1,
+      "message": "src @ https://github.com/sony-sm6375 (branch: lineage-23.2-caf-elbe)",
+      "revId": "849880172315b41f8e97cd3c7bfb8a16845dba7b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
