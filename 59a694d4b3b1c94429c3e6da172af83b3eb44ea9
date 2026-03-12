@@ -34,6 +34,24 @@
       "parentUuid": "0cda1e96_ad9d79d1",
       "revId": "59a694d4b3b1c94429c3e6da172af83b3eb44ea9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ffca9429_324107fe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36787
+      },
+      "writtenOn": "2026-03-12T15:50:39Z",
+      "side": 1,
+      "message": "The sync fails, which looks broken to me. I would expect the sync to create whatever is needed.\nOtherwise I need to start a fresh repo from scratch?",
+      "parentUuid": "f02e22e0_b70a0eb7",
+      "revId": "59a694d4b3b1c94429c3e6da172af83b3eb44ea9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
