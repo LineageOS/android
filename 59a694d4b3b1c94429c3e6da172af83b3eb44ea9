@@ -16,6 +16,24 @@
       "message": "This change seems to break `repo sync`:\n```\n$ repo sync\nSyncing: 76% (894/1163) 0:46 | 4 jobs | 0:00 platform/packages/modules/HealthFitness @ packages/modules/HealthFitness\n\nerror: hooks is different in /home/alan/lineage/.repo/projects/packages/modules/Virtualization.git vs /home/alan/lineage/.repo/project-objects/LineageOS/android_packages_modules_Virtualization.git\nerror.GitError: Cannot fetch --force-sync not enabled; cannot overwrite a local work tree. If you\u0027re comfortable with the possibility of losing the work tree\u0027s git metadata, use `repo sync --force-sync packages/modules/Virtualization` to proceed.\nSyncing: 100% (1163/1163), done in 1m0.124s\nerror: Unable to fully sync the tree\nerror: Downloading network changes failed.\nFailing repos (network):\npackages/modules/Virtualization\n```\n\n.repo/project-objects/LineageOS/android_packages_modules_Virtualization.git doesn\u0027t exist.",
       "revId": "59a694d4b3b1c94429c3e6da172af83b3eb44ea9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f02e22e0_b70a0eb7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15346
+      },
+      "writtenOn": "2026-03-12T15:48:03Z",
+      "side": 1,
+      "message": "that is not breakage, it is expected for it to not exist because it has never been synced before.",
+      "parentUuid": "0cda1e96_ad9d79d1",
+      "revId": "59a694d4b3b1c94429c3e6da172af83b3eb44ea9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
