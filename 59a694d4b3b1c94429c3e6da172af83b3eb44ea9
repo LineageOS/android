@@ -52,6 +52,24 @@
       "parentUuid": "f02e22e0_b70a0eb7",
       "revId": "59a694d4b3b1c94429c3e6da172af83b3eb44ea9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4d4a8b07_e0010b49",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19282
+      },
+      "writtenOn": "2026-03-12T16:06:02Z",
+      "side": 1,
+      "message": "`repo sync --force-sync`",
+      "parentUuid": "ffca9429_324107fe",
+      "revId": "59a694d4b3b1c94429c3e6da172af83b3eb44ea9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
