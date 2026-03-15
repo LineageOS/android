@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3274a5cc_c66ba30d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17656
+      },
+      "writtenOn": "2026-03-15T18:32:43Z",
+      "side": 1,
+      "message": "OK, applied same commits as in other branches",
+      "revId": "eefe157fb6f8ae4c68b9c13617c83bc4277b3d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
