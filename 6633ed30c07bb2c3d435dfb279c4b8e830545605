@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dda644c5_eda106f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-16T01:29:19Z",
+      "side": 1,
+      "message": "Actually, wait, this is missing bits - see the clone-depth, etc.\n\nIn retrospect, I think other legacy branch versions we have done recently need those fixed too...",
+      "revId": "6633ed30c07bb2c3d435dfb279c4b8e830545605",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
