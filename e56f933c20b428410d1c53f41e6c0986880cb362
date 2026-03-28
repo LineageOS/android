@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "efcc1579_ddcb0950",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-28T21:40:54Z",
+      "side": 1,
+      "message": "We don\u0027t intend to make a pattern of this, but this repository is littered with merge commits that have conflict fixups associated to commits in strange ways.\n\n 16-18 need the exact same head so no point in the effort.",
+      "revId": "e56f933c20b428410d1c53f41e6c0986880cb362",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
