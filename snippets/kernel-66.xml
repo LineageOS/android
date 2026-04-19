@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="kernel/platform/kernel-6.6/build/kernel" name="kernel/build" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66">
+    <linkfile src="kleaf/bazel.sh" dest="kernel/platform/kernel-6.6/tools/bazel" />
+    <linkfile src="kleaf/bazel.WORKSPACE" dest="kernel/platform/kernel-6.6/WORKSPACE" />
+    <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="kernel/platform/kernel-6.6/MODULE.bazel" />
+    <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="kernel/platform/kernel-6.6/WORKSPACE.bzlmod" />
+  </project>
+  <project path="kernel/platform/kernel-6.6/build/bazel_common_rules" name="platform/build/bazel_common_rules" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/common" name="kernel/common" revision="android15-6.6-2026-04" upstream="android15-6.6-2026-04" dest-branch="android15-6.6-2026-04" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <!-- Uncomment for local testing only -->
+  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" / -->
+  <project path="kernel/platform/kernel-6.6/kernel/configs" name="kernel/configs" revision="main" upstream="main" dest-branch="main" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/common-modules/wonder" name="kernel/common-modules/wonder" revision="c4bfcd76fc6ec7eeb89053fb40033c792fc85d6e" upstream="android15-6.6" dest-branch="android15-6.6" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/common-modules/trusty" name="kernel/common-modules/trusty" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/common-modules/virtio-media" name="platform/external/virtio-media" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="211d96f861e1d6061ecb6bbe6e289ce8bf144290" upstream="android15-6.6" dest-branch="android15-6.6" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="main-kernel-build-2024" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="main-kernel-build-2024" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/prebuilts/build-tools" name="platform/prebuilts/build-tools" revision="main-kernel-build-2024" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/prebuilts/clang-tools" name="platform/prebuilts/clang-tools" revision="main-kernel-build-2024" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="main-kernel-build-2024" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/prebuilts/rust" name="platform/prebuilts/rust" revision="main-kernel-build-2024" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+
+  <project path="kernel/platform/kernel-6.6/prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main-kernel-build-2024" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" revision="main-kernel-build-2024" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-66" />
+
+  <project path="kernel/platform/kernel-6.6/external/libcap-ng" name="platform/external/libcap-ng" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/external/libcap" name="platform/external/libcap" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+
+  <!-- deps for for bzlmod -->
+  <project path="kernel/platform/kernel-6.6/external/bazel-skylib" name="platform/external/bazel-skylib" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/external/bazelbuild-apple_support" name="platform/external/bazelbuild-apple_support" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/external/bazelbuild-rules_java" name="platform/external/bazelbuild-rules_java" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/external/bazelbuild-rules_pkg" name="platform/external/bazelbuild-rules_pkg" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/external/python/absl-py" name="platform/external/python/absl-py" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+
+  <!-- dependencies used to build toolchain from sources -->
+  <project path="kernel/platform/kernel-6.6/external/lz4" name="platform/external/lz4" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/external/pigz" name="platform/external/pigz" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/external/toybox" name="platform/external/toybox" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/external/zlib" name="platform/external/zlib" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/external/zopfli" name="platform/external/zopfli" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+</manifest>

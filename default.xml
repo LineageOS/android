@@ -1031,4 +1031,5 @@
   </project>
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/kernel-66.xml" />
 </manifest>
