@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="kernel/platform/kernel-6.18/build/kernel" name="kernel/build" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp">
+    <linkfile src="kleaf/bazel.sh" dest="kernel/platform/kernel-6.18/tools/bazel"/>
+    <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="kernel/platform/kernel-6.18/MODULE.bazel"/>
+  </project>
+  <project path="kernel/platform/kernel-6.18/common" name="kernel/common" groups="kernel-platform,kernel-platform-618" revision="android17-6.18-2026-04" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/common-modules/wonder" name="kernel/common-modules/wonder" groups="kernel-platform,kernel-platform-618" revision="86ef5efc7d6534d8eb75c732c852a5bd53acff07" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/common-modules/trusty" name="kernel/common-modules/trusty" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/common-modules/virtio-media" name="platform/external/virtio-media" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/common-modules/virtual-device" name="kernel/common-modules/virtual-device" groups="kernel-platform,kernel-platform-618" revision="6c4ec5627a4fe7f8ffe53e5fb53c4fcf4793e86e" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/prebuilts/rust-toolchain/linux-x86" name="platform/prebuilts/rust-toolchain/linux-x86" clone-depth="1" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/prebuilts/ndk-r27" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+
+  <!-- Dependencies for testing (kunit, kselftests, ltp) -->
+  <!-- Uncomment for local testing only -->
+  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" / -->
+  <project path="kernel/platform/kernel-6.18/prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/libcap-ng" name="platform/external/libcap-ng" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/libcap" name="platform/external/libcap" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/test/ltp" name="platform/external/ltp" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+
+  <!-- deps for for bzlmod -->
+  <project path="kernel/platform/kernel-6.18/external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/bazel-contrib-rules_devicetree" name="platform/external/bazel-contrib-rules_devicetree" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/bazel-contrib-supply-chain" name="platform/external/bazel-contrib-supply-chain" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/bazel-skylib" name="platform/external/bazel-skylib" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/bazelbuild-rules_pkg" name="platform/external/bazelbuild-rules_pkg" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/bazelbuild-rules_shell" name="platform/external/bazelbuild-rules_shell" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/python/absl-py" name="platform/external/python/absl-py" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+
+  <!-- local_repository()'s dependencies -->
+  <project path="kernel/platform/kernel-6.18/external/argp-standalone" name="platform/external/argp-standalone" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/avb" name="platform/external/avb" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/dtc" name="platform/external/dtc" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/dwarves" name="platform/external/dwarves" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/kmod" name="platform/external/kmod" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/lz4" name="platform/external/lz4" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/obstack" name="platform/external/obstack" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/pigz" name="platform/external/pigz" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/toybox" name="platform/external/toybox" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/zlib" name="platform/external/zlib" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/zopfli" name="platform/external/zopfli" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/zstd" name="platform/external/zstd" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+
+  <!-- dependencies for GBL -->
+  <project path="kernel/platform/kernel-6.18/bootable/libbootloader" name="platform/bootable/libbootloader" groups="kernel-platform,kernel-platform-618" revision="24f6c8faf62f427ab278ed642488db98dba03a1d" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/boringssl" name="platform/external/boringssl" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/compiler-rt" name="platform/external/compiler-rt" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/libufdt" name="platform/system/libufdt" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/open-dice" name="platform/external/open-dice" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/elfutils" name="platform/external/elfutils" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/googletest" name="platform/external/googletest" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/mtools" name="platform/external/mtools" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/rust/android-crates-io" name="platform/external/rust/android-crates-io" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" groups="kernel-platform,kernel-platform-618" revision="35c2e878b0c3af33eb7bf769c9f8ecebc54e26ef" remote="aosp"/>
+</manifest>
