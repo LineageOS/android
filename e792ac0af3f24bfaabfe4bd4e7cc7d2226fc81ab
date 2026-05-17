@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a83d8351_c278968f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-05-17T23:41:06Z",
+      "side": 1,
+      "message": "This has been open on AOSP gerrit since 2019 and I don\u0027t see any issues with it for our usecases",
+      "revId": "e792ac0af3f24bfaabfe4bd4e7cc7d2226fc81ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
