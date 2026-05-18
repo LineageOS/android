@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="kernel/platform/kernel-6.12/build/kernel" name="kernel/build" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612">
+    <linkfile src="kleaf/bazel.sh" dest="kernel/platform/kernel-6.12/tools/bazel" />
+    <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="kernel/platform/kernel-6.12/MODULE.bazel" />
+    <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="kernel/platform/kernel-6.12/WORKSPACE.bzlmod" />
+  </project>
+  <project path="kernel/platform/kernel-6.12/common" name="kernel/common" revision="android16-6.12-2026-03" upstream="android16-6.12-2026-03" dest-branch="android16-6.12-2026-03" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <!-- Uncomment for local testing only -->
+  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" / -->
+  <project path="kernel/platform/kernel-6.12/common-modules/wonder" name="kernel/common-modules/wonder" revision="4d23e052fa399fe45df5dfc74cda3a5a09386e81" upstream="android16-6.12" dest-branch="android16-6.12" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/common-modules/trusty" name="kernel/common-modules/trusty" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/common-modules/virtio-media" name="platform/external/virtio-media" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="9e39ceb100805d98e8cebbff2af92ba78e9d8d04" upstream="android16-6.12" dest-branch="android16-6.12" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="main-kernel-2025" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="main-kernel-2025" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/prebuilts/build-tools" name="platform/prebuilts/build-tools" revision="main-kernel-2025" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/prebuilts/clang-tools" name="platform/prebuilts/clang-tools" revision="main-kernel-2025" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="main-kernel-2025" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/prebuilts/rust" name="platform/prebuilts/rust" revision="main-kernel-2025" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+
+  <project path="kernel/platform/kernel-6.12/prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main-kernel-2025" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" revision="main-kernel-2025" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-612" />
+
+  <project path="kernel/platform/kernel-6.12/external/libcap-ng" name="platform/external/libcap-ng" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/libcap" name="platform/external/libcap" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+
+  <!-- deps for for bzlmod -->
+  <project path="kernel/platform/kernel-6.12/external/bazel-contrib-bazel_features" name="platform/external/bazel-contrib-bazel_features" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/bazel-skylib" name="platform/external/bazel-skylib" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/bazelbuild-rules_pkg" name="platform/external/bazelbuild-rules_pkg" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/bazelbuild-rules_shell" name="platform/external/bazelbuild-rules_shell" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/python/absl-py" name="platform/external/python/absl-py" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+
+  <!-- dependencies used to build toolchain from sources -->
+  <project path="kernel/platform/kernel-6.12/external/lz4" name="platform/external/lz4" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/pigz" name="platform/external/pigz" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/toybox" name="platform/external/toybox" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/zlib" name="platform/external/zlib" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/zopfli" name="platform/external/zopfli" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+
+  <project path="kernel/platform/kernel-6.12/test/ltp" name="platform/external/ltp" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+
+  <!-- dependencies for GBL -->
+  <project path="kernel/platform/kernel-6.12/bootable/libbootloader" name="platform/bootable/libbootloader" revision="a5f672b61a940dea0ae91319aba34caeee48c4a5" upstream="gbl-android16" dest-branch="gbl-android16" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/bootable/recovery" name="platform/bootable/recovery" revision="9565b5ee790a4ae7acd0c6c04a2b3e0c7eeced3c" upstream="gbl-android16" dest-branch="gbl-android16" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/avb" name="platform/external/avb" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/boringssl" name="platform/external/boringssl" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/compiler-rt" name="platform/external/compiler-rt" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/dtc" name="platform/external/dtc" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/libufdt" name="platform/system/libufdt" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/open-dice" name="platform/external/open-dice" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/elfutils" name="platform/external/elfutils" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/googletest" name="platform/external/googletest" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/rust/android-crates-io" name="platform/external/rust/android-crates-io" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="8e06e1900a87cb8eb666ed4cd92105f53ad87254" upstream="gbl-android16" dest-branch="gbl-android16" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/system/core" name="platform/system/core" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+</manifest>
