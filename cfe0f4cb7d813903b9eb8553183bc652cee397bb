@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c2ce0da_6800d993",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-05-19T03:29:24Z",
+      "side": 1,
+      "message": "Verified on tegra and ayn qcs8550 ack. This will not pass vintf checks on 23.2, but given that this is not synced by default, it is reasonable to merge to ease ongoing development.",
+      "revId": "cfe0f4cb7d813903b9eb8553183bc652cee397bb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
