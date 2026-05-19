@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b53e324_b56d482d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-05-19T03:27:46Z",
+      "side": 1,
+      "message": "Verified building qcom common sm8750 and ayn cq8725s.",
+      "revId": "ba9231e2e3e16bada3f313311947a642c9fbedab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
