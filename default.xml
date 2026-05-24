@@ -31,7 +31,7 @@
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" remote="aosp" />
-  <project path="build/release" name="platform/build/release" groups="pdk,tradefed,sysui-studio" remote="aosp" />
+  <project path="build/release" name="LineageOS/android_build_release" groups="pdk,tradefed,sysui-studio" />
   <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed,sysui-studio" />
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
@@ -324,7 +324,7 @@
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" remote="aosp" />
   <project path="external/libpciaccess" name="platform/external/libpciaccess" groups="pdk" remote="aosp" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk" remote="aosp" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" remote="aosp" />
+  <project path="external/libpng" name="LineageOS/android_external_libpng" groups="pdk" />
   <project path="external/libppd" name="platform/external/libppd" groups="pdk" remote="aosp" />
   <project path="external/libprotobuf-mutator" name="platform/external/libprotobuf-mutator" groups="pdk" remote="aosp" />
   <project path="external/libsrtp2" name="platform/external/libsrtp2" groups="pdk" remote="aosp" />
@@ -525,7 +525,7 @@
   <project path="external/speex" name="platform/external/speex" groups="pdk" remote="aosp" />
   <project path="external/SPIRV-Headers" name="platform/external/SPIRV-Headers" groups="pdk" remote="aosp" />
   <project path="external/SPIRV-Tools" name="platform/external/SPIRV-Tools" groups="pdk" remote="aosp" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" remote="aosp" />
+  <project path="external/sqlite" name="LineageOS/android_external_sqlite" groups="pdk" />
   <project path="external/spdx-tools" name="platform/external/spdx-tools" groups="pdk" remote="aosp" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
   <project path="external/starlark-go" name="platform/external/starlark-go" groups="pdk" remote="aosp" />
@@ -708,7 +708,7 @@
   <project path="packages/apps/Car/DataSubscriptionReference" name="platform/packages/apps/Car/DataSubscriptionReference" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" />
   <project path="packages/apps/ContactsPicker" name="platform/packages/apps/ContactsPicker" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/DeviceDiagnostics" name="platform/packages/apps/DeviceDiagnostics" groups="pdk" remote="aosp" />
@@ -718,7 +718,7 @@
   <project path="packages/apps/EyeDropper" name="platform/packages/apps/EyeDropper" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/ImsServiceEntitlement" name="platform/packages/apps/ImsServiceEntitlement" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher3" name="LineageOS/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" />
