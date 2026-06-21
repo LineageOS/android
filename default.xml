@@ -740,7 +740,7 @@
   <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" />
   <project path="packages/apps/ContactsPicker" name="platform/packages/apps/ContactsPicker" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/DeviceDiagnostics" name="platform/packages/apps/DeviceDiagnostics" groups="pdk" remote="aosp" />
-  <project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" />
+  <project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" revision="lineage-23.2" />
   <project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" groups="pdk-fs" />
   <project path="packages/apps/EyeDropper" name="platform/packages/apps/EyeDropper" groups="pdk-fs" remote="aosp" />
@@ -750,7 +750,7 @@
   <project path="packages/apps/Launcher3" name="LineageOS/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" />
   <project path="packages/apps/Login" name="platform/packages/apps/Login" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" />
+  <project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" revision="lineage-23.2" />
   <project path="packages/apps/Multiuser" name="platform/packages/apps/Multiuser" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" remote="aosp" />
