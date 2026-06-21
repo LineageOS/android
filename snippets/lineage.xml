@@ -6,7 +6,7 @@
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
   <project path="device/lineage/car" name="LineageOS/android_device_lineage_car" />
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
-  <project path="external/bash" name="LineageOS/android_external_bash" />
+  <project path="external/bash" name="LineageOS/android_external_bash" revision="lineage-23.2" />
   <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" groups="pdk" revision="main" >
     <linkfile src="os_pickup.bp" dest="external/chromium-webview/Android.bp" />
     <linkfile src="README" dest="external/chromium-webview/README" />
@@ -15,49 +15,49 @@
   <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" revision="main" />
   <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" />
   <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" />
-  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" />
+  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" revision="lineage-23.2" />
   <project path="external/google-fonts/google-sans-flex" name="LineageOS/android_external_google-fonts_google-sans-flex" />
-  <project path="external/htop" name="LineageOS/android_external_htop" />
-  <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
-  <project path="external/nano" name="LineageOS/android_external_nano" />
-  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
-  <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" />
-  <project path="external/rsync" name="LineageOS/android_external_rsync" />
-  <project path="external/unrar" name="LineageOS/android_external_unrar" />
-  <project path="external/vim" name="LineageOS/android_external_vim" />
+  <project path="external/htop" name="LineageOS/android_external_htop" revision="lineage-23.2" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" revision="lineage-23.2" />
+  <project path="external/nano" name="LineageOS/android_external_nano" revision="lineage-23.2" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" revision="lineage-23.2" />
+  <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" revision="lineage-23.2" />
+  <project path="external/rsync" name="LineageOS/android_external_rsync" revision="lineage-23.2" />
+  <project path="external/unrar" name="LineageOS/android_external_unrar" revision="lineage-23.2" />
+  <project path="external/vim" name="LineageOS/android_external_vim" revision="lineage-23.2" />
   <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
-  <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" />
-  <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
-  <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
-  <project path="packages/apps/Camelot" name="LineageOS/android_packages_apps_Camelot" />
-  <project path="packages/apps/Catapult" name="LineageOS/android_packages_apps_Catapult" />
-  <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
-  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" />
-  <project path="packages/apps/EuiccPolicy" name="LineageOS/android_packages_apps_EuiccPolicy" />
-  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
-  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
-  <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />
-  <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" />
-  <project path="packages/apps/Glimpse" name="LineageOS/android_packages_apps_Glimpse" />
-  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
-  <project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer" />
-  <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
-  <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
-  <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
-  <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" />
+  <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" revision="lineage-23.2" />
+  <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" revision="lineage-23.2" />
+  <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" revision="lineage-23.2" />
+  <project path="packages/apps/Camelot" name="LineageOS/android_packages_apps_Camelot" revision="lineage-23.2" />
+  <project path="packages/apps/Catapult" name="LineageOS/android_packages_apps_Catapult" revision="lineage-23.2" />
+  <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" revision="lineage-23.2" />
+  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" revision="lineage-23.2" />
+  <project path="packages/apps/EuiccPolicy" name="LineageOS/android_packages_apps_EuiccPolicy" revision="lineage-23.2" />
+  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" revision="lineage-23.2" />
+  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" revision="lineage-23.2" />
+  <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" revision="lineage-23.2" />
+  <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" revision="lineage-23.2" />
+  <project path="packages/apps/Glimpse" name="LineageOS/android_packages_apps_Glimpse" revision="lineage-23.2" />
+  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" revision="lineage-23.2" />
+  <project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer" revision="lineage-23.2" />
+  <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" revision="lineage-23.2" />
+  <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" revision="lineage-23.2" />
+  <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" revision="lineage-23.2" />
+  <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" revision="lineage-23.2" />
   <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
-  <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" />
-  <project path="packages/apps/SimpleSettingsConfig" name="LineageOS/android_packages_apps_SimpleSettingsConfig" />
-  <project path="packages/apps/Twelve" name="LineageOS/android_packages_apps_Twelve" />
-  <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
-  <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
+  <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" revision="lineage-23.2" />
+  <project path="packages/apps/SimpleSettingsConfig" name="LineageOS/android_packages_apps_SimpleSettingsConfig" revision="lineage-23.2" />
+  <project path="packages/apps/Twelve" name="LineageOS/android_packages_apps_Twelve" revision="lineage-23.2" />
+  <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" revision="lineage-23.2" />
+  <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" revision="lineage-23.2" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-23.2" />
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" />
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" />
   <project path="vendor/apn" name="LineageOS/android_vendor_apn" revision="main" />
-  <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin" />
+  <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin" revision="lineage-23.2" />
   <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 
   <!-- Legacy AOSP additions -->
@@ -65,8 +65,8 @@
   <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" />
   <project path="hardware/google/pixel-sepolicy" name="LineageOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="LineageOS/android_hardware_knowles_athletico_sound_trigger_hal" groups="coral" />
-  <project path="hardware/qcom/sm7250/display" name="LineageOS/android_hardware_qcom_sm7250_display" groups="qcom,qcom_sm7250" />
-  <project path="hardware/qcom/sm7250/gps" name="LineageOS/android_hardware_qcom_sm7250_gps" groups="qcom,qcom_sm7250" />
+  <project path="hardware/qcom/sm7250/display" name="LineageOS/android_hardware_qcom_sm7250_display" groups="qcom,qcom_sm7250" revision="lineage-23.2" />
+  <project path="hardware/qcom/sm7250/gps" name="LineageOS/android_hardware_qcom_sm7250_gps" groups="qcom,qcom_sm7250" revision="lineage-23.2" />
   <project path="hardware/qcom/sm8150/display" name="LineageOS/android_hardware_qcom_sm8150_display" groups="qcom,qcom_sm8150" />
   <project path="hardware/qcom/sm8150/gps" name="LineageOS/android_hardware_qcom_sm8150_gps" groups="qcom,qcom_sm8150" />
 
