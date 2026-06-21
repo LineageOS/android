@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "67f3acd5_45d68332",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2026-06-21T15:47:28Z",
+      "side": 1,
+      "message": "does msm8953 really worth disabling? it\u0027s converted to bp and might be used on k4.19",
+      "revId": "6614250e3618462ea626976b8a72fe2a99c27c00",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
