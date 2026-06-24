@@ -34,6 +34,24 @@
       "parentUuid": "3babdf7d_ab6d6d19",
       "revId": "2e1c7358ec713e856c1e78e1eb36e0fa0e82400c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b792b84c_be62c548",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-06-24T17:04:37Z",
+      "side": 1,
+      "message": "Yes, I mean check if that blob is actually used",
+      "parentUuid": "f62d591a_e05cb215",
+      "revId": "2e1c7358ec713e856c1e78e1eb36e0fa0e82400c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
