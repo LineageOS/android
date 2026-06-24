@@ -974,8 +974,8 @@
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
   <project path="system/memory/amemdiff" name="platform/system/memory/amemdiff" groups="pdk" remote="aosp" />
   <project path="system/memory/guardian" name="platform/system/memory/guardian" groups="pdk" remote="aosp" />
-  <project path="system/memory/libion" name="platform/system/memory/libion" groups="pdk" remote="aosp" />
-  <project path="system/memory/libdmabufheap" name="platform/system/memory/libdmabufheap" groups="pdk" remote="aosp" />
+  <project path="system/memory/libion" name="LineageOS/android_system_memory_libion" groups="pdk" />
+  <project path="system/memory/libdmabufheap" name="LineageOS/android_system_memory_libdmabufheap" groups="pdk" />
   <project path="system/memory/libmeminfo" name="platform/system/memory/libmeminfo" groups="pdk" remote="aosp" />
   <project path="system/memory/libmemtrack" name="platform/system/memory/libmemtrack" groups="pdk" remote="aosp" />
   <project path="system/memory/libmemunreachable" name="platform/system/memory/libmemunreachable" groups="pdk" remote="aosp" />
