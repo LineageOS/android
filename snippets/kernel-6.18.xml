@@ -4,8 +4,8 @@
     <linkfile src="kleaf/bazel.sh" dest="kernel/platform/kernel-6.18/tools/bazel"/>
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="kernel/platform/kernel-6.18/MODULE.bazel"/>
   </project>
-  <project path="kernel/platform/kernel-6.18/common" name="kernel/common" groups="kernel-platform,kernel-platform-618" revision="android17-6.18-2026-04" remote="aosp"/>
-  <project path="kernel/platform/kernel-6.18/common-modules/wonder" name="kernel/common-modules/wonder" groups="kernel-platform,kernel-platform-618" revision="86ef5efc7d6534d8eb75c732c852a5bd53acff07" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/common" name="kernel/common" groups="kernel-platform,kernel-platform-618" revision="android17-6.18-2026-06" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/common-modules/wonder" name="kernel/common-modules/wonder" groups="kernel-platform,kernel-platform-618" revision="a65d973890da3140cda12b1a3c7e64bebc702d1b" remote="aosp"/>
   <project path="kernel/platform/kernel-6.18/common-modules/trusty" name="kernel/common-modules/trusty" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
   <project path="kernel/platform/kernel-6.18/common-modules/virtio-media" name="platform/external/virtio-media" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
   <project path="kernel/platform/kernel-6.18/common-modules/virtual-device" name="kernel/common-modules/virtual-device" groups="kernel-platform,kernel-platform-618" revision="6c4ec5627a4fe7f8ffe53e5fb53c4fcf4793e86e" remote="aosp"/>
@@ -55,7 +55,7 @@
   <project path="kernel/platform/kernel-6.18/external/zstd" name="platform/external/zstd" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
 
   <!-- dependencies for GBL -->
-  <project path="kernel/platform/kernel-6.18/bootable/libbootloader" name="platform/bootable/libbootloader" groups="kernel-platform,kernel-platform-618" revision="24f6c8faf62f427ab278ed642488db98dba03a1d" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/bootable/libbootloader" name="platform/bootable/libbootloader" groups="kernel-platform,kernel-platform-618" revision="2bc6eaf6d4ee36ce3872f1df6f241297250fe3cc" remote="aosp"/>
   <project path="kernel/platform/kernel-6.18/external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
   <project path="kernel/platform/kernel-6.18/external/boringssl" name="platform/external/boringssl" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
   <project path="kernel/platform/kernel-6.18/external/compiler-rt" name="platform/external/compiler-rt" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
@@ -65,7 +65,11 @@
   <project path="kernel/platform/kernel-6.18/external/googletest" name="platform/external/googletest" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
   <project path="kernel/platform/kernel-6.18/external/mtools" name="platform/external/mtools" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
   <project path="kernel/platform/kernel-6.18/external/rust/android-crates-io" name="platform/external/rust/android-crates-io" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
-  <project path="kernel/platform/kernel-6.18/external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
-  <project path="kernel/platform/kernel-6.18/external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
   <project path="kernel/platform/kernel-6.18/prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" groups="kernel-platform,kernel-platform-618" revision="35c2e878b0c3af33eb7bf769c9f8ecebc54e26ef" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/prebuilts/vmm" name="device/google/cuttlefish_vmm" clone-depth="1" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+
+  <!-- dependencies for u-boot -->
+  <project path="kernel/platform/kernel-6.18/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" groups="kernel-platform,kernel-platform-618" revision="main-kernel-2026" remote="aosp"/>
+  <project path="kernel/platform/kernel-6.18/u-boot" name="platform/external/u-boot" groups="kernel-platform,kernel-platform-618" revision="adffd291a17b6c017e73fc6075b91044834f4a26" remote="aosp"/>
 </manifest>
