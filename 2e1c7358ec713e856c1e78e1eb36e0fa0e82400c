@@ -52,6 +52,24 @@
       "parentUuid": "f62d591a_e05cb215",
       "revId": "2e1c7358ec713e856c1e78e1eb36e0fa0e82400c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "452f9e44_b54a423d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28798
+      },
+      "writtenOn": "2026-06-25T04:56:16Z",
+      "side": 1,
+      "message": "It is being used by libdpps as part of HWC stack, so I think it is being used. My device has android-11 blobs, so I think its a given",
+      "parentUuid": "b792b84c_be62c548",
+      "revId": "2e1c7358ec713e856c1e78e1eb36e0fa0e82400c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
