@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2bb6c710_f6f5e4cd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-06-25T07:37:49Z",
+      "side": 1,
+      "message": "This one will probably need another update once Google finalizes the branch. But since there\u0027s no 2026-06 for 6.6, I queued this one for the 24.0 baseline.",
+      "revId": "9a449a3be35596fcda74b805954b8933aac1243a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
