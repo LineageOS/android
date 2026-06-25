@@ -5,13 +5,13 @@
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="kernel/platform/kernel-6.12/MODULE.bazel" />
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="kernel/platform/kernel-6.12/WORKSPACE.bzlmod" />
   </project>
-  <project path="kernel/platform/kernel-6.12/common" name="kernel/common" revision="android16-6.12-2026-03" upstream="android16-6.12-2026-03" dest-branch="android16-6.12-2026-03" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/common" name="kernel/common" revision="android16-6.12-2026-06" upstream="android16-6.12-2026-06" dest-branch="android16-6.12-2026-06" remote="aosp" groups="kernel-platform,kernel-platform-612" />
   <!-- Uncomment for local testing only -->
   <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" / -->
-  <project path="kernel/platform/kernel-6.12/common-modules/wonder" name="kernel/common-modules/wonder" revision="4d23e052fa399fe45df5dfc74cda3a5a09386e81" upstream="android16-6.12" dest-branch="android16-6.12" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/common-modules/wonder" name="kernel/common-modules/wonder" revision="45977ff0bb27e608bdf6357438d69ccaccddf2d8" upstream="android16-6.12" dest-branch="android16-6.12" remote="aosp" groups="kernel-platform,kernel-platform-612" />
   <project path="kernel/platform/kernel-6.12/common-modules/trusty" name="kernel/common-modules/trusty" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
   <project path="kernel/platform/kernel-6.12/common-modules/virtio-media" name="platform/external/virtio-media" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
-  <project path="kernel/platform/kernel-6.12/common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="9e39ceb100805d98e8cebbff2af92ba78e9d8d04" upstream="android16-6.12" dest-branch="android16-6.12" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="b19861150ed8d9d858e8999684f2160501e2dfd8" upstream="android16-6.12" dest-branch="android16-6.12" remote="aosp" groups="kernel-platform,kernel-platform-612" />
   <project path="kernel/platform/kernel-6.12/prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="main-kernel-2025" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-612" />
   <project path="kernel/platform/kernel-6.12/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="main-kernel-2025" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-612" />
   <project path="kernel/platform/kernel-6.12/prebuilts/build-tools" name="platform/prebuilts/build-tools" revision="main-kernel-2025" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-612" />
@@ -49,7 +49,7 @@
   <project path="kernel/platform/kernel-6.12/test/ltp" name="platform/external/ltp" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
 
   <!-- dependencies for GBL -->
-  <project path="kernel/platform/kernel-6.12/bootable/libbootloader" name="platform/bootable/libbootloader" revision="a5f672b61a940dea0ae91319aba34caeee48c4a5" upstream="gbl-android16" dest-branch="gbl-android16" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/bootable/libbootloader" name="platform/bootable/libbootloader" revision="699721d9a6bade4de53edc9bb8a268ce2887f53e" upstream="gbl-android16" dest-branch="gbl-android16" remote="aosp" groups="kernel-platform,kernel-platform-612" />
   <project path="kernel/platform/kernel-6.12/bootable/recovery" name="platform/bootable/recovery" revision="9565b5ee790a4ae7acd0c6c04a2b3e0c7eeced3c" upstream="gbl-android16" dest-branch="gbl-android16" remote="aosp" groups="kernel-platform,kernel-platform-612" />
   <project path="kernel/platform/kernel-6.12/external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
   <project path="kernel/platform/kernel-6.12/external/avb" name="platform/external/avb" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
