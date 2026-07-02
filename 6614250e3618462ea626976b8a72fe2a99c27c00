@@ -34,6 +34,24 @@
       "parentUuid": "67f3acd5_45d68332",
       "revId": "6614250e3618462ea626976b8a72fe2a99c27c00",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cfb85fc0_574be6f8",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-07-02T07:21:17Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "208de15b_40f8bfce",
+      "revId": "6614250e3618462ea626976b8a72fe2a99c27c00",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
