@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "69740501_8c6fb684",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-07-12T23:41:06Z",
+      "side": 1,
+      "message": "Until we Rez coral.",
+      "revId": "c5c5f42ab5a2128f8ee574c31d3d6f2b20bd8ce4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
