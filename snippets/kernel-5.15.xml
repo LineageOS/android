@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="kernel/platform/kernel-5.15/build/kernel" name="kernel/build" revision="main-kernel-build-2023" remote="aosp" groups="kernel-platform,kernel-platform-515">
+    <linkfile src="kleaf/bazel.sh" dest="kernel/platform/kernel-5.15/tools/bazel" />
+    <linkfile src="kleaf/bazel.WORKSPACE" dest="kernel/platform/kernel-5.15/WORKSPACE" />
+  </project>
+  <project path="kernel/platform/kernel-5.15/build/bazel_common_rules" name="platform/build/bazel_common_rules" revision="main-kernel-build-2023" remote="aosp" groups="kernel-platform,kernel-platform-515" />
+  <project path="kernel/platform/kernel-5.15/common" name="kernel/common" revision="android14-5.15-2026-04" upstream="android14-5.15-2026-04" dest-branch="android14-5.15-2026-04" remote="aosp" groups="kernel-platform,kernel-platform-515" />
+  <!-- Uncomment for local testing only -->
+  <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel-build-2023" clone-depth="1" / -->
+  <project path="kernel/platform/kernel-5.15/kernel/configs" name="kernel/configs" revision="main-kernel-build-2023" remote="aosp" groups="kernel-platform,kernel-platform-515" />
+  <project path="kernel/platform/kernel-5.15/common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="3bd713568a58641e2c44c41c796836d0f5454f46" upstream="android14-5.15" dest-branch="android14-5.15" remote="aosp" groups="kernel-platform,kernel-platform-515" />
+  <project path="kernel/platform/kernel-5.15/prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="main-kernel-build-2023" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-515" />
+  <project path="kernel/platform/kernel-5.15/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="main-kernel-build-2023" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-515" />
+  <project path="kernel/platform/kernel-5.15/prebuilts/build-tools" name="platform/prebuilts/build-tools" revision="main-kernel-build-2023" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-515" />
+  <project path="kernel/platform/kernel-5.15/prebuilts/clang-tools" name="platform/prebuilts/clang-tools" revision="main-kernel-build-2023" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-515" />
+  <project path="kernel/platform/kernel-5.15/prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="main-kernel-build-2023" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-515" />
+  <project path="kernel/platform/kernel-5.15/prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" revision="main-kernel-build-2023" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-515" />
+  <project path="kernel/platform/kernel-5.15/tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="main-kernel-build-2023" remote="aosp" groups="kernel-platform,kernel-platform-515" />
+
+  <project path="kernel/platform/kernel-5.15/prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="main-kernel-build-2023" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-515" />
+  <project path="kernel/platform/kernel-5.15/prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" revision="main-kernel-build-2023" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-515" />
+
+  <!-- deps for the (pre-bzlmod) kleaf WORKSPACE -->
+  <project path="kernel/platform/kernel-5.15/external/bazel-skylib" name="platform/external/bazel-skylib" revision="main-kernel-build-2023" remote="aosp" groups="kernel-platform,kernel-platform-515" />
+  <project path="kernel/platform/kernel-5.15/external/stardoc" name="platform/external/stardoc" revision="main-kernel-build-2023" remote="aosp" groups="kernel-platform,kernel-platform-515" />
+  <project path="kernel/platform/kernel-5.15/external/python/absl-py" name="platform/external/python/absl-py" revision="main-kernel-build-2023" remote="aosp" groups="kernel-platform,kernel-platform-515" />
+</manifest>
