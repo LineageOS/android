@@ -16,6 +16,24 @@
       "message": "Why is this pulling //common from from 2024-01 when 2026-04 to match the rest of the 23.2 kernel platform versions is available?",
       "revId": "245b16b028c4eb1ac5a6f9d88da05280b4a2f60c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3071333c_3a4eabc9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17257
+      },
+      "writtenOn": "2026-07-16T19:01:57Z",
+      "side": 1,
+      "message": "I was replicating a specific 5.15 tag. We should probably bump to the latest but I will probably have to rewrite some of the bazel logic.",
+      "parentUuid": "c4b5b5dc_20cfc6d1",
+      "revId": "245b16b028c4eb1ac5a6f9d88da05280b4a2f60c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
