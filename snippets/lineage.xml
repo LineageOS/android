@@ -194,6 +194,7 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="qcom,kaanapali-vendor" />
   <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="qcom,kaanapali-vendor" />
   <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,kaanapali-vendor" />
+  <project path="vendor/st/opensource/keymaster" name="LineageOS/android_vendor_st_opensource_keymaster" groups="qcom,kaanapali-vendor" />
 
   <!-- Infrastructure -->
   <project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="main" />
