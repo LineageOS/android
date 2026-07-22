@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e69d862_f9f4b328",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33800
+      },
+      "writtenOn": "2026-07-22T11:35:13Z",
+      "side": 1,
+      "message": "https://github.com/NikitaSavc/android_vendor_st_opensource_keymaster",
+      "revId": "418974ebcbac2aa68eaccc69a07eed73d8a0f17b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
