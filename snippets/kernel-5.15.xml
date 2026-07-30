@@ -5,7 +5,7 @@
     <linkfile src="kleaf/bazel.WORKSPACE" dest="kernel/platform/kernel-5.15/WORKSPACE" />
   </project>
   <project path="kernel/platform/kernel-5.15/build/bazel_common_rules" name="platform/build/bazel_common_rules" revision="main-kernel-build-2023" remote="aosp" groups="kernel-platform,kernel-platform-515" />
-  <project path="kernel/platform/kernel-5.15/common" name="kernel/common" revision="android14-5.15-2026-04" upstream="android14-5.15-2026-04" dest-branch="android14-5.15-2026-04" remote="aosp" groups="kernel-platform,kernel-platform-515" />
+  <project path="kernel/platform/kernel-5.15/common" name="kernel/common" revision="android14-5.15-2026-07" upstream="android14-5.15-2026-07" dest-branch="android14-5.15-2026-07" remote="aosp" groups="kernel-platform,kernel-platform-515" />
   <!-- Uncomment for local testing only -->
   <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel-build-2023" clone-depth="1" / -->
   <project path="kernel/platform/kernel-5.15/kernel/configs" name="kernel/configs" revision="main-kernel-build-2023" remote="aosp" groups="kernel-platform,kernel-platform-515" />
