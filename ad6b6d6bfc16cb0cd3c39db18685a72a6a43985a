@@ -16,6 +16,23 @@
       "message": "did self review on all changes in the topic, if there\u0027s something you\u0027d like me to change, lmk.",
       "revId": "ad6b6d6bfc16cb0cd3c39db18685a72a6a43985a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "47157f33_aa0d0a44",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2026-09-10T10:18:35Z",
+      "side": 1,
+      "message": "Aside the usual changes, pal related flags seems sane to me",
+      "revId": "ad6b6d6bfc16cb0cd3c39db18685a72a6a43985a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
