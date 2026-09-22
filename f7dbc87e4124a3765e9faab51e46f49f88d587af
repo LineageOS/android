@@ -16,6 +16,23 @@
       "message": "boots on fairlady; any objections?",
       "revId": "f7dbc87e4124a3765e9faab51e46f49f88d587af",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "84b9dd9f_bb1d9875",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-09-22T08:01:20Z",
+      "side": 1,
+      "message": "I know stuff hasn\u0027t shipped yet, but why are we doing another midcycle update and kmi break? If we want to update one before ship, we really should keep the kernel versions in sync for consistency too.",
+      "revId": "f7dbc87e4124a3765e9faab51e46f49f88d587af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
