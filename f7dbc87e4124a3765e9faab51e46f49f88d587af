@@ -33,6 +33,24 @@
       "message": "I know stuff hasn\u0027t shipped yet, but why are we doing another midcycle update and kmi break? If we want to update one before ship, we really should keep the kernel versions in sync for consistency too.",
       "revId": "f7dbc87e4124a3765e9faab51e46f49f88d587af",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "305c93c6_dc1e690d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-09-22T08:09:51Z",
+      "side": 1,
+      "message": "\u003eI know stuff hasn\u0027t shipped yet, but why are we doing another midcycle update and kmi break?\n\nI did it because I noticed that it\u0027s available and appears to work here.\n\n\u003eIf we want to update one before ship, we really should keep the kernel versions in sync for consistency too.\n\nyou mean we should update 6.18 too? I can\u0027t verify that, so I\u0027m not touching it.",
+      "parentUuid": "84b9dd9f_bb1d9875",
+      "revId": "f7dbc87e4124a3765e9faab51e46f49f88d587af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
