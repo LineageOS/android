@@ -51,6 +51,24 @@
       "parentUuid": "84b9dd9f_bb1d9875",
       "revId": "f7dbc87e4124a3765e9faab51e46f49f88d587af",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b188dddc_a0058a86",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2026-09-22T08:22:06Z",
+      "side": 1,
+      "message": "It does look like 6.18 is the only one with a matching branch, so yes. 5.15 and 6.6 still only have 2026-07 as current. I just don\u0027t want stuff to get all out of sync. The intent was to update these snippets once a qpr, to match whatever was current with said qpr. Then once the next public qpr drops, update to match that. So my intent was to not touch these again until qpr2. But at least if mid-cycle updates are going to happen, don\u0027t piecemeal them, please.\n\nI\u0027m probably the only user of 6.18 atm. And I\u0027ll have to get two of my kernels force-pushed to track such an update, but I\u0027ll do it to keep stuff in sync.",
+      "parentUuid": "305c93c6_dc1e690d",
+      "revId": "f7dbc87e4124a3765e9faab51e46f49f88d587af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
