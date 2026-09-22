@@ -5,13 +5,13 @@
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="kernel/platform/kernel-6.12/MODULE.bazel" />
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="kernel/platform/kernel-6.12/WORKSPACE.bzlmod" />
   </project>
-  <project path="kernel/platform/kernel-6.12/common" name="kernel/common" revision="android16-6.12-2026-06" upstream="android16-6.12-2026-06" dest-branch="android16-6.12-2026-06" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/common" name="kernel/common" revision="android16-6.12-2026-09" upstream="android16-6.12-2026-09" dest-branch="android16-6.12-2026-09" remote="aosp" groups="kernel-platform,kernel-platform-612" />
   <!-- Uncomment for local testing only -->
   <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" / -->
-  <project path="kernel/platform/kernel-6.12/common-modules/wonder" name="kernel/common-modules/wonder" revision="45977ff0bb27e608bdf6357438d69ccaccddf2d8" upstream="android16-6.12" dest-branch="android16-6.12" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/common-modules/wonder" name="kernel/common-modules/wonder" revision="15951b206b7cbe4ffa08c7896d4951a56853e4ba" upstream="android16-6.12" dest-branch="android16-6.12" remote="aosp" groups="kernel-platform,kernel-platform-612" />
   <project path="kernel/platform/kernel-6.12/common-modules/trusty" name="kernel/common-modules/trusty" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
   <project path="kernel/platform/kernel-6.12/common-modules/virtio-media" name="platform/external/virtio-media" revision="main-kernel-2025" remote="aosp" groups="kernel-platform,kernel-platform-612" />
-  <project path="kernel/platform/kernel-6.12/common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="b19861150ed8d9d858e8999684f2160501e2dfd8" upstream="android16-6.12" dest-branch="android16-6.12" remote="aosp" groups="kernel-platform,kernel-platform-612" />
+  <project path="kernel/platform/kernel-6.12/common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="76966d4630d162be839165f37e349961a5724bac" upstream="android16-6.12" dest-branch="android16-6.12" remote="aosp" groups="kernel-platform,kernel-platform-612" />
   <project path="kernel/platform/kernel-6.12/prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="main-kernel-2025" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-612" />
   <project path="kernel/platform/kernel-6.12/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="main-kernel-2025" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-612" />
   <project path="kernel/platform/kernel-6.12/prebuilts/build-tools" name="platform/prebuilts/build-tools" revision="main-kernel-2025" remote="aosp" clone-depth="1" groups="kernel-platform,kernel-platform-612" />
