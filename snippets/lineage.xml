@@ -33,6 +33,7 @@
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
   <project path="packages/apps/Camelot" name="LineageOS/android_packages_apps_Camelot" />
+  <project path="packages/apps/Canvas" name="LineageOS/android_packages_apps_Canvas" />
   <project path="packages/apps/Catapult" name="LineageOS/android_packages_apps_Catapult" />
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
   <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" />
