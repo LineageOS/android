@@ -124,6 +124,6 @@
   <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
 
   <!-- Tools -->
-  <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
-  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
+  <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="main" />
+  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" />
 </manifest>
