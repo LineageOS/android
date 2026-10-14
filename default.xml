@@ -62,7 +62,7 @@
   <project path="device/google/sdv_display_safety" name="device/google/sdv_display_safety" groups="swcar,pdk" clone-depth="1" remote="aosp" />
   <project path="device/google/trout" name="device/google/trout" groups="device,pdk" clone-depth="1" remote="aosp" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
-  <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
+  <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" />
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" groups="pdk" remote="aosp" />
   <project path="external/accessibility-test-framework" name="platform/external/accessibility-test-framework" groups="pdk" remote="aosp" />
   <project path="external/accompanist" name="platform/external/accompanist" groups="pdk" remote="aosp" />
@@ -227,7 +227,7 @@
   <project path="external/hafnium" name="platform/external/hafnium" groups="pdk" remote="aosp" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk" remote="aosp" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" remote="aosp" />
-  <project path="external/hplip" name="platform/external/hplip" groups="pdk" remote="aosp" />
+  <project path="external/hplip" name="LineageOS/android_external_hplip" groups="pdk" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk" remote="aosp" />
   <project path="external/iamf_tools" name="platform/external/iamf_tools" groups="pdk" remote="aosp" />
   <project path="external/icing" name="platform/external/icing" groups="pdk" remote="aosp" />
@@ -337,7 +337,7 @@
   <project path="external/libnfnetlink" name="platform/external/libnfnetlink" groups="pdk" remote="aosp" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" remote="aosp" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" remote="aosp" />
-  <project path="external/libopenapv" name="platform/external/libopenapv" groups="pdk" remote="aosp" />
+  <project path="external/libopenapv" name="LineageOS/android_external_libopenapv" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" remote="aosp" />
   <project path="external/libpalmrejection" name="platform/external/libpalmrejection" groups="pdk" remote="aosp" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" remote="aosp" />
@@ -573,7 +573,7 @@
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" remote="aosp" />
   <project path="external/tpm2-tss" name="platform/external/tpm2-tss" groups="pdk" remote="aosp" />
   <project path="external/trace-cmd" name="platform/external/trace-cmd" groups="pdk" remote="aosp" />
-  <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
+  <project path="external/tremolo" name="LineageOS/android_external_tremolo" groups="pdk" />
   <project path="external/trusty/arm-trusted-firmware" name="trusty/external/trusted-firmware-a" groups="trusty,pdk" remote="aosp" />
   <project path="external/trusty/bootloader" name="trusty/external/trusty" groups="trusty,pdk" remote="aosp" />
   <project path="external/trusty/headers" name="trusty/external/headers" groups="trusty,pdk" remote="aosp" />
@@ -749,7 +749,7 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Launcher3" name="LineageOS/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" />
   <project path="packages/apps/Login" name="platform/packages/apps/Login" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/ManagedProvisioning" name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" />
   <project path="packages/apps/Multiuser" name="platform/packages/apps/Multiuser" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" remote="aosp" />
@@ -803,17 +803,17 @@
   <project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/ImsMedia" name="LineageOS/android_packages_modules_ImsMedia" groups="pdk" />
   <project path="packages/modules/ImsStack" name="platform/packages/modules/ImsStack" groups="pdk" remote="aosp" />
-  <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" groups="pdk,sysui-studio" remote="aosp" />
+  <project path="packages/modules/IntentResolver" name="LineageOS/android_packages_modules_IntentResolver" groups="pdk,sysui-studio" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" groups="pdk" remote="aosp" />
   <project path="packages/modules/Media" name="platform/packages/modules/Media" groups="pdk" remote="aosp" />
   <project path="packages/modules/ModuleMetadata" name="platform/packages/modules/ModuleMetadata" groups="pdk" remote="aosp" />
   <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="packages/modules/NeuralNetworks" name="LineageOS/android_packages_modules_NeuralNetworks" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Nfc" name="LineageOS/android_packages_modules_Nfc" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/NpuManager" name="platform/packages/modules/NpuManager" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/OnDevicePersonalization" name="platform/packages/modules/OnDevicePersonalization" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/Permission" name="LineageOS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/modules/Profiling" name="platform/packages/modules/Profiling" groups="pdk" remote="aosp" />
+  <project path="packages/modules/Profiling" name="LineageOS/android_packages_modules_Profiling" groups="pdk" />
   <project path="packages/modules/RemoteKeyProvisioning" name="platform/packages/modules/RemoteKeyProvisioning" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/RuntimeI18n" name="platform/packages/modules/RuntimeI18n" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/Scheduling" name="platform/packages/modules/Scheduling" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -850,7 +850,7 @@
   <project path="packages/services/DeviceAsWebcam" name="LineageOS/android_packages_services_DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/display_safety" name="platform/packages/services/display_safety" groups="swcar,pdk" remote="aosp" />
   <project path="packages/services/DroidfoodAttestationFixer" name="platform/packages/services/DroidfoodAttestationFixer" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/services/Iwlan" name="platform/packages/services/Iwlan" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="packages/services/Iwlan" name="LineageOS/android_packages_services_Iwlan" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mtp" name="platform/packages/services/Mtp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/services/QualifiedNetworksService" name="platform/packages/services/QualifiedNetworksService" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -1095,7 +1095,7 @@
   <project path="trusty/user/app/sample" name="trusty/app/sample" groups="trusty,pdk" remote="aosp" />
   <project path="trusty/user/app/secretkeeper" name="trusty/app/secretkeeper" groups="trusty,pdk" remote="aosp" />
   <project path="trusty/user/app/storage" name="trusty/app/storage" groups="trusty,pdk" remote="aosp" />
-  <project path="trusty/user/base" name="trusty/lib" groups="trusty,pdk" remote="aosp" />
+  <project path="trusty/user/base" name="LineageOS/android_trusty_user_base" groups="trusty,pdk" />
   <project path="trusty/user/desktop" name="trusty/user/desktop" groups="android-desktop,pdk,trusty" remote="aosp" />
   <project path="trusty/vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty,pdk" remote="aosp">
     <!-- Install lk_inc.mk into trusty root -->
