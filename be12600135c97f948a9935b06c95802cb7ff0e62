@@ -68,6 +68,24 @@
       "message": "I got a couple errors, but won\u0027t post them in detail as they are mixed in German and English. Both were errors about overwriting local file default.xml. One solved by git commit --allow-empty, the second by git stash, git cherry-pick and git stash pop. Now the repopick -f 414647 went through. Build is under way.",
       "revId": "be12600135c97f948a9935b06c95802cb7ff0e62",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3170ea61_c2e33f5b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-10-17T19:21:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ef9cd8e_b22de309",
+      "revId": "be12600135c97f948a9935b06c95802cb7ff0e62",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
