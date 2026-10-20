@@ -124,7 +124,7 @@
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
   <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" groups="pdk-lassen,pdk-arsp-ag-sot,pdk-arsp-common" remote="aosp" />
   <project path="external/connectedappssdk" name="platform/external/connectedappssdk" groups="pdk" remote="aosp" />
-  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" remote="aosp" />
+  <project path="external/conscrypt" name="LineageOS/android_external_conscrypt" groups="pdk" />
   <project path="external/cpu_features" name="platform/external/cpu_features" groups="pdk" remote="aosp" />
   <project path="external/cpuinfo" name="platform/external/cpuinfo" groups="pdk" remote="aosp" />
   <project path="external/cronet" name="platform/external/cronet" groups="pdk" remote="aosp" />
@@ -938,7 +938,7 @@
   <project path="system/authgraph" name="platform/system/authgraph" groups="pdk" remote="aosp" />
   <project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" remote="aosp" />
-  <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp" />
+  <project path="system/ca-certificates" name="LineageOS/android_system_ca-certificates" groups="pdk" />
   <project path="system/chre" name="LineageOS/android_system_chre" groups="pdk" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" remote="aosp" />
   <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
