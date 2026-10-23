@@ -16,6 +16,23 @@
       "message": "Why does the branch need to change before the next qpr? As I mention in every one of these proposed changes, this branch is intended be set at the start of a cycle and not change out from underneath devices midcycle.",
       "revId": "d8cf5bbc7d03ff4857b16bdb6ae5a6e8b5de2fc5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7cf9c202_84ddd3bd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-10-23T09:49:05Z",
+      "side": 1,
+      "message": "It was missed during Oct asb. This can wait til November",
+      "revId": "d8cf5bbc7d03ff4857b16bdb6ae5a6e8b5de2fc5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
