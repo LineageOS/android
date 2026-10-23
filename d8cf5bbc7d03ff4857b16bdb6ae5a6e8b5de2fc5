@@ -33,6 +33,24 @@
       "message": "It was missed during Oct asb. This can wait til November",
       "revId": "d8cf5bbc7d03ff4857b16bdb6ae5a6e8b5de2fc5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1287d294_e2bc159b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-10-23T14:18:38Z",
+      "side": 1,
+      "message": "No, it wasn\u0027t missed. \nTo prevent things from getting out of sync we agreed that these would be uprevd at QPR.\n\nSo December will be the next change",
+      "parentUuid": "7cf9c202_84ddd3bd",
+      "revId": "d8cf5bbc7d03ff4857b16bdb6ae5a6e8b5de2fc5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
