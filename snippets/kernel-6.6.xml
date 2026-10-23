@@ -7,11 +7,11 @@
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="kernel/platform/kernel-6.6/WORKSPACE.bzlmod" />
   </project>
   <project path="kernel/platform/kernel-6.6/build/bazel_common_rules" name="platform/build/bazel_common_rules" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
-  <project path="kernel/platform/kernel-6.6/common" name="kernel/common" revision="android15-6.6-2026-07" upstream="android15-6.6-2026-07" dest-branch="android15-6.6-2026-07" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/common" name="kernel/common" revision="android15-6.6-2026-10" upstream="android15-6.6-2026-10" dest-branch="android15-6.6-2026-10" remote="aosp" groups="kernel-platform,kernel-platform-66" />
   <!-- Uncomment for local testing only -->
   <!-- project path="kernel/tests" name="kernel/tests" revision="main-kernel" clone-depth="1" / -->
   <project path="kernel/platform/kernel-6.6/kernel/configs" name="kernel/configs" revision="main" upstream="main" dest-branch="main" remote="aosp" groups="kernel-platform,kernel-platform-66" />
-  <project path="kernel/platform/kernel-6.6/common-modules/wonder" name="kernel/common-modules/wonder" revision="144825c631d444dc7219c7affaea3e717b27df4c" upstream="android15-6.6" dest-branch="android15-6.6" remote="aosp" groups="kernel-platform,kernel-platform-66" />
+  <project path="kernel/platform/kernel-6.6/common-modules/wonder" name="kernel/common-modules/wonder" revision="f6b4681a67b1d885b5d424834849aa27eaf2f0cd" upstream="android15-6.6" dest-branch="android15-6.6" remote="aosp" groups="kernel-platform,kernel-platform-66" />
   <project path="kernel/platform/kernel-6.6/common-modules/trusty" name="kernel/common-modules/trusty" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
   <project path="kernel/platform/kernel-6.6/common-modules/virtio-media" name="platform/external/virtio-media" revision="main-kernel-build-2024" remote="aosp" groups="kernel-platform,kernel-platform-66" />
   <project path="kernel/platform/kernel-6.6/common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="211d96f861e1d6061ecb6bbe6e289ce8bf144290" upstream="android15-6.6" dest-branch="android15-6.6" remote="aosp" groups="kernel-platform,kernel-platform-66" />
