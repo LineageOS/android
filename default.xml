@@ -384,6 +384,7 @@
   <project path="external/python/pycparser" name="platform/external/python/pycparser" groups="pdk" remote="aosp" />
   <project path="external/python/pyfakefs" name="platform/external/python/pyfakefs" groups="pdk" remote="aosp" />
   <project path="external/python/pyopenssl" name="platform/external/python/pyopenssl" groups="pdk" remote="aosp" />
+  <project path="external/python/pyyaml" name="platform/external/python/pyyaml" groups="pdk" remote="aosp" revision="refs/tags/android-13.0.0_r75" />
   <project path="external/python/rsa" name="platform/external/python/rsa" groups="vts,pdk" remote="aosp" />
   <project path="external/python/setuptools" name="platform/external/python/setuptools" groups="vts,pdk" remote="aosp" />
   <project path="external/python/six" name="platform/external/python/six" groups="vts,pdk" remote="aosp" />
