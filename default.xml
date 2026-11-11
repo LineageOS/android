@@ -624,7 +624,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/hardware/interfaces" name="LineageOS/android_frameworks_hardware_interfaces" groups="pdk,sysui-studio" />
   <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/libs/binary_translation" name="platform/frameworks/libs/binary_translation" groups="pdk" remote="aosp" />
+  <project path="frameworks/libs/binary_translation" name="LineageOS/android_frameworks_libs_binary_translation" groups="pdk" />
   <project path="frameworks/libs/gsma_services" name="platform/frameworks/libs/gsma_services" groups="pdk" remote="aosp" />
   <project path="frameworks/libs/modules-utils" name="platform/frameworks/libs/modules-utils" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="aosp" />
   <project path="frameworks/libs/native_bridge_support" name="platform/frameworks/libs/native_bridge_support" groups="pdk" remote="aosp" />
@@ -865,15 +865,15 @@
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/asuite" name="platform/prebuilts/asuite" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/bazel/common" name="platform/prebuilts/bazel/common" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/build-tools" name="LineageOS/android_prebuilts_build-tools" groups="pdk,sysui-studio" clone-depth="1" />
   <project path="prebuilts/bundletool" name="platform/prebuilts/bundletool" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/checkcolor" name="platform/prebuilts/checkcolor" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" />
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" />
   <project path="prebuilts/cipd" name="platform/prebuilts/cipd" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/clang-tools" name="LineageOS/android_prebuilts_clang-tools" groups="pdk" clone-depth="1" />
   <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="notdefault,platform-darwin,pdk,darwin,sysui-studio" clone-depth="1" remote="aosp" />
   <project path="prebuilts/clang/host/linux-arm64" name="LineageOS/android_prebuilts_clang_host_linux-arm64" groups="notdefault,platform-linux-arm64" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/clang/host/linux-x86" name="LineageOS/android_prebuilts_clang_host_linux-x86" groups="pdk,sysui-studio" clone-depth="1" />
   <project path="prebuilts/cmake/linux-arm64" name="platform/prebuilts/cmake/linux-arm64" groups="notdefault,platform-linux-arm64" clone-depth="1" remote="aosp" revision="5dee08b343f84461df7bb7e00f3350b67af4cab0" />
   <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/cmdline-tools" name="platform/prebuilts/cmdline-tools" groups="pdk-cw-fs,pdk-fs,sysui-studio" clone-depth="1" remote="aosp" />
@@ -884,12 +884,12 @@
   <project path="prebuilts/go/linux-arm64" name="platform/prebuilts/go/linux-arm64" groups="notdefault,platform-linux-arm64" clone-depth="1" remote="aosp" revision="85088d1ab9a678cc8531f9cc05de9fa802f91c58" />
   <project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" groups="linux,pdk,tradefed" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/jdk/jdk21" name="LineageOS/android_prebuilts_jdk_jdk21" groups="pdk,sysui-studio" clone-depth="1" />
+  <project path="prebuilts/jdk/jdk25" name="LineageOS/android_prebuilts_jdk_jdk25" groups="pdk,sysui-studio" clone-depth="1" />
   <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/manifest-merger" name="platform/prebuilts/manifest-merger" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/maven_repo/bumptech" name="platform/prebuilts/maven_repo/bumptech" groups="pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/misc" name="LineageOS/android_prebuilts_misc" groups="pdk,sysui-studio" clone-depth="1" />
   <project path="prebuilts/module_sdk/art" name="platform/prebuilts/module_sdk/art" groups="pdk-arsp-ag-sot,pdk-arsp-common" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/AdServices" name="platform/prebuilts/module_sdk/AdServices" groups="pdk-arsp-ag-sot,pdk-arsp-common" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/AppSearch" name="platform/prebuilts/module_sdk/AppSearch" groups="pdk-arsp-ag-sot,pdk-arsp-common" clone-depth="1" remote="aosp" />
@@ -1077,7 +1077,7 @@
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" remote="aosp" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" remote="aosp" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="trusty/device/arm/generic-arm64" name="trusty/device/arm/generic-arm64" groups="trusty,pdk" remote="aosp" />
+  <project path="trusty/device/arm/generic-arm64" name="LineageOS/android_trusty_device_arm_generic-arm64" groups="trusty,pdk" />
   <project path="trusty/device/arm/vexpress-a15" name="trusty/device/arm/vexpress-a15" groups="trusty,pdk" remote="aosp" />
   <project path="trusty/device/common" name="trusty/device/common" groups="trusty,pdk" remote="aosp" />
   <project path="trusty/device/desktop" name="trusty/device/desktop" groups="android-desktop,pdk,trusty" remote="aosp" />
@@ -1088,7 +1088,7 @@
     <linkfile src="bazel/WORKSPACE.bazel" dest="trusty/WORKSPACE.bazel" />
     <linkfile src="bazel/bazelrc" dest="trusty/.bazelrc" />
   </project>
-  <project path="trusty/kernel" name="trusty/lk/trusty" groups="trusty,pdk" remote="aosp" />
+  <project path="trusty/kernel" name="LineageOS/android_trusty_kernel" groups="trusty,pdk" />
   <project path="trusty/user/app/authmgr" name="trusty/app/authmgr" groups="trusty,pdk" remote="aosp" />
   <project path="trusty/user/app/avb" name="trusty/app/avb" groups="trusty,pdk" remote="aosp" />
   <project path="trusty/user/app/cast-auth" name="trusty/app/cast-auth" groups="trusty,pdk" remote="aosp" />
@@ -1101,7 +1101,7 @@
   <project path="trusty/user/app/storage" name="trusty/app/storage" groups="trusty,pdk" remote="aosp" />
   <project path="trusty/user/base" name="LineageOS/android_trusty_user_base" groups="trusty,pdk" />
   <project path="trusty/user/desktop" name="trusty/user/desktop" groups="android-desktop,pdk,trusty" remote="aosp" />
-  <project path="trusty/vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty,pdk" remote="aosp">
+  <project path="trusty/vendor/google/aosp" name="LineageOS/android_trusty_vendor_google_aosp" groups="trusty,pdk">
     <!-- Install lk_inc.mk into trusty root -->
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
