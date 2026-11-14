@@ -160,6 +160,7 @@
   <project path="hardware/qcom-caf/sm8750/display/intf" name="LineageOS/android_vendor_qcom_opensource_display-intf" groups="qcom" revision="lineage-24.0-caf-sm8750" />
   <project path="hardware/qcom-caf/sm8850/audio/agm" name="LineageOS/android_vendor_qcom_opensource_agm" groups="qcom,kaanapali-audio" revision="lineage-24.0-caf-sm8850" />
   <project path="hardware/qcom-caf/sm8850/audio/graphservices" name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom,kaanapali-audio" revision="lineage-24.0-caf-sm8850" />
+  <project path="hardware/qcom-caf/sm8850/audio/mcs" name="LineageOS/android_vendor_qcom_opensource_audio_mcs" groups="qcom,kaanapali-audio" revision="lineage-24.0-caf-sm8850" />
   <project path="hardware/qcom-caf/sm8850/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" groups="qcom,kaanapali-audio" revision="lineage-24.0-caf-sm8850" />
   <project path="hardware/qcom-caf/sm8850/audio/primary-hal" name="LineageOS/android_hardware_qcom_audio-ar" groups="qcom,kaanapali-audio" revision="lineage-24.0-caf-sm8850" />
   <project path="hardware/qcom-caf/sm8850/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,kaanapali-vendor" revision="lineage-24.0-caf-sm8850" />
