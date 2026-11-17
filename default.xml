@@ -97,7 +97,7 @@
   <project path="external/autotest" name="platform/external/autotest" groups="pdk-fs" remote="aosp" />
   <project path="external/android-nn-driver" name="LineageOS/android_external_android-nn-driver" groups="pdk-lassen" />
   <project path="external/armnn" name="LineageOS/android_external_armnn" groups="pdk-lassen" />
-  <project path="external/avb" name="platform/external/avb" groups="pdk" remote="aosp" />
+  <project path="external/avb" name="LineageOS/android_external_avb" groups="pdk" />
   <project path="external/bazelbuild-rules_android" name="platform/external/bazelbuild-rules_android" groups="pdk" remote="aosp" />
   <project path="external/bc" name="platform/external/bc" groups="pdk" remote="aosp" />
   <project path="external/bcc" name="platform/external/bcc" groups="pdk" remote="aosp" />
@@ -613,7 +613,7 @@
   <project path="external/toolchain-utils" name="platform/external/toolchain-utils" remote="aosp" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" remote="aosp" />
   <project path="external/tpm2-tss" name="platform/external/tpm2-tss" groups="pdk" remote="aosp" />
-  <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
+  <project path="external/tremolo" name="LineageOS/android_external_tremolo" groups="pdk" />
   <project path="external/turbine" name="platform/external/turbine" groups="pdk" remote="aosp" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" remote="aosp" />
   <project path="external/universal-tween-engine" name="platform/external/universal-tween-engine" remote="aosp" />
