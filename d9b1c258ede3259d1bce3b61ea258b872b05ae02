@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "960af15f_2e35c353",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2026-11-18T22:38:48Z",
+      "side": 1,
+      "message": "Needs the repo requested in https://github.com/lineageos-infra/gerrit-config/pull/65. Until then the code is at https://github.com/Uldiniad/android_packages_apps_Firewall (branch lineage-24.0).",
+      "revId": "d9b1c258ede3259d1bce3b61ea258b872b05ae02",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
