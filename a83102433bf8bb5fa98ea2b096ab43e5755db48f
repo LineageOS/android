@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a1bb5f40_de111f03",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2026-11-18T22:38:46Z",
+      "side": 1,
+      "message": "Needs the forks requested in https://github.com/lineageos-infra/gerrit-config/pull/65. Until then the code is at https://github.com/Uldiniad/android_packages_modules_DnsResolver and https://github.com/Uldiniad/android_packages_modules_WebApp (branch lineage-24.0).",
+      "revId": "a83102433bf8bb5fa98ea2b096ab43e5755db48f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
