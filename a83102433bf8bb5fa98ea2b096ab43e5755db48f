@@ -16,6 +16,24 @@
       "message": "Needs the forks requested in https://github.com/lineageos-infra/gerrit-config/pull/65. Until then the code is at https://github.com/Uldiniad/android_packages_modules_DnsResolver and https://github.com/Uldiniad/android_packages_modules_WebApp (branch lineage-24.0).",
       "revId": "a83102433bf8bb5fa98ea2b096ab43e5755db48f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "17234821_904e9d5c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2026-11-25T21:35:57Z",
+      "side": 1,
+      "message": "Patchset 2 adds dnsmasq, which needs a lineage-24.0 branch on LineageOS/android_external_dnsmasq. Until then its code is at https://github.com/Uldiniad/android_external_dnsmasq (branch lineage-24.0).",
+      "parentUuid": "a1bb5f40_de111f03",
+      "revId": "a83102433bf8bb5fa98ea2b096ab43e5755db48f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
